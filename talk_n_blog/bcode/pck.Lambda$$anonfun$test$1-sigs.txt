@@ -1,0 +1,8 @@
+Compiled from "Default.scala"
+public final class pck.Lambda$$anonfun$test$1 extends scala.runtime.AbstractFunction1$mcII$sp implements scala.Serializable {
+  public static final long serialVersionUID = 0l;
+  public final int apply(int);
+  public int apply$mcII$sp(int);
+  public final java.lang.Object apply(java.lang.Object);
+  public pck.Lambda$$anonfun$test$1(pck.Lambda);
+}

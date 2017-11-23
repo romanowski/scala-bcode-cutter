@@ -1,0 +1,7 @@
+Compiled from "Default.scala"
+public class pck.PrivateThis {
+  public int foo();
+  public int bar();
+  private int baz();
+  public pck.PrivateThis();
+}

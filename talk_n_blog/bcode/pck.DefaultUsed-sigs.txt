@@ -1,0 +1,8 @@
+Compiled from "Default.scala"
+public class pck.DefaultUsed {
+  private final pck.Default default;
+  private pck.Default default();
+  public int withDefault();
+  public int withoutDefault();
+  public pck.DefaultUsed();
+}

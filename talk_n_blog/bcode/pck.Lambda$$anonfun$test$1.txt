@@ -1,0 +1,33 @@
+Compiled from "Default.scala"
+public final class pck.Lambda$$anonfun$test$1 extends scala.runtime.AbstractFunction1$mcII$sp implements scala.Serializable {
+  public static final long serialVersionUID;
+
+  public final int apply(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: invokevirtual #21                 // Method apply$mcII$sp:(I)I
+       5: ireturn
+
+  public int apply$mcII$sp(int);
+    Code:
+       0: iload_1
+       1: iconst_1
+       2: iadd
+       3: ireturn
+
+  public final java.lang.Object apply(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #32                 // Method scala/runtime/BoxesRunTime.unboxToInt:(Ljava/lang/Object;)I
+       5: invokevirtual #34                 // Method apply:(I)I
+       8: invokestatic  #38                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      11: areturn
+
+  public pck.Lambda$$anonfun$test$1(pck.Lambda);
+    Code:
+       0: aload_0
+       1: invokespecial #45                 // Method scala/runtime/AbstractFunction1$mcII$sp."<init>":()V
+       4: return
+}

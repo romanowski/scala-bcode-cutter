@@ -1,0 +1,6 @@
+Compiled from "Default.scala"
+public class pck.Lambda {
+  public int play(scala.Function1<java.lang.Object, java.lang.Object>);
+  public int test();
+  public pck.Lambda();
+}

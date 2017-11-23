@@ -1,0 +1,5 @@
+Compiled from "BasicJava.java"
+class JavaTests {
+  JavaTests();
+  void test();
+}

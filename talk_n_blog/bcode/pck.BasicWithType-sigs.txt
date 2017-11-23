@@ -1,0 +1,4 @@
+Compiled from "Default.scala"
+public class pck.BasicWithType {
+  public pck.BasicWithType();
+}

@@ -1,0 +1,6 @@
+Compiled from "Default.scala"
+public class pck.Default {
+  public int foo(int);
+  public int foo$default$1();
+  public pck.Default();
+}

@@ -1,0 +1,39 @@
+Compiled from "Default.scala"
+public class pck.DefaultUsed {
+  private final pck.Default default;
+
+  private pck.Default default();
+    Code:
+       0: aload_0
+       1: getfield      #13                 // Field default:Lpck/Default;
+       4: areturn
+
+  public int withDefault();
+    Code:
+       0: aload_0
+       1: invokespecial #19                 // Method default:()Lpck/Default;
+       4: aload_0
+       5: invokespecial #19                 // Method default:()Lpck/Default;
+       8: invokevirtual #24                 // Method pck/Default.foo$default$1:()I
+      11: invokevirtual #28                 // Method pck/Default.foo:(I)I
+      14: ireturn
+
+  public int withoutDefault();
+    Code:
+       0: aload_0
+       1: invokespecial #19                 // Method default:()Lpck/Default;
+       4: sipush        789
+       7: invokevirtual #28                 // Method pck/Default.foo:(I)I
+      10: ireturn
+
+  public pck.DefaultUsed();
+    Code:
+       0: aload_0
+       1: invokespecial #33                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: new           #21                 // class pck/Default
+       8: dup
+       9: invokespecial #34                 // Method pck/Default."<init>":()V
+      12: putfield      #13                 // Field default:Lpck/Default;
+      15: return
+}

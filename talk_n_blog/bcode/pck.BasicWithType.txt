@@ -1,0 +1,8 @@
+Compiled from "Default.scala"
+public class pck.BasicWithType {
+  public pck.BasicWithType();
+    Code:
+       0: aload_0
+       1: invokespecial #12                 // Method java/lang/Object."<init>":()V
+       4: return
+}

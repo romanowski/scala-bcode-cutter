@@ -1,0 +1,85 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/Default.class
+  Last modified Oct 29, 2017; size 796 bytes
+  MD5 checksum fda572564191a6da50cd756753a0069d
+  Compiled from "Default.scala"
+public class pck.Default
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               pck/Default
+   #2 = Class              #1             // pck/Default
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Default.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               2A!\t9A)4bk2$(\"AA7n1CAA!\"AM\r\1\n-A!AB!osJ+g\rCa\"=S:LGOAA!)!C'am\8Q9CA\t1BAJ]RDqG\tA#AcCJDqA1$Ag_>$C-4bk2$H%M9)A#H=AqJA)EI\nk:.Z2lKT!a\ttgn;bi&|g.&A\t\tRO\2iK\W\r,be&gnY3
+   #9 = Utf8               foo
+  #10 = Utf8               (I)I
+  #11 = Utf8               this
+  #12 = Utf8               Lpck/Default;
+  #13 = Utf8               bar
+  #14 = Utf8               I
+  #15 = Utf8               foo$default$1
+  #16 = Utf8               ()I
+  #17 = Utf8               <init>
+  #18 = Utf8               ()V
+  #19 = NameAndType        #17:#18        // "<init>":()V
+  #20 = Methodref          #4.#19         // java/lang/Object."<init>":()V
+  #21 = Utf8               Code
+  #22 = Utf8               LocalVariableTable
+  #23 = Utf8               LineNumberTable
+  #24 = Utf8               SourceFile
+  #25 = Utf8               RuntimeVisibleAnnotations
+  #26 = Utf8               ScalaSig
+{
+  public int foo(int);
+    descriptor: (I)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iload_1
+         1: sipush        456
+         4: iadd
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lpck/Default;
+            0       6     1   bar   I
+      LineNumberTable:
+        line 4: 0
+
+  public int foo$default$1();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: bipush        123
+         2: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lpck/Default;
+      LineNumberTable:
+        line 4: 0
+
+  public pck.Default();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #20                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lpck/Default;
+      LineNumberTable:
+        line 3: 0
+}
+SourceFile: "Default.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

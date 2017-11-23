@@ -1,0 +1,23 @@
+Compiled from "Default.scala"
+public class pck.PrivateThis {
+  public int foo();
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  public int bar();
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  private int baz();
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  public pck.PrivateThis();
+    Code:
+       0: aload_0
+       1: invokespecial #18                 // Method java/lang/Object."<init>":()V
+       4: return
+}

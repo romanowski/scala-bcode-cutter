@@ -1,0 +1,20 @@
+Compiled from "Default.scala"
+public class pck.Default {
+  public int foo(int);
+    Code:
+       0: iload_1
+       1: sipush        456
+       4: iadd
+       5: ireturn
+
+  public int foo$default$1();
+    Code:
+       0: bipush        123
+       2: ireturn
+
+  public pck.Default();
+    Code:
+       0: aload_0
+       1: invokespecial #20                 // Method java/lang/Object."<init>":()V
+       4: return
+}

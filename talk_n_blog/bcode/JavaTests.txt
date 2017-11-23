@@ -1,0 +1,20 @@
+Compiled from "BasicJava.java"
+class JavaTests {
+  JavaTests();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  void test();
+    Code:
+       0: aconst_null
+       1: astore_1
+       2: aload_1
+       3: invokevirtual #2                  // Method pck/PrivateThis.foo:()I
+       6: pop
+       7: aload_1
+       8: invokevirtual #3                  // Method pck/PrivateThis.bar:()I
+      11: pop
+      12: return
+}

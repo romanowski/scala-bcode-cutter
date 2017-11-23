@@ -1,0 +1,141 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/Lambda$$anonfun$test$1.class
+  Last modified Oct 29, 2017; size 1034 bytes
+  MD5 checksum be1b8f045bbe7aaa0cb6a43b8e5bf3b5
+  Compiled from "Default.scala"
+public final class pck.Lambda$$anonfun$test$1 extends scala.runtime.AbstractFunction1$mcII$sp implements scala.Serializable
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               pck/Lambda$$anonfun$test$1
+   #2 = Class              #1             // pck/Lambda$$anonfun$test$1
+   #3 = Utf8               scala/runtime/AbstractFunction1$mcII$sp
+   #4 = Class              #3             // scala/runtime/AbstractFunction1$mcII$sp
+   #5 = Utf8               scala/Serializable
+   #6 = Class              #5             // scala/Serializable
+   #7 = Utf8               Default.scala
+   #8 = Utf8               pck/Lambda
+   #9 = Class              #8             // pck/Lambda
+  #10 = Utf8               test
+  #11 = Utf8               ()I
+  #12 = NameAndType        #10:#11        // test:()I
+  #13 = Utf8               serialVersionUID
+  #14 = Utf8               J
+  #15 = Long               0l
+  #17 = Utf8               apply
+  #18 = Utf8               (I)I
+  #19 = Utf8               apply$mcII$sp
+  #20 = NameAndType        #19:#18        // apply$mcII$sp:(I)I
+  #21 = Methodref          #2.#20         // pck/Lambda$$anonfun$test$1.apply$mcII$sp:(I)I
+  #22 = Utf8               this
+  #23 = Utf8               Lpck/Lambda$$anonfun$test$1;
+  #24 = Utf8               x$1
+  #25 = Utf8               I
+  #26 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+  #27 = Utf8               scala/runtime/BoxesRunTime
+  #28 = Class              #27            // scala/runtime/BoxesRunTime
+  #29 = Utf8               unboxToInt
+  #30 = Utf8               (Ljava/lang/Object;)I
+  #31 = NameAndType        #29:#30        // unboxToInt:(Ljava/lang/Object;)I
+  #32 = Methodref          #28.#31        // scala/runtime/BoxesRunTime.unboxToInt:(Ljava/lang/Object;)I
+  #33 = NameAndType        #17:#18        // apply:(I)I
+  #34 = Methodref          #2.#33         // pck/Lambda$$anonfun$test$1.apply:(I)I
+  #35 = Utf8               boxToInteger
+  #36 = Utf8               (I)Ljava/lang/Integer;
+  #37 = NameAndType        #35:#36        // boxToInteger:(I)Ljava/lang/Integer;
+  #38 = Methodref          #28.#37        // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+  #39 = Utf8               v1
+  #40 = Utf8               Ljava/lang/Object;
+  #41 = Utf8               <init>
+  #42 = Utf8               (Lpck/Lambda;)V
+  #43 = Utf8               ()V
+  #44 = NameAndType        #41:#43        // "<init>":()V
+  #45 = Methodref          #4.#44         // scala/runtime/AbstractFunction1$mcII$sp."<init>":()V
+  #46 = Utf8               $outer
+  #47 = Utf8               Lpck/Lambda;
+  #48 = Utf8               ConstantValue
+  #49 = Utf8               Code
+  #50 = Utf8               LocalVariableTable
+  #51 = Utf8               LineNumberTable
+  #52 = Utf8               SourceFile
+  #53 = Utf8               EnclosingMethod
+  #54 = Utf8               InnerClasses
+  #55 = Utf8               Scala
+{
+  public static final long serialVersionUID;
+    descriptor: J
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: long 0l
+
+  public final int apply(int);
+    descriptor: (I)I
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: invokevirtual #21                 // Method apply$mcII$sp:(I)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lpck/Lambda$$anonfun$test$1;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 17: 0
+
+  public int apply$mcII$sp(int);
+    descriptor: (I)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iload_1
+         1: iconst_1
+         2: iadd
+         3: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Lpck/Lambda$$anonfun$test$1;
+            0       4     1   x$1   I
+      LineNumberTable:
+        line 17: 0
+
+  public final java.lang.Object apply(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Ljava/lang/Object;
+    flags: ACC_PUBLIC, ACC_FINAL, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #32                 // Method scala/runtime/BoxesRunTime.unboxToInt:(Ljava/lang/Object;)I
+         5: invokevirtual #34                 // Method apply:(I)I
+         8: invokestatic  #38                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        11: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      12     0  this   Lpck/Lambda$$anonfun$test$1;
+            0      12     1    v1   Ljava/lang/Object;
+      LineNumberTable:
+        line 17: 0
+
+  public pck.Lambda$$anonfun$test$1(pck.Lambda);
+    descriptor: (Lpck/Lambda;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #45                 // Method scala/runtime/AbstractFunction1$mcII$sp."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lpck/Lambda$$anonfun$test$1;
+            0       5     1 $outer   Lpck/Lambda;
+      LineNumberTable:
+        line 17: 0
+}
+SourceFile: "Default.scala"
+EnclosingMethod: #9.#12                 // pck.Lambda.test
+InnerClasses:
+     public #2; //class pck/Lambda$$anonfun$test$1
+Error: unknown attribute
+  Scala: length = 0x0
+

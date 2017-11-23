@@ -1,0 +1,4 @@
+Compiled from "BasicJava.java"
+public class BasicJava {
+  public BasicJava();
+}

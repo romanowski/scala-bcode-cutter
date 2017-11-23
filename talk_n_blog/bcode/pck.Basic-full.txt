@@ -1,0 +1,50 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/Basic.class
+  Last modified Oct 29, 2017; size 456 bytes
+  MD5 checksum 5960c3265b58e5be543e3969229790d8
+  Compiled from "Default.scala"
+public class pck.Basic
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               pck/Basic
+   #2 = Class              #1             // pck/Basic
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Default.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               E1A!\t)!)Y:jG*\t1!AqG.a\rAqAC)\t\"AtGd-\t1I\=SKDQ!9\taP5oSRtD#AAQ\"
+   #9 = Utf8               <init>
+  #10 = Utf8               ()V
+  #11 = NameAndType        #9:#10         // "<init>":()V
+  #12 = Methodref          #4.#11         // java/lang/Object."<init>":()V
+  #13 = Utf8               this
+  #14 = Utf8               Lpck/Basic;
+  #15 = Utf8               Code
+  #16 = Utf8               LocalVariableTable
+  #17 = Utf8               LineNumberTable
+  #18 = Utf8               SourceFile
+  #19 = Utf8               RuntimeVisibleAnnotations
+  #20 = Utf8               ScalaSig
+{
+  public pck.Basic();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #12                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lpck/Basic;
+      LineNumberTable:
+        line 22: 0
+}
+SourceFile: "Default.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

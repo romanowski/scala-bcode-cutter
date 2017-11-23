@@ -1,0 +1,25 @@
+Compiled from "Default.scala"
+public class pck.Lambda {
+  public int play(scala.Function1<java.lang.Object, java.lang.Object>);
+    Code:
+       0: aload_1
+       1: iconst_1
+       2: invokeinterface #16,  2           // InterfaceMethod scala/Function1.apply$mcII$sp:(I)I
+       7: ireturn
+
+  public int test();
+    Code:
+       0: aload_0
+       1: new           #24                 // class pck/Lambda$$anonfun$test$1
+       4: dup
+       5: aload_0
+       6: invokespecial #28                 // Method pck/Lambda$$anonfun$test$1."<init>":(Lpck/Lambda;)V
+       9: invokevirtual #30                 // Method play:(Lscala/Function1;)I
+      12: ireturn
+
+  public pck.Lambda();
+    Code:
+       0: aload_0
+       1: invokespecial #33                 // Method java/lang/Object."<init>":()V
+       4: return
+}
