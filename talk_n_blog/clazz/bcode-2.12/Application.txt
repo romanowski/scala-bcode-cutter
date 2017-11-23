@@ -1,0 +1,28 @@
+Compiled from "Clazz.scala"
+public final class Application {
+  public static void main(java.lang.String[]);
+    Code:
+       0: getstatic     #16                 // Field Application$.MODULE$:LApplication$;
+       3: aload_0
+       4: invokevirtual #18                 // Method Application$.main:([Ljava/lang/String;)V
+       7: return
+
+  public static void delayedInit(scala.Function0<scala.runtime.BoxedUnit>);
+    Code:
+       0: getstatic     #16                 // Field Application$.MODULE$:LApplication$;
+       3: aload_0
+       4: invokevirtual #22                 // Method Application$.delayedInit:(Lscala/Function0;)V
+       7: return
+
+  public static void delayedEndpoint$Application$1();
+    Code:
+       0: getstatic     #16                 // Field Application$.MODULE$:LApplication$;
+       3: invokevirtual #26                 // Method Application$.delayedEndpoint$Application$1:()V
+       6: return
+
+  public static long executionStart();
+    Code:
+       0: getstatic     #16                 // Field Application$.MODULE$:LApplication$;
+       3: invokevirtual #30                 // Method Application$.executionStart:()J
+       6: lreturn
+}

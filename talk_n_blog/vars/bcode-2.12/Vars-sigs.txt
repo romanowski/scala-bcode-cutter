@@ -1,0 +1,15 @@
+Compiled from "Vars.scala"
+public class Vars {
+  private int public;
+  private int privateVar;
+  private int javaBean;
+  public int public();
+  public void public_$eq(int);
+  private int privateVar();
+  private void privateVar_$eq(int);
+  public int javaBean();
+  public void javaBean_$eq(int);
+  public int getJavaBean();
+  public void setJavaBean(int);
+  public Vars();
+}

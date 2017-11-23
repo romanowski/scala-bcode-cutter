@@ -1,0 +1,26 @@
+Compiled from "Vars.scala"
+public class PrivateVar {
+  private int privateVar;
+
+  private int privateVar();
+    Code:
+       0: aload_0
+       1: getfield      #13                 // Field privateVar:I
+       4: ireturn
+
+  private void privateVar_$eq(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #13                 // Field privateVar:I
+       5: return
+
+  public PrivateVar();
+    Code:
+       0: aload_0
+       1: invokespecial #22                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: sipush        456
+       8: putfield      #13                 // Field privateVar:I
+      11: return
+}

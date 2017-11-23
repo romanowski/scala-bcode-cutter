@@ -1,0 +1,26 @@
+Compiled from "Vars.scala"
+public class PublicVar {
+  private int publicVar;
+
+  public int publicVar();
+    Code:
+       0: aload_0
+       1: getfield      #13                 // Field publicVar:I
+       4: ireturn
+
+  public void publicVar_$eq(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #13                 // Field publicVar:I
+       5: return
+
+  public PublicVar();
+    Code:
+       0: aload_0
+       1: invokespecial #22                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: bipush        123
+       7: putfield      #13                 // Field publicVar:I
+      10: return
+}

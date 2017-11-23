@@ -1,0 +1,5 @@
+Compiled from "JavaVar.java"
+public abstract class JavaVar {
+  public int javaVar;
+  public JavaVar();
+}

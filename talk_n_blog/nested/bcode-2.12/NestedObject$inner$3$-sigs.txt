@@ -1,0 +1,4 @@
+Compiled from "Nested.scala"
+public class NestedObject$inner$3$ {
+  public NestedObject$inner$3$(NestedObject);
+}

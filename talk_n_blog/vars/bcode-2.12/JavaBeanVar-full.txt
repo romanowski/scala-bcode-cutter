@@ -1,0 +1,145 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/vars/target/scala-2.12/classes/JavaBeanVar.class
+  Last modified Nov 23, 2017; size 1222 bytes
+  MD5 checksum 410b9aa048880a3fe989431ba64c6596
+  Compiled from "Vars.scala"
+public class JavaBeanVar
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               JavaBeanVar
+   #2 = Class              #1             // JavaBeanVar
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Vars.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               =2A!\tY!*<bgNV1saf[B$PP'\ta5\tBC\n8-7b\tYBB]fVM!\tADy%t =\"\tAqAA1#AkCZ')Z1o-X#)B\t\rIe1\r\"=QM^1CKtg+:`IHC!\t91$\t!QK\5uqr#!AAQ\t12)Q)a!.<bgNV1sA!qD\t\tGj\nK!\tQAY3b]NL!a\n\t+M)s_B,'^=\t%A,GOS1wC\n+M,beR\tAC-Q&tKRTM^1CKtg+:iqb,\r
+   #9 = Utf8               javaBeanVar
+  #10 = Utf8               I
+  #11 = Utf8               ()I
+  #12 = NameAndType        #9:#10         // javaBeanVar:I
+  #13 = Fieldref           #2.#12         // JavaBeanVar.javaBeanVar:I
+  #14 = Utf8               this
+  #15 = Utf8               LJavaBeanVar;
+  #16 = Utf8               javaBeanVar_$eq
+  #17 = Utf8               (I)V
+  #18 = Utf8               x$1
+  #19 = Utf8               getJavaBeanVar
+  #20 = NameAndType        #9:#11         // javaBeanVar:()I
+  #21 = Methodref          #2.#20         // JavaBeanVar.javaBeanVar:()I
+  #22 = Utf8               setJavaBeanVar
+  #23 = NameAndType        #16:#17        // javaBeanVar_$eq:(I)V
+  #24 = Methodref          #2.#23         // JavaBeanVar.javaBeanVar_$eq:(I)V
+  #25 = Utf8               <init>
+  #26 = Utf8               ()V
+  #27 = NameAndType        #25:#26        // "<init>":()V
+  #28 = Methodref          #4.#27         // java/lang/Object."<init>":()V
+  #29 = Utf8               Code
+  #30 = Utf8               LocalVariableTable
+  #31 = Utf8               LineNumberTable
+  #32 = Utf8               MethodParameters
+  #33 = Utf8               SourceFile
+  #34 = Utf8               RuntimeVisibleAnnotations
+  #35 = Utf8               ScalaInlineInfo
+  #36 = Utf8               ScalaSig
+{
+  private int javaBeanVar;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  public int javaBeanVar();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #13                 // Field javaBeanVar:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LJavaBeanVar;
+      LineNumberTable:
+        line 17: 0
+
+  public void javaBeanVar_$eq(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #13                 // Field javaBeanVar:I
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LJavaBeanVar;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 17: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int getJavaBeanVar();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #21                 // Method javaBeanVar:()I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LJavaBeanVar;
+      LineNumberTable:
+        line 17: 0
+
+  public void setJavaBeanVar(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: invokevirtual #24                 // Method javaBeanVar_$eq:(I)V
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LJavaBeanVar;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 17: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public JavaBeanVar();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #28                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: sipush        789
+         8: putfield      #13                 // Field javaBeanVar:I
+        11: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      12     0  this   LJavaBeanVar;
+      LineNumberTable:
+        line 20: 0
+        line 17: 4
+        line 15: 11
+}
+SourceFile: "Vars.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x1D
+   01 00 00 05 00 19 00 1A 00 00 13 00 0B 00 00 09
+   00 0B 00 00 10 00 11 00 00 16 00 11 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

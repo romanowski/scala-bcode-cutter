@@ -1,5 +1,5 @@
 Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/BasicWithType.class
-  Last modified Oct 29, 2017; size 515 bytes
+  Last modified Nov 23, 2017; size 515 bytes
   MD5 checksum de73d39d8c56c45add5df47808a91671
   Compiled from "Default.scala"
 public class pck.BasicWithType

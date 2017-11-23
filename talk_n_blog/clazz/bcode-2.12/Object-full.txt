@@ -1,0 +1,47 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/clazz/target/scala-2.12/classes/Object.class
+  Last modified Nov 23, 2017; size 468 bytes
+  MD5 checksum 3baeb4a48c401770852c292b200a1e31
+  Compiled from "Clazz.scala"
+public final class Object
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               Object
+   #2 = Class              #1             // Object
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Clazz.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               e9Q!\t\taa2kK$(\"Aq*W;z}\rCa!I!AB(cUGoA1BD)\tQ\"AtGd-\t1I\=SKDQ!EI\taP5oSRtD#A\tQ9AA\r5,G[8e+1CA\tABBAJ]R
+   #9 = Utf8               method
+  #10 = Utf8               ()I
+  #11 = Utf8               Object$
+  #12 = Class              #11            // Object$
+  #13 = Utf8               MODULE$
+  #14 = Utf8               LObject$;
+  #15 = NameAndType        #13:#14        // MODULE$:LObject$;
+  #16 = Fieldref           #12.#15        // Object$.MODULE$:LObject$;
+  #17 = NameAndType        #9:#10         // method:()I
+  #18 = Methodref          #12.#17        // Object$.method:()I
+  #19 = Utf8               Code
+  #20 = Utf8               SourceFile
+  #21 = Utf8               RuntimeVisibleAnnotations
+  #22 = Utf8               ScalaSig
+{
+  public static int method();
+    descriptor: ()I
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #16                 // Field Object$.MODULE$:LObject$;
+         3: invokevirtual #18                 // Method Object$.method:()I
+         6: ireturn
+}
+SourceFile: "Clazz.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

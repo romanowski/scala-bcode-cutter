@@ -1,0 +1,237 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/vars/target/scala-2.12/classes/Vars.class
+  Last modified Nov 23, 2017; size 1757 bytes
+  MD5 checksum d1cfd794f9b7981d24149d908782674c
+  Compiled from "Vars.scala"
+public class Vars
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               Vars
+   #2 = Class              #1             // Vars
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Vars.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               }2A!\t!a+:taf[B$PP'\ta5\tBC\n8-7b\tYBB]fVM!\tADy%t =\"\tAqAA1#qk\ndnY)Aq!F-!1!8uA1Ae\t!];cY&wJ3r)\tQR7%A+:LGC/\ta$!KFaVG.[2!1A\nM\t!:jm$XMV1s!1A\n\na:jm$XMV1s?*M!9adIA!BA&A#Aqe&4\r^3WCJb%\taE\tU4MQ3b]\"9Aa\ni6bmU-8`IHC/q2&!AAQAa\r!B!!6bmU-8!Q\ty#4m5\tAG6)!-Z1og&q\rg:paH/s!\tAOO$(*<bgFa\">-X\r&bmU-8iqb<\r
+   #9 = Utf8               public
+  #10 = Utf8               I
+  #11 = Utf8               privateVar
+  #12 = Utf8               javaBean
+  #13 = Utf8               ()I
+  #14 = NameAndType        #9:#10         // public:I
+  #15 = Fieldref           #2.#14         // Vars.public:I
+  #16 = Utf8               this
+  #17 = Utf8               LVars;
+  #18 = Utf8               public_$eq
+  #19 = Utf8               (I)V
+  #20 = Utf8               x$1
+  #21 = NameAndType        #11:#10        // privateVar:I
+  #22 = Fieldref           #2.#21         // Vars.privateVar:I
+  #23 = Utf8               privateVar_$eq
+  #24 = NameAndType        #12:#10        // javaBean:I
+  #25 = Fieldref           #2.#24         // Vars.javaBean:I
+  #26 = Utf8               javaBean_$eq
+  #27 = Utf8               getJavaBean
+  #28 = NameAndType        #12:#13        // javaBean:()I
+  #29 = Methodref          #2.#28         // Vars.javaBean:()I
+  #30 = Utf8               setJavaBean
+  #31 = NameAndType        #26:#19        // javaBean_$eq:(I)V
+  #32 = Methodref          #2.#31         // Vars.javaBean_$eq:(I)V
+  #33 = Utf8               <init>
+  #34 = Utf8               ()V
+  #35 = NameAndType        #33:#34        // "<init>":()V
+  #36 = Methodref          #4.#35         // java/lang/Object."<init>":()V
+  #37 = Utf8               Code
+  #38 = Utf8               LocalVariableTable
+  #39 = Utf8               LineNumberTable
+  #40 = Utf8               MethodParameters
+  #41 = Utf8               SourceFile
+  #42 = Utf8               RuntimeVisibleAnnotations
+  #43 = Utf8               ScalaInlineInfo
+  #44 = Utf8               ScalaSig
+{
+  private int public;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  private int privateVar;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  private int javaBean;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  public int public();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #15                 // Field public:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LVars;
+      LineNumberTable:
+        line 7: 0
+
+  public void public_$eq(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #15                 // Field public:I
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LVars;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 7: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  private int privateVar();
+    descriptor: ()I
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #22                 // Field privateVar:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LVars;
+      LineNumberTable:
+        line 8: 0
+
+  private void privateVar_$eq(int);
+    descriptor: (I)V
+    flags: ACC_PRIVATE
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #22                 // Field privateVar:I
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LVars;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 8: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int javaBean();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #25                 // Field javaBean:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LVars;
+      LineNumberTable:
+        line 11: 0
+
+  public void javaBean_$eq(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #25                 // Field javaBean:I
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LVars;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int getJavaBean();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #29                 // Method javaBean:()I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LVars;
+      LineNumberTable:
+        line 11: 0
+
+  public void setJavaBean(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: invokevirtual #32                 // Method javaBean_$eq:(I)V
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LVars;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public Vars();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #36                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: bipush        123
+         7: putfield      #15                 // Field public:I
+        10: aload_0
+        11: sipush        456
+        14: putfield      #22                 // Field privateVar:I
+        17: aload_0
+        18: sipush        789
+        21: putfield      #25                 // Field javaBean:I
+        24: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      25     0  this   LVars;
+      LineNumberTable:
+        line 12: 0
+        line 7: 4
+        line 8: 10
+        line 11: 17
+        line 6: 24
+}
+SourceFile: "Vars.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x31
+   01 00 00 09 00 21 00 22 00 00 1B 00 0D 00 00 0C
+   00 0D 00 00 1A 00 13 00 00 0B 00 0D 01 00 17 00
+   13 01 00 09 00 0D 00 00 12 00 13 00 00 1E 00 13
+   00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

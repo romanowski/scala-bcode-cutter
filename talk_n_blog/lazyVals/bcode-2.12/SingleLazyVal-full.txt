@@ -1,0 +1,183 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/lazyVals/target/scala-2.12/classes/SingleLazyVal.class
+  Last modified Nov 23, 2017; size 1138 bytes
+  MD5 checksum a2d0045d1994a5dd6d2285989f44981e
+  Compiled from "LazyVals.scala"
+public class SingleLazyVal
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               SingleLazyVal
+   #2 = Class              #1             // SingleLazyVal
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               LazyVals.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               u1A!\ti1+8hYdM_=WC2TaAyl^=?\"QQ\"%\tQa]2bYL!a\rsPU3g!iA!A!q!A1yB\t\t\rIe%!\taEy%t Q1CA\"Bq\rIA\rMLgn7fTPV1m+q\"B\taaA;tKR\ta
+   #9 = Utf8               singleLazyVal
+  #10 = Utf8               I
+  #11 = Utf8               a
+  #12 = Utf8               bitmap$0
+  #13 = Utf8               Z
+  #14 = Utf8               singleLazyVal$lzycompute
+  #15 = Utf8               ()I
+  #16 = NameAndType        #12:#13        // bitmap$0:Z
+  #17 = Fieldref           #2.#16         // SingleLazyVal.bitmap$0:Z
+  #18 = NameAndType        #11:#10        // a:I
+  #19 = Fieldref           #2.#18         // SingleLazyVal.a:I
+  #20 = NameAndType        #9:#10         // singleLazyVal:I
+  #21 = Fieldref           #2.#20         // SingleLazyVal.singleLazyVal:I
+  #22 = Utf8               this
+  #23 = Utf8               LSingleLazyVal;
+  #24 = Utf8               java/lang/Throwable
+  #25 = Class              #24            // java/lang/Throwable
+  #26 = NameAndType        #14:#15        // singleLazyVal$lzycompute:()I
+  #27 = Methodref          #2.#26         // SingleLazyVal.singleLazyVal$lzycompute:()I
+  #28 = Utf8               use
+  #29 = NameAndType        #9:#15         // singleLazyVal:()I
+  #30 = Methodref          #2.#29         // SingleLazyVal.singleLazyVal:()I
+  #31 = Utf8               <init>
+  #32 = Utf8               (I)V
+  #33 = Utf8               ()V
+  #34 = NameAndType        #31:#33        // "<init>":()V
+  #35 = Methodref          #4.#34         // java/lang/Object."<init>":()V
+  #36 = Utf8               Code
+  #37 = Utf8               LocalVariableTable
+  #38 = Utf8               LineNumberTable
+  #39 = Utf8               StackMapTable
+  #40 = Utf8               MethodParameters
+  #41 = Utf8               SourceFile
+  #42 = Utf8               RuntimeVisibleAnnotations
+  #43 = Utf8               ScalaInlineInfo
+  #44 = Utf8               ScalaSig
+{
+  private int singleLazyVal;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  private final int a;
+    descriptor: I
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private volatile boolean bitmap$0;
+    descriptor: Z
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private int singleLazyVal$lzycompute();
+    descriptor: ()I
+    flags: ACC_PRIVATE
+    Code:
+      stack=3, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #17                 // Field bitmap$0:Z
+         8: ifne          27
+        11: aload_0
+        12: aload_0
+        13: getfield      #19                 // Field a:I
+        16: bipush        123
+        18: iadd
+        19: putfield      #21                 // Field singleLazyVal:I
+        22: aload_0
+        23: iconst_1
+        24: putfield      #17                 // Field bitmap$0:Z
+        27: aload_1
+        28: monitorexit
+        29: goto          35
+        32: aload_1
+        33: monitorexit
+        34: athrow
+        35: aload_0
+        36: getfield      #21                 // Field singleLazyVal:I
+        39: ireturn
+      Exception table:
+         from    to  target type
+             4    27    32   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      40     0  this   LSingleLazyVal;
+      LineNumberTable:
+        line 5: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 27
+          locals = [ class SingleLazyVal ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  public int singleLazyVal();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #17                 // Field bitmap$0:Z
+         4: ifne          14
+         7: aload_0
+         8: invokespecial #27                 // Method singleLazyVal$lzycompute:()I
+        11: goto          18
+        14: aload_0
+        15: getfield      #21                 // Field singleLazyVal:I
+        18: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      19     0  this   LSingleLazyVal;
+      LineNumberTable:
+        line 5: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 14 /* same */
+        frame_type = 67 /* same_locals_1_stack_item */
+          stack = [ int ]
+
+  public int use();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #30                 // Method singleLazyVal:()I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LSingleLazyVal;
+      LineNumberTable:
+        line 7: 0
+
+  public SingleLazyVal(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #19                 // Field a:I
+         5: aload_0
+         6: invokespecial #35                 // Method java/lang/Object."<init>":()V
+         9: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   LSingleLazyVal;
+            0      10     1     a   I
+      LineNumberTable:
+        line 4: 0
+        line 10: 5
+        line 4: 9
+    MethodParameters:
+      Name                           Flags
+      a                              final
+}
+SourceFile: "LazyVals.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x18
+   01 00 00 04 00 1F 00 20 00 00 0E 00 0F 01 00 09
+   00 0F 00 00 1C 00 0F 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

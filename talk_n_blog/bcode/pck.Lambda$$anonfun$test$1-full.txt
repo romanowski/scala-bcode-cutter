@@ -1,5 +1,5 @@
 Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/Lambda$$anonfun$test$1.class
-  Last modified Oct 29, 2017; size 1034 bytes
+  Last modified Nov 23, 2017; size 1034 bytes
   MD5 checksum be1b8f045bbe7aaa0cb6a43b8e5bf3b5
   Compiled from "Default.scala"
 public final class pck.Lambda$$anonfun$test$1 extends scala.runtime.AbstractFunction1$mcII$sp implements scala.Serializable

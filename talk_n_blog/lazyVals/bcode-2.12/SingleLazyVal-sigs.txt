@@ -1,0 +1,10 @@
+Compiled from "LazyVals.scala"
+public class SingleLazyVal {
+  private int singleLazyVal;
+  private final int a;
+  private volatile boolean bitmap$0;
+  private int singleLazyVal$lzycompute();
+  public int singleLazyVal();
+  public int use();
+  public SingleLazyVal(int);
+}

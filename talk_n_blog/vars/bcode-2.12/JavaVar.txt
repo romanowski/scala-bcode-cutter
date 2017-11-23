@@ -1,0 +1,10 @@
+Compiled from "JavaVar.java"
+public abstract class JavaVar {
+  public int javaVar;
+
+  public JavaVar();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+}

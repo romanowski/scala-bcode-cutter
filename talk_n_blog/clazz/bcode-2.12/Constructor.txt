@@ -1,0 +1,11 @@
+Compiled from "Clazz.scala"
+public class Constructor {
+  public Constructor();
+    Code:
+       0: aload_0
+       1: invokespecial #12                 // Method java/lang/Object."<init>":()V
+       4: getstatic     #18                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+       7: ldc           #20                 // String Hello!
+       9: invokevirtual #24                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+      12: return
+}

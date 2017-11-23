@@ -1,0 +1,19 @@
+Compiled from "Clazz.scala"
+public final class Application$ implements scala.App {
+  public static Application$ MODULE$;
+  private final long executionStart;
+  private java.lang.String[] scala$App$$_args;
+  private final scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>> scala$App$$initCode;
+  public static {};
+  public java.lang.String[] args();
+  public void delayedInit(scala.Function0<scala.runtime.BoxedUnit>);
+  public void main(java.lang.String[]);
+  public long executionStart();
+  public java.lang.String[] scala$App$$_args();
+  public void scala$App$$_args_$eq(java.lang.String[]);
+  public scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>> scala$App$$initCode();
+  public void scala$App$_setter_$executionStart_$eq(long);
+  public final void scala$App$_setter_$scala$App$$initCode_$eq(scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>>);
+  public final void delayedEndpoint$Application$1();
+  private Application$();
+}

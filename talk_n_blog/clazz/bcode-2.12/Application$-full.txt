@@ -1,0 +1,341 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/clazz/target/scala-2.12/classes/Application$.class
+  Last modified Nov 23, 2017; size 2590 bytes
+  MD5 checksum 81b9a8b5d17e82baf5b6c13f90bacef5
+  Compiled from "Clazz.scala"
+public final class Application$ implements scala.App
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               Application$
+   #2 = Class              #1             // Application$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               scala/App
+   #6 = Class              #5             // scala/App
+   #7 = Utf8               Clazz.scala
+   #8 = Utf8               Application$delayedInit$body
+   #9 = Class              #8             // Application$delayedInit$body
+  #10 = Utf8               Application
+  #11 = Class              #10            // Application
+  #12 = Utf8               delayedInit$body
+  #13 = Utf8               MODULE$
+  #14 = Utf8               LApplication$;
+  #15 = Utf8               executionStart
+  #16 = Utf8               J
+  #17 = Utf8               scala$App$$_args
+  #18 = Utf8               [Ljava/lang/String;
+  #19 = Utf8               scala$App$$initCode
+  #20 = Utf8               Lscala/collection/mutable/ListBuffer;
+  #21 = Utf8               Lscala/collection/mutable/ListBuffer<Lscala/Function0<Lscala/runtime/BoxedUnit;>;>;
+  #22 = Utf8               <clinit>
+  #23 = Utf8               ()V
+  #24 = Utf8               <init>
+  #25 = NameAndType        #24:#23        // "<init>":()V
+  #26 = Methodref          #2.#25         // Application$."<init>":()V
+  #27 = Utf8               args
+  #28 = Utf8               ()[Ljava/lang/String;
+  #29 = Utf8               args$
+  #30 = Utf8               (Lscala/App;)[Ljava/lang/String;
+  #31 = NameAndType        #29:#30        // args$:(Lscala/App;)[Ljava/lang/String;
+  #32 = InterfaceMethodref #6.#31         // scala/App.args$:(Lscala/App;)[Ljava/lang/String;
+  #33 = Utf8               this
+  #34 = Utf8               delayedInit
+  #35 = Utf8               (Lscala/Function0;)V
+  #36 = Utf8               body
+  #37 = Utf8               delayedInit$
+  #38 = Utf8               (Lscala/App;Lscala/Function0;)V
+  #39 = NameAndType        #37:#38        // delayedInit$:(Lscala/App;Lscala/Function0;)V
+  #40 = InterfaceMethodref #6.#39         // scala/App.delayedInit$:(Lscala/App;Lscala/Function0;)V
+  #41 = Utf8               Lscala/Function0;
+  #42 = Utf8               main
+  #43 = Utf8               ([Ljava/lang/String;)V
+  #44 = Utf8               main$
+  #45 = Utf8               (Lscala/App;[Ljava/lang/String;)V
+  #46 = NameAndType        #44:#45        // main$:(Lscala/App;[Ljava/lang/String;)V
+  #47 = InterfaceMethodref #6.#46         // scala/App.main$:(Lscala/App;[Ljava/lang/String;)V
+  #48 = Utf8               ()J
+  #49 = NameAndType        #15:#16        // executionStart:J
+  #50 = Fieldref           #2.#49         // Application$.executionStart:J
+  #51 = NameAndType        #17:#18        // scala$App$$_args:[Ljava/lang/String;
+  #52 = Fieldref           #2.#51         // Application$.scala$App$$_args:[Ljava/lang/String;
+  #53 = Utf8               scala$App$$_args_$eq
+  #54 = Utf8               x$1
+  #55 = Utf8               ()Lscala/collection/mutable/ListBuffer;
+  #56 = NameAndType        #19:#20        // scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+  #57 = Fieldref           #2.#56         // Application$.scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+  #58 = Utf8               scala$App$_setter_$executionStart_$eq
+  #59 = Utf8               (J)V
+  #60 = Utf8               scala$App$_setter_$scala$App$$initCode_$eq
+  #61 = Utf8               (Lscala/collection/mutable/ListBuffer;)V
+  #62 = Utf8               delayedEndpoint$Application$1
+  #63 = Utf8               scala/Predef$
+  #64 = Class              #63            // scala/Predef$
+  #65 = Utf8               Lscala/Predef$;
+  #66 = NameAndType        #13:#65        // MODULE$:Lscala/Predef$;
+  #67 = Fieldref           #64.#66        // scala/Predef$.MODULE$:Lscala/Predef$;
+  #68 = Utf8               Hello World!
+  #69 = String             #68            // Hello World!
+  #70 = Utf8               println
+  #71 = Utf8               (Ljava/lang/Object;)V
+  #72 = NameAndType        #70:#71        // println:(Ljava/lang/Object;)V
+  #73 = Methodref          #64.#72        // scala/Predef$.println:(Ljava/lang/Object;)V
+  #74 = Methodref          #4.#25         // java/lang/Object."<init>":()V
+  #75 = NameAndType        #13:#14        // MODULE$:LApplication$;
+  #76 = Fieldref           #2.#75         // Application$.MODULE$:LApplication$;
+  #77 = Utf8               $init$
+  #78 = Utf8               (Lscala/App;)V
+  #79 = NameAndType        #77:#78        // $init$:(Lscala/App;)V
+  #80 = InterfaceMethodref #6.#79         // scala/App.$init$:(Lscala/App;)V
+  #81 = Utf8               (LApplication$;)V
+  #82 = NameAndType        #24:#81        // "<init>":(LApplication$;)V
+  #83 = Methodref          #9.#82         // Application$delayedInit$body."<init>":(LApplication$;)V
+  #84 = NameAndType        #34:#35        // delayedInit:(Lscala/Function0;)V
+  #85 = Methodref          #2.#84         // Application$.delayedInit:(Lscala/Function0;)V
+  #86 = Utf8               Signature
+  #87 = Utf8               Code
+  #88 = Utf8               LocalVariableTable
+  #89 = Utf8               LineNumberTable
+  #90 = Utf8               Deprecated
+  #91 = Utf8               (Lscala/Function0<Lscala/runtime/BoxedUnit;>;)V
+  #92 = Utf8               MethodParameters
+  #93 = Utf8               ()Lscala/collection/mutable/ListBuffer<Lscala/Function0<Lscala/runtime/BoxedUnit;>;>;
+  #94 = Utf8               (Lscala/collection/mutable/ListBuffer<Lscala/Function0<Lscala/runtime/BoxedUnit;>;>;)V
+  #95 = Utf8               SourceFile
+  #96 = Utf8               InnerClasses
+  #97 = Utf8               ScalaInlineInfo
+  #98 = Utf8               Scala
+{
+  public static Application$ MODULE$;
+    descriptor: LApplication$;
+    flags: ACC_PUBLIC, ACC_STATIC
+
+  private final long executionStart;
+    descriptor: J
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private java.lang.String[] scala$App$$_args;
+    descriptor: [Ljava/lang/String;
+    flags: ACC_PRIVATE
+
+  private final scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>> scala$App$$initCode;
+    descriptor: Lscala/collection/mutable/ListBuffer;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #21                          // Lscala/collection/mutable/ListBuffer<Lscala/Function0<Lscala/runtime/BoxedUnit;>;>;
+
+  public static {};
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: new           #2                  // class Application$
+         3: invokespecial #26                 // Method "<init>":()V
+         6: return
+
+  public java.lang.String[] args();
+    descriptor: ()[Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokestatic  #32                 // InterfaceMethod scala/App.args$:(Lscala/App;)[Ljava/lang/String;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LApplication$;
+      LineNumberTable:
+        line 11: 0
+
+  public void delayedInit(scala.Function0<scala.runtime.BoxedUnit>);
+    descriptor: (Lscala/Function0;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #40                 // InterfaceMethod scala/App.delayedInit$:(Lscala/App;Lscala/Function0;)V
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LApplication$;
+            0       6     1  body   Lscala/Function0;
+      LineNumberTable:
+        line 11: 0
+    Deprecated: true
+    Signature: #91                          // (Lscala/Function0<Lscala/runtime/BoxedUnit;>;)V
+    MethodParameters:
+      Name                           Flags
+      body                           final
+
+  public void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #47                 // InterfaceMethod scala/App.main$:(Lscala/App;[Ljava/lang/String;)V
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LApplication$;
+            0       6     1  args   [Ljava/lang/String;
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      args                           final
+
+  public long executionStart();
+    descriptor: ()J
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #50                 // Field executionStart:J
+         4: lreturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LApplication$;
+      LineNumberTable:
+        line 11: 0
+
+  public java.lang.String[] scala$App$$_args();
+    descriptor: ()[Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #52                 // Field scala$App$$_args:[Ljava/lang/String;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LApplication$;
+      LineNumberTable:
+        line 11: 0
+
+  public void scala$App$$_args_$eq(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #52                 // Field scala$App$$_args:[Ljava/lang/String;
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LApplication$;
+            0       6     1   x$1   [Ljava/lang/String;
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>> scala$App$$initCode();
+    descriptor: ()Lscala/collection/mutable/ListBuffer;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #57                 // Field scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LApplication$;
+      LineNumberTable:
+        line 11: 0
+    Signature: #93                          // ()Lscala/collection/mutable/ListBuffer<Lscala/Function0<Lscala/runtime/BoxedUnit;>;>;
+
+  public void scala$App$_setter_$executionStart_$eq(long);
+    descriptor: (J)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: aload_0
+         1: lload_1
+         2: putfield      #50                 // Field executionStart:J
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LApplication$;
+            0       6     1   x$1   J
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public final void scala$App$_setter_$scala$App$$initCode_$eq(scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>>);
+    descriptor: (Lscala/collection/mutable/ListBuffer;)V
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #57                 // Field scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LApplication$;
+            0       6     1   x$1   Lscala/collection/mutable/ListBuffer;
+      LineNumberTable:
+        line 11: 0
+    Signature: #94                          // (Lscala/collection/mutable/ListBuffer<Lscala/Function0<Lscala/runtime/BoxedUnit;>;>;)V
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public final void delayedEndpoint$Application$1();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #67                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+         3: ldc           #69                 // String Hello World!
+         5: invokevirtual #73                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+         8: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   LApplication$;
+      LineNumberTable:
+        line 12: 0
+        line 11: 8
+
+  private Application$();
+    descriptor: ()V
+    flags: ACC_PRIVATE
+    Code:
+      stack=4, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #74                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: putstatic     #76                 // Field MODULE$:LApplication$;
+         8: aload_0
+         9: invokestatic  #80                 // InterfaceMethod scala/App.$init$:(Lscala/App;)V
+        12: aload_0
+        13: new           #9                  // class Application$delayedInit$body
+        16: dup
+        17: aload_0
+        18: invokespecial #83                 // Method Application$delayedInit$body."<init>":(LApplication$;)V
+        21: invokevirtual #85                 // Method delayedInit:(Lscala/Function0;)V
+        24: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      25     0  this   LApplication$;
+      LineNumberTable:
+        line 11: 0
+}
+SourceFile: "Clazz.scala"
+InnerClasses:
+     public static final #12= #9 of #11; //delayedInit$body=class Application$delayedInit$body of class Application
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x3B
+   01 01 00 0B 00 18 00 17 01 00 1B 00 1C 01 00 3E
+   00 17 01 00 22 00 23 01 00 0F 00 30 01 00 2A 00
+   2B 01 00 11 00 1C 01 00 35 00 2B 01 00 13 00 37
+   01 00 3A 00 3B 01 00 3C 00 3D 01
+Error: unknown attribute
+  Scala: length = 0x0
+

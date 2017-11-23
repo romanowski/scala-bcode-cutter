@@ -1,0 +1,54 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/vars/target/scala-2.12/classes/UsingJavaVar.class
+  Last modified Nov 23, 2017; size 482 bytes
+  MD5 checksum 5da7180cf6f152ce1bb27466e8aceb80
+  Compiled from "Vars.scala"
+public class UsingJavaVar extends JavaVar
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               UsingJavaVar
+   #2 = Class              #1             // UsingJavaVar
+   #3 = Utf8               JavaVar
+   #4 = Class              #3             // JavaVar
+   #5 = Utf8               Vars.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               91A!\taQk]5oO*g/,be*\t1!A=K6H/ MA\t!iAA\tqAS1wCZ'CA\"=S:LGOAq
+   #9 = Utf8               <init>
+  #10 = Utf8               ()V
+  #11 = NameAndType        #9:#10         // "<init>":()V
+  #12 = Methodref          #4.#11         // JavaVar."<init>":()V
+  #13 = Utf8               this
+  #14 = Utf8               LUsingJavaVar;
+  #15 = Utf8               Code
+  #16 = Utf8               LocalVariableTable
+  #17 = Utf8               LineNumberTable
+  #18 = Utf8               SourceFile
+  #19 = Utf8               RuntimeVisibleAnnotations
+  #20 = Utf8               ScalaInlineInfo
+  #21 = Utf8               ScalaSig
+{
+  public UsingJavaVar();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #12                 // Method JavaVar."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LUsingJavaVar;
+      LineNumberTable:
+        line 20: 0
+}
+SourceFile: "Vars.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 00 00 01 00 09 00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

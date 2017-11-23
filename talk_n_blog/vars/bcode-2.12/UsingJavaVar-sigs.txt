@@ -1,0 +1,4 @@
+Compiled from "Vars.scala"
+public class UsingJavaVar extends JavaVar {
+  public UsingJavaVar();
+}

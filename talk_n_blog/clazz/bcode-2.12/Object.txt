@@ -1,0 +1,8 @@
+Compiled from "Clazz.scala"
+public final class Object {
+  public static int method();
+    Code:
+       0: getstatic     #16                 // Field Object$.MODULE$:LObject$;
+       3: invokevirtual #18                 // Method Object$.method:()I
+       6: ireturn
+}

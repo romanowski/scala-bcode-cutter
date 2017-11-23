@@ -1,0 +1,9 @@
+Compiled from "Vars.scala"
+public class JavaBeanVar {
+  private int javaBeanVar;
+  public int javaBeanVar();
+  public void javaBeanVar_$eq(int);
+  public int getJavaBeanVar();
+  public void setJavaBeanVar(int);
+  public JavaBeanVar();
+}

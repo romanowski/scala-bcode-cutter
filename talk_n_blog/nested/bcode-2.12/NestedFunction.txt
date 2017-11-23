@@ -1,0 +1,22 @@
+Compiled from "Nested.scala"
+public class NestedFunction {
+  public int outer(int, java.lang.String);
+    Code:
+       0: iload_1
+       1: iload_1
+       2: invokestatic  #16                 // Method inner$1:(II)I
+       5: ireturn
+
+  private static final int inner$1(int, int);
+    Code:
+       0: iload_1
+       1: iload_0
+       2: iadd
+       3: ireturn
+
+  public NestedFunction();
+    Code:
+       0: aload_0
+       1: invokespecial #26                 // Method java/lang/Object."<init>":()V
+       4: return
+}

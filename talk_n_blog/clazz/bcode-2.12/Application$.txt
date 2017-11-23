@@ -1,0 +1,98 @@
+Compiled from "Clazz.scala"
+public final class Application$ implements scala.App {
+  public static Application$ MODULE$;
+
+  private final long executionStart;
+
+  private java.lang.String[] scala$App$$_args;
+
+  private final scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>> scala$App$$initCode;
+
+  public static {};
+    Code:
+       0: new           #2                  // class Application$
+       3: invokespecial #26                 // Method "<init>":()V
+       6: return
+
+  public java.lang.String[] args();
+    Code:
+       0: aload_0
+       1: invokestatic  #32                 // InterfaceMethod scala/App.args$:(Lscala/App;)[Ljava/lang/String;
+       4: areturn
+
+  public void delayedInit(scala.Function0<scala.runtime.BoxedUnit>);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #40                 // InterfaceMethod scala/App.delayedInit$:(Lscala/App;Lscala/Function0;)V
+       5: return
+
+  public void main(java.lang.String[]);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #47                 // InterfaceMethod scala/App.main$:(Lscala/App;[Ljava/lang/String;)V
+       5: return
+
+  public long executionStart();
+    Code:
+       0: aload_0
+       1: getfield      #50                 // Field executionStart:J
+       4: lreturn
+
+  public java.lang.String[] scala$App$$_args();
+    Code:
+       0: aload_0
+       1: getfield      #52                 // Field scala$App$$_args:[Ljava/lang/String;
+       4: areturn
+
+  public void scala$App$$_args_$eq(java.lang.String[]);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #52                 // Field scala$App$$_args:[Ljava/lang/String;
+       5: return
+
+  public scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>> scala$App$$initCode();
+    Code:
+       0: aload_0
+       1: getfield      #57                 // Field scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+       4: areturn
+
+  public void scala$App$_setter_$executionStart_$eq(long);
+    Code:
+       0: aload_0
+       1: lload_1
+       2: putfield      #50                 // Field executionStart:J
+       5: return
+
+  public final void scala$App$_setter_$scala$App$$initCode_$eq(scala.collection.mutable.ListBuffer<scala.Function0<scala.runtime.BoxedUnit>>);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #57                 // Field scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+       5: return
+
+  public final void delayedEndpoint$Application$1();
+    Code:
+       0: getstatic     #67                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+       3: ldc           #69                 // String Hello World!
+       5: invokevirtual #73                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+       8: return
+
+  private Application$();
+    Code:
+       0: aload_0
+       1: invokespecial #74                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: putstatic     #76                 // Field MODULE$:LApplication$;
+       8: aload_0
+       9: invokestatic  #80                 // InterfaceMethod scala/App.$init$:(Lscala/App;)V
+      12: aload_0
+      13: new           #9                  // class Application$delayedInit$body
+      16: dup
+      17: aload_0
+      18: invokespecial #83                 // Method Application$delayedInit$body."<init>":(LApplication$;)V
+      21: invokevirtual #85                 // Method delayedInit:(Lscala/Function0;)V
+      24: return
+}

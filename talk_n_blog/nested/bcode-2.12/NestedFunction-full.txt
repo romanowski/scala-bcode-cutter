@@ -1,0 +1,110 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/nested/target/scala-2.12/classes/NestedFunction.class
+  Last modified Nov 23, 2017; size 965 bytes
+  MD5 checksum 2fb33e3dae460dbb5f123d6f1f591431
+  Compiled from "Nested.scala"
+public class NestedFunction
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               NestedFunction
+   #2 = Class              #1             // NestedFunction
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Nested.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               2A!\tqa*Z:uK4UO\2uS>t'\"Aq*W;z}\r1C!\t9!\"D\tI!B:dC2BA\t\te.*fM\")QC1A(8jiz\"a\t!iA%!\taE_V$XM)]ICA\t1BAJ]RDQG\tAQ\t!5E\raGk:,8/3qcBA\"!\tq\"D \tC!=e>|GOPE!\ta:fI4B&FO]5oO*!
+   #9 = Utf8               outer
+  #10 = Utf8               (ILjava/lang/String;)I
+  #11 = Utf8               a
+  #12 = Utf8               unused
+  #13 = Utf8               inner$1
+  #14 = Utf8               (II)I
+  #15 = NameAndType        #13:#14        // inner$1:(II)I
+  #16 = Methodref          #2.#15         // NestedFunction.inner$1:(II)I
+  #17 = Utf8               this
+  #18 = Utf8               LNestedFunction;
+  #19 = Utf8               I
+  #20 = Utf8               Ljava/lang/String;
+  #21 = Utf8               b
+  #22 = Utf8               a$1
+  #23 = Utf8               <init>
+  #24 = Utf8               ()V
+  #25 = NameAndType        #23:#24        // "<init>":()V
+  #26 = Methodref          #4.#25         // java/lang/Object."<init>":()V
+  #27 = Utf8               Code
+  #28 = Utf8               LocalVariableTable
+  #29 = Utf8               LineNumberTable
+  #30 = Utf8               MethodParameters
+  #31 = Utf8               SourceFile
+  #32 = Utf8               RuntimeVisibleAnnotations
+  #33 = Utf8               ScalaInlineInfo
+  #34 = Utf8               ScalaSig
+{
+  public int outer(int, java.lang.String);
+    descriptor: (ILjava/lang/String;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: iload_1
+         1: iload_1
+         2: invokestatic  #16                 // Method inner$1:(II)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LNestedFunction;
+            0       6     1     a   I
+            0       6     2 unused   Ljava/lang/String;
+      LineNumberTable:
+        line 4: 0
+    MethodParameters:
+      Name                           Flags
+      a                              final
+      unused                         final
+
+  private static final int inner$1(int, int);
+    descriptor: (II)I
+    flags: ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iload_1
+         1: iload_0
+         2: iadd
+         3: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0     b   I
+            0       4     1   a$1   I
+      LineNumberTable:
+        line 3: 0
+    MethodParameters:
+      Name                           Flags
+      b                              final
+      a$1                            final
+
+  public NestedFunction();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #26                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LNestedFunction;
+      LineNumberTable:
+        line 8: 0
+        line 1: 4
+}
+SourceFile: "Nested.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 00 00 03 00 17 00 18 00 00 0D 00 0E 01 00 09
+   00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

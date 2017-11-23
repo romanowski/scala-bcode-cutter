@@ -1,0 +1,4 @@
+Compiled from "Clazz.scala"
+public class Constructor {
+  public Constructor();
+}

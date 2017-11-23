@@ -1,0 +1,120 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/defaultParameters/target/scala-2.10/classes/DefaultInAction.class
+  Last modified Nov 23, 2017; size 1079 bytes
+  MD5 checksum aafe3df906ec7063c6290860e285c6a5
+  Compiled from "Default.scala"
+public class DefaultInAction
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               DefaultInAction
+   #2 = Class              #1             // DefaultInAction
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Default.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               !2A!\tyA)4bk2$J\!di&|gNCaT-9usza\rAqAC)\t\"AtGd-\t1I\=SKDQ!9\taP5oSRtD#AAQ\"\tIAA\nDC!\t)D-%qC!J,G-4\neQ\"AB*ue&twM!)A$a;\tA\r=%qD\t4-7u\t\"#\t\t'G!)A\ta;!)QCMm\r)BQAu
+   #9 = Utf8               a1
+  #10 = Utf8               (LDefault;)Ljava/lang/String;
+  #11 = Utf8               Default
+  #12 = Class              #11            // Default
+  #13 = Utf8               withDefault$default$1
+  #14 = Utf8               ()Ljava/lang/String;
+  #15 = NameAndType        #13:#14        // withDefault$default$1:()Ljava/lang/String;
+  #16 = Methodref          #12.#15        // Default.withDefault$default$1:()Ljava/lang/String;
+  #17 = Utf8               withDefault
+  #18 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #19 = NameAndType        #17:#18        // withDefault:(Ljava/lang/String;)Ljava/lang/String;
+  #20 = Methodref          #12.#19        // Default.withDefault:(Ljava/lang/String;)Ljava/lang/String;
+  #21 = Utf8               this
+  #22 = Utf8               LDefaultInAction;
+  #23 = Utf8               d
+  #24 = Utf8               LDefault;
+  #25 = Utf8               a2
+  #26 = Utf8               ala
+  #27 = String             #26            // ala
+  #28 = Utf8               a3
+  #29 = Utf8               withoutDefault
+  #30 = NameAndType        #29:#18        // withoutDefault:(Ljava/lang/String;)Ljava/lang/String;
+  #31 = Methodref          #12.#30        // Default.withoutDefault:(Ljava/lang/String;)Ljava/lang/String;
+  #32 = Utf8               <init>
+  #33 = Utf8               ()V
+  #34 = NameAndType        #32:#33        // "<init>":()V
+  #35 = Methodref          #4.#34         // java/lang/Object."<init>":()V
+  #36 = Utf8               Code
+  #37 = Utf8               LocalVariableTable
+  #38 = Utf8               LineNumberTable
+  #39 = Utf8               SourceFile
+  #40 = Utf8               RuntimeVisibleAnnotations
+  #41 = Utf8               ScalaSig
+{
+  public java.lang.String a1(Default);
+    descriptor: (LDefault;)Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: aload_1
+         2: invokevirtual #16                 // Method Default.withDefault$default$1:()Ljava/lang/String;
+         5: invokevirtual #20                 // Method Default.withDefault:(Ljava/lang/String;)Ljava/lang/String;
+         8: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   LDefaultInAction;
+            0       9     1     d   LDefault;
+      LineNumberTable:
+        line 10: 0
+
+  public java.lang.String a2(Default);
+    descriptor: (LDefault;)Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ldc           #27                 // String ala
+         3: invokevirtual #20                 // Method Default.withDefault:(Ljava/lang/String;)Ljava/lang/String;
+         6: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  this   LDefaultInAction;
+            0       7     1     d   LDefault;
+      LineNumberTable:
+        line 11: 0
+
+  public java.lang.String a3(Default);
+    descriptor: (LDefault;)Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ldc           #27                 // String ala
+         3: invokevirtual #31                 // Method Default.withoutDefault:(Ljava/lang/String;)Ljava/lang/String;
+         6: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  this   LDefaultInAction;
+            0       7     1     d   LDefault;
+      LineNumberTable:
+        line 12: 0
+
+  public DefaultInAction();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #35                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LDefaultInAction;
+      LineNumberTable:
+        line 9: 0
+}
+SourceFile: "Default.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

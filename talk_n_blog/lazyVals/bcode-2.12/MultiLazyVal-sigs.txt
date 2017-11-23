@@ -1,0 +1,12 @@
+Compiled from "LazyVals.scala"
+public class MultiLazyVal {
+  private int fVal;
+  private int sVal;
+  private final int a;
+  private volatile byte bitmap$0;
+  private int fVal$lzycompute();
+  public int fVal();
+  private int sVal$lzycompute();
+  public int sVal();
+  public MultiLazyVal(int);
+}

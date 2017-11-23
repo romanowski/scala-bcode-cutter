@@ -1,0 +1,30 @@
+Compiled from "Default.scala"
+public class DefaultInAction {
+  public java.lang.String a1(Default);
+    Code:
+       0: aload_1
+       1: aload_1
+       2: invokevirtual #16                 // Method Default.withDefault$default$1:()Ljava/lang/String;
+       5: invokevirtual #20                 // Method Default.withDefault:(Ljava/lang/String;)Ljava/lang/String;
+       8: areturn
+
+  public java.lang.String a2(Default);
+    Code:
+       0: aload_1
+       1: ldc           #27                 // String ala
+       3: invokevirtual #20                 // Method Default.withDefault:(Ljava/lang/String;)Ljava/lang/String;
+       6: areturn
+
+  public java.lang.String a3(Default);
+    Code:
+       0: aload_1
+       1: ldc           #27                 // String ala
+       3: invokevirtual #31                 // Method Default.withoutDefault:(Ljava/lang/String;)Ljava/lang/String;
+       6: areturn
+
+  public DefaultInAction();
+    Code:
+       0: aload_0
+       1: invokespecial #35                 // Method java/lang/Object."<init>":()V
+       4: return
+}

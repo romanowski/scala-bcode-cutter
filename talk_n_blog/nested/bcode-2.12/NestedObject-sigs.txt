@@ -1,0 +1,7 @@
+Compiled from "Nested.scala"
+public class NestedObject {
+  public java.lang.String outer(int);
+  private static final NestedObject$inner$3$ inner$lzycompute$1(scala.runtime.LazyRef);
+  private final NestedObject$inner$3$ inner$2(scala.runtime.LazyRef);
+  public NestedObject();
+}

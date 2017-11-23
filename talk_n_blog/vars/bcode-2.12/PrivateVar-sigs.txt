@@ -1,0 +1,7 @@
+Compiled from "Vars.scala"
+public class PrivateVar {
+  private int privateVar;
+  private int privateVar();
+  private void privateVar_$eq(int);
+  public PrivateVar();
+}

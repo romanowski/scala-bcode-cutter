@@ -1,0 +1,75 @@
+Compiled from "Vars.scala"
+public class Vars {
+  private int public;
+
+  private int privateVar;
+
+  private int javaBean;
+
+  public int public();
+    Code:
+       0: aload_0
+       1: getfield      #15                 // Field public:I
+       4: ireturn
+
+  public void public_$eq(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #15                 // Field public:I
+       5: return
+
+  private int privateVar();
+    Code:
+       0: aload_0
+       1: getfield      #22                 // Field privateVar:I
+       4: ireturn
+
+  private void privateVar_$eq(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #22                 // Field privateVar:I
+       5: return
+
+  public int javaBean();
+    Code:
+       0: aload_0
+       1: getfield      #25                 // Field javaBean:I
+       4: ireturn
+
+  public void javaBean_$eq(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #25                 // Field javaBean:I
+       5: return
+
+  public int getJavaBean();
+    Code:
+       0: aload_0
+       1: invokevirtual #29                 // Method javaBean:()I
+       4: ireturn
+
+  public void setJavaBean(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: invokevirtual #32                 // Method javaBean_$eq:(I)V
+       5: return
+
+  public Vars();
+    Code:
+       0: aload_0
+       1: invokespecial #36                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: bipush        123
+       7: putfield      #15                 // Field public:I
+      10: aload_0
+      11: sipush        456
+      14: putfield      #22                 // Field privateVar:I
+      17: aload_0
+      18: sipush        789
+      21: putfield      #25                 // Field javaBean:I
+      24: return
+}

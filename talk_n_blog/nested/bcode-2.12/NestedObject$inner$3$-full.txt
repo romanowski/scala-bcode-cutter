@@ -1,0 +1,67 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/nested/target/scala-2.12/classes/NestedObject$inner$3$.class
+  Last modified Nov 23, 2017; size 532 bytes
+  MD5 checksum 1e21e06a9ccf9df5f318427db8ad3386
+  Compiled from "Nested.scala"
+public class NestedObject$inner$3$
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               NestedObject$inner$3$
+   #2 = Class              #1             // NestedObject$inner$3$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Nested.scala
+   #6 = Utf8               NestedObject
+   #7 = Class              #6             // NestedObject
+   #8 = Utf8               outer
+   #9 = Utf8               (I)Ljava/lang/String;
+  #10 = NameAndType        #8:#9          // outer:(I)Ljava/lang/String;
+  #11 = Utf8               inner$3$
+  #12 = Utf8               <init>
+  #13 = Utf8               (LNestedObject;)V
+  #14 = Utf8               $outer
+  #15 = Utf8               ()V
+  #16 = NameAndType        #12:#15        // "<init>":()V
+  #17 = Methodref          #4.#16         // java/lang/Object."<init>":()V
+  #18 = Utf8               this
+  #19 = Utf8               LNestedObject$inner$3$;
+  #20 = Utf8               LNestedObject;
+  #21 = Utf8               Code
+  #22 = Utf8               LocalVariableTable
+  #23 = Utf8               LineNumberTable
+  #24 = Utf8               MethodParameters
+  #25 = Utf8               SourceFile
+  #26 = Utf8               EnclosingMethod
+  #27 = Utf8               InnerClasses
+  #28 = Utf8               ScalaInlineInfo
+  #29 = Utf8               Scala
+{
+  public NestedObject$inner$3$(NestedObject);
+    descriptor: (LNestedObject;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #17                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LNestedObject$inner$3$;
+            0       5     1 $outer   LNestedObject;
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+}
+SourceFile: "Nested.scala"
+EnclosingMethod: #7.#10                 // NestedObject.outer
+InnerClasses:
+     public #11= #2; //inner$3$=class NestedObject$inner$3$
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 01 00 01 00 0C 00 0D 01
+Error: unknown attribute
+  Scala: length = 0x0
+

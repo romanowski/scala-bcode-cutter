@@ -1,0 +1,100 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/defaultParameters/target/scala-2.10/classes/Default.class
+  Last modified Nov 23, 2017; size 1055 bytes
+  MD5 checksum 9cfcc7be6607f4fcc085a80451a57705
+  Compiled from "Default.scala"
+public class Default
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               Default
+   #2 = Class              #1             // Default
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Default.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               92A!\t9A)4bk2$(\"Aq*W;z}\r1C!\t9!\"D\tI!B:dC2BA\t\te.*fM\")QC1A(8jiz\"a\t!iA%!\taEo&$R3gCVdG7AQYI!a\rAX\rZ3g\tI\"DTiJLgn/!AqH\tA#AqCJWCq$xSRDw.;EKW;Q\"!b#%\taIo&$R3gCVdG\n3fM,H2+!#F&W1CA-A#BA+%)hn5fG.,GM,QM8pi$n8\n5B#!E;oG\",7m[3e-.8dK
+   #9 = Utf8               withDefault
+  #10 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #11 = Utf8               this
+  #12 = Utf8               LDefault;
+  #13 = Utf8               param
+  #14 = Utf8               Ljava/lang/String;
+  #15 = Utf8               withDefault$default$1
+  #16 = Utf8               ()Ljava/lang/String;
+  #17 = Utf8               baz
+  #18 = String             #17            // baz
+  #19 = Utf8               withoutDefault
+  #20 = Utf8               <init>
+  #21 = Utf8               ()V
+  #22 = NameAndType        #20:#21        // "<init>":()V
+  #23 = Methodref          #4.#22         // java/lang/Object."<init>":()V
+  #24 = Utf8               Code
+  #25 = Utf8               LocalVariableTable
+  #26 = Utf8               LineNumberTable
+  #27 = Utf8               SourceFile
+  #28 = Utf8               RuntimeVisibleAnnotations
+  #29 = Utf8               ScalaSig
+{
+  public java.lang.String withDefault(java.lang.String);
+    descriptor: (Ljava/lang/String;)Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   LDefault;
+            0       2     1 param   Ljava/lang/String;
+      LineNumberTable:
+        line 5: 0
+
+  public java.lang.String withDefault$default$1();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #18                 // String baz
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   LDefault;
+      LineNumberTable:
+        line 5: 0
+
+  public java.lang.String withoutDefault(java.lang.String);
+    descriptor: (Ljava/lang/String;)Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   LDefault;
+            0       2     1 param   Ljava/lang/String;
+      LineNumberTable:
+        line 6: 0
+
+  public Default();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #23                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LDefault;
+      LineNumberTable:
+        line 4: 0
+}
+SourceFile: "Default.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

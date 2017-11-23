@@ -1,5 +1,5 @@
 Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/Default.class
-  Last modified Oct 29, 2017; size 796 bytes
+  Last modified Nov 23, 2017; size 796 bytes
   MD5 checksum fda572564191a6da50cd756753a0069d
   Compiled from "Default.scala"
 public class pck.Default

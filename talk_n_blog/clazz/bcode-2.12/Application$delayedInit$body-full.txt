@@ -1,0 +1,107 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/clazz/target/scala-2.12/classes/Application$delayedInit$body.class
+  Last modified Nov 23, 2017; size 793 bytes
+  MD5 checksum 5510167f9288e0c595bc41b6acd37396
+  Compiled from "Clazz.scala"
+public final class Application$delayedInit$body extends scala.runtime.AbstractFunction0
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               Application$delayedInit$body
+   #2 = Class              #1             // Application$delayedInit$body
+   #3 = Utf8               scala/runtime/AbstractFunction0
+   #4 = Class              #3             // scala/runtime/AbstractFunction0
+   #5 = Utf8               Clazz.scala
+   #6 = Utf8               Application
+   #7 = Class              #6             // Application
+   #8 = Utf8               delayedInit$body
+   #9 = Utf8               $outer
+  #10 = Utf8               LApplication$;
+  #11 = Utf8               apply
+  #12 = Utf8               ()Ljava/lang/Object;
+  #13 = NameAndType        #9:#10         // $outer:LApplication$;
+  #14 = Fieldref           #2.#13         // Application$delayedInit$body.$outer:LApplication$;
+  #15 = Utf8               Application$
+  #16 = Class              #15            // Application$
+  #17 = Utf8               delayedEndpoint$Application$1
+  #18 = Utf8               ()V
+  #19 = NameAndType        #17:#18        // delayedEndpoint$Application$1:()V
+  #20 = Methodref          #16.#19        // Application$.delayedEndpoint$Application$1:()V
+  #21 = Utf8               scala/runtime/BoxedUnit
+  #22 = Class              #21            // scala/runtime/BoxedUnit
+  #23 = Utf8               UNIT
+  #24 = Utf8               Lscala/runtime/BoxedUnit;
+  #25 = NameAndType        #23:#24        // UNIT:Lscala/runtime/BoxedUnit;
+  #26 = Fieldref           #22.#25        // scala/runtime/BoxedUnit.UNIT:Lscala/runtime/BoxedUnit;
+  #27 = Utf8               this
+  #28 = Utf8               LApplication$delayedInit$body;
+  #29 = Utf8               <init>
+  #30 = Utf8               (LApplication$;)V
+  #31 = NameAndType        #29:#18        // "<init>":()V
+  #32 = Methodref          #4.#31         // scala/runtime/AbstractFunction0."<init>":()V
+  #33 = Utf8               Code
+  #34 = Utf8               LocalVariableTable
+  #35 = Utf8               LineNumberTable
+  #36 = Utf8               StackMapTable
+  #37 = Utf8               MethodParameters
+  #38 = Utf8               SourceFile
+  #39 = Utf8               InnerClasses
+  #40 = Utf8               ScalaInlineInfo
+  #41 = Utf8               Scala
+{
+  private final Application$ $outer;
+    descriptor: LApplication$;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public final java.lang.Object apply();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #14                 // Field $outer:LApplication$;
+         4: invokevirtual #20                 // Method Application$.delayedEndpoint$Application$1:()V
+         7: getstatic     #26                 // Field scala/runtime/BoxedUnit.UNIT:Lscala/runtime/BoxedUnit;
+        10: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   LApplication$delayedInit$body;
+      LineNumberTable:
+        line 11: 0
+
+  public Application$delayedInit$body(Application$);
+    descriptor: (LApplication$;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     6
+         4: aconst_null
+         5: athrow
+         6: aload_0
+         7: aload_1
+         8: putfield      #14                 // Field $outer:LApplication$;
+        11: aload_0
+        12: invokespecial #32                 // Method scala/runtime/AbstractFunction0."<init>":()V
+        15: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   LApplication$delayedInit$body;
+            0      16     1 $outer   LApplication$;
+      LineNumberTable:
+        line 11: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 6 /* same */
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+}
+SourceFile: "Clazz.scala"
+InnerClasses:
+     public static final #8= #2 of #7; //delayedInit$body=class Application$delayedInit$body of class Application
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 01 00 02 00 1D 00 1E 01 00 0B 00 0C 01
+Error: unknown attribute
+  Scala: length = 0x0
+

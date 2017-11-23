@@ -1,0 +1,7 @@
+Compiled from "Vars.scala"
+public class PublicVar {
+  private int publicVar;
+  public int publicVar();
+  public void publicVar_$eq(int);
+  public PublicVar();
+}

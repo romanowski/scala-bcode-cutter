@@ -1,0 +1,4 @@
+Compiled from "Clazz.scala"
+public final class Object {
+  public static int method();
+}

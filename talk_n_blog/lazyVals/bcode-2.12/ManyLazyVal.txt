@@ -1,0 +1,4252 @@
+Compiled from "LazyVals.scala"
+public class ManyLazyVal {
+  private int a0;
+
+  private int a1;
+
+  private int a2;
+
+  private int a3;
+
+  private int a4;
+
+  private int a5;
+
+  private int a6;
+
+  private int a7;
+
+  private int a8;
+
+  private int a9;
+
+  private int a10;
+
+  private int a11;
+
+  private int a12;
+
+  private int a13;
+
+  private int a14;
+
+  private int a15;
+
+  private int a16;
+
+  private int a17;
+
+  private int a18;
+
+  private int a19;
+
+  private int a20;
+
+  private int a21;
+
+  private int a22;
+
+  private int a23;
+
+  private int a24;
+
+  private int a25;
+
+  private int a26;
+
+  private int a27;
+
+  private int a28;
+
+  private int a29;
+
+  private int a30;
+
+  private int a31;
+
+  private int a32;
+
+  private int a33;
+
+  private int a34;
+
+  private int a35;
+
+  private int a36;
+
+  private int a37;
+
+  private int a38;
+
+  private int a39;
+
+  private int a40;
+
+  private int a41;
+
+  private int a42;
+
+  private int a43;
+
+  private int a44;
+
+  private int a45;
+
+  private int a46;
+
+  private int a47;
+
+  private int a48;
+
+  private int a49;
+
+  private int a50;
+
+  private int a51;
+
+  private int a52;
+
+  private int a53;
+
+  private int a54;
+
+  private int a55;
+
+  private int a56;
+
+  private int a57;
+
+  private int a58;
+
+  private int a59;
+
+  private int a60;
+
+  private int a61;
+
+  private int a62;
+
+  private int a63;
+
+  private int a64;
+
+  private int a65;
+
+  private int a66;
+
+  private int a67;
+
+  private int a68;
+
+  private int a69;
+
+  private int a70;
+
+  private int a71;
+
+  private int a72;
+
+  private int a73;
+
+  private int a74;
+
+  private int a75;
+
+  private int a76;
+
+  private int a77;
+
+  private int a78;
+
+  private int a79;
+
+  private volatile long bitmap$0;
+
+  private volatile long bitmap$1;
+
+  private int a0$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: lconst_1
+       9: land
+      10: lconst_0
+      11: lcmp
+      12: ifne          30
+      15: aload_0
+      16: iconst_1
+      17: putfield      #98                 // Field a0:I
+      20: aload_0
+      21: aload_0
+      22: getfield      #96                 // Field bitmap$0:J
+      25: lconst_1
+      26: lor
+      27: putfield      #96                 // Field bitmap$0:J
+      30: aload_1
+      31: monitorexit
+      32: goto          38
+      35: aload_1
+      36: monitorexit
+      37: athrow
+      38: aload_0
+      39: getfield      #98                 // Field a0:I
+      42: ireturn
+    Exception table:
+       from    to  target type
+           4    30    35   any
+
+  public int a0();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: lconst_1
+       5: land
+       6: lconst_0
+       7: lcmp
+       8: ifne          18
+      11: aload_0
+      12: invokespecial #104                // Method a0$lzycompute:()I
+      15: goto          22
+      18: aload_0
+      19: getfield      #98                 // Field a0:I
+      22: ireturn
+
+  private int a1$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #106                // long 2l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #109                // Field a1:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #106                // long 2l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #109                // Field a1:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a1();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #106                // long 2l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #111                // Method a1$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #109                // Field a1:I
+      24: ireturn
+
+  private int a2$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #113                // long 4l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #116                // Field a2:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #113                // long 4l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #116                // Field a2:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a2();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #113                // long 4l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #118                // Method a2$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #116                // Field a2:I
+      24: ireturn
+
+  private int a3$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #120                // long 8l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #123                // Field a3:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #120                // long 8l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #123                // Field a3:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a3();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #120                // long 8l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #125                // Method a3$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #123                // Field a3:I
+      24: ireturn
+
+  private int a4$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #127                // long 16l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #130                // Field a4:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #127                // long 16l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #130                // Field a4:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a4();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #127                // long 16l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #132                // Method a4$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #130                // Field a4:I
+      24: ireturn
+
+  private int a5$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #134                // long 32l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #137                // Field a5:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #134                // long 32l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #137                // Field a5:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a5();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #134                // long 32l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #139                // Method a5$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #137                // Field a5:I
+      24: ireturn
+
+  private int a6$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #141                // long 64l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #144                // Field a6:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #141                // long 64l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #144                // Field a6:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a6();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #141                // long 64l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #146                // Method a6$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #144                // Field a6:I
+      24: ireturn
+
+  private int a7$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #148                // long 128l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #151                // Field a7:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #148                // long 128l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #151                // Field a7:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a7();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #148                // long 128l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #153                // Method a7$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #151                // Field a7:I
+      24: ireturn
+
+  private int a8$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #155                // long 256l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #158                // Field a8:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #155                // long 256l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #158                // Field a8:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a8();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #155                // long 256l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #160                // Method a8$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #158                // Field a8:I
+      24: ireturn
+
+  private int a9$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #162                // long 512l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #165                // Field a9:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #162                // long 512l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #165                // Field a9:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a9();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #162                // long 512l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #167                // Method a9$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #165                // Field a9:I
+      24: ireturn
+
+  private int a10$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #169                // long 1024l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #172                // Field a10:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #169                // long 1024l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #172                // Field a10:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a10();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #169                // long 1024l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #174                // Method a10$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #172                // Field a10:I
+      24: ireturn
+
+  private int a11$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #176                // long 2048l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #179                // Field a11:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #176                // long 2048l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #179                // Field a11:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a11();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #176                // long 2048l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #181                // Method a11$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #179                // Field a11:I
+      24: ireturn
+
+  private int a12$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #183                // long 4096l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #186                // Field a12:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #183                // long 4096l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #186                // Field a12:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a12();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #183                // long 4096l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #188                // Method a12$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #186                // Field a12:I
+      24: ireturn
+
+  private int a13$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #190                // long 8192l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #193                // Field a13:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #190                // long 8192l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #193                // Field a13:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a13();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #190                // long 8192l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #195                // Method a13$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #193                // Field a13:I
+      24: ireturn
+
+  private int a14$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #197                // long 16384l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #200                // Field a14:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #197                // long 16384l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #200                // Field a14:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a14();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #197                // long 16384l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #202                // Method a14$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #200                // Field a14:I
+      24: ireturn
+
+  private int a15$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #204                // long 32768l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #207                // Field a15:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #204                // long 32768l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #207                // Field a15:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a15();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #204                // long 32768l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #209                // Method a15$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #207                // Field a15:I
+      24: ireturn
+
+  private int a16$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #211                // long 65536l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #214                // Field a16:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #211                // long 65536l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #214                // Field a16:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a16();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #211                // long 65536l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #216                // Method a16$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #214                // Field a16:I
+      24: ireturn
+
+  private int a17$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #218                // long 131072l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #221                // Field a17:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #218                // long 131072l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #221                // Field a17:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a17();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #218                // long 131072l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #223                // Method a17$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #221                // Field a17:I
+      24: ireturn
+
+  private int a18$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #225                // long 262144l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #228                // Field a18:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #225                // long 262144l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #228                // Field a18:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a18();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #225                // long 262144l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #230                // Method a18$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #228                // Field a18:I
+      24: ireturn
+
+  private int a19$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #232                // long 524288l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #235                // Field a19:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #232                // long 524288l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #235                // Field a19:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a19();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #232                // long 524288l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #237                // Method a19$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #235                // Field a19:I
+      24: ireturn
+
+  private int a20$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #239                // long 1048576l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #242                // Field a20:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #239                // long 1048576l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #242                // Field a20:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a20();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #239                // long 1048576l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #244                // Method a20$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #242                // Field a20:I
+      24: ireturn
+
+  private int a21$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #246                // long 2097152l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #249                // Field a21:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #246                // long 2097152l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #249                // Field a21:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a21();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #246                // long 2097152l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #251                // Method a21$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #249                // Field a21:I
+      24: ireturn
+
+  private int a22$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #253                // long 4194304l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #256                // Field a22:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #253                // long 4194304l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #256                // Field a22:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a22();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #253                // long 4194304l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #258                // Method a22$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #256                // Field a22:I
+      24: ireturn
+
+  private int a23$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #260                // long 8388608l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #263                // Field a23:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #260                // long 8388608l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #263                // Field a23:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a23();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #260                // long 8388608l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #265                // Method a23$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #263                // Field a23:I
+      24: ireturn
+
+  private int a24$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #267                // long 16777216l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #270                // Field a24:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #267                // long 16777216l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #270                // Field a24:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a24();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #267                // long 16777216l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #272                // Method a24$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #270                // Field a24:I
+      24: ireturn
+
+  private int a25$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #274                // long 33554432l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #277                // Field a25:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #274                // long 33554432l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #277                // Field a25:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a25();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #274                // long 33554432l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #279                // Method a25$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #277                // Field a25:I
+      24: ireturn
+
+  private int a26$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #281                // long 67108864l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #284                // Field a26:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #281                // long 67108864l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #284                // Field a26:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a26();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #281                // long 67108864l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #286                // Method a26$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #284                // Field a26:I
+      24: ireturn
+
+  private int a27$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #288                // long 134217728l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #291                // Field a27:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #288                // long 134217728l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #291                // Field a27:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a27();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #288                // long 134217728l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #293                // Method a27$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #291                // Field a27:I
+      24: ireturn
+
+  private int a28$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #295                // long 268435456l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #298                // Field a28:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #295                // long 268435456l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #298                // Field a28:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a28();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #295                // long 268435456l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #300                // Method a28$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #298                // Field a28:I
+      24: ireturn
+
+  private int a29$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #302                // long 536870912l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #305                // Field a29:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #302                // long 536870912l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #305                // Field a29:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a29();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #302                // long 536870912l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #307                // Method a29$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #305                // Field a29:I
+      24: ireturn
+
+  private int a30$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #309                // long 1073741824l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #312                // Field a30:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #309                // long 1073741824l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #312                // Field a30:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a30();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #309                // long 1073741824l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #314                // Method a30$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #312                // Field a30:I
+      24: ireturn
+
+  private int a31$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #316                // long 2147483648l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #319                // Field a31:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #316                // long 2147483648l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #319                // Field a31:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a31();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #316                // long 2147483648l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #321                // Method a31$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #319                // Field a31:I
+      24: ireturn
+
+  private int a32$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #323                // long 4294967296l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #326                // Field a32:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #323                // long 4294967296l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #326                // Field a32:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a32();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #323                // long 4294967296l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #328                // Method a32$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #326                // Field a32:I
+      24: ireturn
+
+  private int a33$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #330                // long 8589934592l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #333                // Field a33:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #330                // long 8589934592l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #333                // Field a33:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a33();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #330                // long 8589934592l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #335                // Method a33$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #333                // Field a33:I
+      24: ireturn
+
+  private int a34$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #337                // long 17179869184l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #340                // Field a34:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #337                // long 17179869184l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #340                // Field a34:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a34();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #337                // long 17179869184l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #342                // Method a34$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #340                // Field a34:I
+      24: ireturn
+
+  private int a35$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #344                // long 34359738368l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #347                // Field a35:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #344                // long 34359738368l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #347                // Field a35:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a35();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #344                // long 34359738368l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #349                // Method a35$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #347                // Field a35:I
+      24: ireturn
+
+  private int a36$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #351                // long 68719476736l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #354                // Field a36:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #351                // long 68719476736l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #354                // Field a36:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a36();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #351                // long 68719476736l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #356                // Method a36$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #354                // Field a36:I
+      24: ireturn
+
+  private int a37$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #358                // long 137438953472l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #361                // Field a37:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #358                // long 137438953472l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #361                // Field a37:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a37();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #358                // long 137438953472l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #363                // Method a37$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #361                // Field a37:I
+      24: ireturn
+
+  private int a38$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #365                // long 274877906944l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #368                // Field a38:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #365                // long 274877906944l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #368                // Field a38:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a38();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #365                // long 274877906944l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #370                // Method a38$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #368                // Field a38:I
+      24: ireturn
+
+  private int a39$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #372                // long 549755813888l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #375                // Field a39:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #372                // long 549755813888l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #375                // Field a39:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a39();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #372                // long 549755813888l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #377                // Method a39$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #375                // Field a39:I
+      24: ireturn
+
+  private int a40$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #379                // long 1099511627776l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #382                // Field a40:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #379                // long 1099511627776l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #382                // Field a40:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a40();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #379                // long 1099511627776l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #384                // Method a40$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #382                // Field a40:I
+      24: ireturn
+
+  private int a41$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #386                // long 2199023255552l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #389                // Field a41:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #386                // long 2199023255552l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #389                // Field a41:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a41();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #386                // long 2199023255552l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #391                // Method a41$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #389                // Field a41:I
+      24: ireturn
+
+  private int a42$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #393                // long 4398046511104l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #396                // Field a42:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #393                // long 4398046511104l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #396                // Field a42:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a42();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #393                // long 4398046511104l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #398                // Method a42$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #396                // Field a42:I
+      24: ireturn
+
+  private int a43$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #400                // long 8796093022208l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #403                // Field a43:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #400                // long 8796093022208l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #403                // Field a43:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a43();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #400                // long 8796093022208l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #405                // Method a43$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #403                // Field a43:I
+      24: ireturn
+
+  private int a44$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #407                // long 17592186044416l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #410                // Field a44:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #407                // long 17592186044416l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #410                // Field a44:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a44();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #407                // long 17592186044416l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #412                // Method a44$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #410                // Field a44:I
+      24: ireturn
+
+  private int a45$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #414                // long 35184372088832l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #417                // Field a45:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #414                // long 35184372088832l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #417                // Field a45:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a45();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #414                // long 35184372088832l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #419                // Method a45$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #417                // Field a45:I
+      24: ireturn
+
+  private int a46$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #421                // long 70368744177664l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #424                // Field a46:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #421                // long 70368744177664l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #424                // Field a46:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a46();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #421                // long 70368744177664l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #426                // Method a46$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #424                // Field a46:I
+      24: ireturn
+
+  private int a47$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #428                // long 140737488355328l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #431                // Field a47:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #428                // long 140737488355328l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #431                // Field a47:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a47();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #428                // long 140737488355328l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #433                // Method a47$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #431                // Field a47:I
+      24: ireturn
+
+  private int a48$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #435                // long 281474976710656l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #438                // Field a48:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #435                // long 281474976710656l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #438                // Field a48:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a48();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #435                // long 281474976710656l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #440                // Method a48$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #438                // Field a48:I
+      24: ireturn
+
+  private int a49$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #442                // long 562949953421312l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #445                // Field a49:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #442                // long 562949953421312l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #445                // Field a49:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a49();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #442                // long 562949953421312l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #447                // Method a49$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #445                // Field a49:I
+      24: ireturn
+
+  private int a50$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #449                // long 1125899906842624l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #452                // Field a50:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #449                // long 1125899906842624l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #452                // Field a50:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a50();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #449                // long 1125899906842624l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #454                // Method a50$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #452                // Field a50:I
+      24: ireturn
+
+  private int a51$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #456                // long 2251799813685248l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #459                // Field a51:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #456                // long 2251799813685248l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #459                // Field a51:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a51();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #456                // long 2251799813685248l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #461                // Method a51$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #459                // Field a51:I
+      24: ireturn
+
+  private int a52$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #463                // long 4503599627370496l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #466                // Field a52:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #463                // long 4503599627370496l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #466                // Field a52:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a52();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #463                // long 4503599627370496l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #468                // Method a52$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #466                // Field a52:I
+      24: ireturn
+
+  private int a53$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #470                // long 9007199254740992l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #473                // Field a53:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #470                // long 9007199254740992l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #473                // Field a53:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a53();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #470                // long 9007199254740992l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #475                // Method a53$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #473                // Field a53:I
+      24: ireturn
+
+  private int a54$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #477                // long 18014398509481984l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #480                // Field a54:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #477                // long 18014398509481984l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #480                // Field a54:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a54();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #477                // long 18014398509481984l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #482                // Method a54$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #480                // Field a54:I
+      24: ireturn
+
+  private int a55$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #484                // long 36028797018963968l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #487                // Field a55:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #484                // long 36028797018963968l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #487                // Field a55:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a55();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #484                // long 36028797018963968l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #489                // Method a55$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #487                // Field a55:I
+      24: ireturn
+
+  private int a56$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #491                // long 72057594037927936l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #494                // Field a56:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #491                // long 72057594037927936l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #494                // Field a56:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a56();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #491                // long 72057594037927936l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #496                // Method a56$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #494                // Field a56:I
+      24: ireturn
+
+  private int a57$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #498                // long 144115188075855872l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #501                // Field a57:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #498                // long 144115188075855872l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #501                // Field a57:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a57();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #498                // long 144115188075855872l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #503                // Method a57$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #501                // Field a57:I
+      24: ireturn
+
+  private int a58$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #505                // long 288230376151711744l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #508                // Field a58:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #505                // long 288230376151711744l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #508                // Field a58:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a58();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #505                // long 288230376151711744l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #510                // Method a58$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #508                // Field a58:I
+      24: ireturn
+
+  private int a59$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #512                // long 576460752303423488l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #515                // Field a59:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #512                // long 576460752303423488l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #515                // Field a59:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a59();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #512                // long 576460752303423488l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #517                // Method a59$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #515                // Field a59:I
+      24: ireturn
+
+  private int a60$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #519                // long 1152921504606846976l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #522                // Field a60:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #519                // long 1152921504606846976l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #522                // Field a60:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a60();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #519                // long 1152921504606846976l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #524                // Method a60$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #522                // Field a60:I
+      24: ireturn
+
+  private int a61$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #526                // long 2305843009213693952l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #529                // Field a61:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #526                // long 2305843009213693952l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #529                // Field a61:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a61();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #526                // long 2305843009213693952l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #531                // Method a61$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #529                // Field a61:I
+      24: ireturn
+
+  private int a62$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #533                // long 4611686018427387904l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #536                // Field a62:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #533                // long 4611686018427387904l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #536                // Field a62:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a62();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #533                // long 4611686018427387904l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #538                // Method a62$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #536                // Field a62:I
+      24: ireturn
+
+  private int a63$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #96                 // Field bitmap$0:J
+       8: ldc2_w        #540                // long -9223372036854775808l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #543                // Field a63:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #96                 // Field bitmap$0:J
+      27: ldc2_w        #540                // long -9223372036854775808l
+      30: lor
+      31: putfield      #96                 // Field bitmap$0:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #543                // Field a63:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a63();
+    Code:
+       0: aload_0
+       1: getfield      #96                 // Field bitmap$0:J
+       4: ldc2_w        #540                // long -9223372036854775808l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #545                // Method a63$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #543                // Field a63:I
+      24: ireturn
+
+  private int a64$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: lconst_1
+       9: land
+      10: lconst_0
+      11: lcmp
+      12: ifne          30
+      15: aload_0
+      16: iconst_1
+      17: putfield      #550                // Field a64:I
+      20: aload_0
+      21: aload_0
+      22: getfield      #548                // Field bitmap$1:J
+      25: lconst_1
+      26: lor
+      27: putfield      #548                // Field bitmap$1:J
+      30: aload_1
+      31: monitorexit
+      32: goto          38
+      35: aload_1
+      36: monitorexit
+      37: athrow
+      38: aload_0
+      39: getfield      #550                // Field a64:I
+      42: ireturn
+    Exception table:
+       from    to  target type
+           4    30    35   any
+
+  public int a64();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: lconst_1
+       5: land
+       6: lconst_0
+       7: lcmp
+       8: ifne          18
+      11: aload_0
+      12: invokespecial #552                // Method a64$lzycompute:()I
+      15: goto          22
+      18: aload_0
+      19: getfield      #550                // Field a64:I
+      22: ireturn
+
+  private int a65$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #106                // long 2l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #555                // Field a65:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #106                // long 2l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #555                // Field a65:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a65();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #106                // long 2l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #557                // Method a65$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #555                // Field a65:I
+      24: ireturn
+
+  private int a66$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #113                // long 4l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #560                // Field a66:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #113                // long 4l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #560                // Field a66:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a66();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #113                // long 4l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #562                // Method a66$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #560                // Field a66:I
+      24: ireturn
+
+  private int a67$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #120                // long 8l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #565                // Field a67:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #120                // long 8l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #565                // Field a67:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a67();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #120                // long 8l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #567                // Method a67$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #565                // Field a67:I
+      24: ireturn
+
+  private int a68$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #127                // long 16l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #570                // Field a68:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #127                // long 16l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #570                // Field a68:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a68();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #127                // long 16l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #572                // Method a68$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #570                // Field a68:I
+      24: ireturn
+
+  private int a69$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #134                // long 32l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #575                // Field a69:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #134                // long 32l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #575                // Field a69:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a69();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #134                // long 32l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #577                // Method a69$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #575                // Field a69:I
+      24: ireturn
+
+  private int a70$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #141                // long 64l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #580                // Field a70:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #141                // long 64l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #580                // Field a70:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a70();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #141                // long 64l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #582                // Method a70$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #580                // Field a70:I
+      24: ireturn
+
+  private int a71$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #148                // long 128l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #585                // Field a71:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #148                // long 128l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #585                // Field a71:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a71();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #148                // long 128l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #587                // Method a71$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #585                // Field a71:I
+      24: ireturn
+
+  private int a72$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #155                // long 256l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #590                // Field a72:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #155                // long 256l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #590                // Field a72:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a72();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #155                // long 256l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #592                // Method a72$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #590                // Field a72:I
+      24: ireturn
+
+  private int a73$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #162                // long 512l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #595                // Field a73:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #162                // long 512l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #595                // Field a73:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a73();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #162                // long 512l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #597                // Method a73$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #595                // Field a73:I
+      24: ireturn
+
+  private int a74$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #169                // long 1024l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #600                // Field a74:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #169                // long 1024l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #600                // Field a74:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a74();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #169                // long 1024l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #602                // Method a74$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #600                // Field a74:I
+      24: ireturn
+
+  private int a75$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #176                // long 2048l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #605                // Field a75:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #176                // long 2048l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #605                // Field a75:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a75();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #176                // long 2048l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #607                // Method a75$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #605                // Field a75:I
+      24: ireturn
+
+  private int a76$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #183                // long 4096l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #610                // Field a76:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #183                // long 4096l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #610                // Field a76:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a76();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #183                // long 4096l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #612                // Method a76$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #610                // Field a76:I
+      24: ireturn
+
+  private int a77$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #190                // long 8192l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #615                // Field a77:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #190                // long 8192l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #615                // Field a77:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a77();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #190                // long 8192l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #617                // Method a77$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #615                // Field a77:I
+      24: ireturn
+
+  private int a78$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #197                // long 16384l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #620                // Field a78:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #197                // long 16384l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #620                // Field a78:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a78();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #197                // long 16384l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #622                // Method a78$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #620                // Field a78:I
+      24: ireturn
+
+  private int a79$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #548                // Field bitmap$1:J
+       8: ldc2_w        #204                // long 32768l
+      11: land
+      12: lconst_0
+      13: lcmp
+      14: ifne          34
+      17: aload_0
+      18: iconst_1
+      19: putfield      #625                // Field a79:I
+      22: aload_0
+      23: aload_0
+      24: getfield      #548                // Field bitmap$1:J
+      27: ldc2_w        #204                // long 32768l
+      30: lor
+      31: putfield      #548                // Field bitmap$1:J
+      34: aload_1
+      35: monitorexit
+      36: goto          42
+      39: aload_1
+      40: monitorexit
+      41: athrow
+      42: aload_0
+      43: getfield      #625                // Field a79:I
+      46: ireturn
+    Exception table:
+       from    to  target type
+           4    34    39   any
+
+  public int a79();
+    Code:
+       0: aload_0
+       1: getfield      #548                // Field bitmap$1:J
+       4: ldc2_w        #204                // long 32768l
+       7: land
+       8: lconst_0
+       9: lcmp
+      10: ifne          20
+      13: aload_0
+      14: invokespecial #627                // Method a79$lzycompute:()I
+      17: goto          24
+      20: aload_0
+      21: getfield      #625                // Field a79:I
+      24: ireturn
+
+  public ManyLazyVal(int);
+    Code:
+       0: aload_0
+       1: invokespecial #633                // Method java/lang/Object."<init>":()V
+       4: return
+}

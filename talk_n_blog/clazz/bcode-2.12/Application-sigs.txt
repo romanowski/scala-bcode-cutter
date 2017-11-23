@@ -1,0 +1,7 @@
+Compiled from "Clazz.scala"
+public final class Application {
+  public static void main(java.lang.String[]);
+  public static void delayedInit(scala.Function0<scala.runtime.BoxedUnit>);
+  public static void delayedEndpoint$Application$1();
+  public static long executionStart();
+}

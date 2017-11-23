@@ -1,0 +1,26 @@
+Compiled from "Clazz.scala"
+public final class Object$ {
+  public static Object$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class Object$
+       3: invokespecial #12                 // Method "<init>":()V
+       6: return
+
+  public int method();
+    Code:
+       0: bipush        123
+       2: ireturn
+
+  private Object$();
+    Code:
+       0: aload_0
+       1: invokespecial #16                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: putstatic     #18                 // Field MODULE$:LObject$;
+       8: getstatic     #23                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+      11: ldc           #25                 // String Constructor
+      13: invokevirtual #29                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+      16: return
+}

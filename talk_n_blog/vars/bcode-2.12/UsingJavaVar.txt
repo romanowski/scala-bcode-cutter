@@ -1,0 +1,8 @@
+Compiled from "Vars.scala"
+public class UsingJavaVar extends JavaVar {
+  public UsingJavaVar();
+    Code:
+       0: aload_0
+       1: invokespecial #12                 // Method JavaVar."<init>":()V
+       4: return
+}

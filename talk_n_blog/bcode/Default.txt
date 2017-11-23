@@ -1,0 +1,23 @@
+Compiled from "Default.scala"
+public class Default {
+  public java.lang.String withDefault(java.lang.String);
+    Code:
+       0: aload_1
+       1: areturn
+
+  public java.lang.String withDefault$default$1();
+    Code:
+       0: ldc           #18                 // String baz
+       2: areturn
+
+  public java.lang.String withoutDefault(java.lang.String);
+    Code:
+       0: aload_1
+       1: areturn
+
+  public Default();
+    Code:
+       0: aload_0
+       1: invokespecial #23                 // Method java/lang/Object."<init>":()V
+       4: return
+}

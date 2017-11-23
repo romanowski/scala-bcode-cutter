@@ -1,0 +1,8 @@
+Compiled from "Nested.scala"
+public class NestedObject$inner$3$ {
+  public NestedObject$inner$3$(NestedObject);
+    Code:
+       0: aload_0
+       1: invokespecial #17                 // Method java/lang/Object."<init>":()V
+       4: return
+}

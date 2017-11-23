@@ -1,0 +1,25 @@
+Compiled from "Clazz.scala"
+public final class Application$delayedInit$body extends scala.runtime.AbstractFunction0 {
+  private final Application$ $outer;
+
+  public final java.lang.Object apply();
+    Code:
+       0: aload_0
+       1: getfield      #14                 // Field $outer:LApplication$;
+       4: invokevirtual #20                 // Method Application$.delayedEndpoint$Application$1:()V
+       7: getstatic     #26                 // Field scala/runtime/BoxedUnit.UNIT:Lscala/runtime/BoxedUnit;
+      10: areturn
+
+  public Application$delayedInit$body(Application$);
+    Code:
+       0: aload_1
+       1: ifnonnull     6
+       4: aconst_null
+       5: athrow
+       6: aload_0
+       7: aload_1
+       8: putfield      #14                 // Field $outer:LApplication$;
+      11: aload_0
+      12: invokespecial #32                 // Method scala/runtime/AbstractFunction0."<init>":()V
+      15: return
+}

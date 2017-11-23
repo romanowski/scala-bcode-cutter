@@ -1,0 +1,7 @@
+Compiled from "Default.scala"
+public class DefaultInAction {
+  public java.lang.String a1(Default);
+  public java.lang.String a2(Default);
+  public java.lang.String a3(Default);
+  public DefaultInAction();
+}

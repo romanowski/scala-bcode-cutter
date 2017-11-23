@@ -1,5 +1,5 @@
 Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/BasicJava.class
-  Last modified Oct 29, 2017; size 192 bytes
+  Last modified Nov 23, 2017; size 192 bytes
   MD5 checksum 748b757885c3e2c98db08386d11eceba
   Compiled from "BasicJava.java"
 public class BasicJava

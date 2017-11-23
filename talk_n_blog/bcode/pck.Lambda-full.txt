@@ -1,5 +1,5 @@
 Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/Lambda.class
-  Last modified Oct 29, 2017; size 994 bytes
+  Last modified Nov 23, 2017; size 994 bytes
   MD5 checksum 93e95aa92f2c71a710ff3c7ef6406de8
   Compiled from "Default.scala"
 public class pck.Lambda

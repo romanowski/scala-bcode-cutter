@@ -1,0 +1,39 @@
+Compiled from "Vars.scala"
+public class JavaBeanVar {
+  private int javaBeanVar;
+
+  public int javaBeanVar();
+    Code:
+       0: aload_0
+       1: getfield      #13                 // Field javaBeanVar:I
+       4: ireturn
+
+  public void javaBeanVar_$eq(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #13                 // Field javaBeanVar:I
+       5: return
+
+  public int getJavaBeanVar();
+    Code:
+       0: aload_0
+       1: invokevirtual #21                 // Method javaBeanVar:()I
+       4: ireturn
+
+  public void setJavaBeanVar(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: invokevirtual #24                 // Method javaBeanVar_$eq:(I)V
+       5: return
+
+  public JavaBeanVar();
+    Code:
+       0: aload_0
+       1: invokespecial #28                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: sipush        789
+       8: putfield      #13                 // Field javaBeanVar:I
+      11: return
+}

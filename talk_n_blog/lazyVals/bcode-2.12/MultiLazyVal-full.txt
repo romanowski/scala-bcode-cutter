@@ -1,0 +1,272 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/lazyVals/target/scala-2.12/classes/MultiLazyVal.class
+  Last modified Nov 23, 2017; size 1338 bytes
+  MD5 checksum 12969f39ddb672d8f42b40a6623e7a6b
+  Compiled from "LazyVals.scala"
+public class MultiLazyVal
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               MultiLazyVal
+   #2 = Class              #1             // MultiLazyVal
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               LazyVals.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               q1A!\taQ*7uS2'0,bY*\t1!A=K6H/ MA\t)i)1oY1mC&1:L(+4\t5!!Q\n9\t!\t=I!%sGC1#=S:LGO)Y\"!\tAQ!D\tA9A\t%\t!GMZG.F!Y#b\nIB:WC2
+   #9 = Utf8               fVal
+  #10 = Utf8               I
+  #11 = Utf8               sVal
+  #12 = Utf8               a
+  #13 = Utf8               bitmap$0
+  #14 = Utf8               B
+  #15 = Utf8               fVal$lzycompute
+  #16 = Utf8               ()I
+  #17 = NameAndType        #13:#14        // bitmap$0:B
+  #18 = Fieldref           #2.#17         // MultiLazyVal.bitmap$0:B
+  #19 = NameAndType        #12:#10        // a:I
+  #20 = Fieldref           #2.#19         // MultiLazyVal.a:I
+  #21 = NameAndType        #9:#10         // fVal:I
+  #22 = Fieldref           #2.#21         // MultiLazyVal.fVal:I
+  #23 = Utf8               this
+  #24 = Utf8               LMultiLazyVal;
+  #25 = Utf8               java/lang/Throwable
+  #26 = Class              #25            // java/lang/Throwable
+  #27 = NameAndType        #15:#16        // fVal$lzycompute:()I
+  #28 = Methodref          #2.#27         // MultiLazyVal.fVal$lzycompute:()I
+  #29 = Utf8               sVal$lzycompute
+  #30 = NameAndType        #9:#16         // fVal:()I
+  #31 = Methodref          #2.#30         // MultiLazyVal.fVal:()I
+  #32 = NameAndType        #11:#10        // sVal:I
+  #33 = Fieldref           #2.#32         // MultiLazyVal.sVal:I
+  #34 = NameAndType        #29:#16        // sVal$lzycompute:()I
+  #35 = Methodref          #2.#34         // MultiLazyVal.sVal$lzycompute:()I
+  #36 = Utf8               <init>
+  #37 = Utf8               (I)V
+  #38 = Utf8               ()V
+  #39 = NameAndType        #36:#38        // "<init>":()V
+  #40 = Methodref          #4.#39         // java/lang/Object."<init>":()V
+  #41 = Utf8               Code
+  #42 = Utf8               LocalVariableTable
+  #43 = Utf8               LineNumberTable
+  #44 = Utf8               StackMapTable
+  #45 = Utf8               MethodParameters
+  #46 = Utf8               SourceFile
+  #47 = Utf8               RuntimeVisibleAnnotations
+  #48 = Utf8               ScalaInlineInfo
+  #49 = Utf8               ScalaSig
+{
+  private int fVal;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  private int sVal;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  private final int a;
+    descriptor: I
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private volatile byte bitmap$0;
+    descriptor: B
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private int fVal$lzycompute();
+    descriptor: ()I
+    flags: ACC_PRIVATE
+    Code:
+      stack=3, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #18                 // Field bitmap$0:B
+         8: iconst_1
+         9: iand
+        10: i2b
+        11: iconst_0
+        12: if_icmpne     38
+        15: aload_0
+        16: aload_0
+        17: getfield      #20                 // Field a:I
+        20: sipush        345
+        23: iadd
+        24: putfield      #22                 // Field fVal:I
+        27: aload_0
+        28: aload_0
+        29: getfield      #18                 // Field bitmap$0:B
+        32: iconst_1
+        33: ior
+        34: i2b
+        35: putfield      #18                 // Field bitmap$0:B
+        38: aload_1
+        39: monitorexit
+        40: goto          46
+        43: aload_1
+        44: monitorexit
+        45: athrow
+        46: aload_0
+        47: getfield      #22                 // Field fVal:I
+        50: ireturn
+      Exception table:
+         from    to  target type
+             4    38    43   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      51     0  this   LMultiLazyVal;
+      LineNumberTable:
+        line 11: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 38
+          locals = [ class MultiLazyVal ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  public int fVal();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #18                 // Field bitmap$0:B
+         4: iconst_1
+         5: iand
+         6: i2b
+         7: iconst_0
+         8: if_icmpne     18
+        11: aload_0
+        12: invokespecial #28                 // Method fVal$lzycompute:()I
+        15: goto          22
+        18: aload_0
+        19: getfield      #22                 // Field fVal:I
+        22: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      23     0  this   LMultiLazyVal;
+      LineNumberTable:
+        line 11: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 18 /* same */
+        frame_type = 67 /* same_locals_1_stack_item */
+          stack = [ int ]
+
+  private int sVal$lzycompute();
+    descriptor: ()I
+    flags: ACC_PRIVATE
+    Code:
+      stack=3, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #18                 // Field bitmap$0:B
+         8: iconst_2
+         9: iand
+        10: i2b
+        11: iconst_0
+        12: if_icmpne     38
+        15: aload_0
+        16: aload_0
+        17: invokevirtual #31                 // Method fVal:()I
+        20: sipush        567
+        23: iadd
+        24: putfield      #33                 // Field sVal:I
+        27: aload_0
+        28: aload_0
+        29: getfield      #18                 // Field bitmap$0:B
+        32: iconst_2
+        33: ior
+        34: i2b
+        35: putfield      #18                 // Field bitmap$0:B
+        38: aload_1
+        39: monitorexit
+        40: goto          46
+        43: aload_1
+        44: monitorexit
+        45: athrow
+        46: aload_0
+        47: getfield      #33                 // Field sVal:I
+        50: ireturn
+      Exception table:
+         from    to  target type
+             4    38    43   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      51     0  this   LMultiLazyVal;
+      LineNumberTable:
+        line 12: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 38
+          locals = [ class MultiLazyVal ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  public int sVal();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #18                 // Field bitmap$0:B
+         4: iconst_2
+         5: iand
+         6: i2b
+         7: iconst_0
+         8: if_icmpne     18
+        11: aload_0
+        12: invokespecial #35                 // Method sVal$lzycompute:()I
+        15: goto          22
+        18: aload_0
+        19: getfield      #33                 // Field sVal:I
+        22: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      23     0  this   LMultiLazyVal;
+      LineNumberTable:
+        line 12: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 18 /* same */
+        frame_type = 67 /* same_locals_1_stack_item */
+          stack = [ int ]
+
+  public MultiLazyVal(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #20                 // Field a:I
+         5: aload_0
+         6: invokespecial #40                 // Method java/lang/Object."<init>":()V
+         9: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   LMultiLazyVal;
+            0      10     1     a   I
+      LineNumberTable:
+        line 10: 0
+        line 16: 5
+        line 10: 9
+    MethodParameters:
+      Name                           Flags
+      a                              final
+}
+SourceFile: "LazyVals.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x1D
+   01 00 00 05 00 24 00 25 00 00 0F 00 10 01 00 09
+   00 10 00 00 1D 00 10 01 00 0B 00 10 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

@@ -1,5 +1,5 @@
 Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/pck/PrivateThis.class
-  Last modified Oct 29, 2017; size 734 bytes
+  Last modified Nov 23, 2017; size 734 bytes
   MD5 checksum f48db137cbba5ad97066a60622ea177b
   Compiled from "Default.scala"
 public class pck.PrivateThis

@@ -1,0 +1,6 @@
+Compiled from "Clazz.scala"
+public final class Application$delayedInit$body extends scala.runtime.AbstractFunction0 {
+  private final Application$ $outer;
+  public final java.lang.Object apply();
+  public Application$delayedInit$body(Application$);
+}

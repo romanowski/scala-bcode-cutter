@@ -1,5 +1,5 @@
 Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/target/scala-2.10/classes/JavaTests.class
-  Last modified Oct 29, 2017; size 321 bytes
+  Last modified Nov 23, 2017; size 321 bytes
   MD5 checksum c6f748eaf4fdcf4dc463347f237ef809
   Compiled from "BasicJava.java"
 class JavaTests

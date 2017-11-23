@@ -1,0 +1,66 @@
+Compiled from "LazyVals.scala"
+public class SingleLazyVal {
+  private int singleLazyVal;
+
+  private final int a;
+
+  private volatile boolean bitmap$0;
+
+  private int singleLazyVal$lzycompute();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #17                 // Field bitmap$0:Z
+       8: ifne          27
+      11: aload_0
+      12: aload_0
+      13: getfield      #19                 // Field a:I
+      16: bipush        123
+      18: iadd
+      19: putfield      #21                 // Field singleLazyVal:I
+      22: aload_0
+      23: iconst_1
+      24: putfield      #17                 // Field bitmap$0:Z
+      27: aload_1
+      28: monitorexit
+      29: goto          35
+      32: aload_1
+      33: monitorexit
+      34: athrow
+      35: aload_0
+      36: getfield      #21                 // Field singleLazyVal:I
+      39: ireturn
+    Exception table:
+       from    to  target type
+           4    27    32   any
+
+  public int singleLazyVal();
+    Code:
+       0: aload_0
+       1: getfield      #17                 // Field bitmap$0:Z
+       4: ifne          14
+       7: aload_0
+       8: invokespecial #27                 // Method singleLazyVal$lzycompute:()I
+      11: goto          18
+      14: aload_0
+      15: getfield      #21                 // Field singleLazyVal:I
+      18: ireturn
+
+  public int use();
+    Code:
+       0: aload_0
+       1: invokevirtual #30                 // Method singleLazyVal:()I
+       4: ireturn
+
+  public SingleLazyVal(int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #19                 // Field a:I
+       5: aload_0
+       6: invokespecial #35                 // Method java/lang/Object."<init>":()V
+       9: return
+}

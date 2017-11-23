@@ -1,0 +1,106 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/vars/target/scala-2.12/classes/PublicVar.class
+  Last modified Nov 23, 2017; size 880 bytes
+  MD5 checksum 1bd756c183e4e0a8a6a303e93095ae34
+  Compiled from "Vars.scala"
+public class PublicVar
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               PublicVar
+   #2 = Class              #1             // PublicVar
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               Vars.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               2A!\tI+2mS4M9A(Z7qift4A\n\"a!Q!CgG.Y!a!8z%4\"B\tqAj]&$hF!\t!D1AM\t];cY&g+:Q\"aB\nYA!aA%oi\"9a\nI!9vE2L7MV1s?*;AqaG9!A!8ji\"9adFA!a=%c!1Q!\nQ\t!];cY&g+:!
+   #9 = Utf8               publicVar
+  #10 = Utf8               I
+  #11 = Utf8               ()I
+  #12 = NameAndType        #9:#10         // publicVar:I
+  #13 = Fieldref           #2.#12         // PublicVar.publicVar:I
+  #14 = Utf8               this
+  #15 = Utf8               LPublicVar;
+  #16 = Utf8               publicVar_$eq
+  #17 = Utf8               (I)V
+  #18 = Utf8               x$1
+  #19 = Utf8               <init>
+  #20 = Utf8               ()V
+  #21 = NameAndType        #19:#20        // "<init>":()V
+  #22 = Methodref          #4.#21         // java/lang/Object."<init>":()V
+  #23 = Utf8               Code
+  #24 = Utf8               LocalVariableTable
+  #25 = Utf8               LineNumberTable
+  #26 = Utf8               MethodParameters
+  #27 = Utf8               SourceFile
+  #28 = Utf8               RuntimeVisibleAnnotations
+  #29 = Utf8               ScalaInlineInfo
+  #30 = Utf8               ScalaSig
+{
+  private int publicVar;
+    descriptor: I
+    flags: ACC_PRIVATE
+
+  public int publicVar();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #13                 // Field publicVar:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LPublicVar;
+      LineNumberTable:
+        line 7: 0
+
+  public void publicVar_$eq(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #13                 // Field publicVar:I
+         5: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   LPublicVar;
+            0       6     1   x$1   I
+      LineNumberTable:
+        line 7: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public PublicVar();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #22                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: bipush        123
+         7: putfield      #13                 // Field publicVar:I
+        10: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   LPublicVar;
+      LineNumberTable:
+        line 11: 0
+        line 7: 4
+        line 6: 10
+}
+SourceFile: "Vars.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 00 00 03 00 13 00 14 00 00 09 00 0B 00 00 10
+   00 11 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

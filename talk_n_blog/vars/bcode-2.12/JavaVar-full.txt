@@ -1,0 +1,40 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/talk_n_blog/vars/target/scala-2.12/classes/JavaVar.class
+  Last modified Nov 23, 2017; size 210 bytes
+  MD5 checksum dfee0d41be132799a54d63d1d90b9ff6
+  Compiled from "JavaVar.java"
+public abstract class JavaVar
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER, ACC_ABSTRACT
+Constant pool:
+   #1 = Methodref          #3.#12         // java/lang/Object."<init>":()V
+   #2 = Class              #13            // JavaVar
+   #3 = Class              #14            // java/lang/Object
+   #4 = Utf8               javaVar
+   #5 = Utf8               I
+   #6 = Utf8               <init>
+   #7 = Utf8               ()V
+   #8 = Utf8               Code
+   #9 = Utf8               LineNumberTable
+  #10 = Utf8               SourceFile
+  #11 = Utf8               JavaVar.java
+  #12 = NameAndType        #6:#7          // "<init>":()V
+  #13 = Utf8               JavaVar
+  #14 = Utf8               java/lang/Object
+{
+  public int javaVar;
+    descriptor: I
+    flags: ACC_PUBLIC
+
+  public JavaVar();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 4: 0
+}
+SourceFile: "JavaVar.java"
