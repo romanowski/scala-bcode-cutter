@@ -1,0 +1,184 @@
+Compiled from "BasicSkillTrees.scala"
+public final class rpg.basic.Node$ {
+  public static rpg.basic.Node$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/basic/Node$
+       3: invokespecial #12                 // Method "<init>":()V
+       6: return
+
+  public int totalSkill(rpg.basic.Node, rpg.PlayerTraits);
+    Code:
+       0: aload_1
+       1: astore        4
+       3: aload         4
+       5: instanceof    #18                 // class rpg/basic/DexTree
+       8: ifeq          56
+      11: aload         4
+      13: checkcast     #18                 // class rpg/basic/DexTree
+      16: astore        5
+      18: aload         5
+      20: invokevirtual #22                 // Method rpg/basic/DexTree.left:()Lrpg/basic/Node;
+      23: astore        6
+      25: aload         5
+      27: invokevirtual #25                 // Method rpg/basic/DexTree.right:()Lrpg/basic/Node;
+      30: astore        7
+      32: aload_2
+      33: invokevirtual #31                 // Method rpg/PlayerTraits.dexCost:()I
+      36: aload_0
+      37: aload         6
+      39: aload_2
+      40: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+      43: iadd
+      44: aload_0
+      45: aload         7
+      47: aload_2
+      48: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+      51: iadd
+      52: istore_3
+      53: goto          361
+      56: goto          59
+      59: aload         4
+      61: instanceof    #35                 // class rpg/basic/StrTree
+      64: ifeq          112
+      67: aload         4
+      69: checkcast     #35                 // class rpg/basic/StrTree
+      72: astore        8
+      74: aload         8
+      76: invokevirtual #36                 // Method rpg/basic/StrTree.left:()Lrpg/basic/Node;
+      79: astore        9
+      81: aload         8
+      83: invokevirtual #37                 // Method rpg/basic/StrTree.right:()Lrpg/basic/Node;
+      86: astore        10
+      88: aload_2
+      89: invokevirtual #40                 // Method rpg/PlayerTraits.strCost:()I
+      92: aload_0
+      93: aload         9
+      95: aload_2
+      96: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+      99: iadd
+     100: aload_0
+     101: aload         10
+     103: aload_2
+     104: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+     107: iadd
+     108: istore_3
+     109: goto          361
+     112: goto          115
+     115: aload         4
+     117: instanceof    #42                 // class rpg/basic/WisTree
+     120: ifeq          168
+     123: aload         4
+     125: checkcast     #42                 // class rpg/basic/WisTree
+     128: astore        11
+     130: aload         11
+     132: invokevirtual #43                 // Method rpg/basic/WisTree.left:()Lrpg/basic/Node;
+     135: astore        12
+     137: aload         11
+     139: invokevirtual #44                 // Method rpg/basic/WisTree.right:()Lrpg/basic/Node;
+     142: astore        13
+     144: aload_2
+     145: invokevirtual #47                 // Method rpg/PlayerTraits.wisCost:()I
+     148: aload_0
+     149: aload         12
+     151: aload_2
+     152: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+     155: iadd
+     156: aload_0
+     157: aload         13
+     159: aload_2
+     160: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+     163: iadd
+     164: istore_3
+     165: goto          361
+     168: goto          171
+     171: aload         4
+     173: instanceof    #49                 // class rpg/basic/DexStep
+     176: ifeq          209
+     179: aload         4
+     181: checkcast     #49                 // class rpg/basic/DexStep
+     184: astore        14
+     186: aload         14
+     188: invokevirtual #52                 // Method rpg/basic/DexStep.to:()Lrpg/basic/Node;
+     191: astore        15
+     193: aload_2
+     194: invokevirtual #31                 // Method rpg/PlayerTraits.dexCost:()I
+     197: aload_0
+     198: aload         15
+     200: aload_2
+     201: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+     204: iadd
+     205: istore_3
+     206: goto          361
+     209: goto          212
+     212: aload         4
+     214: instanceof    #54                 // class rpg/basic/StrStep
+     217: ifeq          250
+     220: aload         4
+     222: checkcast     #54                 // class rpg/basic/StrStep
+     225: astore        16
+     227: aload         16
+     229: invokevirtual #55                 // Method rpg/basic/StrStep.to:()Lrpg/basic/Node;
+     232: astore        17
+     234: aload_2
+     235: invokevirtual #40                 // Method rpg/PlayerTraits.strCost:()I
+     238: aload_0
+     239: aload         17
+     241: aload_2
+     242: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+     245: iadd
+     246: istore_3
+     247: goto          361
+     250: goto          253
+     253: aload         4
+     255: instanceof    #57                 // class rpg/basic/WisStep
+     258: ifeq          291
+     261: aload         4
+     263: checkcast     #57                 // class rpg/basic/WisStep
+     266: astore        18
+     268: aload         18
+     270: invokevirtual #58                 // Method rpg/basic/WisStep.to:()Lrpg/basic/Node;
+     273: astore        19
+     275: aload_2
+     276: invokevirtual #47                 // Method rpg/PlayerTraits.wisCost:()I
+     279: aload_0
+     280: aload         19
+     282: aload_2
+     283: invokevirtual #33                 // Method totalSkill:(Lrpg/basic/Node;Lrpg/PlayerTraits;)I
+     286: iadd
+     287: istore_3
+     288: goto          361
+     291: goto          294
+     294: aload         4
+     296: instanceof    #60                 // class rpg/basic/DexSkill
+     299: ifeq          310
+     302: aload_2
+     303: invokevirtual #31                 // Method rpg/PlayerTraits.dexCost:()I
+     306: istore_3
+     307: goto          361
+     310: goto          313
+     313: aload         4
+     315: instanceof    #62                 // class rpg/basic/StrSkill
+     318: ifeq          329
+     321: aload_2
+     322: invokevirtual #40                 // Method rpg/PlayerTraits.strCost:()I
+     325: istore_3
+     326: goto          361
+     329: goto          332
+     332: aload         4
+     334: instanceof    #64                 // class rpg/basic/WisSkill
+     337: ifeq          348
+     340: aload_2
+     341: invokevirtual #47                 // Method rpg/PlayerTraits.wisCost:()I
+     344: istore_3
+     345: goto          361
+     348: goto          351
+     351: new           #66                 // class scala/MatchError
+     354: dup
+     355: aload         4
+     357: invokespecial #69                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+     360: athrow
+     361: iload_3
+     362: ireturn
+}
