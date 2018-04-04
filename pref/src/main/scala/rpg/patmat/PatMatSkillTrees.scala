@@ -44,32 +44,66 @@ object Node {
     case WisSkill(_) =>
       traits.wisCost
   }
+
+  def slowTotalSkill(node: Node, traits: PlayerTraits): Int = node match {
+
+    case StrSkill(_) =>
+      traits.strCost
+    case WisSkill(_) =>
+      traits.wisCost
+    case DexSkill(_) =>
+      traits.dexCost
+
+    case StrStep(next) =>
+      traits.strCost + totalSkill(next, traits)
+    case WisStep(next) =>
+      traits.wisCost + totalSkill(next, traits)
+    case DexStep(next) =>
+      traits.dexCost + totalSkill(next, traits)
+
+    case StrTree(left, right) =>
+      traits.strCost + totalSkill(left, traits) + totalSkill(right, traits)
+    case WisTree(left, right) =>
+      traits.wisCost + totalSkill(left, traits) + totalSkill(right, traits)
+    case DexTree(left, right) =>
+      traits.dexCost + totalSkill(left, traits) + totalSkill(right, traits)
+
+
+
+  }
 }
 
-
-class BasicSkillTrees extends SkillTrees {
-
-
+trait TreeProvider {
   /**
     * Dex --> Dex -> Wis --> Wis("aimed")
     * \                   \-> Dex("rapid")
     * \-> Str --> Str("power")
     * \-> Str -> Dex("double")
     */
-  override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
-    val tree = DexTree(
-      DexStep(WisTree(
-        WisSkill("aimed"),
-        WisStep(DexSkill("rapid"))
-      )),
-      StrTree(
-        StrSkill("power"),
-        StrStep(DexSkill("double"))
-      )
+  def mkTree = DexTree(
+    DexStep(WisTree(
+      WisSkill("aimed"),
+      WisStep(DexSkill("rapid"))
+    )),
+    StrTree(
+      StrSkill("power"),
+      StrStep(DexSkill("double"))
     )
-    new SkillTreeRepr(tree) {
+  )
+}
+
+class PatMatSkillTrees extends SkillTrees with TreeProvider {
+  override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    new SkillTreeRepr(mkTree) {
       override def totalCost(): Int = Node.totalSkill(tree, traits)
     }
+  }
+}
 
+class SlowPathMatSkillTrees extends SkillTrees with TreeProvider {
+  override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    new SkillTreeRepr(mkTree) {
+      override def totalCost(): Int = Node.slowTotalSkill(tree, traits)
+    }
   }
 }

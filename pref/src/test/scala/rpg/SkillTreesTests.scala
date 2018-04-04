@@ -4,8 +4,8 @@ import org.scalatest._
 import rpg.bench.BenchmarkState
 import rpg.bench.Benchmarks
 import rpg.cake2.Cake2SkillTrees
-import rpg.patmat.BasicSkillTrees
 import rpg.cake.CakeSkillTrees
+import rpg.patmat.PatMatSkillTrees
 import rpg.typeclass.naive.TypeclassSkillTrees
 
 class SkillTreesTests extends FlatSpec with Matchers {
@@ -23,7 +23,7 @@ class SkillTreesTests extends FlatSpec with Matchers {
   }
 
   "Typeclass skill tress" should "be computed correctly" in  testTress(new TypeclassSkillTrees)
-  "Basic skill tress" should "be computed correctly" in  testTress(new BasicSkillTrees)
+  "Basic skill tress" should "be computed correctly" in  testTress(new PatMatSkillTrees)
   "Cake skill tress" should "be computed correctly" in  testTress(new CakeSkillTrees)
   "Cake2 skill tress" should "be computed correctly" in  testTress(new Cake2SkillTrees)
 
@@ -34,8 +34,10 @@ class SkillTreesTests extends FlatSpec with Matchers {
       method(state) shouldBe 1000
     }
 
-    val bench = new Benchmarks
-    test(bench.basic)
+    val bench = new Benchmarks {}
+    test(bench.patMat)
+    test(bench.slowPatMat)
+    test(bench.steppedPatMat)
     test(bench.cake)
     test(bench.cake2)
     test(bench.ooo)

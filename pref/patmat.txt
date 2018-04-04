@@ -1,0 +1,65 @@
+# JMH version: 1.20
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: rpg.bench.Benchmarks.basic
+
+# Run progress: 0.00% complete, ETA 00:14:12
+# Fork: 1 of 10
+# Warmup Iteration   1: 25224098.696 ops/s
+# Warmup Iteration   2: 23707402.033 ops/s
+# Warmup Iteration   3: 22571336.105 ops/s
+# Warmup Iteration   4: 23959031.576 ops/s
+# Warmup Iteration   5: 24000919.289 ops/s
+# Warmup Iteration   6: 24041870.494 ops/s
+# Warmup Iteration   7: 24682259.431 ops/s
+# Warmup Iteration   8: 24699382.303 ops/s
+# Warmup Iteration   9: 24583629.960 ops/s
+# Warmup Iteration  10: 24572732.588 ops/s
+# Warmup Iteration  11: 24652718.169 ops/s
+# Warmup Iteration  12: 24796923.096 ops/s
+# Warmup Iteration  13: 24607156.750 ops/s
+# Warmup Iteration  14: 24366213.153 ops/s
+# Warmup Iteration  15: 24431430.222 ops/s
+# Warmup Iteration  16: 24778487.560 ops/s
+# Warmup Iteration  17: 24503607.353 ops/s
+# Warmup Iteration  18: 24769804.357 ops/s
+# Warmup Iteration  19: 24813896.858 ops/s
+# Warmup Iteration  20: 24759051.767 ops/s
+Iteration   1: 24565811.851 ops/s
+Iteration   2: 24441720.449 ops/s
+Iteration   3: 24409960.050 ops/s
+Iteration   4: 24595982.808 ops/s
+Iteration   5: 24542736.576 ops/s
+Iteration   6: 24295185.737 ops/s
+Iteration   7: 24168298.533 ops/s
+Iteration   8: 24304130.209 ops/s
+Iteration   9: 24369284.400 ops/s
+Iteration  10: 24766758.477 ops/s
+Iteration  11: 24824767.829 ops/s
+Iteration  12: 24688452.595 ops/s
+Iteration  13: 24657569.303 ops/s
+Iteration  14: 24602689.990 ops/s
+Iteration  15: 24802594.348 ops/s
+Iteration  16: 24370385.292 ops/s
+Iteration  17: 23811845.940 ops/s
+Iteration  18: 24753634.357 ops/s
+Iteration  19: 24378454.816 ops/s
+Iteration  20: 24734964.568 ops/s
+
+# Run progress: 4.69% complete, ETA 00:13:37
+# Fork: 2 of 10
+# Warmup Iteration   1: 25286569.442 ops/s
+# Warmup Iteration   2: 26002026.493 ops/s
+# Warmup Iteration   3: 24857557.691 ops/s
+# Warmup Iteration   4: 24994457.604 ops/s
+# Warmup Iteration   5: 24866800.459 ops/s
+# Warmup Iteration   6: 24644942.447 ops/s
+# Warmup Iteration   7: 24165288.456 ops/s
+# Warmup Iteration   8: 24501355.861 ops/s
+# Warmup Iteration   9: 

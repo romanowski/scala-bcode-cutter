@@ -1,0 +1,1590 @@
+# JMH version: 1.20
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 30 iterations, 200 us each
+# Measurement: 10 iterations, 200 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: rpg.bench.SemiHotBenchmark.basic
+
+# Run progress: 0.00% complete, ETA 00:00:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 194.048 us/op
+# Warmup Iteration   2: 3.031 ±(99.9%) 2.745 us/op
+# Warmup Iteration   3: 5.094 ±(99.9%) 6.103 us/op
+# Warmup Iteration   4: 3.276 ±(99.9%) 12.150 us/op
+# Warmup Iteration   5: 0.870 ±(99.9%) 0.982 us/op
+# Warmup Iteration   6: 0.947 ±(99.9%) 1.190 us/op
+# Warmup Iteration   7: 0.830 ±(99.9%) 1.276 us/op
+# Warmup Iteration   8: 0.996 ±(99.9%) 1.715 us/op
+# Warmup Iteration   9: 0.794 ±(99.9%) 1.427 us/op
+# Warmup Iteration  10: 0.744 ±(99.9%) 1.045 us/op
+# Warmup Iteration  11: 1.215 ±(99.9%) 3.515 us/op
+# Warmup Iteration  12: 0.454 ±(99.9%) 0.505 us/op
+# Warmup Iteration  13: 0.395 ±(99.9%) 0.348 us/op
+# Warmup Iteration  14: 0.422 ±(99.9%) 0.394 us/op
+# Warmup Iteration  15: 2.198 ±(99.9%) 7.936 us/op
+# Warmup Iteration  16: 0.248 ±(99.9%) 0.378 us/op
+# Warmup Iteration  17: 0.188 ±(99.9%) 0.181 us/op
+# Warmup Iteration  18: 0.182 ±(99.9%) 0.155 us/op
+# Warmup Iteration  19: 1.202 ±(99.9%) 3.589 us/op
+# Warmup Iteration  20: 0.538 ±(99.9%) 1.612 us/op
+# Warmup Iteration  21: 0.190 ±(99.9%) 0.160 us/op
+# Warmup Iteration  22: 0.201 ±(99.9%) 0.249 us/op
+# Warmup Iteration  23: 0.185 ±(99.9%) 0.147 us/op
+# Warmup Iteration  24: 0.196 ±(99.9%) 0.154 us/op
+# Warmup Iteration  25: 0.183 ±(99.9%) 0.147 us/op
+# Warmup Iteration  26: 0.181 ±(99.9%) 0.123 us/op
+# Warmup Iteration  27: 0.186 ±(99.9%) 0.177 us/op
+# Warmup Iteration  28: 0.189 ±(99.9%) 0.160 us/op
+# Warmup Iteration  29: 0.176 ±(99.9%) 0.115 us/op
+# Warmup Iteration  30: 0.192 ±(99.9%) 0.147 us/op
+Iteration   1: 0.193 ±(99.9%) 0.152 us/op
+                 basic·p0.00:   0.108 us/op
+                 basic·p0.50:   0.124 us/op
+                 basic·p0.90:   0.388 us/op
+                 basic·p0.95:   0.787 us/op
+                 basic·p0.99:   0.787 us/op
+                 basic·p0.999:  0.787 us/op
+                 basic·p0.9999: 0.787 us/op
+                 basic·p1.00:   0.787 us/op
+
+Iteration   2: 0.192 ±(99.9%) 0.203 us/op
+                 basic·p0.00:   0.078 us/op
+                 basic·p0.50:   0.110 us/op
+                 basic·p0.90:   0.385 us/op
+                 basic·p0.95:   1.020 us/op
+                 basic·p0.99:   1.020 us/op
+                 basic·p0.999:  1.020 us/op
+                 basic·p0.9999: 1.020 us/op
+                 basic·p1.00:   1.020 us/op
+
+Iteration   3: 0.194 ±(99.9%) 0.211 us/op
+                 basic·p0.00:   0.091 us/op
+                 basic·p0.50:   0.121 us/op
+                 basic·p0.90:   0.540 us/op
+                 basic·p0.95:   0.821 us/op
+                 basic·p0.99:   0.821 us/op
+                 basic·p0.999:  0.821 us/op
+                 basic·p0.9999: 0.821 us/op
+                 basic·p1.00:   0.821 us/op
+
+Iteration   4: 0.178 ±(99.9%) 0.146 us/op
+                 basic·p0.00:   0.078 us/op
+                 basic·p0.50:   0.125 us/op
+                 basic·p0.90:   0.393 us/op
+                 basic·p0.95:   0.659 us/op
+                 basic·p0.99:   0.659 us/op
+                 basic·p0.999:  0.659 us/op
+                 basic·p0.9999: 0.659 us/op
+                 basic·p1.00:   0.659 us/op
+
+Iteration   5: 0.176 ±(99.9%) 0.193 us/op
+                 basic·p0.00:   0.073 us/op
+                 basic·p0.50:   0.110 us/op
+                 basic·p0.90:   0.505 us/op
+                 basic·p0.95:   0.730 us/op
+                 basic·p0.99:   0.730 us/op
+                 basic·p0.999:  0.730 us/op
+                 basic·p0.9999: 0.730 us/op
+                 basic·p1.00:   0.730 us/op
+
+Iteration   6: 0.962 ±(99.9%) 4.029 us/op
+                 basic·p0.00:   0.065 us/op
+                 basic·p0.50:   0.072 us/op
+                 basic·p0.90:   7.827 us/op
+                 basic·p0.95:   9.744 us/op
+                 basic·p0.99:   9.744 us/op
+                 basic·p0.999:  9.744 us/op
+                 basic·p0.9999: 9.744 us/op
+                 basic·p1.00:   9.744 us/op
+
+Iteration   7: 0.121 ±(99.9%) 0.129 us/op
+                 basic·p0.00:   0.066 us/op
+                 basic·p0.50:   0.078 us/op
+                 basic·p0.90:   0.225 us/op
+                 basic·p0.95:   0.626 us/op
+                 basic·p0.99:   0.626 us/op
+                 basic·p0.999:  0.626 us/op
+                 basic·p0.9999: 0.626 us/op
+                 basic·p1.00:   0.626 us/op
+
+Iteration   8: 0.115 ±(99.9%) 0.100 us/op
+                 basic·p0.00:   0.065 us/op
+                 basic·p0.50:   0.090 us/op
+                 basic·p0.90:   0.278 us/op
+                 basic·p0.95:   0.408 us/op
+                 basic·p0.99:   0.408 us/op
+                 basic·p0.999:  0.408 us/op
+                 basic·p0.9999: 0.408 us/op
+                 basic·p1.00:   0.408 us/op
+
+Iteration   9: 0.106 ±(99.9%) 0.076 us/op
+                 basic·p0.00:   0.065 us/op
+                 basic·p0.50:   0.103 us/op
+                 basic·p0.90:   0.231 us/op
+                 basic·p0.95:   0.305 us/op
+                 basic·p0.99:   0.305 us/op
+                 basic·p0.999:  0.305 us/op
+                 basic·p0.9999: 0.305 us/op
+                 basic·p1.00:   0.305 us/op
+
+Iteration  10: 0.105 ±(99.9%) 0.078 us/op
+                 basic·p0.00:   0.064 us/op
+                 basic·p0.50:   0.078 us/op
+                 basic·p0.90:   0.214 us/op
+                 basic·p0.95:   0.356 us/op
+                 basic·p0.99:   0.356 us/op
+                 basic·p0.999:  0.356 us/op
+                 basic·p0.9999: 0.356 us/op
+                 basic·p1.00:   0.356 us/op
+
+
+# Run progress: 10.00% complete, ETA 00:00:03
+# Fork: 2 of 2
+# Warmup Iteration   1: 188.928 us/op
+# Warmup Iteration   2: 2.787 ±(99.9%) 2.327 us/op
+# Warmup Iteration   3: 5.491 ±(99.9%) 24.883 us/op
+# Warmup Iteration   4: 1.237 ±(99.9%) 1.332 us/op
+# Warmup Iteration   5: 1.130 ±(99.9%) 1.161 us/op
+# Warmup Iteration   6: 1.162 ±(99.9%) 1.146 us/op
+# Warmup Iteration   7: 1.144 ±(99.9%) 0.941 us/op
+# Warmup Iteration   8: 0.822 ±(99.9%) 0.539 us/op
+# Warmup Iteration   9: 1.048 ±(99.9%) 2.884 us/op
+# Warmup Iteration  10: 0.586 ±(99.9%) 0.386 us/op
+# Warmup Iteration  11: 1.989 ±(99.9%) 6.307 us/op
+# Warmup Iteration  12: 0.590 ±(99.9%) 0.347 us/op
+# Warmup Iteration  13: 1.909 ±(99.9%) 6.719 us/op
+# Warmup Iteration  14: 0.237 ±(99.9%) 0.421 us/op
+# Warmup Iteration  15: 0.365 ±(99.9%) 0.739 us/op
+# Warmup Iteration  16: 0.284 ±(99.9%) 0.236 us/op
+# Warmup Iteration  17: 0.917 ±(99.9%) 3.267 us/op
+# Warmup Iteration  18: 0.127 ±(99.9%) 0.074 us/op
+# Warmup Iteration  19: 0.130 ±(99.9%) 0.105 us/op
+# Warmup Iteration  20: 0.139 ±(99.9%) 0.098 us/op
+# Warmup Iteration  21: 0.111 ±(99.9%) 0.148 us/op
+# Warmup Iteration  22: 0.084 ±(99.9%) 0.040 us/op
+# Warmup Iteration  23: 0.074 ±(99.9%) 0.019 us/op
+# Warmup Iteration  24: 0.101 ±(99.9%) 0.102 us/op
+# Warmup Iteration  25: 0.087 ±(99.9%) 0.039 us/op
+# Warmup Iteration  26: 0.136 ±(99.9%) 0.065 us/op
+# Warmup Iteration  27: 0.117 ±(99.9%) 0.074 us/op
+# Warmup Iteration  28: 0.124 ±(99.9%) 0.073 us/op
+# Warmup Iteration  29: 0.132 ±(99.9%) 0.124 us/op
+# Warmup Iteration  30: 0.137 ±(99.9%) 0.124 us/op
+Iteration   1: 0.108 ±(99.9%) 0.082 us/op
+                 basic·p0.00:   0.063 us/op
+                 basic·p0.50:   0.073 us/op
+                 basic·p0.90:   0.237 us/op
+                 basic·p0.95:   0.361 us/op
+                 basic·p0.99:   0.361 us/op
+                 basic·p0.999:  0.361 us/op
+                 basic·p0.9999: 0.361 us/op
+                 basic·p1.00:   0.361 us/op
+
+Iteration   2: 0.198 ±(99.9%) 0.194 us/op
+                 basic·p0.00:   0.089 us/op
+                 basic·p0.50:   0.135 us/op
+                 basic·p0.90:   0.355 us/op
+                 basic·p0.95:   1.008 us/op
+                 basic·p0.99:   1.008 us/op
+                 basic·p0.999:  1.008 us/op
+                 basic·p0.9999: 1.008 us/op
+                 basic·p1.00:   1.008 us/op
+
+Iteration   3: 0.095 ±(99.9%) 0.085 us/op
+                 basic·p0.00:   0.064 us/op
+                 basic·p0.50:   0.074 us/op
+                 basic·p0.90:   0.234 us/op
+                 basic·p0.95:   0.330 us/op
+                 basic·p0.99:   0.330 us/op
+                 basic·p0.999:  0.330 us/op
+                 basic·p0.9999: 0.330 us/op
+                 basic·p1.00:   0.330 us/op
+
+Iteration   4: 0.080 ±(99.9%) 0.040 us/op
+                 basic·p0.00:   0.063 us/op
+                 basic·p0.50:   0.071 us/op
+                 basic·p0.90:   0.149 us/op
+                 basic·p0.95:   0.176 us/op
+                 basic·p0.99:   0.176 us/op
+                 basic·p0.999:  0.176 us/op
+                 basic·p0.9999: 0.176 us/op
+                 basic·p1.00:   0.176 us/op
+
+Iteration   5: 0.133 ±(99.9%) 0.079 us/op
+                 basic·p0.00:   0.090 us/op
+                 basic·p0.50:   0.117 us/op
+                 basic·p0.90:   0.262 us/op
+                 basic·p0.95:   0.352 us/op
+                 basic·p0.99:   0.352 us/op
+                 basic·p0.999:  0.352 us/op
+                 basic·p0.9999: 0.352 us/op
+                 basic·p1.00:   0.352 us/op
+
+Iteration   6: 0.115 ±(99.9%) 0.060 us/op
+                 basic·p0.00:   0.073 us/op
+                 basic·p0.50:   0.106 us/op
+                 basic·p0.90:   0.170 us/op
+                 basic·p0.95:   0.347 us/op
+                 basic·p0.99:   0.347 us/op
+                 basic·p0.999:  0.347 us/op
+                 basic·p0.9999: 0.347 us/op
+                 basic·p1.00:   0.347 us/op
+
+Iteration   7: 0.126 ±(99.9%) 0.051 us/op
+                 basic·p0.00:   0.099 us/op
+                 basic·p0.50:   0.115 us/op
+                 basic·p0.90:   0.198 us/op
+                 basic·p0.95:   0.296 us/op
+                 basic·p0.99:   0.296 us/op
+                 basic·p0.999:  0.296 us/op
+                 basic·p0.9999: 0.296 us/op
+                 basic·p1.00:   0.296 us/op
+
+Iteration   8: 0.113 ±(99.9%) 0.066 us/op
+                 basic·p0.00:   0.073 us/op
+                 basic·p0.50:   0.097 us/op
+                 basic·p0.90:   0.155 us/op
+                 basic·p0.95:   0.392 us/op
+                 basic·p0.99:   0.392 us/op
+                 basic·p0.999:  0.392 us/op
+                 basic·p0.9999: 0.392 us/op
+                 basic·p1.00:   0.392 us/op
+
+Iteration   9: 0.122 ±(99.9%) 0.070 us/op
+                 basic·p0.00:   0.076 us/op
+                 basic·p0.50:   0.105 us/op
+                 basic·p0.90:   0.128 us/op
+                 basic·p0.95:   0.440 us/op
+                 basic·p0.99:   0.456 us/op
+                 basic·p0.999:  0.456 us/op
+                 basic·p0.9999: 0.456 us/op
+                 basic·p1.00:   0.456 us/op
+
+Iteration  10: 0.134 ±(99.9%) 0.064 us/op
+                 basic·p0.00:   0.102 us/op
+                 basic·p0.50:   0.120 us/op
+                 basic·p0.90:   0.208 us/op
+                 basic·p0.95:   0.365 us/op
+                 basic·p0.99:   0.365 us/op
+                 basic·p0.999:  0.365 us/op
+                 basic·p0.9999: 0.365 us/op
+                 basic·p1.00:   0.365 us/op
+
+
+
+Result "rpg.bench.SemiHotBenchmark.basic":
+  N = 307
+  mean =      0.168 ±(99.9%) 0.107 us/op
+
+  Histogram, us/op:
+    [ 0.000,  1.000) = 304 
+    [ 1.000,  2.000) = 2 
+    [ 2.000,  3.000) = 0 
+    [ 3.000,  4.000) = 0 
+    [ 4.000,  5.000) = 0 
+    [ 5.000,  6.000) = 0 
+    [ 6.000,  7.000) = 0 
+    [ 7.000,  8.000) = 0 
+    [ 8.000,  9.000) = 0 
+
+  Percentiles, us/op:
+      p(0.0000) =      0.063 us/op
+     p(50.0000) =      0.109 us/op
+     p(90.0000) =      0.210 us/op
+     p(95.0000) =      0.350 us/op
+     p(99.0000) =      0.993 us/op
+     p(99.9000) =      9.744 us/op
+     p(99.9900) =      9.744 us/op
+     p(99.9990) =      9.744 us/op
+     p(99.9999) =      9.744 us/op
+    p(100.0000) =      9.744 us/op
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 30 iterations, 200 us each
+# Measurement: 10 iterations, 200 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: rpg.bench.SemiHotBenchmark.cake
+
+# Run progress: 20.00% complete, ETA 00:00:02
+# Fork: 1 of 2
+# Warmup Iteration   1: 47.488 us/op
+# Warmup Iteration   2: 5.793 ±(99.9%) 5.071 us/op
+# Warmup Iteration   3: 7.115 ±(99.9%) 8.618 us/op
+# Warmup Iteration   4: 6.636 ±(99.9%) 9.701 us/op
+# Warmup Iteration   5: 4.538 ±(99.9%) 5.933 us/op
+# Warmup Iteration   6: 8.270 ±(99.9%) 39.789 us/op
+# Warmup Iteration   7: 1.309 ±(99.9%) 1.765 us/op
+# Warmup Iteration   8: 1.459 ±(99.9%) 2.211 us/op
+# Warmup Iteration   9: 1.410 ±(99.9%) 2.785 us/op
+# Warmup Iteration  10: 1.135 ±(99.9%) 1.351 us/op
+# Warmup Iteration  11: 1.055 ±(99.9%) 1.020 us/op
+# Warmup Iteration  12: 1.011 ±(99.9%) 0.897 us/op
+# Warmup Iteration  13: 1.073 ±(99.9%) 0.854 us/op
+# Warmup Iteration  14: 14.532 ±(99.9%) 50.639 us/op
+# Warmup Iteration  15: 0.577 ±(99.9%) 0.424 us/op
+# Warmup Iteration  16: 0.221 ±(99.9%) 0.360 us/op
+# Warmup Iteration  17: 1.083 ±(99.9%) 4.111 us/op
+# Warmup Iteration  18: 0.133 ±(99.9%) 0.116 us/op
+# Warmup Iteration  19: 0.149 ±(99.9%) 0.180 us/op
+# Warmup Iteration  20: 0.133 ±(99.9%) 0.137 us/op
+# Warmup Iteration  21: 0.118 ±(99.9%) 0.096 us/op
+# Warmup Iteration  22: 0.131 ±(99.9%) 0.113 us/op
+# Warmup Iteration  23: 0.120 ±(99.9%) 0.089 us/op
+# Warmup Iteration  24: 0.122 ±(99.9%) 0.105 us/op
+# Warmup Iteration  25: 0.143 ±(99.9%) 0.092 us/op
+# Warmup Iteration  26: 0.215 ±(99.9%) 0.198 us/op
+# Warmup Iteration  27: 0.151 ±(99.9%) 0.208 us/op
+# Warmup Iteration  28: 0.126 ±(99.9%) 0.115 us/op
+# Warmup Iteration  29: 0.123 ±(99.9%) 0.088 us/op
+# Warmup Iteration  30: 0.128 ±(99.9%) 0.113 us/op
+Iteration   1: 0.134 ±(99.9%) 0.151 us/op
+                 cake·p0.00:   0.061 us/op
+                 cake·p0.50:   0.109 us/op
+                 cake·p0.90:   0.363 us/op
+                 cake·p0.95:   0.590 us/op
+                 cake·p0.99:   0.590 us/op
+                 cake·p0.999:  0.590 us/op
+                 cake·p0.9999: 0.590 us/op
+                 cake·p1.00:   0.590 us/op
+
+Iteration   2: 0.132 ±(99.9%) 0.078 us/op
+                 cake·p0.00:   0.069 us/op
+                 cake·p0.50:   0.112 us/op
+                 cake·p0.90:   0.236 us/op
+                 cake·p0.95:   0.441 us/op
+                 cake·p0.99:   0.441 us/op
+                 cake·p0.999:  0.441 us/op
+                 cake·p0.9999: 0.441 us/op
+                 cake·p1.00:   0.441 us/op
+
+Iteration   3: 0.229 ±(99.9%) 0.212 us/op
+                 cake·p0.00:   0.102 us/op
+                 cake·p0.50:   0.192 us/op
+                 cake·p0.90:   0.389 us/op
+                 cake·p0.95:   1.116 us/op
+                 cake·p0.99:   1.116 us/op
+                 cake·p0.999:  1.116 us/op
+                 cake·p0.9999: 1.116 us/op
+                 cake·p1.00:   1.116 us/op
+
+Iteration   4: 0.218 ±(99.9%) 0.165 us/op
+                 cake·p0.00:   0.103 us/op
+                 cake·p0.50:   0.202 us/op
+                 cake·p0.90:   0.360 us/op
+                 cake·p0.95:   0.849 us/op
+                 cake·p0.99:   0.849 us/op
+                 cake·p0.999:  0.849 us/op
+                 cake·p0.9999: 0.849 us/op
+                 cake·p1.00:   0.849 us/op
+
+Iteration   5: 0.212 ±(99.9%) 0.141 us/op
+                 cake·p0.00:   0.094 us/op
+                 cake·p0.50:   0.203 us/op
+                 cake·p0.90:   0.276 us/op
+                 cake·p0.95:   0.792 us/op
+                 cake·p0.99:   0.792 us/op
+                 cake·p0.999:  0.792 us/op
+                 cake·p0.9999: 0.792 us/op
+                 cake·p1.00:   0.792 us/op
+
+Iteration   6: 0.137 ±(99.9%) 0.187 us/op
+                 cake·p0.00:   0.070 us/op
+                 cake·p0.50:   0.109 us/op
+                 cake·p0.90:   0.455 us/op
+                 cake·p0.95:   0.597 us/op
+                 cake·p0.99:   0.597 us/op
+                 cake·p0.999:  0.597 us/op
+                 cake·p0.9999: 0.597 us/op
+                 cake·p1.00:   0.597 us/op
+
+Iteration   7: 0.191 ±(99.9%) 0.144 us/op
+                 cake·p0.00:   0.074 us/op
+                 cake·p0.50:   0.165 us/op
+                 cake·p0.90:   0.237 us/op
+                 cake·p0.95:   0.855 us/op
+                 cake·p0.99:   0.962 us/op
+                 cake·p0.999:  0.962 us/op
+                 cake·p0.9999: 0.962 us/op
+                 cake·p1.00:   0.962 us/op
+
+Iteration   8: 0.225 ±(99.9%) 0.224 us/op
+                 cake·p0.00:   0.083 us/op
+                 cake·p0.50:   0.175 us/op
+                 cake·p0.90:   0.248 us/op
+                 cake·p0.95:   1.255 us/op
+                 cake·p0.99:   1.308 us/op
+                 cake·p0.999:  1.308 us/op
+                 cake·p0.9999: 1.308 us/op
+                 cake·p1.00:   1.308 us/op
+
+Iteration   9: 0.229 ±(99.9%) 0.196 us/op
+                 cake·p0.00:   0.085 us/op
+                 cake·p0.50:   0.201 us/op
+                 cake·p0.90:   0.360 us/op
+                 cake·p0.95:   1.046 us/op
+                 cake·p0.99:   1.046 us/op
+                 cake·p0.999:  1.046 us/op
+                 cake·p0.9999: 1.046 us/op
+                 cake·p1.00:   1.046 us/op
+
+Iteration  10: 0.183 ±(99.9%) 0.140 us/op
+                 cake·p0.00:   0.101 us/op
+                 cake·p0.50:   0.153 us/op
+                 cake·p0.90:   0.209 us/op
+                 cake·p0.95:   0.816 us/op
+                 cake·p0.99:   0.848 us/op
+                 cake·p0.999:  0.848 us/op
+                 cake·p0.9999: 0.848 us/op
+                 cake·p1.00:   0.848 us/op
+
+
+# Run progress: 30.00% complete, ETA 00:00:02
+# Fork: 2 of 2
+# Warmup Iteration   1: 48.064 us/op
+# Warmup Iteration   2: 6.853 ±(99.9%) 9.049 us/op
+# Warmup Iteration   3: 4.543 ±(99.9%) 3.194 us/op
+# Warmup Iteration   4: 3.651 ±(99.9%) 2.113 us/op
+# Warmup Iteration   5: 5.523 ±(99.9%) 20.351 us/op
+# Warmup Iteration   6: 0.807 ±(99.9%) 0.828 us/op
+# Warmup Iteration   7: 0.732 ±(99.9%) 0.809 us/op
+# Warmup Iteration   8: 0.649 ±(99.9%) 0.594 us/op
+# Warmup Iteration   9: 10.210 ±(99.9%) 33.052 us/op
+# Warmup Iteration  10: 0.783 ±(99.9%) 0.862 us/op
+# Warmup Iteration  11: 0.710 ±(99.9%) 0.406 us/op
+# Warmup Iteration  12: 12.878 ±(99.9%) 58.596 us/op
+# Warmup Iteration  13: 0.285 ±(99.9%) 0.307 us/op
+# Warmup Iteration  14: 0.300 ±(99.9%) 0.318 us/op
+# Warmup Iteration  15: 0.289 ±(99.9%) 0.235 us/op
+# Warmup Iteration  16: 0.318 ±(99.9%) 0.390 us/op
+# Warmup Iteration  17: 0.283 ±(99.9%) 0.193 us/op
+# Warmup Iteration  18: 0.232 ±(99.9%) 0.294 us/op
+# Warmup Iteration  19: 0.184 ±(99.9%) 0.153 us/op
+# Warmup Iteration  20: 0.275 ±(99.9%) 0.412 us/op
+# Warmup Iteration  21: 0.261 ±(99.9%) 0.149 us/op
+# Warmup Iteration  22: 0.283 ±(99.9%) 0.184 us/op
+# Warmup Iteration  23: 0.292 ±(99.9%) 0.202 us/op
+# Warmup Iteration  24: 0.257 ±(99.9%) 0.153 us/op
+# Warmup Iteration  25: 0.248 ±(99.9%) 0.147 us/op
+# Warmup Iteration  26: 0.271 ±(99.9%) 0.185 us/op
+# Warmup Iteration  27: 0.638 ±(99.9%) 1.730 us/op
+# Warmup Iteration  28: 0.246 ±(99.9%) 0.171 us/op
+# Warmup Iteration  29: 0.190 ±(99.9%) 0.128 us/op
+# Warmup Iteration  30: 0.159 ±(99.9%) 0.105 us/op
+Iteration   1: 0.245 ±(99.9%) 0.241 us/op
+                 cake·p0.00:   0.121 us/op
+                 cake·p0.50:   0.178 us/op
+                 cake·p0.90:   0.284 us/op
+                 cake·p0.95:   1.366 us/op
+                 cake·p0.99:   1.486 us/op
+                 cake·p0.999:  1.486 us/op
+                 cake·p0.9999: 1.486 us/op
+                 cake·p1.00:   1.486 us/op
+
+Iteration   2: 0.229 ±(99.9%) 0.323 us/op
+                 cake·p0.00:   0.117 us/op
+                 cake·p0.50:   0.128 us/op
+                 cake·p0.90:   0.778 us/op
+                 cake·p0.95:   1.200 us/op
+                 cake·p0.99:   1.200 us/op
+                 cake·p0.999:  1.200 us/op
+                 cake·p0.9999: 1.200 us/op
+                 cake·p1.00:   1.200 us/op
+
+Iteration   3: 0.235 ±(99.9%) 0.166 us/op
+                 cake·p0.00:   0.108 us/op
+                 cake·p0.50:   0.168 us/op
+                 cake·p0.90:   0.407 us/op
+                 cake·p0.95:   0.843 us/op
+                 cake·p0.99:   0.843 us/op
+                 cake·p0.999:  0.843 us/op
+                 cake·p0.9999: 0.843 us/op
+                 cake·p1.00:   0.843 us/op
+
+Iteration   4: 0.173 ±(99.9%) 0.176 us/op
+                 cake·p0.00:   0.071 us/op
+                 cake·p0.50:   0.113 us/op
+                 cake·p0.90:   0.359 us/op
+                 cake·p0.95:   0.882 us/op
+                 cake·p0.99:   0.882 us/op
+                 cake·p0.999:  0.882 us/op
+                 cake·p0.9999: 0.882 us/op
+                 cake·p1.00:   0.882 us/op
+
+Iteration   5: 0.185 ±(99.9%) 0.212 us/op
+                 cake·p0.00:   0.072 us/op
+                 cake·p0.50:   0.113 us/op
+                 cake·p0.90:   0.513 us/op
+                 cake·p0.95:   0.872 us/op
+                 cake·p0.99:   0.872 us/op
+                 cake·p0.999:  0.872 us/op
+                 cake·p0.9999: 0.872 us/op
+                 cake·p1.00:   0.872 us/op
+
+Iteration   6: 0.168 ±(99.9%) 0.187 us/op
+                 cake·p0.00:   0.070 us/op
+                 cake·p0.50:   0.109 us/op
+                 cake·p0.90:   0.407 us/op
+                 cake·p0.95:   0.872 us/op
+                 cake·p0.99:   0.872 us/op
+                 cake·p0.999:  0.872 us/op
+                 cake·p0.9999: 0.872 us/op
+                 cake·p1.00:   0.872 us/op
+
+Iteration   7: 0.184 ±(99.9%) 0.254 us/op
+                 cake·p0.00:   0.072 us/op
+                 cake·p0.50:   0.109 us/op
+                 cake·p0.90:   0.451 us/op
+                 cake·p0.95:   1.172 us/op
+                 cake·p0.99:   1.172 us/op
+                 cake·p0.999:  1.172 us/op
+                 cake·p0.9999: 1.172 us/op
+                 cake·p1.00:   1.172 us/op
+
+Iteration   8: 0.162 ±(99.9%) 0.144 us/op
+                 cake·p0.00:   0.071 us/op
+                 cake·p0.50:   0.111 us/op
+                 cake·p0.90:   0.337 us/op
+                 cake·p0.95:   0.732 us/op
+                 cake·p0.99:   0.732 us/op
+                 cake·p0.999:  0.732 us/op
+                 cake·p0.9999: 0.732 us/op
+                 cake·p1.00:   0.732 us/op
+
+Iteration   9: 0.977 ±(99.9%) 3.691 us/op
+                 cake·p0.00:   0.065 us/op
+                 cake·p0.50:   0.076 us/op
+                 cake·p0.90:   5.516 us/op
+                 cake·p0.95:   13.456 us/op
+                 cake·p0.99:   13.456 us/op
+                 cake·p0.999:  13.456 us/op
+                 cake·p0.9999: 13.456 us/op
+                 cake·p1.00:   13.456 us/op
+
+Iteration  10: 0.112 ±(99.9%) 0.106 us/op
+                 cake·p0.00:   0.063 us/op
+                 cake·p0.50:   0.077 us/op
+                 cake·p0.90:   0.287 us/op
+                 cake·p0.95:   0.399 us/op
+                 cake·p0.99:   0.399 us/op
+                 cake·p0.999:  0.399 us/op
+                 cake·p0.9999: 0.399 us/op
+                 cake·p1.00:   0.399 us/op
+
+
+
+Result "rpg.bench.SemiHotBenchmark.cake":
+  N = 343
+  mean =      0.226 ±(99.9%) 0.133 us/op
+
+  Histogram, us/op:
+    [ 0.000,  1.250) = 340 
+    [ 1.250,  2.500) = 2 
+    [ 2.500,  3.750) = 0 
+    [ 3.750,  5.000) = 0 
+    [ 5.000,  6.250) = 0 
+    [ 6.250,  7.500) = 0 
+    [ 7.500,  8.750) = 0 
+    [ 8.750, 10.000) = 0 
+    [10.000, 11.250) = 0 
+    [11.250, 12.500) = 0 
+    [12.500, 13.750) = 1 
+    [13.750, 15.000) = 0 
+    [15.000, 16.250) = 0 
+    [16.250, 17.500) = 0 
+    [17.500, 18.750) = 0 
+
+  Percentiles, us/op:
+      p(0.0000) =      0.061 us/op
+     p(50.0000) =      0.132 us/op
+     p(90.0000) =      0.267 us/op
+     p(95.0000) =      0.596 us/op
+     p(99.0000) =      1.260 us/op
+     p(99.9000) =     13.456 us/op
+     p(99.9900) =     13.456 us/op
+     p(99.9990) =     13.456 us/op
+     p(99.9999) =     13.456 us/op
+    p(100.0000) =     13.456 us/op
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 30 iterations, 200 us each
+# Measurement: 10 iterations, 200 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: rpg.bench.SemiHotBenchmark.cake2
+
+# Run progress: 40.00% complete, ETA 00:00:01
+# Fork: 1 of 2
+# Warmup Iteration   1: 46.016 us/op
+# Warmup Iteration   2: 6.651 ±(99.9%) 13.360 us/op
+# Warmup Iteration   3: 3.914 ±(99.9%) 2.752 us/op
+# Warmup Iteration   4: 3.817 ±(99.9%) 1.682 us/op
+# Warmup Iteration   5: 2.007 ±(99.9%) 2.200 us/op
+# Warmup Iteration   6: 0.902 ±(99.9%) 1.361 us/op
+# Warmup Iteration   7: 0.604 ±(99.9%) 0.452 us/op
+# Warmup Iteration   8: 2.004 ±(99.9%) 6.209 us/op
+# Warmup Iteration   9: 1.677 ±(99.9%) 4.304 us/op
+# Warmup Iteration  10: 9.829 ±(99.9%) 30.511 us/op
+# Warmup Iteration  11: 1.031 ±(99.9%) 1.438 us/op
+# Warmup Iteration  12: 0.737 ±(99.9%) 0.419 us/op
+# Warmup Iteration  13: 0.753 ±(99.9%) 0.453 us/op
+# Warmup Iteration  14: 0.877 ±(99.9%) 0.653 us/op
+# Warmup Iteration  15: 0.811 ±(99.9%) 0.587 us/op
+# Warmup Iteration  16: 0.824 ±(99.9%) 0.529 us/op
+# Warmup Iteration  17: 3.168 ±(99.9%) 14.057 us/op
+# Warmup Iteration  18: 0.211 ±(99.9%) 0.301 us/op
+# Warmup Iteration  19: 0.171 ±(99.9%) 0.120 us/op
+# Warmup Iteration  20: 1.155 ±(99.9%) 3.620 us/op
+# Warmup Iteration  21: 0.838 ±(99.9%) 3.506 us/op
+# Warmup Iteration  22: 0.149 ±(99.9%) 0.111 us/op
+# Warmup Iteration  23: 0.156 ±(99.9%) 0.105 us/op
+# Warmup Iteration  24: 0.179 ±(99.9%) 0.227 us/op
+# Warmup Iteration  25: 0.170 ±(99.9%) 0.164 us/op
+# Warmup Iteration  26: 0.214 ±(99.9%) 0.312 us/op
+# Warmup Iteration  27: 0.170 ±(99.9%) 0.196 us/op
+# Warmup Iteration  28: 0.157 ±(99.9%) 0.137 us/op
+# Warmup Iteration  29: 0.152 ±(99.9%) 0.165 us/op
+# Warmup Iteration  30: 0.141 ±(99.9%) 0.136 us/op
+Iteration   1: 0.854 ±(99.9%) 3.457 us/op
+                 cake2·p0.00:   0.061 us/op
+                 cake2·p0.50:   0.068 us/op
+                 cake2·p0.90:   6.639 us/op
+                 cake2·p0.95:   9.424 us/op
+                 cake2·p0.99:   9.424 us/op
+                 cake2·p0.999:  9.424 us/op
+                 cake2·p0.9999: 9.424 us/op
+                 cake2·p1.00:   9.424 us/op
+
+Iteration   2: 0.080 ±(99.9%) 0.064 us/op
+                 cake2·p0.00:   0.062 us/op
+                 cake2·p0.50:   0.067 us/op
+                 cake2·p0.90:   0.188 us/op
+                 cake2·p0.95:   0.200 us/op
+                 cake2·p0.99:   0.200 us/op
+                 cake2·p0.999:  0.200 us/op
+                 cake2·p0.9999: 0.200 us/op
+                 cake2·p1.00:   0.200 us/op
+
+Iteration   3: 0.089 ±(99.9%) 0.136 us/op
+                 cake2·p0.00:   0.063 us/op
+                 cake2·p0.50:   0.066 us/op
+                 cake2·p0.90:   0.226 us/op
+                 cake2·p0.95:   0.226 us/op
+                 cake2·p0.99:   0.226 us/op
+                 cake2·p0.999:  0.226 us/op
+                 cake2·p0.9999: 0.226 us/op
+                 cake2·p1.00:   0.226 us/op
+
+Iteration   4: 0.097 ±(99.9%) 0.132 us/op
+                 cake2·p0.00:   0.061 us/op
+                 cake2·p0.50:   0.068 us/op
+                 cake2·p0.90:   0.324 us/op
+                 cake2·p0.95:   0.385 us/op
+                 cake2·p0.99:   0.385 us/op
+                 cake2·p0.999:  0.385 us/op
+                 cake2·p0.9999: 0.385 us/op
+                 cake2·p1.00:   0.385 us/op
+
+Iteration   5: 0.101 ±(99.9%) 0.121 us/op
+                 cake2·p0.00:   0.062 us/op
+                 cake2·p0.50:   0.067 us/op
+                 cake2·p0.90:   0.308 us/op
+                 cake2·p0.95:   0.434 us/op
+                 cake2·p0.99:   0.434 us/op
+                 cake2·p0.999:  0.434 us/op
+                 cake2·p0.9999: 0.434 us/op
+                 cake2·p1.00:   0.434 us/op
+
+Iteration   6: 0.095 ±(99.9%) 0.117 us/op
+                 cake2·p0.00:   0.062 us/op
+                 cake2·p0.50:   0.066 us/op
+                 cake2·p0.90:   0.273 us/op
+                 cake2·p0.95:   0.273 us/op
+                 cake2·p0.99:   0.273 us/op
+                 cake2·p0.999:  0.273 us/op
+                 cake2·p0.9999: 0.273 us/op
+                 cake2·p1.00:   0.273 us/op
+
+Iteration   7: 0.088 ±(99.9%) 0.096 us/op
+                 cake2·p0.00:   0.063 us/op
+                 cake2·p0.50:   0.067 us/op
+                 cake2·p0.90:   0.239 us/op
+                 cake2·p0.95:   0.239 us/op
+                 cake2·p0.99:   0.239 us/op
+                 cake2·p0.999:  0.239 us/op
+                 cake2·p0.9999: 0.239 us/op
+                 cake2·p1.00:   0.239 us/op
+
+Iteration   8: 0.078 ±(99.9%) 0.044 us/op
+                 cake2·p0.00:   0.062 us/op
+                 cake2·p0.50:   0.067 us/op
+                 cake2·p0.90:   0.154 us/op
+                 cake2·p0.95:   0.172 us/op
+                 cake2·p0.99:   0.172 us/op
+                 cake2·p0.999:  0.172 us/op
+                 cake2·p0.9999: 0.172 us/op
+                 cake2·p1.00:   0.172 us/op
+
+Iteration   9: 0.115 ±(99.9%) 0.074 us/op
+                 cake2·p0.00:   0.075 us/op
+                 cake2·p0.50:   0.092 us/op
+                 cake2·p0.90:   0.187 us/op
+                 cake2·p0.95:   0.401 us/op
+                 cake2·p0.99:   0.401 us/op
+                 cake2·p0.999:  0.401 us/op
+                 cake2·p0.9999: 0.401 us/op
+                 cake2·p1.00:   0.401 us/op
+
+Iteration  10: 0.111 ±(99.9%) 0.138 us/op
+                 cake2·p0.00:   0.064 us/op
+                 cake2·p0.50:   0.073 us/op
+                 cake2·p0.90:   0.300 us/op
+                 cake2·p0.95:   0.574 us/op
+                 cake2·p0.99:   0.574 us/op
+                 cake2·p0.999:  0.574 us/op
+                 cake2·p0.9999: 0.574 us/op
+                 cake2·p1.00:   0.574 us/op
+
+
+# Run progress: 50.00% complete, ETA 00:00:01
+# Fork: 2 of 2
+# Warmup Iteration   1: 39.872 us/op
+# Warmup Iteration   2: 5.521 ±(99.9%) 5.408 us/op
+# Warmup Iteration   3: 4.413 ±(99.9%) 4.353 us/op
+# Warmup Iteration   4: 5.968 ±(99.9%) 25.390 us/op
+# Warmup Iteration   5: 0.894 ±(99.9%) 1.359 us/op
+# Warmup Iteration   6: 1.132 ±(99.9%) 1.937 us/op
+# Warmup Iteration   7: 1.052 ±(99.9%) 1.713 us/op
+# Warmup Iteration   8: 1.962 ±(99.9%) 4.767 us/op
+# Warmup Iteration   9: 1.178 ±(99.9%) 1.567 us/op
+# Warmup Iteration  10: 1.476 ±(99.9%) 4.880 us/op
+# Warmup Iteration  11: 5.918 ±(99.9%) 17.585 us/op
+# Warmup Iteration  12: 0.476 ±(99.9%) 0.525 us/op
+# Warmup Iteration  13: 0.487 ±(99.9%) 0.510 us/op
+# Warmup Iteration  14: 0.590 ±(99.9%) 0.403 us/op
+# Warmup Iteration  15: 0.659 ±(99.9%) 0.462 us/op
+# Warmup Iteration  16: 2.499 ±(99.9%) 8.564 us/op
+# Warmup Iteration  17: 0.259 ±(99.9%) 0.494 us/op
+# Warmup Iteration  18: 0.226 ±(99.9%) 0.314 us/op
+# Warmup Iteration  19: 0.287 ±(99.9%) 0.193 us/op
+# Warmup Iteration  20: 0.685 ±(99.9%) 2.399 us/op
+# Warmup Iteration  21: 0.194 ±(99.9%) 0.120 us/op
+# Warmup Iteration  22: 0.271 ±(99.9%) 0.341 us/op
+# Warmup Iteration  23: 0.167 ±(99.9%) 0.143 us/op
+# Warmup Iteration  24: 0.200 ±(99.9%) 0.097 us/op
+# Warmup Iteration  25: 0.230 ±(99.9%) 0.107 us/op
+# Warmup Iteration  26: 0.249 ±(99.9%) 0.154 us/op
+# Warmup Iteration  27: 0.221 ±(99.9%) 0.107 us/op
+# Warmup Iteration  28: 0.162 ±(99.9%) 0.122 us/op
+# Warmup Iteration  29: 0.225 ±(99.9%) 0.125 us/op
+# Warmup Iteration  30: 0.240 ±(99.9%) 0.137 us/op
+Iteration   1: 0.240 ±(99.9%) 0.164 us/op
+                 cake2·p0.00:   0.160 us/op
+                 cake2·p0.50:   0.188 us/op
+                 cake2·p0.90:   0.469 us/op
+                 cake2·p0.95:   0.825 us/op
+                 cake2·p0.99:   0.825 us/op
+                 cake2·p0.999:  0.825 us/op
+                 cake2·p0.9999: 0.825 us/op
+                 cake2·p1.00:   0.825 us/op
+
+Iteration   2: 0.171 ±(99.9%) 0.198 us/op
+                 cake2·p0.00:   0.106 us/op
+                 cake2·p0.50:   0.112 us/op
+                 cake2·p0.90:   0.493 us/op
+                 cake2·p0.95:   0.771 us/op
+                 cake2·p0.99:   0.771 us/op
+                 cake2·p0.999:  0.771 us/op
+                 cake2·p0.9999: 0.771 us/op
+                 cake2·p1.00:   0.771 us/op
+
+Iteration   3: 0.137 ±(99.9%) 0.128 us/op
+                 cake2·p0.00:   0.063 us/op
+                 cake2·p0.50:   0.111 us/op
+                 cake2·p0.90:   0.330 us/op
+                 cake2·p0.95:   0.556 us/op
+                 cake2·p0.99:   0.556 us/op
+                 cake2·p0.999:  0.556 us/op
+                 cake2·p0.9999: 0.556 us/op
+                 cake2·p1.00:   0.556 us/op
+
+Iteration   4: 0.124 ±(99.9%) 0.092 us/op
+                 cake2·p0.00:   0.063 us/op
+                 cake2·p0.50:   0.109 us/op
+                 cake2·p0.90:   0.257 us/op
+                 cake2·p0.95:   0.462 us/op
+                 cake2·p0.99:   0.462 us/op
+                 cake2·p0.999:  0.462 us/op
+                 cake2·p0.9999: 0.462 us/op
+                 cake2·p1.00:   0.462 us/op
+
+Iteration   5: 0.575 ±(99.9%) 2.089 us/op
+                 cake2·p0.00:   0.064 us/op
+                 cake2·p0.50:   0.074 us/op
+                 cake2·p0.90:   3.591 us/op
+                 cake2·p0.95:   7.008 us/op
+                 cake2·p0.99:   7.008 us/op
+                 cake2·p0.999:  7.008 us/op
+                 cake2·p0.9999: 7.008 us/op
+                 cake2·p1.00:   7.008 us/op
+
+Iteration   6: 0.088 ±(99.9%) 0.064 us/op
+                 cake2·p0.00:   0.063 us/op
+                 cake2·p0.50:   0.068 us/op
+                 cake2·p0.90:   0.197 us/op
+                 cake2·p0.95:   0.212 us/op
+                 cake2·p0.99:   0.212 us/op
+                 cake2·p0.999:  0.212 us/op
+                 cake2·p0.9999: 0.212 us/op
+                 cake2·p1.00:   0.212 us/op
+
+Iteration   7: 0.144 ±(99.9%) 0.076 us/op
+                 cake2·p0.00:   0.080 us/op
+                 cake2·p0.50:   0.129 us/op
+                 cake2·p0.90:   0.223 us/op
+                 cake2·p0.95:   0.437 us/op
+                 cake2·p0.99:   0.437 us/op
+                 cake2·p0.999:  0.437 us/op
+                 cake2·p0.9999: 0.437 us/op
+                 cake2·p1.00:   0.437 us/op
+
+Iteration   8: 0.134 ±(99.9%) 0.069 us/op
+                 cake2·p0.00:   0.069 us/op
+                 cake2·p0.50:   0.115 us/op
+                 cake2·p0.90:   0.160 us/op
+                 cake2·p0.95:   0.435 us/op
+                 cake2·p0.99:   0.435 us/op
+                 cake2·p0.999:  0.435 us/op
+                 cake2·p0.9999: 0.435 us/op
+                 cake2·p1.00:   0.435 us/op
+
+Iteration   9: 0.150 ±(99.9%) 0.115 us/op
+                 cake2·p0.00:   0.104 us/op
+                 cake2·p0.50:   0.125 us/op
+                 cake2·p0.90:   0.342 us/op
+                 cake2·p0.95:   0.468 us/op
+                 cake2·p0.99:   0.468 us/op
+                 cake2·p0.999:  0.468 us/op
+                 cake2·p0.9999: 0.468 us/op
+                 cake2·p1.00:   0.468 us/op
+
+Iteration  10: 0.156 ±(99.9%) 0.126 us/op
+                 cake2·p0.00:   0.111 us/op
+                 cake2·p0.50:   0.126 us/op
+                 cake2·p0.90:   0.288 us/op
+                 cake2·p0.95:   0.617 us/op
+                 cake2·p0.99:   0.617 us/op
+                 cake2·p0.999:  0.617 us/op
+                 cake2·p0.9999: 0.617 us/op
+                 cake2·p1.00:   0.617 us/op
+
+
+
+Result "rpg.bench.SemiHotBenchmark.cake2":
+  N = 266
+  mean =      0.184 ±(99.9%) 0.146 us/op
+
+  Histogram, us/op:
+    [ 0.000,  1.000) = 264 
+    [ 1.000,  2.000) = 0 
+    [ 2.000,  3.000) = 0 
+    [ 3.000,  4.000) = 0 
+    [ 4.000,  5.000) = 0 
+    [ 5.000,  6.000) = 0 
+    [ 6.000,  7.000) = 0 
+    [ 7.000,  8.000) = 1 
+    [ 8.000,  9.000) = 0 
+
+  Percentiles, us/op:
+      p(0.0000) =      0.061 us/op
+     p(50.0000) =      0.103 us/op
+     p(90.0000) =      0.198 us/op
+     p(95.0000) =      0.395 us/op
+     p(99.0000) =      2.865 us/op
+     p(99.9000) =      9.424 us/op
+     p(99.9900) =      9.424 us/op
+     p(99.9990) =      9.424 us/op
+     p(99.9999) =      9.424 us/op
+    p(100.0000) =      9.424 us/op
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 30 iterations, 200 us each
+# Measurement: 10 iterations, 200 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: rpg.bench.SemiHotBenchmark.ooo
+
+# Run progress: 60.00% complete, ETA 00:00:01
+# Fork: 1 of 2
+# Warmup Iteration   1: 60.032 us/op
+# Warmup Iteration   2: 3.519 ±(99.9%) 5.740 us/op
+# Warmup Iteration   3: 3.044 ±(99.9%) 3.574 us/op
+# Warmup Iteration   4: 2.436 ±(99.9%) 0.616 us/op
+# Warmup Iteration   5: 7.113 ±(99.9%) 25.723 us/op
+# Warmup Iteration   6: 2.837 ±(99.9%) 4.178 us/op
+# Warmup Iteration   7: 1.802 ±(99.9%) 1.976 us/op
+# Warmup Iteration   8: 1.143 ±(99.9%) 1.000 us/op
+# Warmup Iteration   9: 4.450 ±(99.9%) 23.222 us/op
+# Warmup Iteration  10: 0.969 ±(99.9%) 1.327 us/op
+# Warmup Iteration  11: 5.250 ±(99.9%) 16.477 us/op
+# Warmup Iteration  12: 0.507 ±(99.9%) 0.388 us/op
+# Warmup Iteration  13: 1.458 ±(99.9%) 5.239 us/op
+# Warmup Iteration  14: 0.281 ±(99.9%) 0.213 us/op
+# Warmup Iteration  15: 0.299 ±(99.9%) 0.258 us/op
+# Warmup Iteration  16: 0.355 ±(99.9%) 0.510 us/op
+# Warmup Iteration  17: 0.222 ±(99.9%) 0.251 us/op
+# Warmup Iteration  18: 0.321 ±(99.9%) 0.423 us/op
+# Warmup Iteration  19: 0.266 ±(99.9%) 0.260 us/op
+# Warmup Iteration  20: 0.294 ±(99.9%) 0.279 us/op
+# Warmup Iteration  21: 0.178 ±(99.9%) 0.139 us/op
+# Warmup Iteration  22: 0.273 ±(99.9%) 0.405 us/op
+# Warmup Iteration  23: 0.161 ±(99.9%) 0.116 us/op
+# Warmup Iteration  24: 0.151 ±(99.9%) 0.126 us/op
+# Warmup Iteration  25: 0.118 ±(99.9%) 0.103 us/op
+# Warmup Iteration  26: 0.885 ±(99.9%) 3.263 us/op
+# Warmup Iteration  27: 0.076 ±(99.9%) 0.060 us/op
+# Warmup Iteration  28: 0.066 ±(99.9%) 0.033 us/op
+# Warmup Iteration  29: 0.062 ±(99.9%) 0.019 us/op
+# Warmup Iteration  30: 0.062 ±(99.9%) 0.021 us/op
+Iteration   1: 0.062 ±(99.9%) 0.020 us/op
+                 ooo·p0.00:   0.045 us/op
+                 ooo·p0.50:   0.056 us/op
+                 ooo·p0.90:   0.094 us/op
+                 ooo·p0.95:   0.129 us/op
+                 ooo·p0.99:   0.129 us/op
+                 ooo·p0.999:  0.129 us/op
+                 ooo·p0.9999: 0.129 us/op
+                 ooo·p1.00:   0.129 us/op
+
+Iteration   2: 0.091 ±(99.9%) 0.135 us/op
+                 ooo·p0.00:   0.036 us/op
+                 ooo·p0.50:   0.056 us/op
+                 ooo·p0.90:   0.071 us/op
+                 ooo·p0.95:   0.709 us/op
+                 ooo·p0.99:   0.709 us/op
+                 ooo·p0.999:  0.709 us/op
+                 ooo·p0.9999: 0.709 us/op
+                 ooo·p1.00:   0.709 us/op
+
+Iteration   3: 0.065 ±(99.9%) 0.034 us/op
+                 ooo·p0.00:   0.042 us/op
+                 ooo·p0.50:   0.057 us/op
+                 ooo·p0.90:   0.106 us/op
+                 ooo·p0.95:   0.182 us/op
+                 ooo·p0.99:   0.182 us/op
+                 ooo·p0.999:  0.182 us/op
+                 ooo·p0.9999: 0.182 us/op
+                 ooo·p1.00:   0.182 us/op
+
+Iteration   4: 0.063 ±(99.9%) 0.030 us/op
+                 ooo·p0.00:   0.041 us/op
+                 ooo·p0.50:   0.053 us/op
+                 ooo·p0.90:   0.097 us/op
+                 ooo·p0.95:   0.175 us/op
+                 ooo·p0.99:   0.175 us/op
+                 ooo·p0.999:  0.175 us/op
+                 ooo·p0.9999: 0.175 us/op
+                 ooo·p1.00:   0.175 us/op
+
+Iteration   5: 0.062 ±(99.9%) 0.034 us/op
+                 ooo·p0.00:   0.044 us/op
+                 ooo·p0.50:   0.054 us/op
+                 ooo·p0.90:   0.094 us/op
+                 ooo·p0.95:   0.196 us/op
+                 ooo·p0.99:   0.196 us/op
+                 ooo·p0.999:  0.196 us/op
+                 ooo·p0.9999: 0.196 us/op
+                 ooo·p1.00:   0.196 us/op
+
+Iteration   6: 0.066 ±(99.9%) 0.050 us/op
+                 ooo·p0.00:   0.039 us/op
+                 ooo·p0.50:   0.056 us/op
+                 ooo·p0.90:   0.135 us/op
+                 ooo·p0.95:   0.234 us/op
+                 ooo·p0.99:   0.234 us/op
+                 ooo·p0.999:  0.234 us/op
+                 ooo·p0.9999: 0.234 us/op
+                 ooo·p1.00:   0.234 us/op
+
+Iteration   7: 0.064 ±(99.9%) 0.096 us/op
+                 ooo·p0.00:   0.034 us/op
+                 ooo·p0.50:   0.041 us/op
+                 ooo·p0.90:   0.230 us/op
+                 ooo·p0.95:   0.270 us/op
+                 ooo·p0.99:   0.270 us/op
+                 ooo·p0.999:  0.270 us/op
+                 ooo·p0.9999: 0.270 us/op
+                 ooo·p1.00:   0.270 us/op
+
+Iteration   8: 0.063 ±(99.9%) 0.085 us/op
+                 ooo·p0.00:   0.034 us/op
+                 ooo·p0.50:   0.041 us/op
+                 ooo·p0.90:   0.208 us/op
+                 ooo·p0.95:   0.270 us/op
+                 ooo·p0.99:   0.270 us/op
+                 ooo·p0.999:  0.270 us/op
+                 ooo·p0.9999: 0.270 us/op
+                 ooo·p1.00:   0.270 us/op
+
+Iteration   9: 0.121 ±(99.9%) 0.242 us/op
+                 ooo·p0.00:   0.040 us/op
+                 ooo·p0.50:   0.062 us/op
+                 ooo·p0.90:   0.360 us/op
+                 ooo·p0.95:   1.012 us/op
+                 ooo·p0.99:   1.012 us/op
+                 ooo·p0.999:  1.012 us/op
+                 ooo·p0.9999: 1.012 us/op
+                 ooo·p1.00:   1.012 us/op
+
+Iteration  10: 0.129 ±(99.9%) 0.195 us/op
+                 ooo·p0.00:   0.046 us/op
+                 ooo·p0.50:   0.059 us/op
+                 ooo·p0.90:   0.460 us/op
+                 ooo·p0.95:   0.792 us/op
+                 ooo·p0.99:   0.792 us/op
+                 ooo·p0.999:  0.792 us/op
+                 ooo·p0.9999: 0.792 us/op
+                 ooo·p1.00:   0.792 us/op
+
+
+# Run progress: 70.00% complete, ETA 00:00:00
+# Fork: 2 of 2
+# Warmup Iteration   1: 42.432 us/op
+# Warmup Iteration   2: 6.067 ±(99.9%) 22.665 us/op
+# Warmup Iteration   3: 1.997 ±(99.9%) 1.609 us/op
+# Warmup Iteration   4: 1.933 ±(99.9%) 2.080 us/op
+# Warmup Iteration   5: 1.352 ±(99.9%) 2.008 us/op
+# Warmup Iteration   6: 1.176 ±(99.9%) 1.128 us/op
+# Warmup Iteration   7: 1.229 ±(99.9%) 1.218 us/op
+# Warmup Iteration   8: 2.453 ±(99.9%) 3.908 us/op
+# Warmup Iteration   9: 1.774 ±(99.9%) 2.759 us/op
+# Warmup Iteration  10: 1.429 ±(99.9%) 1.752 us/op
+# Warmup Iteration  11: 1.231 ±(99.9%) 1.583 us/op
+# Warmup Iteration  12: 1.808 ±(99.9%) 5.082 us/op
+# Warmup Iteration  13: 2.039 ±(99.9%) 8.076 us/op
+# Warmup Iteration  14: 0.289 ±(99.9%) 0.225 us/op
+# Warmup Iteration  15: 0.286 ±(99.9%) 0.265 us/op
+# Warmup Iteration  16: 0.302 ±(99.9%) 0.282 us/op
+# Warmup Iteration  17: 2.073 ±(99.9%) 5.680 us/op
+# Warmup Iteration  18: 0.273 ±(99.9%) 0.176 us/op
+# Warmup Iteration  19: 0.263 ±(99.9%) 0.174 us/op
+# Warmup Iteration  20: 0.185 ±(99.9%) 0.207 us/op
+# Warmup Iteration  21: 0.204 ±(99.9%) 0.261 us/op
+# Warmup Iteration  22: 0.264 ±(99.9%) 0.387 us/op
+# Warmup Iteration  23: 0.191 ±(99.9%) 0.210 us/op
+# Warmup Iteration  24: 0.217 ±(99.9%) 0.277 us/op
+# Warmup Iteration  25: 0.311 ±(99.9%) 0.331 us/op
+# Warmup Iteration  26: 1.972 ±(99.9%) 5.465 us/op
+# Warmup Iteration  27: 0.241 ±(99.9%) 0.228 us/op
+# Warmup Iteration  28: 0.220 ±(99.9%) 0.288 us/op
+# Warmup Iteration  29: 0.156 ±(99.9%) 0.119 us/op
+# Warmup Iteration  30: 0.143 ±(99.9%) 0.185 us/op
+Iteration   1: 0.131 ±(99.9%) 0.134 us/op
+                 ooo·p0.00:   0.071 us/op
+                 ooo·p0.50:   0.085 us/op
+                 ooo·p0.90:   0.374 us/op
+                 ooo·p0.95:   0.507 us/op
+                 ooo·p0.99:   0.507 us/op
+                 ooo·p0.999:  0.507 us/op
+                 ooo·p0.9999: 0.507 us/op
+                 ooo·p1.00:   0.507 us/op
+
+Iteration   2: 0.183 ±(99.9%) 0.307 us/op
+                 ooo·p0.00:   0.074 us/op
+                 ooo·p0.50:   0.086 us/op
+                 ooo·p0.90:   0.730 us/op
+                 ooo·p0.95:   1.088 us/op
+                 ooo·p0.99:   1.088 us/op
+                 ooo·p0.999:  1.088 us/op
+                 ooo·p0.9999: 1.088 us/op
+                 ooo·p1.00:   1.088 us/op
+
+Iteration   3: 0.130 ±(99.9%) 0.152 us/op
+                 ooo·p0.00:   0.074 us/op
+                 ooo·p0.50:   0.085 us/op
+                 ooo·p0.90:   0.369 us/op
+                 ooo·p0.95:   0.630 us/op
+                 ooo·p0.99:   0.630 us/op
+                 ooo·p0.999:  0.630 us/op
+                 ooo·p0.9999: 0.630 us/op
+                 ooo·p1.00:   0.630 us/op
+
+Iteration   4: 0.205 ±(99.9%) 0.451 us/op
+                 ooo·p0.00:   0.072 us/op
+                 ooo·p0.50:   0.094 us/op
+                 ooo·p0.90:   0.778 us/op
+                 ooo·p0.95:   1.728 us/op
+                 ooo·p0.99:   1.728 us/op
+                 ooo·p0.999:  1.728 us/op
+                 ooo·p0.9999: 1.728 us/op
+                 ooo·p1.00:   1.728 us/op
+
+Iteration   5: 0.160 ±(99.9%) 0.263 us/op
+                 ooo·p0.00:   0.072 us/op
+                 ooo·p0.50:   0.088 us/op
+                 ooo·p0.90:   0.524 us/op
+                 ooo·p0.95:   1.042 us/op
+                 ooo·p0.99:   1.042 us/op
+                 ooo·p0.999:  1.042 us/op
+                 ooo·p0.9999: 1.042 us/op
+                 ooo·p1.00:   1.042 us/op
+
+Iteration   6: 0.135 ±(99.9%) 0.169 us/op
+                 ooo·p0.00:   0.066 us/op
+                 ooo·p0.50:   0.078 us/op
+                 ooo·p0.90:   0.298 us/op
+                 ooo·p0.95:   0.795 us/op
+                 ooo·p0.99:   0.795 us/op
+                 ooo·p0.999:  0.795 us/op
+                 ooo·p0.9999: 0.795 us/op
+                 ooo·p1.00:   0.795 us/op
+
+Iteration   7: 0.095 ±(99.9%) 0.085 us/op
+                 ooo·p0.00:   0.065 us/op
+                 ooo·p0.50:   0.073 us/op
+                 ooo·p0.90:   0.236 us/op
+                 ooo·p0.95:   0.354 us/op
+                 ooo·p0.99:   0.354 us/op
+                 ooo·p0.999:  0.354 us/op
+                 ooo·p0.9999: 0.354 us/op
+                 ooo·p1.00:   0.354 us/op
+
+Iteration   8: 0.083 ±(99.9%) 0.074 us/op
+                 ooo·p0.00:   0.034 us/op
+                 ooo·p0.50:   0.071 us/op
+                 ooo·p0.90:   0.173 us/op
+                 ooo·p0.95:   0.345 us/op
+                 ooo·p0.99:   0.345 us/op
+                 ooo·p0.999:  0.345 us/op
+                 ooo·p0.9999: 0.345 us/op
+                 ooo·p1.00:   0.345 us/op
+
+Iteration   9: 0.080 ±(99.9%) 0.088 us/op
+                 ooo·p0.00:   0.034 us/op
+                 ooo·p0.50:   0.052 us/op
+                 ooo·p0.90:   0.116 us/op
+                 ooo·p0.95:   0.479 us/op
+                 ooo·p0.99:   0.498 us/op
+                 ooo·p0.999:  0.498 us/op
+                 ooo·p0.9999: 0.498 us/op
+                 ooo·p1.00:   0.498 us/op
+
+Iteration  10: 0.081 ±(99.9%) 0.088 us/op
+                 ooo·p0.00:   0.035 us/op
+                 ooo·p0.50:   0.067 us/op
+                 ooo·p0.90:   0.199 us/op
+                 ooo·p0.95:   0.396 us/op
+                 ooo·p0.99:   0.396 us/op
+                 ooo·p0.999:  0.396 us/op
+                 ooo·p0.9999: 0.396 us/op
+                 ooo·p1.00:   0.396 us/op
+
+
+
+Result "rpg.bench.SemiHotBenchmark.ooo":
+  N = 312
+  mean =      0.103 ±(99.9%) 0.031 us/op
+
+  Histogram, us/op:
+    [0.000, 0.125) = 275 
+    [0.125, 0.250) = 20 
+    [0.250, 0.375) = 6 
+    [0.375, 0.500) = 2 
+    [0.500, 0.625) = 1 
+    [0.625, 0.750) = 2 
+    [0.750, 0.875) = 2 
+    [0.875, 1.000) = 0 
+    [1.000, 1.125) = 3 
+    [1.125, 1.250) = 0 
+    [1.250, 1.375) = 0 
+    [1.375, 1.500) = 0 
+    [1.500, 1.625) = 0 
+    [1.625, 1.750) = 1 
+    [1.750, 1.875) = 0 
+
+  Percentiles, us/op:
+      p(0.0000) =      0.034 us/op
+     p(50.0000) =      0.068 us/op
+     p(90.0000) =      0.139 us/op
+     p(95.0000) =      0.287 us/op
+     p(99.0000) =      1.038 us/op
+     p(99.9000) =      1.728 us/op
+     p(99.9900) =      1.728 us/op
+     p(99.9990) =      1.728 us/op
+     p(99.9999) =      1.728 us/op
+    p(100.0000) =      1.728 us/op
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 30 iterations, 200 us each
+# Measurement: 10 iterations, 200 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: rpg.bench.SemiHotBenchmark.typeclass
+
+# Run progress: 80.00% complete, ETA 00:00:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 169869.312 us/op
+# Warmup Iteration   2: 5.535 ±(99.9%) 4.186 us/op
+# Warmup Iteration   3: 5.547 ±(99.9%) 2.690 us/op
+# Warmup Iteration   4: 8.352 ±(99.9%) 13.677 us/op
+# Warmup Iteration   5: 4.019 ±(99.9%) 3.753 us/op
+# Warmup Iteration   6: 4.386 ±(99.9%) 3.643 us/op
+# Warmup Iteration   7: 3.947 ±(99.9%) 1.953 us/op
+# Warmup Iteration   8: 3.974 ±(99.9%) 2.491 us/op
+# Warmup Iteration   9: 14.933 ±(99.9%) 83.439 us/op
+# Warmup Iteration  10: 4.088 ±(99.9%) 8.984 us/op
+# Warmup Iteration  11: 2.469 ±(99.9%) 0.885 us/op
+# Warmup Iteration  12: 2.466 ±(99.9%) 0.978 us/op
+# Warmup Iteration  13: 2.624 ±(99.9%) 1.664 us/op
+# Warmup Iteration  14: 3.480 ±(99.9%) 7.922 us/op
+# Warmup Iteration  15: 1.795 ±(99.9%) 0.928 us/op
+# Warmup Iteration  16: 4.783 ±(99.9%) 11.563 us/op
+# Warmup Iteration  17: 2.629 ±(99.9%) 8.389 us/op
+# Warmup Iteration  18: 1.299 ±(99.9%) 3.580 us/op
+# Warmup Iteration  19: 0.324 ±(99.9%) 0.272 us/op
+# Warmup Iteration  20: 0.425 ±(99.9%) 0.427 us/op
+# Warmup Iteration  21: 0.342 ±(99.9%) 0.359 us/op
+# Warmup Iteration  22: 1.927 ±(99.9%) 5.620 us/op
+# Warmup Iteration  23: 1.964 ±(99.9%) 6.245 us/op
+# Warmup Iteration  24: 0.463 ±(99.9%) 0.291 us/op
+# Warmup Iteration  25: 0.287 ±(99.9%) 0.166 us/op
+# Warmup Iteration  26: 0.298 ±(99.9%) 0.207 us/op
+# Warmup Iteration  27: 0.294 ±(99.9%) 0.203 us/op
+# Warmup Iteration  28: 0.296 ±(99.9%) 0.229 us/op
+# Warmup Iteration  29: 0.283 ±(99.9%) 0.171 us/op
+# Warmup Iteration  30: 0.297 ±(99.9%) 0.230 us/op
+Iteration   1: 0.282 ±(99.9%) 0.153 us/op
+                 typeclass·p0.00:   0.236 us/op
+                 typeclass·p0.50:   0.243 us/op
+                 typeclass·p0.90:   0.514 us/op
+                 typeclass·p0.95:   0.753 us/op
+                 typeclass·p0.99:   0.753 us/op
+                 typeclass·p0.999:  0.753 us/op
+                 typeclass·p0.9999: 0.753 us/op
+                 typeclass·p1.00:   0.753 us/op
+
+Iteration   2: 0.500 ±(99.9%) 1.087 us/op
+                 typeclass·p0.00:   0.235 us/op
+                 typeclass·p0.50:   0.243 us/op
+                 typeclass·p0.90:   2.344 us/op
+                 typeclass·p0.95:   3.192 us/op
+                 typeclass·p0.99:   3.192 us/op
+                 typeclass·p0.999:  3.192 us/op
+                 typeclass·p0.9999: 3.192 us/op
+                 typeclass·p1.00:   3.192 us/op
+
+Iteration   3: 0.614 ±(99.9%) 0.981 us/op
+                 typeclass·p0.00:   0.174 us/op
+                 typeclass·p0.50:   0.269 us/op
+                 typeclass·p0.90:   2.124 us/op
+                 typeclass·p0.95:   4.744 us/op
+                 typeclass·p0.99:   4.744 us/op
+                 typeclass·p0.999:  4.744 us/op
+                 typeclass·p0.9999: 4.744 us/op
+                 typeclass·p1.00:   4.744 us/op
+
+Iteration   4: 0.601 ±(99.9%) 1.916 us/op
+                 typeclass·p0.00:   0.199 us/op
+                 typeclass·p0.50:   0.275 us/op
+                 typeclass·p0.90:   1.190 us/op
+                 typeclass·p0.95:   1.190 us/op
+                 typeclass·p0.99:   1.190 us/op
+                 typeclass·p0.999:  1.190 us/op
+                 typeclass·p0.9999: 1.190 us/op
+                 typeclass·p1.00:   1.190 us/op
+
+Iteration   5: 1.157 ±(99.9%) 3.974 us/op
+                 typeclass·p0.00:   0.150 us/op
+                 typeclass·p0.50:   0.165 us/op
+                 typeclass·p0.90:   5.011 us/op
+                 typeclass·p0.95:   15.792 us/op
+                 typeclass·p0.99:   15.792 us/op
+                 typeclass·p0.999:  15.792 us/op
+                 typeclass·p0.9999: 15.792 us/op
+                 typeclass·p1.00:   15.792 us/op
+
+Iteration   6: 0.185 ±(99.9%) 0.142 us/op
+                 typeclass·p0.00:   0.103 us/op
+                 typeclass·p0.50:   0.145 us/op
+                 typeclass·p0.90:   0.204 us/op
+                 typeclass·p0.95:   0.839 us/op
+                 typeclass·p0.99:   0.910 us/op
+                 typeclass·p0.999:  0.910 us/op
+                 typeclass·p0.9999: 0.910 us/op
+                 typeclass·p1.00:   0.910 us/op
+
+Iteration   7: 0.130 ±(99.9%) 0.081 us/op
+                 typeclass·p0.00:   0.087 us/op
+                 typeclass·p0.50:   0.108 us/op
+                 typeclass·p0.90:   0.204 us/op
+                 typeclass·p0.95:   0.463 us/op
+                 typeclass·p0.99:   0.463 us/op
+                 typeclass·p0.999:  0.463 us/op
+                 typeclass·p0.9999: 0.463 us/op
+                 typeclass·p1.00:   0.463 us/op
+
+Iteration   8: 0.117 ±(99.9%) 0.073 us/op
+                 typeclass·p0.00:   0.084 us/op
+                 typeclass·p0.50:   0.099 us/op
+                 typeclass·p0.90:   0.220 us/op
+                 typeclass·p0.95:   0.378 us/op
+                 typeclass·p0.99:   0.378 us/op
+                 typeclass·p0.999:  0.378 us/op
+                 typeclass·p0.9999: 0.378 us/op
+                 typeclass·p1.00:   0.378 us/op
+
+Iteration   9: 0.115 ±(99.9%) 0.059 us/op
+                 typeclass·p0.00:   0.086 us/op
+                 typeclass·p0.50:   0.100 us/op
+                 typeclass·p0.90:   0.172 us/op
+                 typeclass·p0.95:   0.359 us/op
+                 typeclass·p0.99:   0.359 us/op
+                 typeclass·p0.999:  0.359 us/op
+                 typeclass·p0.9999: 0.359 us/op
+                 typeclass·p1.00:   0.359 us/op
+
+Iteration  10: 0.141 ±(99.9%) 0.139 us/op
+                 typeclass·p0.00:   0.086 us/op
+                 typeclass·p0.50:   0.099 us/op
+                 typeclass·p0.90:   0.299 us/op
+                 typeclass·p0.95:   0.682 us/op
+                 typeclass·p0.99:   0.682 us/op
+                 typeclass·p0.999:  0.682 us/op
+                 typeclass·p0.9999: 0.682 us/op
+                 typeclass·p1.00:   0.682 us/op
+
+
+# Run progress: 90.00% complete, ETA 00:00:00
+# Fork: 2 of 2
+# Warmup Iteration   1: 166199.296 us/op
+# Warmup Iteration   2: 10.213 ±(99.9%) 24.829 us/op
+# Warmup Iteration   3: 4.905 ±(99.9%) 5.455 us/op
+# Warmup Iteration   4: 9.568 ±(99.9%) 12.713 us/op
+# Warmup Iteration   5: 6.886 ±(99.9%) 11.404 us/op
+# Warmup Iteration   6: 6.789 ±(99.9%) 11.875 us/op
+# Warmup Iteration   7: 6.467 ±(99.9%) 17.779 us/op
+# Warmup Iteration   8: 3.547 ±(99.9%) 2.659 us/op
+# Warmup Iteration   9: 3.808 ±(99.9%) 2.581 us/op
+# Warmup Iteration  10: 3.640 ±(99.9%) 1.837 us/op
+# Warmup Iteration  11: 2.916 ±(99.9%) 1.275 us/op
+# Warmup Iteration  12: 3.683 ±(99.9%) 5.497 us/op
+# Warmup Iteration  13: 2.772 ±(99.9%) 3.931 us/op
+# Warmup Iteration  14: 3.208 ±(99.9%) 5.549 us/op
+# Warmup Iteration  15: 3.866 ±(99.9%) 8.053 us/op
+# Warmup Iteration  16: 3.578 ±(99.9%) 9.086 us/op
+# Warmup Iteration  17: 1.874 ±(99.9%) 5.805 us/op
+# Warmup Iteration  18: 0.625 ±(99.9%) 0.728 us/op
+# Warmup Iteration  19: 0.561 ±(99.9%) 0.635 us/op
+# Warmup Iteration  20: 0.338 ±(99.9%) 0.405 us/op
+# Warmup Iteration  21: 0.294 ±(99.9%) 0.205 us/op
+# Warmup Iteration  22: 0.458 ±(99.9%) 0.232 us/op
+# Warmup Iteration  23: 0.424 ±(99.9%) 0.320 us/op
+# Warmup Iteration  24: 0.464 ±(99.9%) 0.351 us/op
+# Warmup Iteration  25: 0.453 ±(99.9%) 0.364 us/op
+# Warmup Iteration  26: 0.323 ±(99.9%) 0.391 us/op
+# Warmup Iteration  27: 0.296 ±(99.9%) 0.234 us/op
+# Warmup Iteration  28: 0.290 ±(99.9%) 0.211 us/op
+# Warmup Iteration  29: 0.316 ±(99.9%) 0.218 us/op
+# Warmup Iteration  30: 0.325 ±(99.9%) 0.339 us/op
+Iteration   1: 0.302 ±(99.9%) 0.243 us/op
+                 typeclass·p0.00:   0.230 us/op
+                 typeclass·p0.50:   0.239 us/op
+                 typeclass·p0.90:   0.728 us/op
+                 typeclass·p0.95:   0.899 us/op
+                 typeclass·p0.99:   0.899 us/op
+                 typeclass·p0.999:  0.899 us/op
+                 typeclass·p0.9999: 0.899 us/op
+                 typeclass·p1.00:   0.899 us/op
+
+Iteration   2: 0.340 ±(99.9%) 0.402 us/op
+                 typeclass·p0.00:   0.226 us/op
+                 typeclass·p0.50:   0.235 us/op
+                 typeclass·p0.90:   1.045 us/op
+                 typeclass·p0.95:   1.200 us/op
+                 typeclass·p0.99:   1.200 us/op
+                 typeclass·p0.999:  1.200 us/op
+                 typeclass·p0.9999: 1.200 us/op
+                 typeclass·p1.00:   1.200 us/op
+
+Iteration   3: 0.423 ±(99.9%) 0.316 us/op
+                 typeclass·p0.00:   0.257 us/op
+                 typeclass·p0.50:   0.354 us/op
+                 typeclass·p0.90:   0.882 us/op
+                 typeclass·p0.95:   1.474 us/op
+                 typeclass·p0.99:   1.474 us/op
+                 typeclass·p0.999:  1.474 us/op
+                 typeclass·p0.9999: 1.474 us/op
+                 typeclass·p1.00:   1.474 us/op
+
+Iteration   4: 0.508 ±(99.9%) 0.508 us/op
+                 typeclass·p0.00:   0.292 us/op
+                 typeclass·p0.50:   0.386 us/op
+                 typeclass·p0.90:   1.167 us/op
+                 typeclass·p0.95:   2.220 us/op
+                 typeclass·p0.99:   2.220 us/op
+                 typeclass·p0.999:  2.220 us/op
+                 typeclass·p0.9999: 2.220 us/op
+                 typeclass·p1.00:   2.220 us/op
+
+Iteration   5: 0.525 ±(99.9%) 0.572 us/op
+                 typeclass·p0.00:   0.291 us/op
+                 typeclass·p0.50:   0.369 us/op
+                 typeclass·p0.90:   1.014 us/op
+                 typeclass·p0.95:   2.788 us/op
+                 typeclass·p0.99:   2.788 us/op
+                 typeclass·p0.999:  2.788 us/op
+                 typeclass·p0.9999: 2.788 us/op
+                 typeclass·p1.00:   2.788 us/op
+
+Iteration   6: 2.853 ±(99.9%) 11.384 us/op
+                 typeclass·p0.00:   0.085 us/op
+                 typeclass·p0.50:   0.096 us/op
+                 typeclass·p0.90:   16.679 us/op
+                 typeclass·p0.95:   41.344 us/op
+                 typeclass·p0.99:   41.344 us/op
+                 typeclass·p0.999:  41.344 us/op
+                 typeclass·p0.9999: 41.344 us/op
+                 typeclass·p1.00:   41.344 us/op
+
+Iteration   7: 0.135 ±(99.9%) 0.188 us/op
+                 typeclass·p0.00:   0.085 us/op
+                 typeclass·p0.50:   0.090 us/op
+                 typeclass·p0.90:   0.451 us/op
+                 typeclass·p0.95:   0.486 us/op
+                 typeclass·p0.99:   0.486 us/op
+                 typeclass·p0.999:  0.486 us/op
+                 typeclass·p0.9999: 0.486 us/op
+                 typeclass·p1.00:   0.486 us/op
+
+Iteration   8: 0.179 ±(99.9%) 0.108 us/op
+                 typeclass·p0.00:   0.122 us/op
+                 typeclass·p0.50:   0.150 us/op
+                 typeclass·p0.90:   0.246 us/op
+                 typeclass·p0.95:   0.664 us/op
+                 typeclass·p0.99:   0.664 us/op
+                 typeclass·p0.999:  0.664 us/op
+                 typeclass·p0.9999: 0.664 us/op
+                 typeclass·p1.00:   0.664 us/op
+
+Iteration   9: 0.124 ±(99.9%) 0.152 us/op
+                 typeclass·p0.00:   0.082 us/op
+                 typeclass·p0.50:   0.090 us/op
+                 typeclass·p0.90:   0.382 us/op
+                 typeclass·p0.95:   0.501 us/op
+                 typeclass·p0.99:   0.501 us/op
+                 typeclass·p0.999:  0.501 us/op
+                 typeclass·p0.9999: 0.501 us/op
+                 typeclass·p1.00:   0.501 us/op
+
+Iteration  10: 0.133 ±(99.9%) 0.135 us/op
+                 typeclass·p0.00:   0.085 us/op
+                 typeclass·p0.50:   0.094 us/op
+                 typeclass·p0.90:   0.314 us/op
+                 typeclass·p0.95:   0.585 us/op
+                 typeclass·p0.99:   0.585 us/op
+                 typeclass·p0.999:  0.585 us/op
+                 typeclass·p0.9999: 0.585 us/op
+                 typeclass·p1.00:   0.585 us/op
+
+
+
+Result "rpg.bench.SemiHotBenchmark.typeclass":
+  N = 297
+  mean =      0.461 ±(99.9%) 0.497 us/op
+
+  Histogram, us/op:
+    [ 0.000,  5.000) = 295 
+    [ 5.000, 10.000) = 0 
+    [10.000, 15.000) = 0 
+    [15.000, 20.000) = 1 
+    [20.000, 25.000) = 0 
+    [25.000, 30.000) = 0 
+    [30.000, 35.000) = 0 
+    [35.000, 40.000) = 0 
+    [40.000, 45.000) = 1 
+
+  Percentiles, us/op:
+      p(0.0000) =      0.082 us/op
+     p(50.0000) =      0.165 us/op
+     p(90.0000) =      0.420 us/op
+     p(95.0000) =      0.689 us/op
+     p(99.0000) =      4.965 us/op
+     p(99.9000) =     41.344 us/op
+     p(99.9900) =     41.344 us/op
+     p(99.9990) =     41.344 us/op
+     p(99.9999) =     41.344 us/op
+    p(100.0000) =     41.344 us/op
+
+
+# Run complete. Total time: 00:00:02
+
+Benchmark                                       Mode  Cnt   Score   Error  Units
+SemiHotBenchmark.basic                        sample  307   0.168 ± 0.107  us/op
+SemiHotBenchmark.basic:basic·p0.00            sample        0.063          us/op
+SemiHotBenchmark.basic:basic·p0.50            sample        0.109          us/op
+SemiHotBenchmark.basic:basic·p0.90            sample        0.210          us/op
+SemiHotBenchmark.basic:basic·p0.95            sample        0.350          us/op
+SemiHotBenchmark.basic:basic·p0.99            sample        0.993          us/op
+SemiHotBenchmark.basic:basic·p0.999           sample        9.744          us/op
+SemiHotBenchmark.basic:basic·p0.9999          sample        9.744          us/op
+SemiHotBenchmark.basic:basic·p1.00            sample        9.744          us/op
+SemiHotBenchmark.cake                         sample  343   0.226 ± 0.133  us/op
+SemiHotBenchmark.cake:cake·p0.00              sample        0.061          us/op
+SemiHotBenchmark.cake:cake·p0.50              sample        0.132          us/op
+SemiHotBenchmark.cake:cake·p0.90              sample        0.267          us/op
+SemiHotBenchmark.cake:cake·p0.95              sample        0.596          us/op
+SemiHotBenchmark.cake:cake·p0.99              sample        1.260          us/op
+SemiHotBenchmark.cake:cake·p0.999             sample       13.456          us/op
+SemiHotBenchmark.cake:cake·p0.9999            sample       13.456          us/op
+SemiHotBenchmark.cake:cake·p1.00              sample       13.456          us/op
+SemiHotBenchmark.cake2                        sample  266   0.184 ± 0.146  us/op
+SemiHotBenchmark.cake2:cake2·p0.00            sample        0.061          us/op
+SemiHotBenchmark.cake2:cake2·p0.50            sample        0.103          us/op
+SemiHotBenchmark.cake2:cake2·p0.90            sample        0.198          us/op
+SemiHotBenchmark.cake2:cake2·p0.95            sample        0.395          us/op
+SemiHotBenchmark.cake2:cake2·p0.99            sample        2.865          us/op
+SemiHotBenchmark.cake2:cake2·p0.999           sample        9.424          us/op
+SemiHotBenchmark.cake2:cake2·p0.9999          sample        9.424          us/op
+SemiHotBenchmark.cake2:cake2·p1.00            sample        9.424          us/op
+SemiHotBenchmark.ooo                          sample  312   0.103 ± 0.031  us/op
+SemiHotBenchmark.ooo:ooo·p0.00                sample        0.034          us/op
+SemiHotBenchmark.ooo:ooo·p0.50                sample        0.068          us/op
+SemiHotBenchmark.ooo:ooo·p0.90                sample        0.139          us/op
+SemiHotBenchmark.ooo:ooo·p0.95                sample        0.287          us/op
+SemiHotBenchmark.ooo:ooo·p0.99                sample        1.038          us/op
+SemiHotBenchmark.ooo:ooo·p0.999               sample        1.728          us/op
+SemiHotBenchmark.ooo:ooo·p0.9999              sample        1.728          us/op
+SemiHotBenchmark.ooo:ooo·p1.00                sample        1.728          us/op
+SemiHotBenchmark.typeclass                    sample  297   0.461 ± 0.497  us/op
+SemiHotBenchmark.typeclass:typeclass·p0.00    sample        0.082          us/op
+SemiHotBenchmark.typeclass:typeclass·p0.50    sample        0.165          us/op
+SemiHotBenchmark.typeclass:typeclass·p0.90    sample        0.420          us/op
+SemiHotBenchmark.typeclass:typeclass·p0.95    sample        0.689          us/op
+SemiHotBenchmark.typeclass:typeclass·p0.99    sample        4.965          us/op
+SemiHotBenchmark.typeclass:typeclass·p0.999   sample       41.344          us/op
+SemiHotBenchmark.typeclass:typeclass·p0.9999  sample       41.344          us/op
+SemiHotBenchmark.typeclass:typeclass·p1.00    sample       41.344          us/op
