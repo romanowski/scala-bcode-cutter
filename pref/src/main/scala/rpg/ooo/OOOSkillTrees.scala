@@ -37,11 +37,11 @@ case class DexSkill(name: String) extends Node {
 }
 
 case class StrSkill(name: String) extends Node {
-  override def cost(traits: PlayerTraits): Int = traits.dexCost
+  override def cost(traits: PlayerTraits): Int = traits.strCost
 }
 
 case class WisSkill(name: String) extends Node {
-  override def cost(traits: PlayerTraits): Int = traits.dexCost
+  override def cost(traits: PlayerTraits): Int = traits.wisCost
 }
 
 class OOOSkillTrees extends SkillTrees {

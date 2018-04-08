@@ -12,51 +12,59 @@ import org.openjdk.jmh.annotations.OutputTimeUnit
 import org.openjdk.jmh.annotations.Scope
 import org.openjdk.jmh.annotations.State
 import org.openjdk.jmh.annotations.Warmup
-import rpg.PlayerTraits
-import rpg.SkillTreeRepr
+import rpg._
 import rpg.cake2.Cake2SkillTrees
 import rpg.cake.CakeSkillTrees
 import rpg.ooo.OOOSkillTrees
-import rpg.patmat.PatMatSkillTrees
-import rpg.patmat.SlowPathMatSkillTrees
+import rpg.patmat._
 import rpg.patmat.stepped.SteppedPatMatSkillTrees
 import rpg.typeclass.naive.TypeclassSkillTrees
 
 
 @State(Scope.Benchmark)
-class BenchmarkState {
-  val playerTraits = new PlayerTraits(100, 100, 100)
+class BenchmarkState(playerTraits: PlayerTraits) {
+	def this(){
+		this(new PlayerTraits(100, 100, 100))
+	}
 
   val patMat: SkillTreeRepr[_] = (new PatMatSkillTrees).archeryTree(playerTraits)
   val slowPatMat: SkillTreeRepr[_] = (new SlowPathMatSkillTrees).archeryTree(playerTraits)
-  val steppedPatMat: SkillTreeRepr[_] = (new SteppedPatMatSkillTrees).archeryTree(playerTraits)
-
+	val classesPatMat: SkillTreeRepr[_] = (new classes.PathMatSkillTrees).archeryTree(playerTraits)
+	val steppedPatMat: SkillTreeRepr[_] = (new SteppedPatMatSkillTrees).archeryTree(playerTraits)
+	val steppedClassPatMat: SkillTreeRepr[_] = (new steppedClass.ImplSkillTrees).archeryTree(playerTraits)
   val typeclass: SkillTreeRepr[_] = (new TypeclassSkillTrees).archeryTree(playerTraits)
   val cake: SkillTreeRepr[_] = (new CakeSkillTrees).archeryTree(playerTraits)
   val cake2: SkillTreeRepr[_] = (new Cake2SkillTrees).archeryTree(playerTraits)
-  val ooo: SkillTreeRepr[_] = (new OOOSkillTrees).archeryTree(playerTraits)
+
+	val oooTree: SkillTreeRepr[_] = (new OOOSkillTrees).archeryTree(playerTraits)
+	val oooSubcalls: SkillTreeRepr[_] = (new ooo.subcalls.OOOSkillTrees).archeryTree(playerTraits)
+	val oooLambdas: SkillTreeRepr[_] = (new ooo.lambdas.LambdasSkillTrees).archeryTree(playerTraits)
+
+	val oooNested: SkillTreeRepr[_] = (new ooo.nested.OOOSkillTrees).archeryTree(playerTraits)
+	val javaOOO: SkillTreeRepr[_] = (new java.ooo.SkillTrees).archeryTree(playerTraits)
+	val javafast: SkillTreeRepr[_] = (new java.fast.SkillTrees).archeryTree(playerTraits)
+
 }
 
 
 trait Benchmarks {
-  @Benchmark
-  def patMat(bs: BenchmarkState): Int =  bs.patMat.totalCost()
-//  @Benchmark
-  def slowPatMat(bs: BenchmarkState): Int =  bs.slowPatMat.totalCost()
-  @Benchmark
-  def steppedPatMat(bs: BenchmarkState): Int =  bs.steppedPatMat.totalCost()
+	@Benchmark def patMat(bs: BenchmarkState): Int =  bs.patMat.totalCost()
+	@Benchmark def slowPatMat(bs: BenchmarkState): Int =  bs.slowPatMat.totalCost()
+	@Benchmark def classesPatMat(bs: BenchmarkState): Int =  bs.classesPatMat.totalCost()
+	@Benchmark def steppedPatMat(bs: BenchmarkState): Int =  bs.steppedPatMat.totalCost()
+	@Benchmark def steppedClassPatMat(bs: BenchmarkState): Int =  bs.steppedClassPatMat.totalCost()
+	@Benchmark def typeclass(bs: BenchmarkState): Int =  bs.typeclass.totalCost()
+	@Benchmark def cake(bs: BenchmarkState): Int =  bs.cake.totalCost()
+	@Benchmark def cake2(bs: BenchmarkState): Int =  bs.cake2.totalCost()
 
-  @Benchmark
-  def cake(bs: BenchmarkState): Int =  bs.cake.totalCost()
+	@Benchmark def oooTree(bs: BenchmarkState): Int =  bs.oooTree.totalCost()
+	@Benchmark def oooSubcalls(bs: BenchmarkState): Int =  bs.oooSubcalls.totalCost()
+	@Benchmark def oooLambdas(bs: BenchmarkState): Int =  bs.oooLambdas.totalCost()
 
- // @Benchmark
-  def cake2(bs: BenchmarkState): Int =  bs.cake2.totalCost()
+	@Benchmark def oooNested(bs: BenchmarkState): Int =  bs.oooNested.totalCost()
+	@Benchmark def javaOOO(bs: BenchmarkState): Int =  bs.javaOOO.totalCost()
+	@Benchmark def javaFast(bs: BenchmarkState): Int =  bs.javafast.totalCost()
 
-  @Benchmark
-  def ooo(bs: BenchmarkState): Int =  bs.ooo.totalCost()
-
-   @Benchmark
-  def typeclass(bs: BenchmarkState): Int =  bs.typeclass.totalCost()
 }
 
 
