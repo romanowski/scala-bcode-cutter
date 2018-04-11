@@ -1,0 +1,25 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public class rpg.ooo.subcalls.WisTree implements rpg.ooo.subcalls.Tree,rpg.ooo.subcalls.WisBased,scala.Product,scala.Serializable {
+  private final rpg.ooo.subcalls.Node left;
+  private final rpg.ooo.subcalls.Node right;
+  public static scala.Option<scala.Tuple2<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node>> unapply(rpg.ooo.subcalls.WisTree);
+  public static rpg.ooo.subcalls.WisTree apply(rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node);
+  public static scala.Function1<scala.Tuple2<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node>, rpg.ooo.subcalls.WisTree> tupled();
+  public static scala.Function1<rpg.ooo.subcalls.Node, scala.Function1<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.WisTree>> curried();
+  public int thisCost(rpg.PlayerTraits);
+  public int cost(rpg.PlayerTraits);
+  public rpg.ooo.subcalls.Node left();
+  public rpg.ooo.subcalls.Node right();
+  public rpg.ooo.subcalls.WisTree copy(rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node);
+  public rpg.ooo.subcalls.Node copy$default$1();
+  public rpg.ooo.subcalls.Node copy$default$2();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.ooo.subcalls.WisTree(rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node);
+}

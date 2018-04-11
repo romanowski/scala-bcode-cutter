@@ -1,0 +1,11 @@
+Compiled from "OOOSkillTrees.scala"
+public final class rpg.ooo.StrSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.ooo.StrSkill> implements scala.Serializable {
+  public static rpg.ooo.StrSkill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.ooo.StrSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.ooo.StrSkill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.ooo.StrSkill$();
+}

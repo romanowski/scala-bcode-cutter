@@ -1,0 +1,6 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.PatMatSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.patmat.DexTree> {
+  private final rpg.PlayerTraits traits$1;
+  public int totalCost();
+  public rpg.patmat.PatMatSkillTrees$$anon$1(rpg.patmat.PatMatSkillTrees, rpg.PlayerTraits);
+}

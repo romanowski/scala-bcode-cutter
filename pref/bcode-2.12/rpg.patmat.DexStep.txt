@@ -1,0 +1,170 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.DexStep implements rpg.patmat.Node,scala.Product,scala.Serializable {
+  private final rpg.patmat.Node to;
+
+  public static scala.Option<rpg.patmat.Node> unapply(rpg.patmat.DexStep);
+    Code:
+       0: getstatic     #24                 // Field rpg/patmat/DexStep$.MODULE$:Lrpg/patmat/DexStep$;
+       3: aload_0
+       4: invokevirtual #26                 // Method rpg/patmat/DexStep$.unapply:(Lrpg/patmat/DexStep;)Lscala/Option;
+       7: areturn
+
+  public static rpg.patmat.DexStep apply(rpg.patmat.Node);
+    Code:
+       0: getstatic     #24                 // Field rpg/patmat/DexStep$.MODULE$:Lrpg/patmat/DexStep$;
+       3: aload_0
+       4: invokevirtual #30                 // Method rpg/patmat/DexStep$.apply:(Lrpg/patmat/Node;)Lrpg/patmat/DexStep;
+       7: areturn
+
+  public static <A> scala.Function1<rpg.patmat.Node, A> andThen(scala.Function1<rpg.patmat.DexStep, A>);
+    Code:
+       0: getstatic     #24                 // Field rpg/patmat/DexStep$.MODULE$:Lrpg/patmat/DexStep$;
+       3: aload_0
+       4: invokevirtual #34                 // Method rpg/patmat/DexStep$.andThen:(Lscala/Function1;)Lscala/Function1;
+       7: areturn
+
+  public static <A> scala.Function1<A, rpg.patmat.DexStep> compose(scala.Function1<A, rpg.patmat.Node>);
+    Code:
+       0: getstatic     #24                 // Field rpg/patmat/DexStep$.MODULE$:Lrpg/patmat/DexStep$;
+       3: aload_0
+       4: invokevirtual #37                 // Method rpg/patmat/DexStep$.compose:(Lscala/Function1;)Lscala/Function1;
+       7: areturn
+
+  public rpg.patmat.Node to();
+    Code:
+       0: aload_0
+       1: getfield      #40                 // Field to:Lrpg/patmat/Node;
+       4: areturn
+
+  public rpg.patmat.DexStep copy(rpg.patmat.Node);
+    Code:
+       0: new           #2                  // class rpg/patmat/DexStep
+       3: dup
+       4: aload_1
+       5: invokespecial #47                 // Method "<init>":(Lrpg/patmat/Node;)V
+       8: areturn
+
+  public rpg.patmat.Node copy$default$1();
+    Code:
+       0: aload_0
+       1: invokevirtual #50                 // Method to:()Lrpg/patmat/Node;
+       4: areturn
+
+  public java.lang.String productPrefix();
+    Code:
+       0: ldc           #54                 // String DexStep
+       2: areturn
+
+  public int productArity();
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  public java.lang.Object productElement(int);
+    Code:
+       0: iload_1
+       1: istore_2
+       2: iload_2
+       3: tableswitch   { // 0 to 0
+                     0: 20
+               default: 27
+          }
+      20: aload_0
+      21: invokevirtual #50                 // Method to:()Lrpg/patmat/Node;
+      24: goto          42
+      27: new           #61                 // class java/lang/IndexOutOfBoundsException
+      30: dup
+      31: iload_1
+      32: invokestatic  #67                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      35: invokevirtual #70                 // Method java/lang/Object.toString:()Ljava/lang/String;
+      38: invokespecial #73                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+      41: athrow
+      42: areturn
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    Code:
+       0: getstatic     #81                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #85                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+       7: areturn
+
+  public boolean canEqual(java.lang.Object);
+    Code:
+       0: aload_1
+       1: instanceof    #2                  // class rpg/patmat/DexStep
+       4: ireturn
+
+  public int hashCode();
+    Code:
+       0: getstatic     #81                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #93                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+       7: ireturn
+
+  public java.lang.String toString();
+    Code:
+       0: getstatic     #81                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #97                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+       7: areturn
+
+  public boolean equals(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: if_acmpeq     86
+       5: aload_1
+       6: astore_3
+       7: aload_3
+       8: instanceof    #2                  // class rpg/patmat/DexStep
+      11: ifeq          19
+      14: iconst_1
+      15: istore_2
+      16: goto          27
+      19: goto          22
+      22: iconst_0
+      23: istore_2
+      24: goto          27
+      27: iload_2
+      28: ifeq          90
+      31: aload_1
+      32: checkcast     #2                  // class rpg/patmat/DexStep
+      35: astore        4
+      37: aload_0
+      38: invokevirtual #50                 // Method to:()Lrpg/patmat/Node;
+      41: aload         4
+      43: invokevirtual #50                 // Method to:()Lrpg/patmat/Node;
+      46: astore        5
+      48: dup
+      49: ifnonnull     61
+      52: pop
+      53: aload         5
+      55: ifnull        69
+      58: goto          82
+      61: aload         5
+      63: invokevirtual #100                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      66: ifeq          82
+      69: aload         4
+      71: aload_0
+      72: invokevirtual #102                // Method canEqual:(Ljava/lang/Object;)Z
+      75: ifeq          82
+      78: iconst_1
+      79: goto          83
+      82: iconst_0
+      83: ifeq          90
+      86: iconst_1
+      87: goto          91
+      90: iconst_0
+      91: ireturn
+
+  public rpg.patmat.DexStep(rpg.patmat.Node);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #40                 // Field to:Lrpg/patmat/Node;
+       5: aload_0
+       6: invokespecial #105                // Method java/lang/Object."<init>":()V
+       9: aload_0
+      10: invokestatic  #109                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+      13: return
+}

@@ -1,0 +1,110 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/subcalls/Skill.class
+  Last modified Apr 8, 2018; size 1132 bytes
+  MD5 checksum 1d7abe4524e767af58f9cb6d0bb3f74c
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.Skill extends rpg.ooo.subcalls.Node,rpg.ooo.subcalls.FeatBased
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/ooo/subcalls/Skill
+   #2 = Class              #1             // rpg/ooo/subcalls/Skill
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               rpg/ooo/subcalls/Node
+   #6 = Class              #5             // rpg/ooo/subcalls/Node
+   #7 = Utf8               rpg/ooo/subcalls/FeatBased
+   #8 = Class              #7             // rpg/ooo/subcalls/FeatBased
+   #9 = Utf8               OOOSubcallsSkillTrees.scala
+  #10 = Utf8               Lscala/reflect/ScalaSignature;
+  #11 = Utf8               bytes
+  #12 = Utf8               %2q!BATW&dGN\tA1/2dC2d7O\rqn\8\t1A9hB)A1BD)\tQ\"AtGd-\t1I\=SK\"!\n\tI!a\t9{G-\t#UI!A+\r\"bg$\"\r\tIAj]&$HF!\tY1$\t!QK\5uq\" wn;CA\"\tCBAJ]RDQJA\na:bSRC(1B1F.Y=feR-;t
+  #13 = Utf8               cost$
+  #14 = Utf8               (Lrpg/ooo/subcalls/Skill;Lrpg/PlayerTraits;)I
+  #15 = Utf8               $this
+  #16 = Utf8               traits
+  #17 = Utf8               cost
+  #18 = Utf8               (Lrpg/PlayerTraits;)I
+  #19 = NameAndType        #17:#18        // cost:(Lrpg/PlayerTraits;)I
+  #20 = InterfaceMethodref #2.#19         // rpg/ooo/subcalls/Skill.cost:(Lrpg/PlayerTraits;)I
+  #21 = Utf8               Lrpg/ooo/subcalls/Skill;
+  #22 = Utf8               Lrpg/PlayerTraits;
+  #23 = Utf8               thisCost
+  #24 = NameAndType        #23:#18        // thisCost:(Lrpg/PlayerTraits;)I
+  #25 = InterfaceMethodref #2.#24         // rpg/ooo/subcalls/Skill.thisCost:(Lrpg/PlayerTraits;)I
+  #26 = Utf8               this
+  #27 = Utf8               $init$
+  #28 = Utf8               (Lrpg/ooo/subcalls/Skill;)V
+  #29 = Utf8               Code
+  #30 = Utf8               LocalVariableTable
+  #31 = Utf8               LineNumberTable
+  #32 = Utf8               MethodParameters
+  #33 = Utf8               SourceFile
+  #34 = Utf8               RuntimeVisibleAnnotations
+  #35 = Utf8               ScalaInlineInfo
+  #36 = Utf8               ScalaSig
+{
+  public static int cost$(rpg.ooo.subcalls.Skill, rpg.PlayerTraits);
+    descriptor: (Lrpg/ooo/subcalls/Skill;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokespecial #20                 // InterfaceMethod cost:(Lrpg/PlayerTraits;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0 $this   Lrpg/ooo/subcalls/Skill;
+            0       6     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 54: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+      traits                         final
+
+  public int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokeinterface #25,  2           // InterfaceMethod thisCost:(Lrpg/PlayerTraits;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/ooo/subcalls/Skill;
+            0       8     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 54: 0
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public static void $init$(rpg.ooo.subcalls.Skill);
+    descriptor: (Lrpg/ooo/subcalls/Skill;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0 $this   Lrpg/ooo/subcalls/Skill;
+      LineNumberTable:
+        line 53: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #10(#11=s#12)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 00 00 03 00 1B 00 1C 01 00 0D 00 0E 01 00 11
+   00 12 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

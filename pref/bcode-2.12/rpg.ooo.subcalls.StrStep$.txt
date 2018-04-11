@@ -1,0 +1,57 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.subcalls.StrStep$ extends scala.runtime.AbstractFunction1<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.StrStep> implements scala.Serializable {
+  public static rpg.ooo.subcalls.StrStep$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/ooo/subcalls/StrStep$
+       3: invokespecial #15                 // Method "<init>":()V
+       6: return
+
+  public final java.lang.String toString();
+    Code:
+       0: ldc           #19                 // String StrStep
+       2: areturn
+
+  public rpg.ooo.subcalls.StrStep apply(rpg.ooo.subcalls.Node);
+    Code:
+       0: new           #25                 // class rpg/ooo/subcalls/StrStep
+       3: dup
+       4: aload_1
+       5: invokespecial #28                 // Method rpg/ooo/subcalls/StrStep."<init>":(Lrpg/ooo/subcalls/Node;)V
+       8: areturn
+
+  public scala.Option<rpg.ooo.subcalls.Node> unapply(rpg.ooo.subcalls.StrStep);
+    Code:
+       0: aload_1
+       1: ifnonnull     10
+       4: getstatic     #37                 // Field scala/None$.MODULE$:Lscala/None$;
+       7: goto          21
+      10: new           #39                 // class scala/Some
+      13: dup
+      14: aload_1
+      15: invokevirtual #42                 // Method rpg/ooo/subcalls/StrStep.to:()Lrpg/ooo/subcalls/Node;
+      18: invokespecial #45                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+      21: areturn
+
+  private java.lang.Object readResolve();
+    Code:
+       0: getstatic     #52                 // Field MODULE$:Lrpg/ooo/subcalls/StrStep$;
+       3: areturn
+
+  public java.lang.Object apply(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #56                 // class rpg/ooo/subcalls/Node
+       5: invokevirtual #58                 // Method apply:(Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/StrStep;
+       8: areturn
+
+  private rpg.ooo.subcalls.StrStep$();
+    Code:
+       0: aload_0
+       1: invokespecial #60                 // Method scala/runtime/AbstractFunction1."<init>":()V
+       4: aload_0
+       5: putstatic     #52                 // Field MODULE$:Lrpg/ooo/subcalls/StrStep$;
+       8: return
+}

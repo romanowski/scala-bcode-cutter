@@ -1,0 +1,509 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/DexSkill.class
+  Last modified Apr 8, 2018; size 4575 bytes
+  MD5 checksum 253fce3db8e52f05f1ef2d9bedf7e270
+  Compiled from "OOOSkillTrees.scala"
+public class rpg.ooo.DexSkill implements rpg.ooo.Node,scala.Product,scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/ooo/DexSkill
+    #2 = Class              #1            // rpg/ooo/DexSkill
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/ooo/Node
+    #6 = Class              #5            // rpg/ooo/Node
+    #7 = Utf8               scala/Product
+    #8 = Class              #7            // scala/Product
+    #9 = Utf8               scala/Serializable
+   #10 = Class              #9            // scala/Serializable
+   #11 = Utf8               OOOSkillTrees.scala
+   #12 = Utf8               Lscala/reflect/ScalaSignature;
+   #13 = Utf8               bytes
+   #14 = Utf8               MbBR3y'.LG\t1a\8p)a:qO1#\tI)CA\rQ!\"AM\r\1\n5Q!AB!osJ+g\r!5\t!!\t!aj3f!\tI1#\t9K]8ek$CA\t9\"BTKJL\r\5{C\ndW\r\tU\r\"q-\3m\"Hu\tCy\"Ba$o\8u}%!EC!J,G-4\n*#AB*ue&twM#!AqB\tB%1$AoC6,C*!&=S:LGOW1\"a\teAA\t9AI\t\r|7aM\"!C\nIR!aA%oi\")A'ak1AO]1jiN\"ANI!Ac-_3s)J^:\ti!Cw!1m9z)\tYCCsA\tA\ty!Cq1m9zI,g-Y;mi\nT#!+m\t5&\"\rCU\"#3!C;oG\",7m[3e\t9%\"b]:|G/;j_:L!!##Ut7\r[3dW$g+:jC:W\rCLI\t'AxZ;diBXMZ5y+iC(Ty%B)RaM\4IAA[1wC&Ae+\t\t\"W1(o3vGR%/;z+b-%\t!WaJ|G-^2u2,W.8u)\tQV\n7&AL:Lb0X\rMq\nb1%\t%YaJ|G-^2uR,'/;peV\t!\rEdMjkK*\t!bY8mYG/[8o\t9GMJi\r^8sI!!A)bY1oF,\rW:\"!7\n5T!a\"p_2,M=\"\t1[!!ABE[1tQ{G-a!91AA\n\";p'RN\45CqAs/fcVGnWbDqAX;!lB{\tA>+pU6jY2\"a?!E{NAP`})aG!bAA9!/8uS6,BA#2tiJ7\r$v]$n82IC\"Q\t1CtyIQ\t;\tEA0!AM!B1qa2LHcA!1$aAmA\"!}%\t)aUt\r9msR!QDA!IqD\n\"BPaRLwN\nK\t9\"!AA-\n11%\tI`A\n\tY#AsK$'+Z:pYZ,GCAA!\rqqFcy%AB(cUG
+   #15 = Utf8               name
+   #16 = Utf8               Ljava/lang/String;
+   #17 = Utf8               unapply
+   #18 = Utf8               (Lrpg/ooo/DexSkill;)Lscala/Option;
+   #19 = Utf8               rpg/ooo/DexSkill$
+   #20 = Class              #19           // rpg/ooo/DexSkill$
+   #21 = Utf8               MODULE$
+   #22 = Utf8               Lrpg/ooo/DexSkill$;
+   #23 = NameAndType        #21:#22       // MODULE$:Lrpg/ooo/DexSkill$;
+   #24 = Fieldref           #20.#23       // rpg/ooo/DexSkill$.MODULE$:Lrpg/ooo/DexSkill$;
+   #25 = NameAndType        #17:#18       // unapply:(Lrpg/ooo/DexSkill;)Lscala/Option;
+   #26 = Methodref          #20.#25       // rpg/ooo/DexSkill$.unapply:(Lrpg/ooo/DexSkill;)Lscala/Option;
+   #27 = Utf8               apply
+   #28 = Utf8               (Ljava/lang/String;)Lrpg/ooo/DexSkill;
+   #29 = NameAndType        #27:#28       // apply:(Ljava/lang/String;)Lrpg/ooo/DexSkill;
+   #30 = Methodref          #20.#29       // rpg/ooo/DexSkill$.apply:(Ljava/lang/String;)Lrpg/ooo/DexSkill;
+   #31 = Utf8               andThen
+   #32 = Utf8               (Lscala/Function1;)Lscala/Function1;
+   #33 = NameAndType        #31:#32       // andThen:(Lscala/Function1;)Lscala/Function1;
+   #34 = Methodref          #20.#33       // rpg/ooo/DexSkill$.andThen:(Lscala/Function1;)Lscala/Function1;
+   #35 = Utf8               compose
+   #36 = NameAndType        #35:#32       // compose:(Lscala/Function1;)Lscala/Function1;
+   #37 = Methodref          #20.#36       // rpg/ooo/DexSkill$.compose:(Lscala/Function1;)Lscala/Function1;
+   #38 = Utf8               ()Ljava/lang/String;
+   #39 = NameAndType        #15:#16       // name:Ljava/lang/String;
+   #40 = Fieldref           #2.#39        // rpg/ooo/DexSkill.name:Ljava/lang/String;
+   #41 = Utf8               this
+   #42 = Utf8               Lrpg/ooo/DexSkill;
+   #43 = Utf8               cost
+   #44 = Utf8               (Lrpg/PlayerTraits;)I
+   #45 = Utf8               traits
+   #46 = Utf8               rpg/PlayerTraits
+   #47 = Class              #46           // rpg/PlayerTraits
+   #48 = Utf8               dexCost
+   #49 = Utf8               ()I
+   #50 = NameAndType        #48:#49       // dexCost:()I
+   #51 = Methodref          #47.#50       // rpg/PlayerTraits.dexCost:()I
+   #52 = Utf8               Lrpg/PlayerTraits;
+   #53 = Utf8               copy
+   #54 = Utf8               <init>
+   #55 = Utf8               (Ljava/lang/String;)V
+   #56 = NameAndType        #54:#55       // "<init>":(Ljava/lang/String;)V
+   #57 = Methodref          #2.#56        // rpg/ooo/DexSkill."<init>":(Ljava/lang/String;)V
+   #58 = Utf8               copy$default$1
+   #59 = NameAndType        #15:#38       // name:()Ljava/lang/String;
+   #60 = Methodref          #2.#59        // rpg/ooo/DexSkill.name:()Ljava/lang/String;
+   #61 = Utf8               productPrefix
+   #62 = Utf8               DexSkill
+   #63 = String             #62           // DexSkill
+   #64 = Utf8               productArity
+   #65 = Utf8               productElement
+   #66 = Utf8               (I)Ljava/lang/Object;
+   #67 = Utf8               x$1
+   #68 = Utf8               java/lang/IndexOutOfBoundsException
+   #69 = Class              #68           // java/lang/IndexOutOfBoundsException
+   #70 = Utf8               scala/runtime/BoxesRunTime
+   #71 = Class              #70           // scala/runtime/BoxesRunTime
+   #72 = Utf8               boxToInteger
+   #73 = Utf8               (I)Ljava/lang/Integer;
+   #74 = NameAndType        #72:#73       // boxToInteger:(I)Ljava/lang/Integer;
+   #75 = Methodref          #71.#74       // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+   #76 = Utf8               toString
+   #77 = NameAndType        #76:#38       // toString:()Ljava/lang/String;
+   #78 = Methodref          #4.#77        // java/lang/Object.toString:()Ljava/lang/String;
+   #79 = Methodref          #69.#56       // java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+   #80 = Utf8               I
+   #81 = Utf8               java/lang/String
+   #82 = Class              #81           // java/lang/String
+   #83 = Utf8               productIterator
+   #84 = Utf8               ()Lscala/collection/Iterator;
+   #85 = Utf8               scala/runtime/ScalaRunTime$
+   #86 = Class              #85           // scala/runtime/ScalaRunTime$
+   #87 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #88 = NameAndType        #21:#87       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #89 = Fieldref           #86.#88       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #90 = Utf8               typedProductIterator
+   #91 = Utf8               (Lscala/Product;)Lscala/collection/Iterator;
+   #92 = NameAndType        #90:#91       // typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #93 = Methodref          #86.#92       // scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #94 = Utf8               canEqual
+   #95 = Utf8               (Ljava/lang/Object;)Z
+   #96 = Utf8               Ljava/lang/Object;
+   #97 = Utf8               hashCode
+   #98 = Utf8               _hashCode
+   #99 = Utf8               (Lscala/Product;)I
+  #100 = NameAndType        #98:#99       // _hashCode:(Lscala/Product;)I
+  #101 = Methodref          #86.#100      // scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+  #102 = Utf8               _toString
+  #103 = Utf8               (Lscala/Product;)Ljava/lang/String;
+  #104 = NameAndType        #102:#103     // _toString:(Lscala/Product;)Ljava/lang/String;
+  #105 = Methodref          #86.#104      // scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+  #106 = Utf8               equals
+  #107 = NameAndType        #106:#95      // equals:(Ljava/lang/Object;)Z
+  #108 = Methodref          #4.#107       // java/lang/Object.equals:(Ljava/lang/Object;)Z
+  #109 = NameAndType        #94:#95       // canEqual:(Ljava/lang/Object;)Z
+  #110 = Methodref          #2.#109       // rpg/ooo/DexSkill.canEqual:(Ljava/lang/Object;)Z
+  #111 = Utf8               ()V
+  #112 = NameAndType        #54:#111      // "<init>":()V
+  #113 = Methodref          #4.#112       // java/lang/Object."<init>":()V
+  #114 = Utf8               $init$
+  #115 = Utf8               (Lscala/Product;)V
+  #116 = NameAndType        #114:#115     // $init$:(Lscala/Product;)V
+  #117 = InterfaceMethodref #8.#116       // scala/Product.$init$:(Lscala/Product;)V
+  #118 = Utf8               Code
+  #119 = Utf8               Signature
+  #120 = Utf8               (Lrpg/ooo/DexSkill;)Lscala/Option<Ljava/lang/String;>;
+  #121 = Utf8               <A:Ljava/lang/Object;>(Lscala/Function1<Lrpg/ooo/DexSkill;TA;>;)Lscala/Function1<Ljava/lang/String;TA;>;
+  #122 = Utf8               <A:Ljava/lang/Object;>(Lscala/Function1<TA;Ljava/lang/String;>;)Lscala/Function1<TA;Lrpg/ooo/DexSkill;>;
+  #123 = Utf8               LocalVariableTable
+  #124 = Utf8               LineNumberTable
+  #125 = Utf8               MethodParameters
+  #126 = Utf8               StackMapTable
+  #127 = Utf8               ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+  #128 = Utf8               SourceFile
+  #129 = Utf8               RuntimeVisibleAnnotations
+  #130 = Utf8               ScalaInlineInfo
+  #131 = Utf8               ScalaSig
+{
+  private final java.lang.String name;
+    descriptor: Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public static scala.Option<java.lang.String> unapply(rpg.ooo.DexSkill);
+    descriptor: (Lrpg/ooo/DexSkill;)Lscala/Option;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/ooo/DexSkill$.MODULE$:Lrpg/ooo/DexSkill$;
+         3: aload_0
+         4: invokevirtual #26                 // Method rpg/ooo/DexSkill$.unapply:(Lrpg/ooo/DexSkill;)Lscala/Option;
+         7: areturn
+    Signature: #120                         // (Lrpg/ooo/DexSkill;)Lscala/Option<Ljava/lang/String;>;
+
+  public static rpg.ooo.DexSkill apply(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lrpg/ooo/DexSkill;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/ooo/DexSkill$.MODULE$:Lrpg/ooo/DexSkill$;
+         3: aload_0
+         4: invokevirtual #30                 // Method rpg/ooo/DexSkill$.apply:(Ljava/lang/String;)Lrpg/ooo/DexSkill;
+         7: areturn
+
+  public static <A extends java.lang.Object> scala.Function1<java.lang.String, A> andThen(scala.Function1<rpg.ooo.DexSkill, A>);
+    descriptor: (Lscala/Function1;)Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/ooo/DexSkill$.MODULE$:Lrpg/ooo/DexSkill$;
+         3: aload_0
+         4: invokevirtual #34                 // Method rpg/ooo/DexSkill$.andThen:(Lscala/Function1;)Lscala/Function1;
+         7: areturn
+    Signature: #121                         // <A:Ljava/lang/Object;>(Lscala/Function1<Lrpg/ooo/DexSkill;TA;>;)Lscala/Function1<Ljava/lang/String;TA;>;
+
+  public static <A extends java.lang.Object> scala.Function1<A, rpg.ooo.DexSkill> compose(scala.Function1<A, java.lang.String>);
+    descriptor: (Lscala/Function1;)Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/ooo/DexSkill$.MODULE$:Lrpg/ooo/DexSkill$;
+         3: aload_0
+         4: invokevirtual #37                 // Method rpg/ooo/DexSkill$.compose:(Lscala/Function1;)Lscala/Function1;
+         7: areturn
+    Signature: #122                         // <A:Ljava/lang/Object;>(Lscala/Function1<TA;Ljava/lang/String;>;)Lscala/Function1<TA;Lrpg/ooo/DexSkill;>;
+
+  public java.lang.String name();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #40                 // Field name:Ljava/lang/String;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/DexSkill;
+      LineNumberTable:
+        line 35: 0
+
+  public int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: invokevirtual #51                 // Method rpg/PlayerTraits.dexCost:()I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/DexSkill;
+            0       5     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 36: 0
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public rpg.ooo.DexSkill copy(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lrpg/ooo/DexSkill;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: new           #2                  // class rpg/ooo/DexSkill
+         3: dup
+         4: aload_1
+         5: invokespecial #57                 // Method "<init>":(Ljava/lang/String;)V
+         8: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/ooo/DexSkill;
+            0       9     1  name   Ljava/lang/String;
+      LineNumberTable:
+        line 35: 0
+    MethodParameters:
+      Name                           Flags
+      name                           final
+
+  public java.lang.String copy$default$1();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #60                 // Method name:()Ljava/lang/String;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/DexSkill;
+      LineNumberTable:
+        line 35: 0
+
+  public java.lang.String productPrefix();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #63                 // String DexSkill
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/ooo/DexSkill;
+      LineNumberTable:
+        line 35: 0
+
+  public int productArity();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_1
+         1: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lrpg/ooo/DexSkill;
+      LineNumberTable:
+        line 35: 0
+
+  public java.lang.Object productElement(int);
+    descriptor: (I)Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1
+         1: istore_2
+         2: iload_2
+         3: tableswitch   { // 0 to 0
+                       0: 20
+                 default: 27
+            }
+        20: aload_0
+        21: invokevirtual #60                 // Method name:()Ljava/lang/String;
+        24: goto          42
+        27: new           #69                 // class java/lang/IndexOutOfBoundsException
+        30: dup
+        31: iload_1
+        32: invokestatic  #75                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        35: invokevirtual #78                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        38: invokespecial #79                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+        41: athrow
+        42: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      43     0  this   Lrpg/ooo/DexSkill;
+            0      43     1   x$1   I
+      LineNumberTable:
+        line 35: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 20
+          locals = [ int ]
+        frame_type = 6 /* same */
+        frame_type = 78 /* same_locals_1_stack_item */
+          stack = [ class java/lang/String ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    descriptor: ()Lscala/collection/Iterator;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #89                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #93                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/ooo/DexSkill;
+      LineNumberTable:
+        line 35: 0
+    Signature: #127                         // ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+
+  public boolean canEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: instanceof    #2                  // class rpg/ooo/DexSkill
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/DexSkill;
+            0       5     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 35: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int hashCode();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #89                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #101                // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/ooo/DexSkill;
+      LineNumberTable:
+        line 35: 0
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #89                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #105                // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/ooo/DexSkill;
+      LineNumberTable:
+        line 35: 0
+
+  public boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=6, args_size=2
+         0: aload_0
+         1: aload_1
+         2: if_acmpeq     86
+         5: aload_1
+         6: astore_3
+         7: aload_3
+         8: instanceof    #2                  // class rpg/ooo/DexSkill
+        11: ifeq          19
+        14: iconst_1
+        15: istore_2
+        16: goto          27
+        19: goto          22
+        22: iconst_0
+        23: istore_2
+        24: goto          27
+        27: iload_2
+        28: ifeq          90
+        31: aload_1
+        32: checkcast     #2                  // class rpg/ooo/DexSkill
+        35: astore        4
+        37: aload_0
+        38: invokevirtual #60                 // Method name:()Ljava/lang/String;
+        41: aload         4
+        43: invokevirtual #60                 // Method name:()Ljava/lang/String;
+        46: astore        5
+        48: dup
+        49: ifnonnull     61
+        52: pop
+        53: aload         5
+        55: ifnull        69
+        58: goto          82
+        61: aload         5
+        63: invokevirtual #108                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        66: ifeq          82
+        69: aload         4
+        71: aload_0
+        72: invokevirtual #110                // Method canEqual:(Ljava/lang/Object;)Z
+        75: ifeq          82
+        78: iconst_1
+        79: goto          83
+        82: iconst_0
+        83: ifeq          90
+        86: iconst_1
+        87: goto          91
+        90: iconst_0
+        91: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      92     0  this   Lrpg/ooo/DexSkill;
+            0      92     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 35: 0
+      StackMapTable: number_of_entries = 10
+        frame_type = 253 /* append */
+          offset_delta = 19
+          locals = [ top, class java/lang/Object ]
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 4
+          locals = [ class rpg/ooo/DexSkill, class java/lang/Object, int, class java/lang/Object ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 33
+          locals = [ class rpg/ooo/DexSkill, class java/lang/Object, int, class java/lang/Object, class rpg/ooo/DexSkill, class java/lang/String ]
+          stack = [ class java/lang/String ]
+        frame_type = 7 /* same */
+        frame_type = 12 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class rpg/ooo/DexSkill, class java/lang/Object ]
+          stack = []
+        frame_type = 253 /* append */
+          offset_delta = 3
+          locals = [ int, class java/lang/Object ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class rpg/ooo/DexSkill, class java/lang/Object ]
+          stack = [ int ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public rpg.ooo.DexSkill(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #40                 // Field name:Ljava/lang/String;
+         5: aload_0
+         6: invokespecial #113                // Method java/lang/Object."<init>":()V
+         9: aload_0
+        10: invokestatic  #117                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+        13: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      14     0  this   Lrpg/ooo/DexSkill;
+            0      14     1  name   Ljava/lang/String;
+      LineNumberTable:
+        line 35: 0
+    MethodParameters:
+      Name                           Flags
+      name                           final
+}
+SourceFile: "OOOSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #12(#13=s#14)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x45
+   01 00 00 0D 00 36 00 37 00 00 5E 00 5F 00 00 3A
+   00 26 00 00 35 00 1C 00 00 2B 00 2C 00 00 6A 00
+   5F 00 00 61 00 31 00 00 0F 00 26 00 00 40 00 31
+   00 00 41 00 42 00 00 53 00 54 00 00 3D 00 26 00
+   00 4C 00 26 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

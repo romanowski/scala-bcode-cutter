@@ -1,0 +1,202 @@
+Compiled from "Benchmarks.scala"
+public interface rpg.bench.Benchmarks {
+  public static int patMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #16                 // InterfaceMethod patMat:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int patMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #24                 // Method rpg/bench/BenchmarkState.patMat:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int slowPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #35                 // InterfaceMethod slowPatMat:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int slowPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #37                 // Method rpg/bench/BenchmarkState.slowPatMat:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int classesPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #41                 // InterfaceMethod classesPatMat:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int classesPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #43                 // Method rpg/bench/BenchmarkState.classesPatMat:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int steppedPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #47                 // InterfaceMethod steppedPatMat:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int steppedPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #49                 // Method rpg/bench/BenchmarkState.steppedPatMat:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int steppedClassPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #53                 // InterfaceMethod steppedClassPatMat:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int steppedClassPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #55                 // Method rpg/bench/BenchmarkState.steppedClassPatMat:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int typeclass$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #59                 // InterfaceMethod typeclass:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int typeclass(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #61                 // Method rpg/bench/BenchmarkState.typeclass:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int cake$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #65                 // InterfaceMethod cake:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int cake(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #67                 // Method rpg/bench/BenchmarkState.cake:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int cake2$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #71                 // InterfaceMethod cake2:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int cake2(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #73                 // Method rpg/bench/BenchmarkState.cake2:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int oooTree$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #77                 // InterfaceMethod oooTree:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooTree(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #79                 // Method rpg/bench/BenchmarkState.oooTree:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int oooSubcalls$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #83                 // InterfaceMethod oooSubcalls:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooSubcalls(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #85                 // Method rpg/bench/BenchmarkState.oooSubcalls:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int oooLambdas$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #89                 // InterfaceMethod oooLambdas:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooLambdas(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #91                 // Method rpg/bench/BenchmarkState.oooLambdas:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int oooNested$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #95                 // InterfaceMethod oooNested:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooNested(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #97                 // Method rpg/bench/BenchmarkState.oooNested:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int javaOOO$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #101                // InterfaceMethod javaOOO:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int javaOOO(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #103                // Method rpg/bench/BenchmarkState.javaOOO:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static int javaFast$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #107                // InterfaceMethod javaFast:(Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int javaFast(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_1
+       1: invokevirtual #110                // Method rpg/bench/BenchmarkState.javafast:()Lrpg/SkillTreeRepr;
+       4: invokevirtual #30                 // Method rpg/SkillTreeRepr.totalCost:()I
+       7: ireturn
+
+  public static void $init$(rpg.bench.Benchmarks);
+    Code:
+       0: return
+}

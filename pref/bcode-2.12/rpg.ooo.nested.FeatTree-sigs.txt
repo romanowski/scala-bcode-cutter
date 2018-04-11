@@ -1,0 +1,8 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.nested.FeatTree {
+  public abstract rpg.ooo.nested.FeatTree$Tree$ Tree();
+  public abstract rpg.ooo.nested.FeatTree$Step$ Step();
+  public abstract rpg.ooo.nested.FeatTree$Skill$ Skill();
+  public abstract int thisCost(rpg.PlayerTraits);
+  public static void $init$(rpg.ooo.nested.FeatTree);
+}

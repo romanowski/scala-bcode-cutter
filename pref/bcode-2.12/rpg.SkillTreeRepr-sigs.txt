@@ -1,0 +1,7 @@
+Compiled from "SkillTrees.scala"
+public abstract class rpg.SkillTreeRepr<T> {
+  private final T tree;
+  public T tree();
+  public abstract int totalCost();
+  public rpg.SkillTreeRepr(T);
+}

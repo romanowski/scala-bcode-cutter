@@ -1,0 +1,128 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/Cake2SkillTrees$$anon$2.class
+  Last modified Apr 8, 2018; size 1231 bytes
+  MD5 checksum 3bfaaeec21fa6868cd7fdb15156da794
+  Compiled from "CakeSkillTrees.scala"
+public final class rpg.cake2.Cake2SkillTrees$$anon$2 extends rpg.SkillTreeRepr<rpg.cake2.DexNodes$DexTree>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/cake2/Cake2SkillTrees$$anon$2
+   #2 = Class              #1             // rpg/cake2/Cake2SkillTrees$$anon$2
+   #3 = Utf8               Lrpg/SkillTreeRepr<Lrpg/cake2/DexNodes$DexTree;>;
+   #4 = Utf8               rpg/SkillTreeRepr
+   #5 = Class              #4             // rpg/SkillTreeRepr
+   #6 = Utf8               CakeSkillTrees.scala
+   #7 = Utf8               rpg/cake2/Cake2SkillTrees
+   #8 = Class              #7             // rpg/cake2/Cake2SkillTrees
+   #9 = Utf8               archeryTree
+  #10 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #11 = NameAndType        #9:#10         // archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #12 = Utf8               rpg/cake2/DexNodes$DexTree
+  #13 = Class              #12            // rpg/cake2/DexNodes$DexTree
+  #14 = Utf8               rpg/cake2/DexNodes
+  #15 = Class              #14            // rpg/cake2/DexNodes
+  #16 = Utf8               DexTree
+  #17 = Utf8               rpg/cake2/NodesTraits$Node
+  #18 = Class              #17            // rpg/cake2/NodesTraits$Node
+  #19 = Utf8               rpg/cake2/NodesTraits
+  #20 = Class              #19            // rpg/cake2/NodesTraits
+  #21 = Utf8               Node
+  #22 = Utf8               nodes$1
+  #23 = Utf8               Lrpg/cake2/NodesTraits;
+  #24 = Utf8               totalCost
+  #25 = Utf8               ()I
+  #26 = NameAndType        #22:#23        // nodes$1:Lrpg/cake2/NodesTraits;
+  #27 = Fieldref           #2.#26         // rpg/cake2/Cake2SkillTrees$$anon$2.nodes$1:Lrpg/cake2/NodesTraits;
+  #28 = Utf8               tree
+  #29 = Utf8               ()Ljava/lang/Object;
+  #30 = NameAndType        #28:#29        // tree:()Ljava/lang/Object;
+  #31 = Methodref          #2.#30         // rpg/cake2/Cake2SkillTrees$$anon$2.tree:()Ljava/lang/Object;
+  #32 = Utf8               totalSkill
+  #33 = Utf8               (Lrpg/cake2/NodesTraits$Node;)I
+  #34 = NameAndType        #32:#33        // totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+  #35 = InterfaceMethodref #20.#34        // rpg/cake2/NodesTraits.totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+  #36 = Utf8               this
+  #37 = Utf8               Lrpg/cake2/Cake2SkillTrees$$anon$2;
+  #38 = Utf8               <init>
+  #39 = Utf8               (Lrpg/cake2/Cake2SkillTrees;Lrpg/cake2/NodesTraits;Lrpg/cake2/DexNodes$DexTree;)V
+  #40 = Utf8               $outer
+  #41 = Utf8               tree$1
+  #42 = Utf8               (Ljava/lang/Object;)V
+  #43 = NameAndType        #38:#42        // "<init>":(Ljava/lang/Object;)V
+  #44 = Methodref          #5.#43         // rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+  #45 = Utf8               Lrpg/cake2/Cake2SkillTrees;
+  #46 = Utf8               Lrpg/cake2/DexNodes$DexTree;
+  #47 = Utf8               Code
+  #48 = Utf8               LocalVariableTable
+  #49 = Utf8               LineNumberTable
+  #50 = Utf8               MethodParameters
+  #51 = Utf8               Signature
+  #52 = Utf8               SourceFile
+  #53 = Utf8               EnclosingMethod
+  #54 = Utf8               InnerClasses
+  #55 = Utf8               ScalaInlineInfo
+  #56 = Utf8               Scala
+{
+  private final rpg.cake2.NodesTraits nodes$1;
+    descriptor: Lrpg/cake2/NodesTraits;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public int totalCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #27                 // Field nodes$1:Lrpg/cake2/NodesTraits;
+         4: aload_0
+         5: invokevirtual #31                 // Method tree:()Ljava/lang/Object;
+         8: checkcast     #18                 // class rpg/cake2/NodesTraits$Node
+        11: invokeinterface #35,  2           // InterfaceMethod rpg/cake2/NodesTraits.totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+        16: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      17     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$2;
+      LineNumberTable:
+        line 79: 0
+
+  public rpg.cake2.Cake2SkillTrees$$anon$2(rpg.cake2.Cake2SkillTrees, rpg.cake2.NodesTraits, rpg.cake2.DexNodes$DexTree);
+    descriptor: (Lrpg/cake2/Cake2SkillTrees;Lrpg/cake2/NodesTraits;Lrpg/cake2/DexNodes$DexTree;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=4
+         0: aload_0
+         1: aload_2
+         2: putfield      #27                 // Field nodes$1:Lrpg/cake2/NodesTraits;
+         5: aload_0
+         6: aload_3
+         7: invokespecial #44                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+        10: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$2;
+            0      11     1 $outer   Lrpg/cake2/Cake2SkillTrees;
+            0      11     2 nodes$1   Lrpg/cake2/NodesTraits;
+            0      11     3 tree$1   Lrpg/cake2/DexNodes$DexTree;
+      LineNumberTable:
+        line 64: 0
+        line 78: 5
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+      nodes$1                        final
+      tree$1                         final
+}
+Signature: #3                           // Lrpg/SkillTreeRepr<Lrpg/cake2/DexNodes$DexTree;>;
+SourceFile: "CakeSkillTrees.scala"
+EnclosingMethod: #8.#11                 // rpg.cake2.Cake2SkillTrees.archeryTree
+InnerClasses:
+     public final #2; //class rpg/cake2/Cake2SkillTrees$$anon$2
+     public #16= #13 of #15; //DexTree=class rpg/cake2/DexNodes$DexTree of class rpg/cake2/DexNodes
+     public #21= #18 of #20; //Node=class rpg/cake2/NodesTraits$Node of class rpg/cake2/NodesTraits
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 01 00 02 00 26 00 27 01 00 18 00 19 01
+Error: unknown attribute
+  Scala: length = 0x0
+

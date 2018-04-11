@@ -1,0 +1,11 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.subcalls.WisSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.ooo.subcalls.WisSkill> implements scala.Serializable {
+  public static rpg.ooo.subcalls.WisSkill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.ooo.subcalls.WisSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.ooo.subcalls.WisSkill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.ooo.subcalls.WisSkill$();
+}

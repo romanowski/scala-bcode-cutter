@@ -1,0 +1,11 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.subcalls.WisStep$ extends scala.runtime.AbstractFunction1<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.WisStep> implements scala.Serializable {
+  public static rpg.ooo.subcalls.WisStep$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.ooo.subcalls.WisStep apply(rpg.ooo.subcalls.Node);
+  public scala.Option<rpg.ooo.subcalls.Node> unapply(rpg.ooo.subcalls.WisStep);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.ooo.subcalls.WisStep$();
+}

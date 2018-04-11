@@ -1,0 +1,148 @@
+Compiled from "TypeclassSkillTrees.scala"
+public class rpg.typeclass.naive.WisStep<N> implements rpg.typeclass.naive.Node, scala.Product, scala.Serializable {
+  private final N to;
+
+  public static <N> scala.Option<N> unapply(rpg.typeclass.naive.WisStep<N>);
+    Code:
+       0: getstatic     #26                 // Field rpg/typeclass/naive/WisStep$.MODULE$:Lrpg/typeclass/naive/WisStep$;
+       3: aload_0
+       4: invokevirtual #28                 // Method rpg/typeclass/naive/WisStep$.unapply:(Lrpg/typeclass/naive/WisStep;)Lscala/Option;
+       7: areturn
+
+  public static <N> rpg.typeclass.naive.WisStep<N> apply(N);
+    Code:
+       0: getstatic     #26                 // Field rpg/typeclass/naive/WisStep$.MODULE$:Lrpg/typeclass/naive/WisStep$;
+       3: aload_0
+       4: invokevirtual #32                 // Method rpg/typeclass/naive/WisStep$.apply:(Ljava/lang/Object;)Lrpg/typeclass/naive/WisStep;
+       7: areturn
+
+  public N to();
+    Code:
+       0: aload_0
+       1: getfield      #35                 // Field to:Ljava/lang/Object;
+       4: areturn
+
+  public <N> rpg.typeclass.naive.WisStep<N> copy(N);
+    Code:
+       0: new           #2                  // class rpg/typeclass/naive/WisStep
+       3: dup
+       4: aload_1
+       5: invokespecial #42                 // Method "<init>":(Ljava/lang/Object;)V
+       8: areturn
+
+  public <N> N copy$default$1();
+    Code:
+       0: aload_0
+       1: invokevirtual #45                 // Method to:()Ljava/lang/Object;
+       4: areturn
+
+  public java.lang.String productPrefix();
+    Code:
+       0: ldc           #49                 // String WisStep
+       2: areturn
+
+  public int productArity();
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  public java.lang.Object productElement(int);
+    Code:
+       0: iload_1
+       1: istore_2
+       2: iload_2
+       3: tableswitch   { // 0 to 0
+                     0: 20
+               default: 27
+          }
+      20: aload_0
+      21: invokevirtual #45                 // Method to:()Ljava/lang/Object;
+      24: goto          42
+      27: new           #56                 // class java/lang/IndexOutOfBoundsException
+      30: dup
+      31: iload_1
+      32: invokestatic  #62                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      35: invokevirtual #65                 // Method java/lang/Object.toString:()Ljava/lang/String;
+      38: invokespecial #68                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+      41: athrow
+      42: areturn
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    Code:
+       0: getstatic     #76                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #80                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+       7: areturn
+
+  public boolean canEqual(java.lang.Object);
+    Code:
+       0: aload_1
+       1: instanceof    #2                  // class rpg/typeclass/naive/WisStep
+       4: ireturn
+
+  public int hashCode();
+    Code:
+       0: getstatic     #76                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #87                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+       7: ireturn
+
+  public java.lang.String toString();
+    Code:
+       0: getstatic     #76                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #91                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+       7: areturn
+
+  public boolean equals(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: if_acmpeq     69
+       5: aload_1
+       6: astore_3
+       7: aload_3
+       8: instanceof    #2                  // class rpg/typeclass/naive/WisStep
+      11: ifeq          19
+      14: iconst_1
+      15: istore_2
+      16: goto          27
+      19: goto          22
+      22: iconst_0
+      23: istore_2
+      24: goto          27
+      27: iload_2
+      28: ifeq          73
+      31: aload_1
+      32: checkcast     #2                  // class rpg/typeclass/naive/WisStep
+      35: astore        4
+      37: aload_0
+      38: invokevirtual #45                 // Method to:()Ljava/lang/Object;
+      41: aload         4
+      43: invokevirtual #45                 // Method to:()Ljava/lang/Object;
+      46: invokestatic  #95                 // Method scala/runtime/BoxesRunTime.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+      49: ifeq          65
+      52: aload         4
+      54: aload_0
+      55: invokevirtual #97                 // Method canEqual:(Ljava/lang/Object;)Z
+      58: ifeq          65
+      61: iconst_1
+      62: goto          66
+      65: iconst_0
+      66: ifeq          73
+      69: iconst_1
+      70: goto          74
+      73: iconst_0
+      74: ireturn
+
+  public rpg.typeclass.naive.WisStep(N);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #35                 // Field to:Ljava/lang/Object;
+       5: aload_0
+       6: invokespecial #100                // Method java/lang/Object."<init>":()V
+       9: aload_0
+      10: invokestatic  #104                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+      13: return
+}

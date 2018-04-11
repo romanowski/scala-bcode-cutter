@@ -1,0 +1,23 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/java/ooo/Node.class
+  Last modified Apr 8, 2018; size 147 bytes
+  MD5 checksum f3eec564e40f762afe25793762f368d3
+  Compiled from "SkillTrees.java"
+interface rpg.java.ooo.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+  #1 = Class              #7              // rpg/java/ooo/Node
+  #2 = Class              #8              // java/lang/Object
+  #3 = Utf8               cost
+  #4 = Utf8               (Lrpg/PlayerTraits;)I
+  #5 = Utf8               SourceFile
+  #6 = Utf8               SkillTrees.java
+  #7 = Utf8               rpg/java/ooo/Node
+  #8 = Utf8               java/lang/Object
+{
+  public abstract int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+}
+SourceFile: "SkillTrees.java"

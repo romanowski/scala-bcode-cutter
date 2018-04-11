@@ -1,0 +1,211 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/nested/FeatTree$Step$.class
+  Last modified Apr 8, 2018; size 1797 bytes
+  MD5 checksum a34624a42641d45230dd16e7f5daadeb
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public class rpg.ooo.nested.FeatTree$Step$ extends scala.runtime.AbstractFunction1<rpg.ooo.nested.Node, rpg.ooo.nested.FeatTree$Step> implements scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/ooo/nested/FeatTree$Step$
+   #2 = Class              #1             // rpg/ooo/nested/FeatTree$Step$
+   #3 = Utf8               Lscala/runtime/AbstractFunction1<Lrpg/ooo/nested/Node;Lrpg/ooo/nested/FeatTree$Step;>;Lscala/Serializable;
+   #4 = Utf8               scala/runtime/AbstractFunction1
+   #5 = Class              #4             // scala/runtime/AbstractFunction1
+   #6 = Utf8               scala/Serializable
+   #7 = Class              #6             // scala/Serializable
+   #8 = Utf8               OOOSubcallsSkillTrees.scala
+   #9 = Utf8               rpg/ooo/nested/FeatTree$Step
+  #10 = Class              #9             // rpg/ooo/nested/FeatTree$Step
+  #11 = Utf8               rpg/ooo/nested/FeatTree
+  #12 = Class              #11            // rpg/ooo/nested/FeatTree
+  #13 = Utf8               Step
+  #14 = Utf8               Step$
+  #15 = Utf8               $outer
+  #16 = Utf8               Lrpg/ooo/nested/FeatTree;
+  #17 = Utf8               toString
+  #18 = Utf8               ()Ljava/lang/String;
+  #19 = String             #13            // Step
+  #20 = Utf8               this
+  #21 = Utf8               Lrpg/ooo/nested/FeatTree$Step$;
+  #22 = Utf8               apply
+  #23 = Utf8               (Lrpg/ooo/nested/Node;)Lrpg/ooo/nested/FeatTree$Step;
+  #24 = Utf8               to
+  #25 = NameAndType        #15:#16        // $outer:Lrpg/ooo/nested/FeatTree;
+  #26 = Fieldref           #2.#25         // rpg/ooo/nested/FeatTree$Step$.$outer:Lrpg/ooo/nested/FeatTree;
+  #27 = Utf8               <init>
+  #28 = Utf8               (Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;)V
+  #29 = NameAndType        #27:#28        // "<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;)V
+  #30 = Methodref          #10.#29        // rpg/ooo/nested/FeatTree$Step."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;)V
+  #31 = Utf8               Lrpg/ooo/nested/Node;
+  #32 = Utf8               unapply
+  #33 = Utf8               (Lrpg/ooo/nested/FeatTree$Step;)Lscala/Option;
+  #34 = Utf8               x$0
+  #35 = Utf8               scala/None$
+  #36 = Class              #35            // scala/None$
+  #37 = Utf8               MODULE$
+  #38 = Utf8               Lscala/None$;
+  #39 = NameAndType        #37:#38        // MODULE$:Lscala/None$;
+  #40 = Fieldref           #36.#39        // scala/None$.MODULE$:Lscala/None$;
+  #41 = Utf8               scala/Some
+  #42 = Class              #41            // scala/Some
+  #43 = Utf8               ()Lrpg/ooo/nested/Node;
+  #44 = NameAndType        #24:#43        // to:()Lrpg/ooo/nested/Node;
+  #45 = Methodref          #10.#44        // rpg/ooo/nested/FeatTree$Step.to:()Lrpg/ooo/nested/Node;
+  #46 = Utf8               (Ljava/lang/Object;)V
+  #47 = NameAndType        #27:#46        // "<init>":(Ljava/lang/Object;)V
+  #48 = Methodref          #42.#47        // scala/Some."<init>":(Ljava/lang/Object;)V
+  #49 = Utf8               Lrpg/ooo/nested/FeatTree$Step;
+  #50 = Utf8               scala/Option
+  #51 = Class              #50            // scala/Option
+  #52 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+  #53 = Utf8               v1
+  #54 = Utf8               rpg/ooo/nested/Node
+  #55 = Class              #54            // rpg/ooo/nested/Node
+  #56 = NameAndType        #22:#23        // apply:(Lrpg/ooo/nested/Node;)Lrpg/ooo/nested/FeatTree$Step;
+  #57 = Methodref          #2.#56         // rpg/ooo/nested/FeatTree$Step$.apply:(Lrpg/ooo/nested/Node;)Lrpg/ooo/nested/FeatTree$Step;
+  #58 = Utf8               Ljava/lang/Object;
+  #59 = Utf8               (Lrpg/ooo/nested/FeatTree;)V
+  #60 = Utf8               ()V
+  #61 = NameAndType        #27:#60        // "<init>":()V
+  #62 = Methodref          #5.#61         // scala/runtime/AbstractFunction1."<init>":()V
+  #63 = Utf8               Code
+  #64 = Utf8               LocalVariableTable
+  #65 = Utf8               LineNumberTable
+  #66 = Utf8               MethodParameters
+  #67 = Utf8               StackMapTable
+  #68 = Utf8               Signature
+  #69 = Utf8               (Lrpg/ooo/nested/FeatTree$Step;)Lscala/Option<Lrpg/ooo/nested/Node;>;
+  #70 = Utf8               SourceFile
+  #71 = Utf8               InnerClasses
+  #72 = Utf8               ScalaInlineInfo
+  #73 = Utf8               Scala
+{
+  private final rpg.ooo.nested.FeatTree $outer;
+    descriptor: Lrpg/ooo/nested/FeatTree;
+    flags: ACC_PRIVATE, ACC_FINAL, ACC_SYNTHETIC
+
+  public final java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #19                 // String Step
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/ooo/nested/FeatTree$Step$;
+      LineNumberTable:
+        line 19: 0
+
+  public rpg.ooo.nested.FeatTree$Step apply(rpg.ooo.nested.Node);
+    descriptor: (Lrpg/ooo/nested/Node;)Lrpg/ooo/nested/FeatTree$Step;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=2, args_size=2
+         0: new           #10                 // class rpg/ooo/nested/FeatTree$Step
+         3: dup
+         4: aload_0
+         5: getfield      #26                 // Field $outer:Lrpg/ooo/nested/FeatTree;
+         8: aload_1
+         9: invokespecial #30                 // Method rpg/ooo/nested/FeatTree$Step."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;)V
+        12: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      13     0  this   Lrpg/ooo/nested/FeatTree$Step$;
+            0      13     1    to   Lrpg/ooo/nested/Node;
+      LineNumberTable:
+        line 19: 0
+    MethodParameters:
+      Name                           Flags
+      to                             final
+
+  public scala.Option<rpg.ooo.nested.Node> unapply(rpg.ooo.nested.FeatTree$Step);
+    descriptor: (Lrpg/ooo/nested/FeatTree$Step;)Lscala/Option;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     10
+         4: getstatic     #40                 // Field scala/None$.MODULE$:Lscala/None$;
+         7: goto          21
+        10: new           #42                 // class scala/Some
+        13: dup
+        14: aload_1
+        15: invokevirtual #45                 // Method rpg/ooo/nested/FeatTree$Step.to:()Lrpg/ooo/nested/Node;
+        18: invokespecial #48                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+        21: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      22     0  this   Lrpg/ooo/nested/FeatTree$Step$;
+            0      22     1   x$0   Lrpg/ooo/nested/FeatTree$Step;
+      LineNumberTable:
+        line 19: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 10 /* same */
+        frame_type = 74 /* same_locals_1_stack_item */
+          stack = [ class scala/Option ]
+    Signature: #69                          // (Lrpg/ooo/nested/FeatTree$Step;)Lscala/Option<Lrpg/ooo/nested/Node;>;
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  public java.lang.Object apply(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Ljava/lang/Object;
+    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: checkcast     #55                 // class rpg/ooo/nested/Node
+         5: invokevirtual #57                 // Method apply:(Lrpg/ooo/nested/Node;)Lrpg/ooo/nested/FeatTree$Step;
+         8: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/ooo/nested/FeatTree$Step$;
+            0       9     1    v1   Ljava/lang/Object;
+      LineNumberTable:
+        line 19: 0
+    MethodParameters:
+      Name                           Flags
+      v1                             final
+
+  public rpg.ooo.nested.FeatTree$Step$(rpg.ooo.nested.FeatTree);
+    descriptor: (Lrpg/ooo/nested/FeatTree;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     6
+         4: aconst_null
+         5: athrow
+         6: aload_0
+         7: aload_1
+         8: putfield      #26                 // Field $outer:Lrpg/ooo/nested/FeatTree;
+        11: aload_0
+        12: invokespecial #62                 // Method scala/runtime/AbstractFunction1."<init>":()V
+        15: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/ooo/nested/FeatTree$Step$;
+            0      16     1 $outer   Lrpg/ooo/nested/FeatTree;
+      LineNumberTable:
+        line 19: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 6 /* same */
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+}
+Signature: #3                           // Lscala/runtime/AbstractFunction1<Lrpg/ooo/nested/Node;Lrpg/ooo/nested/FeatTree$Step;>;Lscala/Serializable;
+SourceFile: "OOOSubcallsSkillTrees.scala"
+InnerClasses:
+     public #13= #10 of #12; //Step=class rpg/ooo/nested/FeatTree$Step of class rpg/ooo/nested/FeatTree
+     public #14= #2 of #12; //Step$=class rpg/ooo/nested/FeatTree$Step$ of class rpg/ooo/nested/FeatTree
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x1D
+   01 01 00 05 00 1B 00 3B 01 00 16 00 34 01 00 16
+   00 17 01 00 11 00 12 01 00 20 00 21 01
+Error: unknown attribute
+  Scala: length = 0x0
+

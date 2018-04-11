@@ -1,0 +1,188 @@
+Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake.Nodes extends rpg.cake.WisNodes,rpg.cake.DexNodes,rpg.cake.StrNodes {
+  public static int totalSkill$(rpg.cake.Nodes, rpg.cake.Nodes$Node, rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: invokespecial #53                 // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+       6: ireturn
+
+  public int totalSkill(rpg.cake.Nodes$Node, rpg.PlayerTraits);
+    Code:
+       0: aload_1
+       1: astore        4
+       3: aload         4
+       5: instanceof    #22                 // class rpg/cake/DexNodes$DexTree
+       8: ifeq          60
+      11: aload         4
+      13: checkcast     #22                 // class rpg/cake/DexNodes$DexTree
+      16: astore        5
+      18: aload         5
+      20: invokevirtual #60                 // Method rpg/cake/DexNodes$DexTree.left:()Lrpg/cake/Nodes$Node;
+      23: astore        6
+      25: aload         5
+      27: invokevirtual #63                 // Method rpg/cake/DexNodes$DexTree.right:()Lrpg/cake/Nodes$Node;
+      30: astore        7
+      32: aload_2
+      33: invokevirtual #69                 // Method rpg/PlayerTraits.dexCost:()I
+      36: aload_0
+      37: aload         6
+      39: aload_2
+      40: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+      45: iadd
+      46: aload_0
+      47: aload         7
+      49: aload_2
+      50: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+      55: iadd
+      56: istore_3
+      57: goto          379
+      60: goto          63
+      63: aload         4
+      65: instanceof    #34                 // class rpg/cake/StrNodes$StrTree
+      68: ifeq          120
+      71: aload         4
+      73: checkcast     #34                 // class rpg/cake/StrNodes$StrTree
+      76: astore        8
+      78: aload         8
+      80: invokevirtual #70                 // Method rpg/cake/StrNodes$StrTree.left:()Lrpg/cake/Nodes$Node;
+      83: astore        9
+      85: aload         8
+      87: invokevirtual #71                 // Method rpg/cake/StrNodes$StrTree.right:()Lrpg/cake/Nodes$Node;
+      90: astore        10
+      92: aload_2
+      93: invokevirtual #74                 // Method rpg/PlayerTraits.strCost:()I
+      96: aload_0
+      97: aload         9
+      99: aload_2
+     100: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+     105: iadd
+     106: aload_0
+     107: aload         10
+     109: aload_2
+     110: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+     115: iadd
+     116: istore_3
+     117: goto          379
+     120: goto          123
+     123: aload         4
+     125: instanceof    #43                 // class rpg/cake/WisNodes$WisTree
+     128: ifeq          180
+     131: aload         4
+     133: checkcast     #43                 // class rpg/cake/WisNodes$WisTree
+     136: astore        11
+     138: aload         11
+     140: invokevirtual #75                 // Method rpg/cake/WisNodes$WisTree.left:()Lrpg/cake/Nodes$Node;
+     143: astore        12
+     145: aload         11
+     147: invokevirtual #76                 // Method rpg/cake/WisNodes$WisTree.right:()Lrpg/cake/Nodes$Node;
+     150: astore        13
+     152: aload_2
+     153: invokevirtual #79                 // Method rpg/PlayerTraits.wisCost:()I
+     156: aload_0
+     157: aload         12
+     159: aload_2
+     160: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+     165: iadd
+     166: aload_0
+     167: aload         13
+     169: aload_2
+     170: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+     175: iadd
+     176: istore_3
+     177: goto          379
+     180: goto          183
+     183: aload         4
+     185: instanceof    #19                 // class rpg/cake/DexNodes$DexStep
+     188: ifeq          223
+     191: aload         4
+     193: checkcast     #19                 // class rpg/cake/DexNodes$DexStep
+     196: astore        14
+     198: aload         14
+     200: invokevirtual #82                 // Method rpg/cake/DexNodes$DexStep.to:()Lrpg/cake/Nodes$Node;
+     203: astore        15
+     205: aload_2
+     206: invokevirtual #69                 // Method rpg/PlayerTraits.dexCost:()I
+     209: aload_0
+     210: aload         15
+     212: aload_2
+     213: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+     218: iadd
+     219: istore_3
+     220: goto          379
+     223: goto          226
+     226: aload         4
+     228: instanceof    #31                 // class rpg/cake/StrNodes$StrStep
+     231: ifeq          266
+     234: aload         4
+     236: checkcast     #31                 // class rpg/cake/StrNodes$StrStep
+     239: astore        16
+     241: aload         16
+     243: invokevirtual #83                 // Method rpg/cake/StrNodes$StrStep.to:()Lrpg/cake/Nodes$Node;
+     246: astore        17
+     248: aload_2
+     249: invokevirtual #74                 // Method rpg/PlayerTraits.strCost:()I
+     252: aload_0
+     253: aload         17
+     255: aload_2
+     256: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+     261: iadd
+     262: istore_3
+     263: goto          379
+     266: goto          269
+     269: aload         4
+     271: instanceof    #40                 // class rpg/cake/WisNodes$WisStep
+     274: ifeq          309
+     277: aload         4
+     279: checkcast     #40                 // class rpg/cake/WisNodes$WisStep
+     282: astore        18
+     284: aload         18
+     286: invokevirtual #84                 // Method rpg/cake/WisNodes$WisStep.to:()Lrpg/cake/Nodes$Node;
+     289: astore        19
+     291: aload_2
+     292: invokevirtual #79                 // Method rpg/PlayerTraits.wisCost:()I
+     295: aload_0
+     296: aload         19
+     298: aload_2
+     299: invokeinterface #53,  3           // InterfaceMethod totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+     304: iadd
+     305: istore_3
+     306: goto          379
+     309: goto          312
+     312: aload         4
+     314: instanceof    #16                 // class rpg/cake/DexNodes$DexSkill
+     317: ifeq          328
+     320: aload_2
+     321: invokevirtual #69                 // Method rpg/PlayerTraits.dexCost:()I
+     324: istore_3
+     325: goto          379
+     328: goto          331
+     331: aload         4
+     333: instanceof    #28                 // class rpg/cake/StrNodes$StrSkill
+     336: ifeq          347
+     339: aload_2
+     340: invokevirtual #74                 // Method rpg/PlayerTraits.strCost:()I
+     343: istore_3
+     344: goto          379
+     347: goto          350
+     350: aload         4
+     352: instanceof    #37                 // class rpg/cake/WisNodes$WisSkill
+     355: ifeq          366
+     358: aload_2
+     359: invokevirtual #79                 // Method rpg/PlayerTraits.wisCost:()I
+     362: istore_3
+     363: goto          379
+     366: goto          369
+     369: new           #86                 // class scala/MatchError
+     372: dup
+     373: aload         4
+     375: invokespecial #90                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+     378: athrow
+     379: iload_3
+     380: ireturn
+
+  public static void $init$(rpg.cake.Nodes);
+    Code:
+       0: return
+}

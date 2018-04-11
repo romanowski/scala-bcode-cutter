@@ -1,0 +1,11 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.StrStep$ extends scala.runtime.AbstractFunction1<rpg.patmat.Node, rpg.patmat.StrStep> implements scala.Serializable {
+  public static rpg.patmat.StrStep$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.patmat.StrStep apply(rpg.patmat.Node);
+  public scala.Option<rpg.patmat.Node> unapply(rpg.patmat.StrStep);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.patmat.StrStep$();
+}

@@ -1,0 +1,21 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake.StrNodes$StrTree implements rpg.cake.Nodes$Node,scala.Product,scala.Serializable {
+  private final rpg.cake.Nodes$Node left;
+  private final rpg.cake.Nodes$Node right;
+  public final rpg.cake.Nodes $outer;
+  public rpg.cake.Nodes$Node left();
+  public rpg.cake.Nodes$Node right();
+  public rpg.cake.StrNodes$StrTree copy(rpg.cake.Nodes$Node, rpg.cake.Nodes$Node);
+  public rpg.cake.Nodes$Node copy$default$1();
+  public rpg.cake.Nodes$Node copy$default$2();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.cake.Nodes rpg$cake$StrNodes$StrTree$$$outer();
+  public rpg.cake.StrNodes$StrTree(rpg.cake.Nodes, rpg.cake.Nodes$Node, rpg.cake.Nodes$Node);
+}

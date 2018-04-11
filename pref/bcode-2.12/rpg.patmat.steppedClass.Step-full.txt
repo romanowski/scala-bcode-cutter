@@ -1,0 +1,54 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/steppedClass/Step.class
+  Last modified Apr 8, 2018; size 616 bytes
+  MD5 checksum 7d2d92891eb05bf058bf8b07ac2c98e9
+  Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.Step extends rpg.patmat.steppedClass.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/patmat/steppedClass/Step
+   #2 = Class              #1             // rpg/patmat/steppedClass/Step
+   #3 = Utf8               rpg/patmat/steppedClass/Node
+   #4 = Class              #3             // rpg/patmat/steppedClass/Node
+   #5 = Utf8               PatMatSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               e1A!\t!1^3q\tA!ti/3DY8O\r1/;nCRTaBeB<7A\n)\"a\tI!!\t9{G-!\tEy%t E\"a*\tRcF)\tqR3y'R,/\t91:TiB\r9n]*uKB
+   #9 = Utf8               <init>
+  #10 = Utf8               ()V
+  #11 = NameAndType        #9:#10         // "<init>":()V
+  #12 = Methodref          #4.#11         // rpg/patmat/steppedClass/Node."<init>":()V
+  #13 = Utf8               this
+  #14 = Utf8               Lrpg/patmat/steppedClass/Step;
+  #15 = Utf8               Code
+  #16 = Utf8               LocalVariableTable
+  #17 = Utf8               LineNumberTable
+  #18 = Utf8               SourceFile
+  #19 = Utf8               RuntimeVisibleAnnotations
+  #20 = Utf8               ScalaInlineInfo
+  #21 = Utf8               ScalaSig
+{
+  public rpg.patmat.steppedClass.Step();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #12                 // Method rpg/patmat/steppedClass/Node."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/steppedClass/Step;
+      LineNumberTable:
+        line 14: 0
+}
+SourceFile: "PatMatSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 00 00 01 00 09 00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

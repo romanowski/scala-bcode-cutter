@@ -1,0 +1,177 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/java/fast/Node.class
+  Last modified Apr 8, 2018; size 804 bytes
+  MD5 checksum 8c44fc937d9389ee8b0786998212b5a5
+  Compiled from "SkillTrees.java"
+final class rpg.java.fast.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #12.#30        // java/lang/Object."<init>":()V
+   #2 = Fieldref           #11.#31        // rpg/java/fast/Node.left:Lrpg/java/fast/Node;
+   #3 = Fieldref           #11.#32        // rpg/java/fast/Node.right:Lrpg/java/fast/Node;
+   #4 = Fieldref           #11.#33        // rpg/java/fast/Node.name:Ljava/lang/String;
+   #5 = Fieldref           #11.#34        // rpg/java/fast/Node.str:Z
+   #6 = Fieldref           #11.#35        // rpg/java/fast/Node.dex:Z
+   #7 = Methodref          #36.#37        // rpg/PlayerTraits.dexCost:()I
+   #8 = Methodref          #36.#38        // rpg/PlayerTraits.strCost:()I
+   #9 = Methodref          #36.#39        // rpg/PlayerTraits.wisCost:()I
+  #10 = Methodref          #11.#40        // rpg/java/fast/Node.cost:(Lrpg/PlayerTraits;)I
+  #11 = Class              #41            // rpg/java/fast/Node
+  #12 = Class              #42            // java/lang/Object
+  #13 = Utf8               left
+  #14 = Utf8               Lrpg/java/fast/Node;
+  #15 = Utf8               right
+  #16 = Utf8               name
+  #17 = Utf8               Ljava/lang/String;
+  #18 = Utf8               dex
+  #19 = Utf8               Z
+  #20 = Utf8               str
+  #21 = Utf8               <init>
+  #22 = Utf8               (ZZLrpg/java/fast/Node;Lrpg/java/fast/Node;Ljava/lang/String;)V
+  #23 = Utf8               Code
+  #24 = Utf8               LineNumberTable
+  #25 = Utf8               cost
+  #26 = Utf8               (Lrpg/PlayerTraits;)I
+  #27 = Utf8               StackMapTable
+  #28 = Utf8               SourceFile
+  #29 = Utf8               SkillTrees.java
+  #30 = NameAndType        #21:#43        // "<init>":()V
+  #31 = NameAndType        #13:#14        // left:Lrpg/java/fast/Node;
+  #32 = NameAndType        #15:#14        // right:Lrpg/java/fast/Node;
+  #33 = NameAndType        #16:#17        // name:Ljava/lang/String;
+  #34 = NameAndType        #20:#19        // str:Z
+  #35 = NameAndType        #18:#19        // dex:Z
+  #36 = Class              #44            // rpg/PlayerTraits
+  #37 = NameAndType        #45:#46        // dexCost:()I
+  #38 = NameAndType        #47:#46        // strCost:()I
+  #39 = NameAndType        #48:#46        // wisCost:()I
+  #40 = NameAndType        #25:#26        // cost:(Lrpg/PlayerTraits;)I
+  #41 = Utf8               rpg/java/fast/Node
+  #42 = Utf8               java/lang/Object
+  #43 = Utf8               ()V
+  #44 = Utf8               rpg/PlayerTraits
+  #45 = Utf8               dexCost
+  #46 = Utf8               ()I
+  #47 = Utf8               strCost
+  #48 = Utf8               wisCost
+{
+  private final rpg.java.fast.Node left;
+    descriptor: Lrpg/java/fast/Node;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private final rpg.java.fast.Node right;
+    descriptor: Lrpg/java/fast/Node;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private final java.lang.String name;
+    descriptor: Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private final boolean dex;
+    descriptor: Z
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private final boolean str;
+    descriptor: Z
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  rpg.java.fast.Node(boolean, boolean, rpg.java.fast.Node, rpg.java.fast.Node, java.lang.String);
+    descriptor: (ZZLrpg/java/fast/Node;Lrpg/java/fast/Node;Ljava/lang/String;)V
+    flags:
+    Code:
+      stack=2, locals=6, args_size=6
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aload_3
+         6: putfield      #2                  // Field left:Lrpg/java/fast/Node;
+         9: aload_0
+        10: aload         4
+        12: putfield      #3                  // Field right:Lrpg/java/fast/Node;
+        15: aload_0
+        16: aload         5
+        18: putfield      #4                  // Field name:Ljava/lang/String;
+        21: aload_0
+        22: iload_2
+        23: putfield      #5                  // Field str:Z
+        26: aload_0
+        27: iload_1
+        28: putfield      #6                  // Field dex:Z
+        31: return
+      LineNumberTable:
+        line 14: 0
+        line 15: 4
+        line 16: 9
+        line 17: 15
+        line 18: 21
+        line 19: 26
+        line 20: 31
+
+  int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags:
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iconst_0
+         1: istore_2
+         2: aload_0
+         3: getfield      #6                  // Field dex:Z
+         6: ifeq          17
+         9: aload_1
+        10: invokevirtual #7                  // Method rpg/PlayerTraits.dexCost:()I
+        13: istore_2
+        14: goto          37
+        17: aload_0
+        18: getfield      #5                  // Field str:Z
+        21: ifeq          32
+        24: aload_1
+        25: invokevirtual #8                  // Method rpg/PlayerTraits.strCost:()I
+        28: istore_2
+        29: goto          37
+        32: aload_1
+        33: invokevirtual #9                  // Method rpg/PlayerTraits.wisCost:()I
+        36: istore_2
+        37: aload_0
+        38: getfield      #2                  // Field left:Lrpg/java/fast/Node;
+        41: ifnull        73
+        44: iload_2
+        45: aload_0
+        46: getfield      #2                  // Field left:Lrpg/java/fast/Node;
+        49: aload_1
+        50: invokevirtual #10                 // Method cost:(Lrpg/PlayerTraits;)I
+        53: iadd
+        54: istore_2
+        55: aload_0
+        56: getfield      #3                  // Field right:Lrpg/java/fast/Node;
+        59: ifnull        73
+        62: iload_2
+        63: aload_0
+        64: getfield      #3                  // Field right:Lrpg/java/fast/Node;
+        67: aload_1
+        68: invokevirtual #10                 // Method cost:(Lrpg/PlayerTraits;)I
+        71: iadd
+        72: istore_2
+        73: iload_2
+        74: ireturn
+      LineNumberTable:
+        line 23: 0
+        line 24: 2
+        line 25: 9
+        line 26: 17
+        line 27: 24
+        line 29: 32
+        line 32: 37
+        line 33: 44
+        line 34: 55
+        line 35: 62
+        line 39: 73
+      StackMapTable: number_of_entries = 4
+        frame_type = 252 /* append */
+          offset_delta = 17
+          locals = [ int ]
+        frame_type = 14 /* same */
+        frame_type = 4 /* same */
+        frame_type = 35 /* same */
+}
+SourceFile: "SkillTrees.java"

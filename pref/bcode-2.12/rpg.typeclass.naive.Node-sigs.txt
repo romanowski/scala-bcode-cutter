@@ -1,0 +1,13 @@
+Compiled from "TypeclassSkillTrees.scala"
+public interface rpg.typeclass.naive.Node {
+  public static <T> int totalSkill(T, rpg.PlayerTraits, rpg.typeclass.naive.Node$Summer<T>);
+  public static <L, R> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexTree<L, R>> dexTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+  public static <L, R> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrTree<L, R>> strTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+  public static <L, R> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisTree<L, R>> wisTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+  public static <T> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexStep<T>> dexStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+  public static <T> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrStep<T>> strStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+  public static <T> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisStep<T>> wisStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+  public static rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexSkill> dexSkillSummer();
+  public static rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrSkill> strSkillSummer();
+  public static rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisSkill> wisSkillSummer();
+}

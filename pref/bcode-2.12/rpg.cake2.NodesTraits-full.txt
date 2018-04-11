@@ -1,0 +1,421 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/NodesTraits.class
+  Last modified Apr 8, 2018; size 2869 bytes
+  MD5 checksum 770e354e8766ee6c84f0de878f74843a
+  Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake2.NodesTraits extends rpg.cake2.WisNodes,rpg.cake2.DexNodes,rpg.cake2.StrNodes,rpg.cake2.Traits
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+    #1 = Utf8               rpg/cake2/NodesTraits
+    #2 = Class              #1            // rpg/cake2/NodesTraits
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/cake2/WisNodes
+    #6 = Class              #5            // rpg/cake2/WisNodes
+    #7 = Utf8               rpg/cake2/DexNodes
+    #8 = Class              #7            // rpg/cake2/DexNodes
+    #9 = Utf8               rpg/cake2/StrNodes
+   #10 = Class              #9            // rpg/cake2/StrNodes
+   #11 = Utf8               rpg/cake2/Traits
+   #12 = Class              #11           // rpg/cake2/Traits
+   #13 = Utf8               CakeSkillTrees.scala
+   #14 = Utf8               Lscala/reflect/ScalaSignature;
+   #15 = Utf8               bytes
+   #16 = Utf8               3q!qAAO_,7:bSR(BAm[33)a:qO1C\tI)\n5\t!BC8-7b\ti!BB]fVM\tAiAA#\tbV5t>$Wm\tMI!+PT8eKN\"a\n]!C*ue:{G-Z:=IB!&/Y5ug\")AC;1A%8ji\"A\t}I!\t\tUsE\n1%\t$quZ3BFC&O%ZSfL4k%ae\t\tD8k[5mY&f\tD8^3q\tQ3CAEKb$&/Z3\n12\"C*ueN[7\n92\"aB*ueN#X\r]aYqa;s)J,W-3!\tAq+[:TW&dG.5!\t9q+[:TiB9n+sKDQe\n!^8uC26.7m)\tQT\nw%AH:$\" 8y8pI\"Q
+   #17 = Utf8               rpg/cake2/DexNodes$DexSkill
+   #18 = Class              #17           // rpg/cake2/DexNodes$DexSkill
+   #19 = Utf8               DexSkill
+   #20 = Utf8               rpg/cake2/DexNodes$DexStep
+   #21 = Class              #20           // rpg/cake2/DexNodes$DexStep
+   #22 = Utf8               DexStep
+   #23 = Utf8               rpg/cake2/DexNodes$DexTree
+   #24 = Class              #23           // rpg/cake2/DexNodes$DexTree
+   #25 = Utf8               DexTree
+   #26 = Utf8               rpg/cake2/NodesTraits$Node
+   #27 = Class              #26           // rpg/cake2/NodesTraits$Node
+   #28 = Utf8               Node
+   #29 = Utf8               rpg/cake2/StrNodes$StrSkill
+   #30 = Class              #29           // rpg/cake2/StrNodes$StrSkill
+   #31 = Utf8               StrSkill
+   #32 = Utf8               rpg/cake2/StrNodes$StrStep
+   #33 = Class              #32           // rpg/cake2/StrNodes$StrStep
+   #34 = Utf8               StrStep
+   #35 = Utf8               rpg/cake2/StrNodes$StrTree
+   #36 = Class              #35           // rpg/cake2/StrNodes$StrTree
+   #37 = Utf8               StrTree
+   #38 = Utf8               rpg/cake2/WisNodes$WisSkill
+   #39 = Class              #38           // rpg/cake2/WisNodes$WisSkill
+   #40 = Utf8               WisSkill
+   #41 = Utf8               rpg/cake2/WisNodes$WisStep
+   #42 = Class              #41           // rpg/cake2/WisNodes$WisStep
+   #43 = Utf8               WisStep
+   #44 = Utf8               rpg/cake2/WisNodes$WisTree
+   #45 = Class              #44           // rpg/cake2/WisNodes$WisTree
+   #46 = Utf8               WisTree
+   #47 = Utf8               totalSkill$
+   #48 = Utf8               (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)I
+   #49 = Utf8               $this
+   #50 = Utf8               node
+   #51 = Utf8               totalSkill
+   #52 = Utf8               (Lrpg/cake2/NodesTraits$Node;)I
+   #53 = NameAndType        #51:#52       // totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+   #54 = InterfaceMethodref #2.#53        // rpg/cake2/NodesTraits.totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+   #55 = Utf8               Lrpg/cake2/NodesTraits;
+   #56 = Utf8               Lrpg/cake2/NodesTraits$Node;
+   #57 = Utf8               left
+   #58 = Utf8               ()Lrpg/cake2/NodesTraits$Node;
+   #59 = NameAndType        #57:#58       // left:()Lrpg/cake2/NodesTraits$Node;
+   #60 = Methodref          #24.#59       // rpg/cake2/DexNodes$DexTree.left:()Lrpg/cake2/NodesTraits$Node;
+   #61 = Utf8               right
+   #62 = NameAndType        #61:#58       // right:()Lrpg/cake2/NodesTraits$Node;
+   #63 = Methodref          #24.#62       // rpg/cake2/DexNodes$DexTree.right:()Lrpg/cake2/NodesTraits$Node;
+   #64 = Utf8               traits
+   #65 = Utf8               ()Lrpg/PlayerTraits;
+   #66 = NameAndType        #64:#65       // traits:()Lrpg/PlayerTraits;
+   #67 = InterfaceMethodref #2.#66        // rpg/cake2/NodesTraits.traits:()Lrpg/PlayerTraits;
+   #68 = Utf8               rpg/PlayerTraits
+   #69 = Class              #68           // rpg/PlayerTraits
+   #70 = Utf8               dexCost
+   #71 = Utf8               ()I
+   #72 = NameAndType        #70:#71       // dexCost:()I
+   #73 = Methodref          #69.#72       // rpg/PlayerTraits.dexCost:()I
+   #74 = Methodref          #36.#59       // rpg/cake2/StrNodes$StrTree.left:()Lrpg/cake2/NodesTraits$Node;
+   #75 = Methodref          #36.#62       // rpg/cake2/StrNodes$StrTree.right:()Lrpg/cake2/NodesTraits$Node;
+   #76 = Utf8               strCost
+   #77 = NameAndType        #76:#71       // strCost:()I
+   #78 = Methodref          #69.#77       // rpg/PlayerTraits.strCost:()I
+   #79 = Methodref          #45.#59       // rpg/cake2/WisNodes$WisTree.left:()Lrpg/cake2/NodesTraits$Node;
+   #80 = Methodref          #45.#62       // rpg/cake2/WisNodes$WisTree.right:()Lrpg/cake2/NodesTraits$Node;
+   #81 = Utf8               wisCost
+   #82 = NameAndType        #81:#71       // wisCost:()I
+   #83 = Methodref          #69.#82       // rpg/PlayerTraits.wisCost:()I
+   #84 = Utf8               to
+   #85 = NameAndType        #84:#58       // to:()Lrpg/cake2/NodesTraits$Node;
+   #86 = Methodref          #21.#85       // rpg/cake2/DexNodes$DexStep.to:()Lrpg/cake2/NodesTraits$Node;
+   #87 = Methodref          #33.#85       // rpg/cake2/StrNodes$StrStep.to:()Lrpg/cake2/NodesTraits$Node;
+   #88 = Methodref          #42.#85       // rpg/cake2/WisNodes$WisStep.to:()Lrpg/cake2/NodesTraits$Node;
+   #89 = Utf8               scala/MatchError
+   #90 = Class              #89           // scala/MatchError
+   #91 = Utf8               <init>
+   #92 = Utf8               (Ljava/lang/Object;)V
+   #93 = NameAndType        #91:#92       // "<init>":(Ljava/lang/Object;)V
+   #94 = Methodref          #90.#93       // scala/MatchError."<init>":(Ljava/lang/Object;)V
+   #95 = Utf8               next
+   #96 = Utf8               this
+   #97 = Utf8               $init$
+   #98 = Utf8               (Lrpg/cake2/NodesTraits;)V
+   #99 = Utf8               Code
+  #100 = Utf8               LocalVariableTable
+  #101 = Utf8               LineNumberTable
+  #102 = Utf8               MethodParameters
+  #103 = Utf8               StackMapTable
+  #104 = Utf8               SourceFile
+  #105 = Utf8               InnerClasses
+  #106 = Utf8               RuntimeVisibleAnnotations
+  #107 = Utf8               ScalaInlineInfo
+  #108 = Utf8               ScalaSig
+{
+  public static int totalSkill$(rpg.cake2.NodesTraits, rpg.cake2.NodesTraits$Node);
+    descriptor: (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)I
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokespecial #54                 // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0 $this   Lrpg/cake2/NodesTraits;
+            0       6     1  node   Lrpg/cake2/NodesTraits$Node;
+      LineNumberTable:
+        line 32: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+      node                           final
+
+  public int totalSkill(rpg.cake2.NodesTraits$Node);
+    descriptor: (Lrpg/cake2/NodesTraits$Node;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=19, args_size=2
+         0: aload_1
+         1: astore_3
+         2: aload_3
+         3: instanceof    #24                 // class rpg/cake2/DexNodes$DexTree
+         6: ifeq          60
+         9: aload_3
+        10: checkcast     #24                 // class rpg/cake2/DexNodes$DexTree
+        13: astore        4
+        15: aload         4
+        17: invokevirtual #60                 // Method rpg/cake2/DexNodes$DexTree.left:()Lrpg/cake2/NodesTraits$Node;
+        20: astore        5
+        22: aload         4
+        24: invokevirtual #63                 // Method rpg/cake2/DexNodes$DexTree.right:()Lrpg/cake2/NodesTraits$Node;
+        27: astore        6
+        29: aload_0
+        30: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+        35: invokevirtual #73                 // Method rpg/PlayerTraits.dexCost:()I
+        38: aload_0
+        39: aload         5
+        41: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+        46: iadd
+        47: aload_0
+        48: aload         6
+        50: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+        55: iadd
+        56: istore_2
+        57: goto          398
+        60: goto          63
+        63: aload_3
+        64: instanceof    #36                 // class rpg/cake2/StrNodes$StrTree
+        67: ifeq          121
+        70: aload_3
+        71: checkcast     #36                 // class rpg/cake2/StrNodes$StrTree
+        74: astore        7
+        76: aload         7
+        78: invokevirtual #74                 // Method rpg/cake2/StrNodes$StrTree.left:()Lrpg/cake2/NodesTraits$Node;
+        81: astore        8
+        83: aload         7
+        85: invokevirtual #75                 // Method rpg/cake2/StrNodes$StrTree.right:()Lrpg/cake2/NodesTraits$Node;
+        88: astore        9
+        90: aload_0
+        91: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+        96: invokevirtual #78                 // Method rpg/PlayerTraits.strCost:()I
+        99: aload_0
+       100: aload         8
+       102: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+       107: iadd
+       108: aload_0
+       109: aload         9
+       111: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+       116: iadd
+       117: istore_2
+       118: goto          398
+       121: goto          124
+       124: aload_3
+       125: instanceof    #45                 // class rpg/cake2/WisNodes$WisTree
+       128: ifeq          182
+       131: aload_3
+       132: checkcast     #45                 // class rpg/cake2/WisNodes$WisTree
+       135: astore        10
+       137: aload         10
+       139: invokevirtual #79                 // Method rpg/cake2/WisNodes$WisTree.left:()Lrpg/cake2/NodesTraits$Node;
+       142: astore        11
+       144: aload         10
+       146: invokevirtual #80                 // Method rpg/cake2/WisNodes$WisTree.right:()Lrpg/cake2/NodesTraits$Node;
+       149: astore        12
+       151: aload_0
+       152: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+       157: invokevirtual #83                 // Method rpg/PlayerTraits.wisCost:()I
+       160: aload_0
+       161: aload         11
+       163: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+       168: iadd
+       169: aload_0
+       170: aload         12
+       172: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+       177: iadd
+       178: istore_2
+       179: goto          398
+       182: goto          185
+       185: aload_3
+       186: instanceof    #21                 // class rpg/cake2/DexNodes$DexStep
+       189: ifeq          227
+       192: aload_3
+       193: checkcast     #21                 // class rpg/cake2/DexNodes$DexStep
+       196: astore        13
+       198: aload         13
+       200: invokevirtual #86                 // Method rpg/cake2/DexNodes$DexStep.to:()Lrpg/cake2/NodesTraits$Node;
+       203: astore        14
+       205: aload_0
+       206: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+       211: invokevirtual #73                 // Method rpg/PlayerTraits.dexCost:()I
+       214: aload_0
+       215: aload         14
+       217: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+       222: iadd
+       223: istore_2
+       224: goto          398
+       227: goto          230
+       230: aload_3
+       231: instanceof    #33                 // class rpg/cake2/StrNodes$StrStep
+       234: ifeq          272
+       237: aload_3
+       238: checkcast     #33                 // class rpg/cake2/StrNodes$StrStep
+       241: astore        15
+       243: aload         15
+       245: invokevirtual #87                 // Method rpg/cake2/StrNodes$StrStep.to:()Lrpg/cake2/NodesTraits$Node;
+       248: astore        16
+       250: aload_0
+       251: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+       256: invokevirtual #78                 // Method rpg/PlayerTraits.strCost:()I
+       259: aload_0
+       260: aload         16
+       262: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+       267: iadd
+       268: istore_2
+       269: goto          398
+       272: goto          275
+       275: aload_3
+       276: instanceof    #42                 // class rpg/cake2/WisNodes$WisStep
+       279: ifeq          317
+       282: aload_3
+       283: checkcast     #42                 // class rpg/cake2/WisNodes$WisStep
+       286: astore        17
+       288: aload         17
+       290: invokevirtual #88                 // Method rpg/cake2/WisNodes$WisStep.to:()Lrpg/cake2/NodesTraits$Node;
+       293: astore        18
+       295: aload_0
+       296: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+       301: invokevirtual #83                 // Method rpg/PlayerTraits.wisCost:()I
+       304: aload_0
+       305: aload         18
+       307: invokeinterface #54,  2           // InterfaceMethod totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+       312: iadd
+       313: istore_2
+       314: goto          398
+       317: goto          320
+       320: aload_3
+       321: instanceof    #18                 // class rpg/cake2/DexNodes$DexSkill
+       324: ifeq          340
+       327: aload_0
+       328: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+       333: invokevirtual #73                 // Method rpg/PlayerTraits.dexCost:()I
+       336: istore_2
+       337: goto          398
+       340: goto          343
+       343: aload_3
+       344: instanceof    #30                 // class rpg/cake2/StrNodes$StrSkill
+       347: ifeq          363
+       350: aload_0
+       351: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+       356: invokevirtual #78                 // Method rpg/PlayerTraits.strCost:()I
+       359: istore_2
+       360: goto          398
+       363: goto          366
+       366: aload_3
+       367: instanceof    #39                 // class rpg/cake2/WisNodes$WisSkill
+       370: ifeq          386
+       373: aload_0
+       374: invokeinterface #67,  1           // InterfaceMethod traits:()Lrpg/PlayerTraits;
+       379: invokevirtual #83                 // Method rpg/PlayerTraits.wisCost:()I
+       382: istore_2
+       383: goto          398
+       386: goto          389
+       389: new           #90                 // class scala/MatchError
+       392: dup
+       393: aload_3
+       394: invokespecial #94                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+       397: athrow
+       398: iload_2
+       399: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           20      40     5  left   Lrpg/cake2/NodesTraits$Node;
+           27      33     6 right   Lrpg/cake2/NodesTraits$Node;
+           81      40     8  left   Lrpg/cake2/NodesTraits$Node;
+           88      33     9 right   Lrpg/cake2/NodesTraits$Node;
+          142      40    11  left   Lrpg/cake2/NodesTraits$Node;
+          149      33    12 right   Lrpg/cake2/NodesTraits$Node;
+          203      24    14  next   Lrpg/cake2/NodesTraits$Node;
+          248      24    16  next   Lrpg/cake2/NodesTraits$Node;
+          293      24    18  next   Lrpg/cake2/NodesTraits$Node;
+            0     400     0  this   Lrpg/cake2/NodesTraits;
+            0     400     1  node   Lrpg/cake2/NodesTraits$Node;
+      LineNumberTable:
+        line 32: 0
+        line 33: 2
+        line 34: 29
+        line 33: 60
+        line 35: 63
+        line 36: 90
+        line 35: 121
+        line 37: 124
+        line 38: 151
+        line 37: 182
+        line 40: 185
+        line 41: 205
+        line 40: 227
+        line 42: 230
+        line 43: 250
+        line 42: 272
+        line 44: 275
+        line 45: 295
+        line 44: 317
+        line 47: 320
+        line 48: 327
+        line 47: 340
+        line 49: 343
+        line 50: 350
+        line 49: 363
+        line 51: 366
+        line 52: 373
+        line 51: 386
+      StackMapTable: number_of_entries = 19
+        frame_type = 253 /* append */
+          offset_delta = 60
+          locals = [ top, class rpg/cake2/NodesTraits$Node ]
+        frame_type = 2 /* same */
+        frame_type = 57 /* same */
+        frame_type = 2 /* same */
+        frame_type = 57 /* same */
+        frame_type = 2 /* same */
+        frame_type = 41 /* same */
+        frame_type = 2 /* same */
+        frame_type = 41 /* same */
+        frame_type = 2 /* same */
+        frame_type = 41 /* same */
+        frame_type = 2 /* same */
+        frame_type = 19 /* same */
+        frame_type = 2 /* same */
+        frame_type = 19 /* same */
+        frame_type = 2 /* same */
+        frame_type = 19 /* same */
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 8
+          locals = [ class rpg/cake2/NodesTraits, class rpg/cake2/NodesTraits$Node, int, class rpg/cake2/NodesTraits$Node ]
+          stack = []
+    MethodParameters:
+      Name                           Flags
+      node                           final
+
+  public static void $init$(rpg.cake2.NodesTraits);
+    descriptor: (Lrpg/cake2/NodesTraits;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0 $this   Lrpg/cake2/NodesTraits;
+      LineNumberTable:
+        line 29: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+}
+SourceFile: "CakeSkillTrees.scala"
+InnerClasses:
+     public #19= #18 of #8; //DexSkill=class rpg/cake2/DexNodes$DexSkill of class rpg/cake2/DexNodes
+     public #22= #21 of #8; //DexStep=class rpg/cake2/DexNodes$DexStep of class rpg/cake2/DexNodes
+     public #25= #24 of #8; //DexTree=class rpg/cake2/DexNodes$DexTree of class rpg/cake2/DexNodes
+     public #28= #27 of #2; //Node=class rpg/cake2/NodesTraits$Node of class rpg/cake2/NodesTraits
+     public #31= #30 of #10; //StrSkill=class rpg/cake2/StrNodes$StrSkill of class rpg/cake2/StrNodes
+     public #34= #33 of #10; //StrStep=class rpg/cake2/StrNodes$StrStep of class rpg/cake2/StrNodes
+     public #37= #36 of #10; //StrTree=class rpg/cake2/StrNodes$StrTree of class rpg/cake2/StrNodes
+     public #40= #39 of #6; //WisSkill=class rpg/cake2/WisNodes$WisSkill of class rpg/cake2/WisNodes
+     public #43= #42 of #6; //WisStep=class rpg/cake2/WisNodes$WisStep of class rpg/cake2/WisNodes
+     public #46= #45 of #6; //WisTree=class rpg/cake2/WisNodes$WisTree of class rpg/cake2/WisNodes
+RuntimeVisibleAnnotations:
+  0: #14(#15=s#16)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 00 00 03 00 61 00 62 01 00 2F 00 30 01 00 33
+   00 34 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

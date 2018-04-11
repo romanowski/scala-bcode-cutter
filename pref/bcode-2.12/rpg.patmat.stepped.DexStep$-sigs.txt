@@ -1,0 +1,11 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.stepped.DexStep$ extends scala.runtime.AbstractFunction1<rpg.patmat.stepped.Node, rpg.patmat.stepped.DexStep> implements scala.Serializable {
+  public static rpg.patmat.stepped.DexStep$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.patmat.stepped.DexStep apply(rpg.patmat.stepped.Node);
+  public scala.Option<rpg.patmat.stepped.Node> unapply(rpg.patmat.stepped.DexStep);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.patmat.stepped.DexStep$();
+}

@@ -1,0 +1,178 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/steppedClass/ImplSkillTrees.class
+  Last modified Apr 8, 2018; size 1953 bytes
+  MD5 checksum a616a97e2aafce49baae771107727565
+  Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.ImplSkillTrees extends rpg.SkillTrees
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/patmat/steppedClass/ImplSkillTrees
+   #2 = Class              #1             // rpg/patmat/steppedClass/ImplSkillTrees
+   #3 = Utf8               rpg/SkillTrees
+   #4 = Class              #3             // rpg/SkillTrees
+   #5 = Utf8               PatMatSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               52A!\tq*9m'.LG+sK(BA1H/9qKE.Y:t\t)a!qCRl\r!]4MA\t1iAB!bU6jY2$&/Z3ty\"aN\5u}Q\t5\t!CS#AbeDWM]=Ue,GC)a\t9BE1iI!!M[7Ue,'+9s!\tYBu!Aq\"aA0%cEq$\n\tA\rj!\tE)1oY1mC&A%\t>$.8h!\tc%(C\tI\=\t%\rQ-;t!\tY1&-\r\ta\1zKJ$&/Y5ug
+   #9 = Utf8               rpg/patmat/steppedClass/ImplSkillTrees$$anon$1
+  #10 = Class              #9             // rpg/patmat/steppedClass/ImplSkillTrees$$anon$1
+  #11 = Utf8               archeryTree
+  #12 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #13 = Utf8               traits
+  #14 = Utf8               rpg/patmat/steppedClass/DexTree
+  #15 = Class              #14            // rpg/patmat/steppedClass/DexTree
+  #16 = Utf8               rpg/patmat/steppedClass/DexStep
+  #17 = Class              #16            // rpg/patmat/steppedClass/DexStep
+  #18 = Utf8               rpg/patmat/steppedClass/WisTree
+  #19 = Class              #18            // rpg/patmat/steppedClass/WisTree
+  #20 = Utf8               rpg/patmat/steppedClass/WisSkill
+  #21 = Class              #20            // rpg/patmat/steppedClass/WisSkill
+  #22 = Utf8               aimed
+  #23 = String             #22            // aimed
+  #24 = Utf8               <init>
+  #25 = Utf8               (Ljava/lang/String;)V
+  #26 = NameAndType        #24:#25        // "<init>":(Ljava/lang/String;)V
+  #27 = Methodref          #21.#26        // rpg/patmat/steppedClass/WisSkill."<init>":(Ljava/lang/String;)V
+  #28 = Utf8               rpg/patmat/steppedClass/WisStep
+  #29 = Class              #28            // rpg/patmat/steppedClass/WisStep
+  #30 = Utf8               rpg/patmat/steppedClass/DexSkill
+  #31 = Class              #30            // rpg/patmat/steppedClass/DexSkill
+  #32 = Utf8               rapid
+  #33 = String             #32            // rapid
+  #34 = Methodref          #31.#26        // rpg/patmat/steppedClass/DexSkill."<init>":(Ljava/lang/String;)V
+  #35 = Utf8               (Lrpg/patmat/steppedClass/Node;)V
+  #36 = NameAndType        #24:#35        // "<init>":(Lrpg/patmat/steppedClass/Node;)V
+  #37 = Methodref          #29.#36        // rpg/patmat/steppedClass/WisStep."<init>":(Lrpg/patmat/steppedClass/Node;)V
+  #38 = Utf8               (Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+  #39 = NameAndType        #24:#38        // "<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+  #40 = Methodref          #19.#39        // rpg/patmat/steppedClass/WisTree."<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+  #41 = Methodref          #17.#36        // rpg/patmat/steppedClass/DexStep."<init>":(Lrpg/patmat/steppedClass/Node;)V
+  #42 = Utf8               rpg/patmat/steppedClass/StrTree
+  #43 = Class              #42            // rpg/patmat/steppedClass/StrTree
+  #44 = Utf8               rpg/patmat/steppedClass/StrSkill
+  #45 = Class              #44            // rpg/patmat/steppedClass/StrSkill
+  #46 = Utf8               power
+  #47 = String             #46            // power
+  #48 = Methodref          #45.#26        // rpg/patmat/steppedClass/StrSkill."<init>":(Ljava/lang/String;)V
+  #49 = Utf8               rpg/patmat/steppedClass/StrStep
+  #50 = Class              #49            // rpg/patmat/steppedClass/StrStep
+  #51 = Utf8               double
+  #52 = String             #51            // double
+  #53 = Methodref          #50.#36        // rpg/patmat/steppedClass/StrStep."<init>":(Lrpg/patmat/steppedClass/Node;)V
+  #54 = Methodref          #43.#39        // rpg/patmat/steppedClass/StrTree."<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+  #55 = Methodref          #15.#39        // rpg/patmat/steppedClass/DexTree."<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+  #56 = Utf8               (Lrpg/patmat/steppedClass/ImplSkillTrees;Lrpg/PlayerTraits;Lrpg/patmat/steppedClass/DexTree;)V
+  #57 = NameAndType        #24:#56        // "<init>":(Lrpg/patmat/steppedClass/ImplSkillTrees;Lrpg/PlayerTraits;Lrpg/patmat/steppedClass/DexTree;)V
+  #58 = Methodref          #10.#57        // rpg/patmat/steppedClass/ImplSkillTrees$$anon$1."<init>":(Lrpg/patmat/steppedClass/ImplSkillTrees;Lrpg/PlayerTraits;Lrpg/patmat/steppedClass/DexTree;)V
+  #59 = Utf8               tree
+  #60 = Utf8               Lrpg/patmat/steppedClass/DexTree;
+  #61 = Utf8               this
+  #62 = Utf8               Lrpg/patmat/steppedClass/ImplSkillTrees;
+  #63 = Utf8               Lrpg/PlayerTraits;
+  #64 = Utf8               ()V
+  #65 = NameAndType        #24:#64        // "<init>":()V
+  #66 = Methodref          #4.#65         // rpg/SkillTrees."<init>":()V
+  #67 = Utf8               Code
+  #68 = Utf8               LocalVariableTable
+  #69 = Utf8               LineNumberTable
+  #70 = Utf8               Signature
+  #71 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr<*>;
+  #72 = Utf8               MethodParameters
+  #73 = Utf8               SourceFile
+  #74 = Utf8               InnerClasses
+  #75 = Utf8               RuntimeVisibleAnnotations
+  #76 = Utf8               ScalaInlineInfo
+  #77 = Utf8               ScalaSig
+{
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=12, locals=3, args_size=2
+         0: new           #15                 // class rpg/patmat/steppedClass/DexTree
+         3: dup
+         4: new           #17                 // class rpg/patmat/steppedClass/DexStep
+         7: dup
+         8: new           #19                 // class rpg/patmat/steppedClass/WisTree
+        11: dup
+        12: new           #21                 // class rpg/patmat/steppedClass/WisSkill
+        15: dup
+        16: ldc           #23                 // String aimed
+        18: invokespecial #27                 // Method rpg/patmat/steppedClass/WisSkill."<init>":(Ljava/lang/String;)V
+        21: new           #29                 // class rpg/patmat/steppedClass/WisStep
+        24: dup
+        25: new           #31                 // class rpg/patmat/steppedClass/DexSkill
+        28: dup
+        29: ldc           #33                 // String rapid
+        31: invokespecial #34                 // Method rpg/patmat/steppedClass/DexSkill."<init>":(Ljava/lang/String;)V
+        34: invokespecial #37                 // Method rpg/patmat/steppedClass/WisStep."<init>":(Lrpg/patmat/steppedClass/Node;)V
+        37: invokespecial #40                 // Method rpg/patmat/steppedClass/WisTree."<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+        40: invokespecial #41                 // Method rpg/patmat/steppedClass/DexStep."<init>":(Lrpg/patmat/steppedClass/Node;)V
+        43: new           #43                 // class rpg/patmat/steppedClass/StrTree
+        46: dup
+        47: new           #45                 // class rpg/patmat/steppedClass/StrSkill
+        50: dup
+        51: ldc           #47                 // String power
+        53: invokespecial #48                 // Method rpg/patmat/steppedClass/StrSkill."<init>":(Ljava/lang/String;)V
+        56: new           #50                 // class rpg/patmat/steppedClass/StrStep
+        59: dup
+        60: new           #31                 // class rpg/patmat/steppedClass/DexSkill
+        63: dup
+        64: ldc           #52                 // String double
+        66: invokespecial #34                 // Method rpg/patmat/steppedClass/DexSkill."<init>":(Ljava/lang/String;)V
+        69: invokespecial #53                 // Method rpg/patmat/steppedClass/StrStep."<init>":(Lrpg/patmat/steppedClass/Node;)V
+        72: invokespecial #54                 // Method rpg/patmat/steppedClass/StrTree."<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+        75: invokespecial #55                 // Method rpg/patmat/steppedClass/DexTree."<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+        78: astore_2
+        79: new           #10                 // class rpg/patmat/steppedClass/ImplSkillTrees$$anon$1
+        82: dup
+        83: aconst_null
+        84: aload_1
+        85: aload_2
+        86: invokespecial #58                 // Method rpg/patmat/steppedClass/ImplSkillTrees$$anon$1."<init>":(Lrpg/patmat/steppedClass/ImplSkillTrees;Lrpg/PlayerTraits;Lrpg/patmat/steppedClass/DexTree;)V
+        89: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           78      11     2  tree   Lrpg/patmat/steppedClass/DexTree;
+            0      90     0  this   Lrpg/patmat/steppedClass/ImplSkillTrees;
+            0      90     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 70: 0
+        line 71: 4
+        line 72: 12
+        line 73: 21
+        line 75: 43
+        line 76: 47
+        line 77: 56
+        line 80: 79
+    Signature: #71                          // (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr<*>;
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public rpg.patmat.steppedClass.ImplSkillTrees();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #66                 // Method rpg/SkillTrees."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/steppedClass/ImplSkillTrees;
+      LineNumberTable:
+        line 60: 0
+}
+SourceFile: "PatMatSkillTrees.scala"
+InnerClasses:
+     public final #10; //class rpg/patmat/steppedClass/ImplSkillTrees$$anon$1
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 00 00 02 00 18 00 40 00 00 0B 00 0C 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

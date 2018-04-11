@@ -1,0 +1,96 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/DexNodes.class
+  Last modified Apr 8, 2018; size 3164 bytes
+  MD5 checksum e22fe7887ee9a8dfca4761de8876387f
+  Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake2.DexNodes
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/cake2/DexNodes
+   #2 = Class              #1             // rpg/cake2/DexNodes
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               CakeSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               \ta!C!\r\taB!!U\r(pI(BAm[33)a:qO1C\t!\tIA\"DY!B:dC2BA\te.*fM\")qC!1A%8ji\"!\tII!a\tUs+eCEKb6.7m'!bF!!\tA$D\tQ2DO_,B-quZ3t)J^:%qBA&o3vGR\"!C\n\tR!D*fe&G.>bE2,+IA\t9W.ZMAqEQ1\"!)R!a\rqxn;?\ti#\"Qe$WMZ_Aaa;sS:<'BA!DC!E!1!8b[\"\t)Aj]&$h7oAIM\rA\nsQ\t\t\";w]=YZb9!\rA\n{Q\t\n\"?9w]=%I4-7uIE*aM[!\tka\t\"8dQ7.3SAC1o]>$\r^5p]&jk:.Z2lK4M]5b],b&%\teSaJ|G-^2u!J,g-=1\"!*9S!a)\t1gn#!!.<b\tyc\nCU)IA+AxZ;di^=Y\"!C,\naS!aA%oi\"9!FA\nYA9s_,8\r^#mK6,g9~\"!C/\nyS!aA!os\"9-WA1a=%c!9!\rFA\na9s_,8\r^%uKJGo:2!5]1'BA4)w7fGRLwN\S\";fe$xNWR\t\t\"m!M\#rkdGCA7q!\tIa.p\t9!i\8mKtb1k\reR\t\t\"t!Am5D_,G#,\tU$!C!mAAo\*ue&tw\rFMAH#!ABea!Z9vC2HCA7{w/!AAq;q #Q0EKb6.7m!\tAbPB\tA@\ty\t\t\t\tIA\n!bAA9!/8uS6,BA#2tiJ7\r$v]$n82!d\"Q\tQCv}IQ\t<\tUa0!A]!B1qa2LHc!1A%aAB\"!%\t)aUt\r9msR!EA!I1\n\"BPaRLwN\nS\tY\"!AAY\n11\r\ti!0\t9A)=Ti8CBA]iC4-\"Q3AUA;p+9BCAW\t)A/Ao\tQ\nY\">Q!qHA!!\rA1g\tY1%I1FA\n\t)@\"CA\n1%i1FI\n\tY%N)q\t-!C!\"AA+aQC[W\t\t\"VQA,a\t&!AAYCBYA%\te\nW-!C;\"2!\A0!1LAa:,II:\tUY#!ABYD_A%\t%a5IaK\n\t1]%\tiAA\ty'AEKbF/9a\t\tHB.\t\t#tM)OA;AA91AA/}br_B\"^A9%)E+\t\t(!A}DBA Cq!a\r~qE!CA#B!a\"\nB!\"a\t)\tI#a!q)a$+:fKN11;B1\"a%\nU\r\"6!A.4u)\t9*a#IaFY4G\t7YI!f\n\t)$AsSDG -%#Q\n]\taA]5hQRb1K9+!+a\tY\tCA\tma/!I(a#QKy+!-\tM1I9\"CANW\n1%i1RI\n\tY8-!C\nabY8qs\"WMZ1vYR$#K\t\"L!!1RA\n)\".IAA`)\ra\tAu!a-\"A!-a#3\rCl\t\"HRQ.!3\t)-!AAqCB]AF%\te\tk-!C!m\"I0a#[M1P\t/]!!A\tea#fqRX-\t1mg!CAG\tAAo'\tY.a8!!!\t!!9/BAr#2tiJ7\r$v]$n83!1CO$\"!!7\tUY.!AFYD!\"!\IQAw)\t)+a<r\"91SAv9bBANW\ra;\tY.!AUHBA|R!CAsR!CA~/]I1!!@!V7fe!QFAz\r!!*\t\r1$D
+   #9 = Utf8               rpg/cake2/DexNodes$DexSkill
+  #10 = Class              #9             // rpg/cake2/DexNodes$DexSkill
+  #11 = Utf8               DexSkill
+  #12 = Utf8               rpg/cake2/DexNodes$DexSkill$
+  #13 = Class              #12            // rpg/cake2/DexNodes$DexSkill$
+  #14 = Utf8               DexSkill$
+  #15 = Utf8               rpg/cake2/DexNodes$DexStep
+  #16 = Class              #15            // rpg/cake2/DexNodes$DexStep
+  #17 = Utf8               DexStep
+  #18 = Utf8               rpg/cake2/DexNodes$DexStep$
+  #19 = Class              #18            // rpg/cake2/DexNodes$DexStep$
+  #20 = Utf8               DexStep$
+  #21 = Utf8               rpg/cake2/DexNodes$DexTree
+  #22 = Class              #21            // rpg/cake2/DexNodes$DexTree
+  #23 = Utf8               DexTree
+  #24 = Utf8               rpg/cake2/DexNodes$DexTree$
+  #25 = Class              #24            // rpg/cake2/DexNodes$DexTree$
+  #26 = Utf8               DexTree$
+  #27 = Utf8               ()Lrpg/cake2/DexNodes$DexSkill$;
+  #28 = Utf8               ()Lrpg/cake2/DexNodes$DexStep$;
+  #29 = Utf8               ()Lrpg/cake2/DexNodes$DexTree$;
+  #30 = Utf8               $init$
+  #31 = Utf8               (Lrpg/cake2/DexNodes;)V
+  #32 = Utf8               $this
+  #33 = Utf8               Lrpg/cake2/DexNodes;
+  #34 = Utf8               Code
+  #35 = Utf8               LocalVariableTable
+  #36 = Utf8               LineNumberTable
+  #37 = Utf8               MethodParameters
+  #38 = Utf8               SourceFile
+  #39 = Utf8               InnerClasses
+  #40 = Utf8               RuntimeVisibleAnnotations
+  #41 = Utf8               ScalaInlineInfo
+  #42 = Utf8               ScalaSig
+{
+  public abstract rpg.cake2.DexNodes$DexSkill$ DexSkill();
+    descriptor: ()Lrpg/cake2/DexNodes$DexSkill$;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract rpg.cake2.DexNodes$DexStep$ DexStep();
+    descriptor: ()Lrpg/cake2/DexNodes$DexStep$;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract rpg.cake2.DexNodes$DexTree$ DexTree();
+    descriptor: ()Lrpg/cake2/DexNodes$DexTree$;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public static void $init$(rpg.cake2.DexNodes);
+    descriptor: (Lrpg/cake2/DexNodes;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0 $this   Lrpg/cake2/DexNodes;
+      LineNumberTable:
+        line 13: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+}
+SourceFile: "CakeSkillTrees.scala"
+InnerClasses:
+     public #11= #10 of #2; //DexSkill=class rpg/cake2/DexNodes$DexSkill of class rpg/cake2/DexNodes
+     public #14= #13 of #2; //DexSkill$=class rpg/cake2/DexNodes$DexSkill$ of class rpg/cake2/DexNodes
+     public #17= #16 of #2; //DexStep=class rpg/cake2/DexNodes$DexStep of class rpg/cake2/DexNodes
+     public #20= #19 of #2; //DexStep$=class rpg/cake2/DexNodes$DexStep$ of class rpg/cake2/DexNodes
+     public #23= #22 of #2; //DexTree=class rpg/cake2/DexNodes$DexTree of class rpg/cake2/DexNodes
+     public #26= #25 of #2; //DexTree$=class rpg/cake2/DexNodes$DexTree$ of class rpg/cake2/DexNodes
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x18
+   01 00 00 04 00 1E 00 1F 01 00 0B 00 1B 00 00 11
+   00 1C 00 00 17 00 1D 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

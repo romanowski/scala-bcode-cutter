@@ -1,0 +1,42 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/Node.class
+  Last modified Apr 8, 2018; size 638 bytes
+  MD5 checksum ec1c819f313ea8b2fc27123f3d2bebb2
+  Compiled from "OOOSkillTrees.scala"
+public interface rpg.ooo.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/ooo/Node
+   #2 = Class              #1             // rpg/ooo/Node
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               OOOSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               52q!GrAO_,'BA\rywn!]4M\t1iA)1oY1mC&QB:L(+4\t=a\t\t\r|7#Q\"!\n\nMQ!aA%oi\")QCa-1AO]1jiN\"a\rI!!Ac-_3s)J^:*YRdH$KJ3&\tAA)=TW&dG.\t9A)=TiB!U\r+sKL!A\tM#(oU6jY2L!\nM#(o;fa&aE'RHK]3f\tA#AXSN6.7m\tQ#AAXSNF/9\n1!aB,jgRX-
+   #9 = Utf8               cost
+  #10 = Utf8               (Lrpg/PlayerTraits;)I
+  #11 = Utf8               traits
+  #12 = Utf8               MethodParameters
+  #13 = Utf8               SourceFile
+  #14 = Utf8               RuntimeVisibleAnnotations
+  #15 = Utf8               ScalaInlineInfo
+  #16 = Utf8               ScalaSig
+{
+  public abstract int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+}
+SourceFile: "OOOSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 00 00 01 00 09 00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

@@ -1,0 +1,4 @@
+Compiled from "SkillTrees.java"
+interface rpg.java.ooo.Node {
+  public abstract int cost(rpg.PlayerTraits);
+}

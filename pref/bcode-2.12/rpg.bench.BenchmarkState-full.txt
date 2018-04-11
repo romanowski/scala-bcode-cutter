@@ -1,0 +1,599 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/bench/BenchmarkState.class
+  Last modified Apr 8, 2018; size 5060 bytes
+  MD5 checksum 6b042f7447d43657ac937d8869f91d5f
+  Compiled from "Benchmarks.scala"
+public class rpg.bench.BenchmarkState
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/bench/BenchmarkState
+    #2 = Class              #1            // rpg/bench/BenchmarkState
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               Benchmarks.scala
+    #6 = Utf8               Lorg/openjdk/jmh/annotations/State;
+    #7 = Utf8               value
+    #8 = Utf8               Lorg/openjdk/jmh/annotations/Scope;
+    #9 = Utf8               Benchmark
+   #10 = Utf8               Lscala/reflect/ScalaSignature;
+   #11 = Utf8               bytes
+   #12 = Utf8               -eBaBQ3oG\"lM]6Ti$XM\t)!-8dQ*\tQ!AsaaAD)\t1\"AtGd-\t1I\=SKDbIE\ra20:UeLGo\t#IiB'A7bsHK]1jiNDQ!Y\taP5oSRtDCA!\tA!DyA1)\")9bB%\tAHa$X*;}$IE\t3%#\t\ti1k[5mYRX-*faJ\"J\rIaeJA\t!?\nBA%q$AqCRl\r)jCA,\ta#BAO_RDN\4%qBA\r\te.c\r\"3)Hn\<QCRl\r^gAAG\t#*C7\t%9(!AFA`IIBa!!aC:m_^\r^'biBqaCA(AdY8/Z:QCRl\r^{Aa\t#zCA\t%\t%)!AFA`IMBaa!iAD2mCNXm)bi6G\t\r\"G5H/9qK\r^'biV\tq\t\rIB#I%RE!C&M\tQ!*\ryFB$M$X\r9fIBG/T1uA!9q\nb\nAE:uKBX\rZ\"mCN+;NCR,!%R2!ET!\t!CBV-\t!BS\tqJ\t\r]!RMH/9qKE.Y:t!$X*;!IA1Ai^=qKdm]:m$0E\tS%=IqYA\t!?2BB1A%1,usB,7\r\1tgBqaCA-dC.,W#A31DcA\t\"OBA\nS*\t!A%1a8Y)AK)1-Y6fA!9Qb\nq!B2bWT#A81AcA\t\"cBAE\ngR\t!A%1a9))A_11-Y6feBqaC0Ap_>$&/Z3e$A?E\t3%yIQP`A\t!?JBB@A%0p_>$&/Z3!%\tb\n\t)!Ap_>VOY2bY2XCAAa\tI!!\tE\t1\tI5AaCA#\t\t!A%Aa2a!A1!\t9!p_>VOY2bY2C\r\"Qqn\8MC6G-Y:mBACB!E AA%!\t\rQEA\t!?\n(BA-ywn'b[\n$m\t-A1A5!C8p_:+7^3e+\t\ty\r2UB\t\"g2JA\t-\t9$!)A\t}#G\r\tw!0Qqn\8OKN$X\r\t}A1Aa6bm|ujTD!!JA!#IA$!\r!\n\ni%!AF`IECA(I!a)g/Y(PB\"a%\t!!)g/4bgR,\"!a1\teQ\t#\nYE%;\"1\"ab\t!BS\t!qJ5!\tQ\n]!6bm4m;!QqMA@B!!|51[\ny'Ab]:|G/;j_:(BA9g\n1A[7i\t)(a=XM6eW*P_J<BA?WQa;biQA^1mk$#!a!\n\tqQ\nt7\r[7be.TA!!#l)1kY8qK
+   #13 = Utf8               patMat
+   #14 = Utf8               Lrpg/SkillTreeRepr;
+   #15 = Utf8               Lrpg/SkillTreeRepr<*>;
+   #16 = Utf8               slowPatMat
+   #17 = Utf8               classesPatMat
+   #18 = Utf8               steppedPatMat
+   #19 = Utf8               steppedClassPatMat
+   #20 = Utf8               typeclass
+   #21 = Utf8               cake
+   #22 = Utf8               cake2
+   #23 = Utf8               oooTree
+   #24 = Utf8               oooSubcalls
+   #25 = Utf8               oooLambdas
+   #26 = Utf8               oooNested
+   #27 = Utf8               javaOOO
+   #28 = Utf8               javafast
+   #29 = Utf8               ()Lrpg/SkillTreeRepr;
+   #30 = NameAndType        #13:#14       // patMat:Lrpg/SkillTreeRepr;
+   #31 = Fieldref           #2.#30        // rpg/bench/BenchmarkState.patMat:Lrpg/SkillTreeRepr;
+   #32 = Utf8               this
+   #33 = Utf8               Lrpg/bench/BenchmarkState;
+   #34 = NameAndType        #16:#14       // slowPatMat:Lrpg/SkillTreeRepr;
+   #35 = Fieldref           #2.#34        // rpg/bench/BenchmarkState.slowPatMat:Lrpg/SkillTreeRepr;
+   #36 = NameAndType        #17:#14       // classesPatMat:Lrpg/SkillTreeRepr;
+   #37 = Fieldref           #2.#36        // rpg/bench/BenchmarkState.classesPatMat:Lrpg/SkillTreeRepr;
+   #38 = NameAndType        #18:#14       // steppedPatMat:Lrpg/SkillTreeRepr;
+   #39 = Fieldref           #2.#38        // rpg/bench/BenchmarkState.steppedPatMat:Lrpg/SkillTreeRepr;
+   #40 = NameAndType        #19:#14       // steppedClassPatMat:Lrpg/SkillTreeRepr;
+   #41 = Fieldref           #2.#40        // rpg/bench/BenchmarkState.steppedClassPatMat:Lrpg/SkillTreeRepr;
+   #42 = NameAndType        #20:#14       // typeclass:Lrpg/SkillTreeRepr;
+   #43 = Fieldref           #2.#42        // rpg/bench/BenchmarkState.typeclass:Lrpg/SkillTreeRepr;
+   #44 = NameAndType        #21:#14       // cake:Lrpg/SkillTreeRepr;
+   #45 = Fieldref           #2.#44        // rpg/bench/BenchmarkState.cake:Lrpg/SkillTreeRepr;
+   #46 = NameAndType        #22:#14       // cake2:Lrpg/SkillTreeRepr;
+   #47 = Fieldref           #2.#46        // rpg/bench/BenchmarkState.cake2:Lrpg/SkillTreeRepr;
+   #48 = NameAndType        #23:#14       // oooTree:Lrpg/SkillTreeRepr;
+   #49 = Fieldref           #2.#48        // rpg/bench/BenchmarkState.oooTree:Lrpg/SkillTreeRepr;
+   #50 = NameAndType        #24:#14       // oooSubcalls:Lrpg/SkillTreeRepr;
+   #51 = Fieldref           #2.#50        // rpg/bench/BenchmarkState.oooSubcalls:Lrpg/SkillTreeRepr;
+   #52 = NameAndType        #25:#14       // oooLambdas:Lrpg/SkillTreeRepr;
+   #53 = Fieldref           #2.#52        // rpg/bench/BenchmarkState.oooLambdas:Lrpg/SkillTreeRepr;
+   #54 = NameAndType        #26:#14       // oooNested:Lrpg/SkillTreeRepr;
+   #55 = Fieldref           #2.#54        // rpg/bench/BenchmarkState.oooNested:Lrpg/SkillTreeRepr;
+   #56 = NameAndType        #27:#14       // javaOOO:Lrpg/SkillTreeRepr;
+   #57 = Fieldref           #2.#56        // rpg/bench/BenchmarkState.javaOOO:Lrpg/SkillTreeRepr;
+   #58 = NameAndType        #28:#14       // javafast:Lrpg/SkillTreeRepr;
+   #59 = Fieldref           #2.#58        // rpg/bench/BenchmarkState.javafast:Lrpg/SkillTreeRepr;
+   #60 = Utf8               <init>
+   #61 = Utf8               (Lrpg/PlayerTraits;)V
+   #62 = Utf8               playerTraits
+   #63 = Utf8               ()V
+   #64 = NameAndType        #60:#63       // "<init>":()V
+   #65 = Methodref          #4.#64        // java/lang/Object."<init>":()V
+   #66 = Utf8               rpg/patmat/PatMatSkillTrees
+   #67 = Class              #66           // rpg/patmat/PatMatSkillTrees
+   #68 = Methodref          #67.#64       // rpg/patmat/PatMatSkillTrees."<init>":()V
+   #69 = Utf8               archeryTree
+   #70 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #71 = NameAndType        #69:#70       // archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #72 = Methodref          #67.#71       // rpg/patmat/PatMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #73 = Utf8               rpg/patmat/SlowPathMatSkillTrees
+   #74 = Class              #73           // rpg/patmat/SlowPathMatSkillTrees
+   #75 = Methodref          #74.#64       // rpg/patmat/SlowPathMatSkillTrees."<init>":()V
+   #76 = Methodref          #74.#71       // rpg/patmat/SlowPathMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #77 = Utf8               rpg/patmat/classes/PathMatSkillTrees
+   #78 = Class              #77           // rpg/patmat/classes/PathMatSkillTrees
+   #79 = Methodref          #78.#64       // rpg/patmat/classes/PathMatSkillTrees."<init>":()V
+   #80 = Methodref          #78.#71       // rpg/patmat/classes/PathMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #81 = Utf8               rpg/patmat/stepped/SteppedPatMatSkillTrees
+   #82 = Class              #81           // rpg/patmat/stepped/SteppedPatMatSkillTrees
+   #83 = Methodref          #82.#64       // rpg/patmat/stepped/SteppedPatMatSkillTrees."<init>":()V
+   #84 = Methodref          #82.#71       // rpg/patmat/stepped/SteppedPatMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #85 = Utf8               rpg/patmat/steppedClass/ImplSkillTrees
+   #86 = Class              #85           // rpg/patmat/steppedClass/ImplSkillTrees
+   #87 = Methodref          #86.#64       // rpg/patmat/steppedClass/ImplSkillTrees."<init>":()V
+   #88 = Methodref          #86.#71       // rpg/patmat/steppedClass/ImplSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #89 = Utf8               rpg/typeclass/naive/TypeclassSkillTrees
+   #90 = Class              #89           // rpg/typeclass/naive/TypeclassSkillTrees
+   #91 = Methodref          #90.#64       // rpg/typeclass/naive/TypeclassSkillTrees."<init>":()V
+   #92 = Methodref          #90.#71       // rpg/typeclass/naive/TypeclassSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #93 = Utf8               rpg/cake/CakeSkillTrees
+   #94 = Class              #93           // rpg/cake/CakeSkillTrees
+   #95 = Methodref          #94.#64       // rpg/cake/CakeSkillTrees."<init>":()V
+   #96 = Methodref          #94.#71       // rpg/cake/CakeSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #97 = Utf8               rpg/cake2/Cake2SkillTrees
+   #98 = Class              #97           // rpg/cake2/Cake2SkillTrees
+   #99 = Methodref          #98.#64       // rpg/cake2/Cake2SkillTrees."<init>":()V
+  #100 = Methodref          #98.#71       // rpg/cake2/Cake2SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #101 = Utf8               rpg/ooo/OOOSkillTrees
+  #102 = Class              #101          // rpg/ooo/OOOSkillTrees
+  #103 = Methodref          #102.#64      // rpg/ooo/OOOSkillTrees."<init>":()V
+  #104 = Methodref          #102.#71      // rpg/ooo/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #105 = Utf8               rpg/ooo/subcalls/OOOSkillTrees
+  #106 = Class              #105          // rpg/ooo/subcalls/OOOSkillTrees
+  #107 = Methodref          #106.#64      // rpg/ooo/subcalls/OOOSkillTrees."<init>":()V
+  #108 = Methodref          #106.#71      // rpg/ooo/subcalls/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #109 = Utf8               rpg/ooo/lambdas/LambdasSkillTrees
+  #110 = Class              #109          // rpg/ooo/lambdas/LambdasSkillTrees
+  #111 = Methodref          #110.#64      // rpg/ooo/lambdas/LambdasSkillTrees."<init>":()V
+  #112 = Methodref          #110.#71      // rpg/ooo/lambdas/LambdasSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #113 = Utf8               rpg/ooo/nested/OOOSkillTrees
+  #114 = Class              #113          // rpg/ooo/nested/OOOSkillTrees
+  #115 = Methodref          #114.#64      // rpg/ooo/nested/OOOSkillTrees."<init>":()V
+  #116 = Methodref          #114.#71      // rpg/ooo/nested/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #117 = Utf8               rpg/java/ooo/SkillTrees
+  #118 = Class              #117          // rpg/java/ooo/SkillTrees
+  #119 = Methodref          #118.#64      // rpg/java/ooo/SkillTrees."<init>":()V
+  #120 = Methodref          #118.#71      // rpg/java/ooo/SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #121 = Utf8               rpg/java/fast/SkillTrees
+  #122 = Class              #121          // rpg/java/fast/SkillTrees
+  #123 = Methodref          #122.#64      // rpg/java/fast/SkillTrees."<init>":()V
+  #124 = Methodref          #122.#71      // rpg/java/fast/SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #125 = Utf8               Lrpg/PlayerTraits;
+  #126 = Utf8               rpg/PlayerTraits
+  #127 = Class              #126          // rpg/PlayerTraits
+  #128 = Utf8               (III)V
+  #129 = NameAndType        #60:#128      // "<init>":(III)V
+  #130 = Methodref          #127.#129     // rpg/PlayerTraits."<init>":(III)V
+  #131 = NameAndType        #60:#61       // "<init>":(Lrpg/PlayerTraits;)V
+  #132 = Methodref          #2.#131       // rpg/bench/BenchmarkState."<init>":(Lrpg/PlayerTraits;)V
+  #133 = Utf8               Signature
+  #134 = Utf8               Code
+  #135 = Utf8               LocalVariableTable
+  #136 = Utf8               LineNumberTable
+  #137 = Utf8               ()Lrpg/SkillTreeRepr<*>;
+  #138 = Utf8               MethodParameters
+  #139 = Utf8               SourceFile
+  #140 = Utf8               RuntimeVisibleAnnotations
+  #141 = Utf8               ScalaInlineInfo
+  #142 = Utf8               ScalaSig
+{
+  private final rpg.SkillTreeRepr<?> patMat;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> slowPatMat;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> classesPatMat;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> steppedPatMat;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> steppedClassPatMat;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> typeclass;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> cake;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> cake2;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> oooTree;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> oooSubcalls;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> oooLambdas;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> oooNested;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> javaOOO;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  private final rpg.SkillTreeRepr<?> javafast;
+    descriptor: Lrpg/SkillTreeRepr;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #15                          // Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> patMat();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #31                 // Field patMat:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 30: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> slowPatMat();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #35                 // Field slowPatMat:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 31: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> classesPatMat();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #37                 // Field classesPatMat:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 32: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> steppedPatMat();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #39                 // Field steppedPatMat:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 33: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> steppedClassPatMat();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #41                 // Field steppedClassPatMat:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 34: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> typeclass();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #43                 // Field typeclass:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 35: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> cake();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #45                 // Field cake:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 36: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> cake2();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #47                 // Field cake2:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 37: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> oooTree();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #49                 // Field oooTree:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 39: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> oooSubcalls();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #51                 // Field oooSubcalls:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 40: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> oooLambdas();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #53                 // Field oooLambdas:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 41: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> oooNested();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #55                 // Field oooNested:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 43: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> javaOOO();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #57                 // Field javaOOO:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 44: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.SkillTreeRepr<?> javafast();
+    descriptor: ()Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #59                 // Field javafast:Lrpg/SkillTreeRepr;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 45: 0
+    Signature: #137                         // ()Lrpg/SkillTreeRepr<*>;
+
+  public rpg.bench.BenchmarkState(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #65                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: new           #67                 // class rpg/patmat/PatMatSkillTrees
+         8: dup
+         9: invokespecial #68                 // Method rpg/patmat/PatMatSkillTrees."<init>":()V
+        12: aload_1
+        13: invokevirtual #72                 // Method rpg/patmat/PatMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+        16: putfield      #31                 // Field patMat:Lrpg/SkillTreeRepr;
+        19: aload_0
+        20: new           #74                 // class rpg/patmat/SlowPathMatSkillTrees
+        23: dup
+        24: invokespecial #75                 // Method rpg/patmat/SlowPathMatSkillTrees."<init>":()V
+        27: aload_1
+        28: invokevirtual #76                 // Method rpg/patmat/SlowPathMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+        31: putfield      #35                 // Field slowPatMat:Lrpg/SkillTreeRepr;
+        34: aload_0
+        35: new           #78                 // class rpg/patmat/classes/PathMatSkillTrees
+        38: dup
+        39: invokespecial #79                 // Method rpg/patmat/classes/PathMatSkillTrees."<init>":()V
+        42: aload_1
+        43: invokevirtual #80                 // Method rpg/patmat/classes/PathMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+        46: putfield      #37                 // Field classesPatMat:Lrpg/SkillTreeRepr;
+        49: aload_0
+        50: new           #82                 // class rpg/patmat/stepped/SteppedPatMatSkillTrees
+        53: dup
+        54: invokespecial #83                 // Method rpg/patmat/stepped/SteppedPatMatSkillTrees."<init>":()V
+        57: aload_1
+        58: invokevirtual #84                 // Method rpg/patmat/stepped/SteppedPatMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+        61: putfield      #39                 // Field steppedPatMat:Lrpg/SkillTreeRepr;
+        64: aload_0
+        65: new           #86                 // class rpg/patmat/steppedClass/ImplSkillTrees
+        68: dup
+        69: invokespecial #87                 // Method rpg/patmat/steppedClass/ImplSkillTrees."<init>":()V
+        72: aload_1
+        73: invokevirtual #88                 // Method rpg/patmat/steppedClass/ImplSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+        76: putfield      #41                 // Field steppedClassPatMat:Lrpg/SkillTreeRepr;
+        79: aload_0
+        80: new           #90                 // class rpg/typeclass/naive/TypeclassSkillTrees
+        83: dup
+        84: invokespecial #91                 // Method rpg/typeclass/naive/TypeclassSkillTrees."<init>":()V
+        87: aload_1
+        88: invokevirtual #92                 // Method rpg/typeclass/naive/TypeclassSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+        91: putfield      #43                 // Field typeclass:Lrpg/SkillTreeRepr;
+        94: aload_0
+        95: new           #94                 // class rpg/cake/CakeSkillTrees
+        98: dup
+        99: invokespecial #95                 // Method rpg/cake/CakeSkillTrees."<init>":()V
+       102: aload_1
+       103: invokevirtual #96                 // Method rpg/cake/CakeSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       106: putfield      #45                 // Field cake:Lrpg/SkillTreeRepr;
+       109: aload_0
+       110: new           #98                 // class rpg/cake2/Cake2SkillTrees
+       113: dup
+       114: invokespecial #99                 // Method rpg/cake2/Cake2SkillTrees."<init>":()V
+       117: aload_1
+       118: invokevirtual #100                // Method rpg/cake2/Cake2SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       121: putfield      #47                 // Field cake2:Lrpg/SkillTreeRepr;
+       124: aload_0
+       125: new           #102                // class rpg/ooo/OOOSkillTrees
+       128: dup
+       129: invokespecial #103                // Method rpg/ooo/OOOSkillTrees."<init>":()V
+       132: aload_1
+       133: invokevirtual #104                // Method rpg/ooo/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       136: putfield      #49                 // Field oooTree:Lrpg/SkillTreeRepr;
+       139: aload_0
+       140: new           #106                // class rpg/ooo/subcalls/OOOSkillTrees
+       143: dup
+       144: invokespecial #107                // Method rpg/ooo/subcalls/OOOSkillTrees."<init>":()V
+       147: aload_1
+       148: invokevirtual #108                // Method rpg/ooo/subcalls/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       151: putfield      #51                 // Field oooSubcalls:Lrpg/SkillTreeRepr;
+       154: aload_0
+       155: new           #110                // class rpg/ooo/lambdas/LambdasSkillTrees
+       158: dup
+       159: invokespecial #111                // Method rpg/ooo/lambdas/LambdasSkillTrees."<init>":()V
+       162: aload_1
+       163: invokevirtual #112                // Method rpg/ooo/lambdas/LambdasSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       166: putfield      #53                 // Field oooLambdas:Lrpg/SkillTreeRepr;
+       169: aload_0
+       170: new           #114                // class rpg/ooo/nested/OOOSkillTrees
+       173: dup
+       174: invokespecial #115                // Method rpg/ooo/nested/OOOSkillTrees."<init>":()V
+       177: aload_1
+       178: invokevirtual #116                // Method rpg/ooo/nested/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       181: putfield      #55                 // Field oooNested:Lrpg/SkillTreeRepr;
+       184: aload_0
+       185: new           #118                // class rpg/java/ooo/SkillTrees
+       188: dup
+       189: invokespecial #119                // Method rpg/java/ooo/SkillTrees."<init>":()V
+       192: aload_1
+       193: invokevirtual #120                // Method rpg/java/ooo/SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       196: putfield      #57                 // Field javaOOO:Lrpg/SkillTreeRepr;
+       199: aload_0
+       200: new           #122                // class rpg/java/fast/SkillTrees
+       203: dup
+       204: invokespecial #123                // Method rpg/java/fast/SkillTrees."<init>":()V
+       207: aload_1
+       208: invokevirtual #124                // Method rpg/java/fast/SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+       211: putfield      #59                 // Field javafast:Lrpg/SkillTreeRepr;
+       214: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     215     0  this   Lrpg/bench/BenchmarkState;
+            0     215     1 playerTraits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 50: 0
+        line 30: 4
+        line 31: 19
+        line 32: 34
+        line 33: 49
+        line 34: 64
+        line 35: 79
+        line 36: 94
+        line 37: 109
+        line 39: 124
+        line 40: 139
+        line 41: 154
+        line 43: 169
+        line 44: 184
+        line 45: 199
+        line 25: 214
+    MethodParameters:
+      Name                           Flags
+      playerTraits                   final
+
+  public rpg.bench.BenchmarkState();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=6, locals=1, args_size=1
+         0: aload_0
+         1: new           #127                // class rpg/PlayerTraits
+         4: dup
+         5: bipush        100
+         7: bipush        100
+         9: bipush        100
+        11: invokespecial #130                // Method rpg/PlayerTraits."<init>":(III)V
+        14: invokespecial #132                // Method "<init>":(Lrpg/PlayerTraits;)V
+        17: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      18     0  this   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 27: 0
+        line 26: 17
+}
+SourceFile: "Benchmarks.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=e#8.#9)
+  1: #10(#11=s#12)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x54
+   01 00 00 10 00 3C 00 3F 00 00 3C 00 3D 00 00 15
+   00 1D 00 00 16 00 1D 00 00 11 00 1D 00 00 1B 00
+   1D 00 00 1C 00 1D 00 00 19 00 1D 00 00 1A 00 1D
+   00 00 18 00 1D 00 00 17 00 1D 00 00 0D 00 1D 00
+   00 10 00 1D 00 00 13 00 1D 00 00 12 00 1D 00 00
+   14 00 1D 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

@@ -1,0 +1,4 @@
+Compiled from "OOOSkillTrees.scala"
+public interface rpg.ooo.Node {
+  public abstract int cost(rpg.PlayerTraits);
+}

@@ -1,0 +1,219 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public class rpg.ooo.nested.FeatTree$Tree implements rpg.ooo.nested.Node,scala.Product,scala.Serializable {
+  private final rpg.ooo.nested.Node left;
+
+  private final rpg.ooo.nested.Node right;
+
+  public final rpg.ooo.nested.FeatTree $outer;
+
+  public rpg.ooo.nested.Node left();
+    Code:
+       0: aload_0
+       1: getfield      #22                 // Field left:Lrpg/ooo/nested/Node;
+       4: areturn
+
+  public rpg.ooo.nested.Node right();
+    Code:
+       0: aload_0
+       1: getfield      #26                 // Field right:Lrpg/ooo/nested/Node;
+       4: areturn
+
+  public int cost(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: invokevirtual #31                 // Method left:()Lrpg/ooo/nested/Node;
+       4: aload_1
+       5: invokeinterface #33,  2           // InterfaceMethod rpg/ooo/nested/Node.cost:(Lrpg/PlayerTraits;)I
+      10: aload_0
+      11: invokevirtual #35                 // Method right:()Lrpg/ooo/nested/Node;
+      14: aload_1
+      15: invokeinterface #33,  2           // InterfaceMethod rpg/ooo/nested/Node.cost:(Lrpg/PlayerTraits;)I
+      20: iadd
+      21: aload_0
+      22: invokevirtual #39                 // Method rpg$ooo$nested$FeatTree$Tree$$$outer:()Lrpg/ooo/nested/FeatTree;
+      25: aload_1
+      26: invokeinterface #42,  2           // InterfaceMethod rpg/ooo/nested/FeatTree.thisCost:(Lrpg/PlayerTraits;)I
+      31: iadd
+      32: ireturn
+
+  public rpg.ooo.nested.FeatTree$Tree copy(rpg.ooo.nested.Node, rpg.ooo.nested.Node);
+    Code:
+       0: new           #2                  // class rpg/ooo/nested/FeatTree$Tree
+       3: dup
+       4: aload_0
+       5: invokevirtual #39                 // Method rpg$ooo$nested$FeatTree$Tree$$$outer:()Lrpg/ooo/nested/FeatTree;
+       8: aload_1
+       9: aload_2
+      10: invokespecial #49                 // Method "<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;Lrpg/ooo/nested/Node;)V
+      13: areturn
+
+  public rpg.ooo.nested.Node copy$default$1();
+    Code:
+       0: aload_0
+       1: invokevirtual #31                 // Method left:()Lrpg/ooo/nested/Node;
+       4: areturn
+
+  public rpg.ooo.nested.Node copy$default$2();
+    Code:
+       0: aload_0
+       1: invokevirtual #35                 // Method right:()Lrpg/ooo/nested/Node;
+       4: areturn
+
+  public java.lang.String productPrefix();
+    Code:
+       0: ldc           #54                 // String Tree
+       2: areturn
+
+  public int productArity();
+    Code:
+       0: iconst_2
+       1: ireturn
+
+  public java.lang.Object productElement(int);
+    Code:
+       0: iload_1
+       1: istore_2
+       2: iload_2
+       3: tableswitch   { // 0 to 1
+                     0: 24
+                     1: 31
+               default: 38
+          }
+      24: aload_0
+      25: invokevirtual #31                 // Method left:()Lrpg/ooo/nested/Node;
+      28: goto          53
+      31: aload_0
+      32: invokevirtual #35                 // Method right:()Lrpg/ooo/nested/Node;
+      35: goto          53
+      38: new           #61                 // class java/lang/IndexOutOfBoundsException
+      41: dup
+      42: iload_1
+      43: invokestatic  #67                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      46: invokevirtual #70                 // Method java/lang/Object.toString:()Ljava/lang/String;
+      49: invokespecial #73                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+      52: athrow
+      53: areturn
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    Code:
+       0: getstatic     #82                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #86                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+       7: areturn
+
+  public boolean canEqual(java.lang.Object);
+    Code:
+       0: aload_1
+       1: instanceof    #2                  // class rpg/ooo/nested/FeatTree$Tree
+       4: ireturn
+
+  public int hashCode();
+    Code:
+       0: getstatic     #82                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #94                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+       7: ireturn
+
+  public java.lang.String toString();
+    Code:
+       0: getstatic     #82                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #98                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+       7: areturn
+
+  public boolean equals(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: if_acmpeq     132
+       5: aload_1
+       6: astore_3
+       7: aload_3
+       8: instanceof    #2                  // class rpg/ooo/nested/FeatTree$Tree
+      11: ifeq          33
+      14: aload_3
+      15: checkcast     #2                  // class rpg/ooo/nested/FeatTree$Tree
+      18: invokevirtual #39                 // Method rpg$ooo$nested$FeatTree$Tree$$$outer:()Lrpg/ooo/nested/FeatTree;
+      21: aload_0
+      22: invokevirtual #39                 // Method rpg$ooo$nested$FeatTree$Tree$$$outer:()Lrpg/ooo/nested/FeatTree;
+      25: if_acmpne     33
+      28: iconst_1
+      29: istore_2
+      30: goto          41
+      33: goto          36
+      36: iconst_0
+      37: istore_2
+      38: goto          41
+      41: iload_2
+      42: ifeq          136
+      45: aload_1
+      46: checkcast     #2                  // class rpg/ooo/nested/FeatTree$Tree
+      49: astore        4
+      51: aload_0
+      52: invokevirtual #31                 // Method left:()Lrpg/ooo/nested/Node;
+      55: aload         4
+      57: invokevirtual #31                 // Method left:()Lrpg/ooo/nested/Node;
+      60: astore        5
+      62: dup
+      63: ifnonnull     75
+      66: pop
+      67: aload         5
+      69: ifnull        83
+      72: goto          128
+      75: aload         5
+      77: invokevirtual #101                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      80: ifeq          128
+      83: aload_0
+      84: invokevirtual #35                 // Method right:()Lrpg/ooo/nested/Node;
+      87: aload         4
+      89: invokevirtual #35                 // Method right:()Lrpg/ooo/nested/Node;
+      92: astore        6
+      94: dup
+      95: ifnonnull     107
+      98: pop
+      99: aload         6
+     101: ifnull        115
+     104: goto          128
+     107: aload         6
+     109: invokevirtual #101                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     112: ifeq          128
+     115: aload         4
+     117: aload_0
+     118: invokevirtual #103                // Method canEqual:(Ljava/lang/Object;)Z
+     121: ifeq          128
+     124: iconst_1
+     125: goto          129
+     128: iconst_0
+     129: ifeq          136
+     132: iconst_1
+     133: goto          137
+     136: iconst_0
+     137: ireturn
+
+  public rpg.ooo.nested.FeatTree rpg$ooo$nested$FeatTree$Tree$$$outer();
+    Code:
+       0: aload_0
+       1: getfield      #105                // Field $outer:Lrpg/ooo/nested/FeatTree;
+       4: areturn
+
+  public rpg.ooo.nested.FeatTree$Tree(rpg.ooo.nested.FeatTree, rpg.ooo.nested.Node, rpg.ooo.nested.Node);
+    Code:
+       0: aload_0
+       1: aload_2
+       2: putfield      #22                 // Field left:Lrpg/ooo/nested/Node;
+       5: aload_0
+       6: aload_3
+       7: putfield      #26                 // Field right:Lrpg/ooo/nested/Node;
+      10: aload_1
+      11: ifnonnull     16
+      14: aconst_null
+      15: athrow
+      16: aload_0
+      17: aload_1
+      18: putfield      #105                // Field $outer:Lrpg/ooo/nested/FeatTree;
+      21: aload_0
+      22: invokespecial #108                // Method java/lang/Object."<init>":()V
+      25: aload_0
+      26: invokestatic  #112                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+      29: return
+}

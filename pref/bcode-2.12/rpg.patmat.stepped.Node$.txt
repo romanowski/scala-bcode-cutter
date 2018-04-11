@@ -1,0 +1,243 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.stepped.Node$ {
+  public static rpg.patmat.stepped.Node$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/patmat/stepped/Node$
+       3: invokespecial #12                 // Method "<init>":()V
+       6: return
+
+  public int totalSkill(rpg.patmat.stepped.Node, rpg.PlayerTraits);
+    Code:
+       0: aload_1
+       1: astore        7
+       3: aload         7
+       5: instanceof    #18                 // class rpg/patmat/stepped/Tree
+       8: ifeq          209
+      11: aload         7
+      13: checkcast     #18                 // class rpg/patmat/stepped/Tree
+      16: astore        8
+      18: aload         8
+      20: astore        9
+      22: aload         9
+      24: instanceof    #20                 // class rpg/patmat/stepped/DexTree
+      27: ifeq          76
+      30: aload         9
+      32: checkcast     #20                 // class rpg/patmat/stepped/DexTree
+      35: astore        10
+      37: aload         10
+      39: invokevirtual #24                 // Method rpg/patmat/stepped/DexTree.left:()Lrpg/patmat/stepped/Node;
+      42: astore        11
+      44: aload         10
+      46: invokevirtual #27                 // Method rpg/patmat/stepped/DexTree.right:()Lrpg/patmat/stepped/Node;
+      49: astore        12
+      51: aload_2
+      52: invokevirtual #33                 // Method rpg/PlayerTraits.dexCost:()I
+      55: aload_0
+      56: aload         11
+      58: aload_2
+      59: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+      62: iadd
+      63: aload_0
+      64: aload         12
+      66: aload_2
+      67: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+      70: iadd
+      71: istore        6
+      73: goto          203
+      76: goto          79
+      79: aload         9
+      81: instanceof    #37                 // class rpg/patmat/stepped/StrTree
+      84: ifeq          133
+      87: aload         9
+      89: checkcast     #37                 // class rpg/patmat/stepped/StrTree
+      92: astore        13
+      94: aload         13
+      96: invokevirtual #38                 // Method rpg/patmat/stepped/StrTree.left:()Lrpg/patmat/stepped/Node;
+      99: astore        14
+     101: aload         13
+     103: invokevirtual #39                 // Method rpg/patmat/stepped/StrTree.right:()Lrpg/patmat/stepped/Node;
+     106: astore        15
+     108: aload_2
+     109: invokevirtual #42                 // Method rpg/PlayerTraits.strCost:()I
+     112: aload_0
+     113: aload         14
+     115: aload_2
+     116: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+     119: iadd
+     120: aload_0
+     121: aload         15
+     123: aload_2
+     124: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+     127: iadd
+     128: istore        6
+     130: goto          203
+     133: goto          136
+     136: aload         9
+     138: instanceof    #44                 // class rpg/patmat/stepped/WisTree
+     141: ifeq          190
+     144: aload         9
+     146: checkcast     #44                 // class rpg/patmat/stepped/WisTree
+     149: astore        16
+     151: aload         16
+     153: invokevirtual #45                 // Method rpg/patmat/stepped/WisTree.left:()Lrpg/patmat/stepped/Node;
+     156: astore        17
+     158: aload         16
+     160: invokevirtual #46                 // Method rpg/patmat/stepped/WisTree.right:()Lrpg/patmat/stepped/Node;
+     163: astore        18
+     165: aload_2
+     166: invokevirtual #49                 // Method rpg/PlayerTraits.wisCost:()I
+     169: aload_0
+     170: aload         17
+     172: aload_2
+     173: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+     176: iadd
+     177: aload_0
+     178: aload         18
+     180: aload_2
+     181: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+     184: iadd
+     185: istore        6
+     187: goto          203
+     190: goto          193
+     193: new           #51                 // class scala/MatchError
+     196: dup
+     197: aload         9
+     199: invokespecial #54                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+     202: athrow
+     203: iload         6
+     205: istore_3
+     206: goto          484
+     209: goto          212
+     212: aload         7
+     214: instanceof    #56                 // class rpg/patmat/stepped/Step
+     217: ifeq          373
+     220: aload         7
+     222: checkcast     #56                 // class rpg/patmat/stepped/Step
+     225: astore        19
+     227: aload         19
+     229: astore        20
+     231: aload         20
+     233: instanceof    #58                 // class rpg/patmat/stepped/DexStep
+     236: ifeq          270
+     239: aload         20
+     241: checkcast     #58                 // class rpg/patmat/stepped/DexStep
+     244: astore        21
+     246: aload         21
+     248: invokevirtual #61                 // Method rpg/patmat/stepped/DexStep.to:()Lrpg/patmat/stepped/Node;
+     251: astore        22
+     253: aload_2
+     254: invokevirtual #33                 // Method rpg/PlayerTraits.dexCost:()I
+     257: aload_0
+     258: aload         22
+     260: aload_2
+     261: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+     264: iadd
+     265: istore        5
+     267: goto          367
+     270: goto          273
+     273: aload         20
+     275: instanceof    #63                 // class rpg/patmat/stepped/StrStep
+     278: ifeq          312
+     281: aload         20
+     283: checkcast     #63                 // class rpg/patmat/stepped/StrStep
+     286: astore        23
+     288: aload         23
+     290: invokevirtual #64                 // Method rpg/patmat/stepped/StrStep.to:()Lrpg/patmat/stepped/Node;
+     293: astore        24
+     295: aload_2
+     296: invokevirtual #42                 // Method rpg/PlayerTraits.strCost:()I
+     299: aload_0
+     300: aload         24
+     302: aload_2
+     303: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+     306: iadd
+     307: istore        5
+     309: goto          367
+     312: goto          315
+     315: aload         20
+     317: instanceof    #66                 // class rpg/patmat/stepped/WisStep
+     320: ifeq          354
+     323: aload         20
+     325: checkcast     #66                 // class rpg/patmat/stepped/WisStep
+     328: astore        25
+     330: aload         25
+     332: invokevirtual #67                 // Method rpg/patmat/stepped/WisStep.to:()Lrpg/patmat/stepped/Node;
+     335: astore        26
+     337: aload_2
+     338: invokevirtual #49                 // Method rpg/PlayerTraits.wisCost:()I
+     341: aload_0
+     342: aload         26
+     344: aload_2
+     345: invokevirtual #35                 // Method totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+     348: iadd
+     349: istore        5
+     351: goto          367
+     354: goto          357
+     357: new           #51                 // class scala/MatchError
+     360: dup
+     361: aload         20
+     363: invokespecial #54                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+     366: athrow
+     367: iload         5
+     369: istore_3
+     370: goto          484
+     373: goto          376
+     376: aload         7
+     378: instanceof    #69                 // class rpg/patmat/stepped/Skill
+     381: ifeq          471
+     384: aload         7
+     386: checkcast     #69                 // class rpg/patmat/stepped/Skill
+     389: astore        27
+     391: aload         27
+     393: astore        28
+     395: aload         28
+     397: instanceof    #71                 // class rpg/patmat/stepped/DexSkill
+     400: ifeq          412
+     403: aload_2
+     404: invokevirtual #33                 // Method rpg/PlayerTraits.dexCost:()I
+     407: istore        4
+     409: goto          465
+     412: goto          415
+     415: aload         28
+     417: instanceof    #73                 // class rpg/patmat/stepped/StrSkill
+     420: ifeq          432
+     423: aload_2
+     424: invokevirtual #42                 // Method rpg/PlayerTraits.strCost:()I
+     427: istore        4
+     429: goto          465
+     432: goto          435
+     435: aload         28
+     437: instanceof    #75                 // class rpg/patmat/stepped/WisSkill
+     440: ifeq          452
+     443: aload_2
+     444: invokevirtual #49                 // Method rpg/PlayerTraits.wisCost:()I
+     447: istore        4
+     449: goto          465
+     452: goto          455
+     455: new           #51                 // class scala/MatchError
+     458: dup
+     459: aload         28
+     461: invokespecial #54                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+     464: athrow
+     465: iload         4
+     467: istore_3
+     468: goto          484
+     471: goto          474
+     474: new           #51                 // class scala/MatchError
+     477: dup
+     478: aload         7
+     480: invokespecial #54                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+     483: athrow
+     484: iload_3
+     485: ireturn
+
+  private rpg.patmat.stepped.Node$();
+    Code:
+       0: aload_0
+       1: invokespecial #82                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: putstatic     #84                 // Field MODULE$:Lrpg/patmat/stepped/Node$;
+       8: return
+}

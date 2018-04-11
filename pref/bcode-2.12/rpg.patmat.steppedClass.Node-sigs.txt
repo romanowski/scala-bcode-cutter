@@ -1,0 +1,5 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.Node {
+  public static int totalSkill(rpg.patmat.steppedClass.Node, rpg.PlayerTraits);
+  public rpg.patmat.steppedClass.Node();
+}

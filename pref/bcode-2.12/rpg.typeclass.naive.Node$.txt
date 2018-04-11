@@ -1,0 +1,119 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.Node$ {
+  public static rpg.typeclass.naive.Node$ MODULE$;
+
+  private final rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisSkill> wisSkillSummer;
+
+  private final rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrSkill> strSkillSummer;
+
+  private final rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexSkill> dexSkillSummer;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/typeclass/naive/Node$
+       3: invokespecial #42                 // Method "<init>":()V
+       6: return
+
+  public rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisSkill> wisSkillSummer();
+    Code:
+       0: aload_0
+       1: getfield      #45                 // Field wisSkillSummer:Lrpg/typeclass/naive/Node$Summer;
+       4: areturn
+
+  public rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrSkill> strSkillSummer();
+    Code:
+       0: aload_0
+       1: getfield      #48                 // Field strSkillSummer:Lrpg/typeclass/naive/Node$Summer;
+       4: areturn
+
+  public rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexSkill> dexSkillSummer();
+    Code:
+       0: aload_0
+       1: getfield      #50                 // Field dexSkillSummer:Lrpg/typeclass/naive/Node$Summer;
+       4: areturn
+
+  public <T> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisStep<T>> wisStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+    Code:
+       0: new           #13                 // class rpg/typeclass/naive/Node$$anon$4
+       3: dup
+       4: aload_1
+       5: invokespecial #56                 // Method rpg/typeclass/naive/Node$$anon$4."<init>":(Lrpg/typeclass/naive/Node$Summer;)V
+       8: areturn
+
+  public <T> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrStep<T>> strStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+    Code:
+       0: new           #15                 // class rpg/typeclass/naive/Node$$anon$5
+       3: dup
+       4: aload_1
+       5: invokespecial #59                 // Method rpg/typeclass/naive/Node$$anon$5."<init>":(Lrpg/typeclass/naive/Node$Summer;)V
+       8: areturn
+
+  public <T> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexStep<T>> dexStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+    Code:
+       0: new           #17                 // class rpg/typeclass/naive/Node$$anon$6
+       3: dup
+       4: aload_1
+       5: invokespecial #62                 // Method rpg/typeclass/naive/Node$$anon$6."<init>":(Lrpg/typeclass/naive/Node$Summer;)V
+       8: areturn
+
+  public <L, R> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisTree<L, R>> wisTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+    Code:
+       0: new           #19                 // class rpg/typeclass/naive/Node$$anon$7
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: invokespecial #69                 // Method rpg/typeclass/naive/Node$$anon$7."<init>":(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)V
+       9: areturn
+
+  public <L, R> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrTree<L, R>> strTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+    Code:
+       0: new           #21                 // class rpg/typeclass/naive/Node$$anon$8
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: invokespecial #73                 // Method rpg/typeclass/naive/Node$$anon$8."<init>":(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)V
+       9: areturn
+
+  public <L, R> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexTree<L, R>> dexTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+    Code:
+       0: new           #23                 // class rpg/typeclass/naive/Node$$anon$9
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: invokespecial #77                 // Method rpg/typeclass/naive/Node$$anon$9."<init>":(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)V
+       9: areturn
+
+  public <T> int totalSkill(T, rpg.PlayerTraits, rpg.typeclass.naive.Node$Summer<T>);
+    Code:
+       0: getstatic     #87                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+       3: aload_3
+       4: invokevirtual #91                 // Method scala/Predef$.implicitly:(Ljava/lang/Object;)Ljava/lang/Object;
+       7: checkcast     #25                 // class rpg/typeclass/naive/Node$Summer
+      10: aload_1
+      11: aload_2
+      12: invokeinterface #95,  3           // InterfaceMethod rpg/typeclass/naive/Node$Summer.sumExp:(Ljava/lang/Object;Lrpg/PlayerTraits;)I
+      17: ireturn
+
+  private rpg.typeclass.naive.Node$();
+    Code:
+       0: aload_0
+       1: invokespecial #98                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: putstatic     #100                // Field MODULE$:Lrpg/typeclass/naive/Node$;
+       8: aload_0
+       9: new           #7                  // class rpg/typeclass/naive/Node$$anon$1
+      12: dup
+      13: invokespecial #101                // Method rpg/typeclass/naive/Node$$anon$1."<init>":()V
+      16: putfield      #45                 // Field wisSkillSummer:Lrpg/typeclass/naive/Node$Summer;
+      19: aload_0
+      20: new           #9                  // class rpg/typeclass/naive/Node$$anon$2
+      23: dup
+      24: invokespecial #102                // Method rpg/typeclass/naive/Node$$anon$2."<init>":()V
+      27: putfield      #48                 // Field strSkillSummer:Lrpg/typeclass/naive/Node$Summer;
+      30: aload_0
+      31: new           #11                 // class rpg/typeclass/naive/Node$$anon$3
+      34: dup
+      35: invokespecial #103                // Method rpg/typeclass/naive/Node$$anon$3."<init>":()V
+      38: putfield      #50                 // Field dexSkillSummer:Lrpg/typeclass/naive/Node$Summer;
+      41: return
+}

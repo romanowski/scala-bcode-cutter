@@ -1,0 +1,201 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/typeclass/naive/Node.class
+  Last modified Apr 8, 2018; size 4437 bytes
+  MD5 checksum cc70e17dd2f95a845d26aa6efabf4ad7
+  Compiled from "TypeclassSkillTrees.scala"
+public interface rpg.typeclass.naive.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/typeclass/naive/Node
+   #2 = Class              #1             // rpg/typeclass/naive/Node
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               TypeclassSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               \rfaB!\r\n#>$WM\t)a.Y5wK*QAB\nifXm7bgNTaBeB<7A\n)\"a1Q!DgG.Y1a!8z%4F'U9dG C%!C\t\tD8k[5mY&AC\tD8^3q\t1\"AAEKb$&/Z3\na!C*ueN[7\ni!aB*ueN#X\r]9\tqa;s)J,W-\tAq+[:TW&dG.!\t9q+[:TiB9n+sK<Q\n\t\nAAT8eKBaeJ)AEQMqEU\"\taKy%t Bq!LC\ra&xSN6.7m'VlW.:=2\r5\r\t$AqXMZ5oK6,g \t\rM:!0=9n]*lS2d7+^7nKJcA7'6\tqEB8OA\rM+X.\3s+\tIDi7!)1HDy11/^7FqB$2!!N!\tYa(@\tJ;\tS\"\tQX-\tcBFm\taIAU#\t9%\n&\n>$.8h!\tY1*M\tI\=\t9SA(\rQ-;t!\t+D\tfAQYLXM+sC&$8';!9Qk\nb\n1AD:ueN[7Tk6lWM]/JLC.\tEJa5B,M$(oU6jY2V/\7fe2!]!\t1sC_O\tI1A0,pU6jY2V/\7feV\tMEb4A!\r2A\"11m\nQ\nqZ3y'.LG\*v[6,'\t\tkY*C9wbi59n]*uKBV/\7feVnUB2am\r\td\r6U2TE'?9\"aQ83'$\tE4!aeQQM^5eK:W\rJU2dCuO\rQ/AtiJF/9Tk6lWM]mr$\"a^?aTP2g9cA7uBa%G>\rcH!B#t1b@ta`KZLG-8dKcA7w\"91A!3fqN#X\r]*v[6,'/MABA+R!a1a!MA%B7BAJ\nA1)a\r\tA1G)\t9\"!DKZLG-8dKB7#Aq!!(\t\ty\"AxSN$&/Z3Tk6lWM]C\ti#a\r\r\rqGA%\t)CCA\r\t1$A!QGNA!1%a2A1)!=1b\r\n\tA\nEDg!q!!\taIAS)\tI$a1HKZLG-8dK\"B7WA!\"a\t9AA!))g/3f],G%\tkY\n\tCF\"!aM$(:fKN+X.\3s+\tI%!ZQ11JA.CR!!2a!MA\"-B7#bAJT]cA\"V9qFA\"1cA\"Z9QGA\"1BCA/\n\tq`QQM^5eK:W\r\n\tU21G\n%!AAAC3wS,gnY3%oA!QGNA,\tIg\nCW\nQZ3y)J,WmU;n[XCBA7s\nip}Q\ncR1c!a\tU2Q\tMU\t9(a\rIB0$$\riB6$$\tqMA\t)fm&$WM\2fIaB!x!QqQA4!!#4Z3oG$6mmbBAGOqRi>$\r\*lS2dWBAI;#b!a% FcA\"QqSAF!!'4Z3oG$\r\tkY\nY\nED;#a!RAF1bB!1-A(
+   #9 = Utf8               rpg/typeclass/naive/Node$Summer
+  #10 = Class              #9             // rpg/typeclass/naive/Node$Summer
+  #11 = Utf8               Summer
+  #12 = Utf8               totalSkill
+  #13 = Utf8               (Ljava/lang/Object;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer;)I
+  #14 = Utf8               rpg/typeclass/naive/Node$
+  #15 = Class              #14            // rpg/typeclass/naive/Node$
+  #16 = Utf8               MODULE$
+  #17 = Utf8               Lrpg/typeclass/naive/Node$;
+  #18 = NameAndType        #16:#17        // MODULE$:Lrpg/typeclass/naive/Node$;
+  #19 = Fieldref           #15.#18        // rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+  #20 = NameAndType        #12:#13        // totalSkill:(Ljava/lang/Object;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer;)I
+  #21 = Methodref          #15.#20        // rpg/typeclass/naive/Node$.totalSkill:(Ljava/lang/Object;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer;)I
+  #22 = Utf8               dexTreeSummer
+  #23 = Utf8               (Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #24 = NameAndType        #22:#23        // dexTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #25 = Methodref          #15.#24        // rpg/typeclass/naive/Node$.dexTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #26 = Utf8               strTreeSummer
+  #27 = NameAndType        #26:#23        // strTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #28 = Methodref          #15.#27        // rpg/typeclass/naive/Node$.strTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #29 = Utf8               wisTreeSummer
+  #30 = NameAndType        #29:#23        // wisTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #31 = Methodref          #15.#30        // rpg/typeclass/naive/Node$.wisTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #32 = Utf8               dexStepSummer
+  #33 = Utf8               (Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #34 = NameAndType        #32:#33        // dexStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #35 = Methodref          #15.#34        // rpg/typeclass/naive/Node$.dexStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #36 = Utf8               strStepSummer
+  #37 = NameAndType        #36:#33        // strStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #38 = Methodref          #15.#37        // rpg/typeclass/naive/Node$.strStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #39 = Utf8               wisStepSummer
+  #40 = NameAndType        #39:#33        // wisStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #41 = Methodref          #15.#40        // rpg/typeclass/naive/Node$.wisStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+  #42 = Utf8               dexSkillSummer
+  #43 = Utf8               ()Lrpg/typeclass/naive/Node$Summer;
+  #44 = NameAndType        #42:#43        // dexSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+  #45 = Methodref          #15.#44        // rpg/typeclass/naive/Node$.dexSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+  #46 = Utf8               strSkillSummer
+  #47 = NameAndType        #46:#43        // strSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+  #48 = Methodref          #15.#47        // rpg/typeclass/naive/Node$.strSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+  #49 = Utf8               wisSkillSummer
+  #50 = NameAndType        #49:#43        // wisSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+  #51 = Methodref          #15.#50        // rpg/typeclass/naive/Node$.wisSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+  #52 = Utf8               Code
+  #53 = Utf8               Signature
+  #54 = Utf8               <T:Ljava/lang/Object;>(TT;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer<TT;>;)I
+  #55 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TL;>;Lrpg/typeclass/naive/Node$Summer<TR;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexTree<TL;TR;>;>;
+  #56 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TL;>;Lrpg/typeclass/naive/Node$Summer<TR;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/StrTree<TL;TR;>;>;
+  #57 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TL;>;Lrpg/typeclass/naive/Node$Summer<TR;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/WisTree<TL;TR;>;>;
+  #58 = Utf8               <T:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TT;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexStep<TT;>;>;
+  #59 = Utf8               <T:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TT;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/StrStep<TT;>;>;
+  #60 = Utf8               <T:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TT;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/WisStep<TT;>;>;
+  #61 = Utf8               ()Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexSkill;>;
+  #62 = Utf8               ()Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/StrSkill;>;
+  #63 = Utf8               ()Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/WisSkill;>;
+  #64 = Utf8               SourceFile
+  #65 = Utf8               InnerClasses
+  #66 = Utf8               RuntimeVisibleAnnotations
+  #67 = Utf8               ScalaInlineInfo
+  #68 = Utf8               ScalaSig
+{
+  public static <T extends java.lang.Object> int totalSkill(T, rpg.PlayerTraits, rpg.typeclass.naive.Node$Summer<T>);
+    descriptor: (Ljava/lang/Object;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer;)I
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=3, args_size=3
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: aload_0
+         4: aload_1
+         5: aload_2
+         6: invokevirtual #21                 // Method rpg/typeclass/naive/Node$.totalSkill:(Ljava/lang/Object;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer;)I
+         9: ireturn
+    Signature: #54                          // <T:Ljava/lang/Object;>(TT;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer<TT;>;)I
+
+  public static <L extends java.lang.Object, R extends java.lang.Object> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexTree<L, R>> dexTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+    descriptor: (Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #25                 // Method rpg/typeclass/naive/Node$.dexTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+         8: areturn
+    Signature: #55                          // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TL;>;Lrpg/typeclass/naive/Node$Summer<TR;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexTree<TL;TR;>;>;
+
+  public static <L extends java.lang.Object, R extends java.lang.Object> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrTree<L, R>> strTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+    descriptor: (Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #28                 // Method rpg/typeclass/naive/Node$.strTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+         8: areturn
+    Signature: #56                          // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TL;>;Lrpg/typeclass/naive/Node$Summer<TR;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/StrTree<TL;TR;>;>;
+
+  public static <L extends java.lang.Object, R extends java.lang.Object> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisTree<L, R>> wisTreeSummer(rpg.typeclass.naive.Node$Summer<L>, rpg.typeclass.naive.Node$Summer<R>);
+    descriptor: (Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #31                 // Method rpg/typeclass/naive/Node$.wisTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+         8: areturn
+    Signature: #57                          // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TL;>;Lrpg/typeclass/naive/Node$Summer<TR;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/WisTree<TL;TR;>;>;
+
+  public static <T extends java.lang.Object> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexStep<T>> dexStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+    descriptor: (Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: aload_0
+         4: invokevirtual #35                 // Method rpg/typeclass/naive/Node$.dexStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+         7: areturn
+    Signature: #58                          // <T:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TT;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexStep<TT;>;>;
+
+  public static <T extends java.lang.Object> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrStep<T>> strStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+    descriptor: (Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: aload_0
+         4: invokevirtual #38                 // Method rpg/typeclass/naive/Node$.strStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+         7: areturn
+    Signature: #59                          // <T:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TT;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/StrStep<TT;>;>;
+
+  public static <T extends java.lang.Object> rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisStep<T>> wisStepSummer(rpg.typeclass.naive.Node$Summer<T>);
+    descriptor: (Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: aload_0
+         4: invokevirtual #41                 // Method rpg/typeclass/naive/Node$.wisStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+         7: areturn
+    Signature: #60                          // <T:Ljava/lang/Object;>(Lrpg/typeclass/naive/Node$Summer<TT;>;)Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/WisStep<TT;>;>;
+
+  public static rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexSkill> dexSkillSummer();
+    descriptor: ()Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: invokevirtual #45                 // Method rpg/typeclass/naive/Node$.dexSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+         6: areturn
+    Signature: #61                          // ()Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexSkill;>;
+
+  public static rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrSkill> strSkillSummer();
+    descriptor: ()Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: invokevirtual #48                 // Method rpg/typeclass/naive/Node$.strSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+         6: areturn
+    Signature: #62                          // ()Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/StrSkill;>;
+
+  public static rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisSkill> wisSkillSummer();
+    descriptor: ()Lrpg/typeclass/naive/Node$Summer;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #19                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+         3: invokevirtual #51                 // Method rpg/typeclass/naive/Node$.wisSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+         6: areturn
+    Signature: #63                          // ()Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/WisSkill;>;
+}
+SourceFile: "TypeclassSkillTrees.scala"
+InnerClasses:
+     public static #11= #10 of #2; //Summer=class rpg/typeclass/naive/Node$Summer of class rpg/typeclass/naive/Node
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4
+   01 00 00 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

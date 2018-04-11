@@ -1,0 +1,33 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.SkillTrees$1 extends rpg.SkillTreeRepr<rpg.java.ooo.Node> {
+  final rpg.java.ooo.Node val$tree;
+
+  final rpg.PlayerTraits val$playerTraits;
+
+  final rpg.java.ooo.SkillTrees this$0;
+
+  rpg.java.ooo.SkillTrees$1(rpg.java.ooo.SkillTrees, rpg.java.ooo.Node, rpg.java.ooo.Node, rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #1                  // Field this$0:Lrpg/java/ooo/SkillTrees;
+       5: aload_0
+       6: aload_3
+       7: putfield      #2                  // Field val$tree:Lrpg/java/ooo/Node;
+      10: aload_0
+      11: aload         4
+      13: putfield      #3                  // Field val$playerTraits:Lrpg/PlayerTraits;
+      16: aload_0
+      17: aload_2
+      18: invokespecial #4                  // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+      21: return
+
+  public int totalCost();
+    Code:
+       0: aload_0
+       1: getfield      #2                  // Field val$tree:Lrpg/java/ooo/Node;
+       4: aload_0
+       5: getfield      #3                  // Field val$playerTraits:Lrpg/PlayerTraits;
+       8: invokeinterface #5,  2            // InterfaceMethod rpg/java/ooo/Node.cost:(Lrpg/PlayerTraits;)I
+      13: ireturn
+}

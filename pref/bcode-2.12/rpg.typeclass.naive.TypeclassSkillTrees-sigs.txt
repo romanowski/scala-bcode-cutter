@@ -1,0 +1,5 @@
+Compiled from "TypeclassSkillTrees.scala"
+public class rpg.typeclass.naive.TypeclassSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+  public rpg.typeclass.naive.TypeclassSkillTrees();
+}

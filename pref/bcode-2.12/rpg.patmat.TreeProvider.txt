@@ -1,0 +1,50 @@
+Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.TreeProvider {
+  public static rpg.patmat.DexTree mkTree$(rpg.patmat.TreeProvider);
+    Code:
+       0: aload_0
+       1: invokespecial #15                 // InterfaceMethod mkTree:()Lrpg/patmat/DexTree;
+       4: areturn
+
+  public rpg.patmat.DexTree mkTree();
+    Code:
+       0: new           #18                 // class rpg/patmat/DexTree
+       3: dup
+       4: new           #20                 // class rpg/patmat/DexStep
+       7: dup
+       8: new           #22                 // class rpg/patmat/WisTree
+      11: dup
+      12: new           #24                 // class rpg/patmat/WisSkill
+      15: dup
+      16: ldc           #26                 // String aimed
+      18: invokespecial #30                 // Method rpg/patmat/WisSkill."<init>":(Ljava/lang/String;)V
+      21: new           #32                 // class rpg/patmat/WisStep
+      24: dup
+      25: new           #34                 // class rpg/patmat/DexSkill
+      28: dup
+      29: ldc           #36                 // String rapid
+      31: invokespecial #37                 // Method rpg/patmat/DexSkill."<init>":(Ljava/lang/String;)V
+      34: invokespecial #40                 // Method rpg/patmat/WisStep."<init>":(Lrpg/patmat/Node;)V
+      37: invokespecial #43                 // Method rpg/patmat/WisTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+      40: invokespecial #44                 // Method rpg/patmat/DexStep."<init>":(Lrpg/patmat/Node;)V
+      43: new           #46                 // class rpg/patmat/StrTree
+      46: dup
+      47: new           #48                 // class rpg/patmat/StrSkill
+      50: dup
+      51: ldc           #50                 // String power
+      53: invokespecial #51                 // Method rpg/patmat/StrSkill."<init>":(Ljava/lang/String;)V
+      56: new           #53                 // class rpg/patmat/StrStep
+      59: dup
+      60: new           #34                 // class rpg/patmat/DexSkill
+      63: dup
+      64: ldc           #55                 // String double
+      66: invokespecial #37                 // Method rpg/patmat/DexSkill."<init>":(Ljava/lang/String;)V
+      69: invokespecial #56                 // Method rpg/patmat/StrStep."<init>":(Lrpg/patmat/Node;)V
+      72: invokespecial #57                 // Method rpg/patmat/StrTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+      75: invokespecial #58                 // Method rpg/patmat/DexTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+      78: areturn
+
+  public static void $init$(rpg.patmat.TreeProvider);
+    Code:
+       0: return
+}

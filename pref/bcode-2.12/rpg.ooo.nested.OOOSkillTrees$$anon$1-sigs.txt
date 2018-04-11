@@ -1,0 +1,6 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.nested.OOOSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.ooo.nested.Node> {
+  private final rpg.PlayerTraits traits$1;
+  public int totalCost();
+  public rpg.ooo.nested.OOOSkillTrees$$anon$1(rpg.ooo.nested.OOOSkillTrees, rpg.PlayerTraits, rpg.ooo.nested.Node);
+}

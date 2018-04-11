@@ -1,0 +1,27 @@
+Compiled from "LambdasSkillTrees.scala"
+public class rpg.ooo.lambdas.Tree implements rpg.ooo.lambdas.Node,scala.Product,scala.Serializable {
+  private final scala.Function1<rpg.PlayerTraits, java.lang.Object> feat;
+  private final rpg.ooo.lambdas.Node left;
+  private final rpg.ooo.lambdas.Node right;
+  public static scala.Option<scala.Tuple3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node>> unapply(rpg.ooo.lambdas.Tree);
+  public static rpg.ooo.lambdas.Tree apply(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+  public static scala.Function1<scala.Tuple3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node>, rpg.ooo.lambdas.Tree> tupled();
+  public static scala.Function1<scala.Function1<rpg.PlayerTraits, java.lang.Object>, scala.Function1<rpg.ooo.lambdas.Node, scala.Function1<rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Tree>>> curried();
+  public scala.Function1<rpg.PlayerTraits, java.lang.Object> feat();
+  public rpg.ooo.lambdas.Node left();
+  public rpg.ooo.lambdas.Node right();
+  public int cost(rpg.PlayerTraits);
+  public rpg.ooo.lambdas.Tree copy(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+  public scala.Function1<rpg.PlayerTraits, java.lang.Object> copy$default$1();
+  public rpg.ooo.lambdas.Node copy$default$2();
+  public rpg.ooo.lambdas.Node copy$default$3();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.ooo.lambdas.Tree(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+}

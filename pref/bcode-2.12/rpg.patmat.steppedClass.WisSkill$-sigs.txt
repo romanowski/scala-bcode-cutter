@@ -1,0 +1,11 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.steppedClass.WisSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.patmat.steppedClass.WisSkill> implements scala.Serializable {
+  public static rpg.patmat.steppedClass.WisSkill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.patmat.steppedClass.WisSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.patmat.steppedClass.WisSkill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.patmat.steppedClass.WisSkill$();
+}

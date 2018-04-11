@@ -1,0 +1,34 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.StrTree implements rpg.java.ooo.Node {
+  rpg.java.ooo.Node left;
+
+  rpg.java.ooo.Node right;
+
+  rpg.java.ooo.StrTree(rpg.java.ooo.Node, rpg.java.ooo.Node);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: aload_1
+       6: putfield      #2                  // Field left:Lrpg/java/ooo/Node;
+       9: aload_0
+      10: aload_2
+      11: putfield      #3                  // Field right:Lrpg/java/ooo/Node;
+      14: return
+
+  public int cost(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: getfield      #2                  // Field left:Lrpg/java/ooo/Node;
+       4: aload_1
+       5: invokeinterface #4,  2            // InterfaceMethod rpg/java/ooo/Node.cost:(Lrpg/PlayerTraits;)I
+      10: aload_0
+      11: getfield      #3                  // Field right:Lrpg/java/ooo/Node;
+      14: aload_1
+      15: invokeinterface #4,  2            // InterfaceMethod rpg/java/ooo/Node.cost:(Lrpg/PlayerTraits;)I
+      20: iadd
+      21: aload_1
+      22: invokevirtual #5                  // Method rpg/PlayerTraits.strCost:()I
+      25: iadd
+      26: ireturn
+}

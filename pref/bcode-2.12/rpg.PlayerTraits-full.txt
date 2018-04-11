@@ -1,0 +1,141 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/PlayerTraits.class
+  Last modified Apr 8, 2018; size 1086 bytes
+  MD5 checksum 4e93b3df5438894c32b1e3c0c8ba9b77
+  Compiled from "SkillTrees.scala"
+public class rpg.PlayerTraits
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/PlayerTraits
+   #2 = Class              #1             // rpg/PlayerTraits
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               SkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               2A!\ta\1zKJ$&/Y5ug*\t1!Asaa\rAqAC)\t\"AtGd-\t1I\=SKD\"%\tADgR8i\:u+yCA\t\tBAJ]RDbIaD\tgR8i\:uA!AQBCa\"AeKbun;\t]!!Q\n=\tZ3y>H\t\t3)!C9q/[:D_N$CB]L7oQ8tiBQ!y\taP5oSRtDB\"E\r\"\t\tAQ!A=AQ!A=AQ!A=
+   #9 = Utf8               strCost
+  #10 = Utf8               I
+  #11 = Utf8               dexCost
+  #12 = Utf8               wisCost
+  #13 = Utf8               ()I
+  #14 = NameAndType        #9:#10         // strCost:I
+  #15 = Fieldref           #2.#14         // rpg/PlayerTraits.strCost:I
+  #16 = Utf8               this
+  #17 = Utf8               Lrpg/PlayerTraits;
+  #18 = NameAndType        #11:#10        // dexCost:I
+  #19 = Fieldref           #2.#18         // rpg/PlayerTraits.dexCost:I
+  #20 = NameAndType        #12:#10        // wisCost:I
+  #21 = Fieldref           #2.#20         // rpg/PlayerTraits.wisCost:I
+  #22 = Utf8               <init>
+  #23 = Utf8               (III)V
+  #24 = Utf8               ()V
+  #25 = NameAndType        #22:#24        // "<init>":()V
+  #26 = Methodref          #4.#25         // java/lang/Object."<init>":()V
+  #27 = Utf8               Code
+  #28 = Utf8               LocalVariableTable
+  #29 = Utf8               LineNumberTable
+  #30 = Utf8               MethodParameters
+  #31 = Utf8               SourceFile
+  #32 = Utf8               RuntimeVisibleAnnotations
+  #33 = Utf8               ScalaInlineInfo
+  #34 = Utf8               ScalaSig
+{
+  private final int strCost;
+    descriptor: I
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private final int dexCost;
+    descriptor: I
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private final int wisCost;
+    descriptor: I
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public int strCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #15                 // Field strCost:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 3: 0
+
+  public int dexCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #19                 // Field dexCost:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 3: 0
+
+  public int wisCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #21                 // Field wisCost:I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 3: 0
+
+  public rpg.PlayerTraits(int, int, int);
+    descriptor: (III)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=4
+         0: aload_0
+         1: iload_1
+         2: putfield      #15                 // Field strCost:I
+         5: aload_0
+         6: iload_2
+         7: putfield      #19                 // Field dexCost:I
+        10: aload_0
+        11: iload_3
+        12: putfield      #21                 // Field wisCost:I
+        15: aload_0
+        16: invokespecial #26                 // Method java/lang/Object."<init>":()V
+        19: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      20     0  this   Lrpg/PlayerTraits;
+            0      20     1 strCost   I
+            0      20     2 dexCost   I
+            0      20     3 wisCost   I
+      LineNumberTable:
+        line 3: 0
+        line 5: 15
+        line 3: 19
+    MethodParameters:
+      Name                           Flags
+      strCost                        final
+      dexCost                        final
+      wisCost                        final
+}
+SourceFile: "SkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x18
+   01 00 00 04 00 16 00 17 00 00 0B 00 0D 00 00 09
+   00 0D 00 00 0C 00 0D 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

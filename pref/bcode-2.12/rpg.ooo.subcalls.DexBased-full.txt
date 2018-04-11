@@ -1,0 +1,110 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/subcalls/DexBased.class
+  Last modified Apr 8, 2018; size 1137 bytes
+  MD5 checksum bdd861a8f377440e8499cdb3598ce20b
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.DexBased extends rpg.ooo.subcalls.FeatBased
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/ooo/subcalls/DexBased
+   #2 = Class              #1             // rpg/ooo/subcalls/DexBased
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               rpg/ooo/subcalls/FeatBased
+   #6 = Class              #5             // rpg/ooo/subcalls/FeatBased
+   #7 = Utf8               OOOSubcallsSkillTrees.scala
+   #8 = Utf8               Lscala/reflect/ScalaSignature;
+   #9 = Utf8               bytes
+  #10 = Utf8               2q!BEKbm]3e\tA!tk\n\r7t\t)a!Ap_>TaBeB<7A\n)CAa!\"AM\r\1\n=a!AB!osJ+g\r%5\t!!\tIa)Z1uX\r+!\tAFI%t]\"a\r\nea!B+oSRDQaBq\t5jg{7;\"a\n}a!aA%oi\")EaE1AO]1jiN\"a\tI!!\nAc-_3s)J^:
+  #11 = Utf8               thisCost$
+  #12 = Utf8               (Lrpg/ooo/subcalls/DexBased;Lrpg/PlayerTraits;)I
+  #13 = Utf8               $this
+  #14 = Utf8               traits
+  #15 = Utf8               thisCost
+  #16 = Utf8               (Lrpg/PlayerTraits;)I
+  #17 = NameAndType        #15:#16        // thisCost:(Lrpg/PlayerTraits;)I
+  #18 = InterfaceMethodref #2.#17         // rpg/ooo/subcalls/DexBased.thisCost:(Lrpg/PlayerTraits;)I
+  #19 = Utf8               Lrpg/ooo/subcalls/DexBased;
+  #20 = Utf8               Lrpg/PlayerTraits;
+  #21 = Utf8               rpg/PlayerTraits
+  #22 = Class              #21            // rpg/PlayerTraits
+  #23 = Utf8               dexCost
+  #24 = Utf8               ()I
+  #25 = NameAndType        #23:#24        // dexCost:()I
+  #26 = Methodref          #22.#25        // rpg/PlayerTraits.dexCost:()I
+  #27 = Utf8               this
+  #28 = Utf8               $init$
+  #29 = Utf8               (Lrpg/ooo/subcalls/DexBased;)V
+  #30 = Utf8               Code
+  #31 = Utf8               LocalVariableTable
+  #32 = Utf8               LineNumberTable
+  #33 = Utf8               MethodParameters
+  #34 = Utf8               SourceFile
+  #35 = Utf8               RuntimeVisibleAnnotations
+  #36 = Utf8               ScalaInlineInfo
+  #37 = Utf8               ScalaSig
+{
+  public static int thisCost$(rpg.ooo.subcalls.DexBased, rpg.PlayerTraits);
+    descriptor: (Lrpg/ooo/subcalls/DexBased;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokespecial #18                 // InterfaceMethod thisCost:(Lrpg/PlayerTraits;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0 $this   Lrpg/ooo/subcalls/DexBased;
+            0       6     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 17: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+      traits                         final
+
+  public int thisCost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: invokevirtual #26                 // Method rpg/PlayerTraits.dexCost:()I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/subcalls/DexBased;
+            0       5     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 17: 0
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public static void $init$(rpg.ooo.subcalls.DexBased);
+    descriptor: (Lrpg/ooo/subcalls/DexBased;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0 $this   Lrpg/ooo/subcalls/DexBased;
+      LineNumberTable:
+        line 16: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #8(#9=s#10)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 00 00 03 00 1C 00 1D 01 00 0B 00 0C 01 00 0F
+   00 10 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

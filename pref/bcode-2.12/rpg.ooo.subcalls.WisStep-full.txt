@@ -1,0 +1,548 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/subcalls/WisStep.class
+  Last modified Apr 8, 2018; size 4989 bytes
+  MD5 checksum 604fd34d0a159b370d3d8bd3caaabc2c
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public class rpg.ooo.subcalls.WisStep implements rpg.ooo.subcalls.Step,rpg.ooo.subcalls.WisBased,scala.Product,scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/ooo/subcalls/WisStep
+    #2 = Class              #1            // rpg/ooo/subcalls/WisStep
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/ooo/subcalls/Step
+    #6 = Class              #5            // rpg/ooo/subcalls/Step
+    #7 = Utf8               rpg/ooo/subcalls/WisBased
+    #8 = Class              #7            // rpg/ooo/subcalls/WisBased
+    #9 = Utf8               scala/Product
+   #10 = Class              #9            // scala/Product
+   #11 = Utf8               scala/Serializable
+   #12 = Class              #11           // scala/Serializable
+   #13 = Utf8               OOOSubcallsSkillTrees.scala
+   #14 = Utf8               Lscala/reflect/ScalaSignature;
+   #15 = Utf8               bytes
+   #16 = Utf8               uaB&qaV5t'R,O\tA1/2dC2d7O\rqn\8\t1A9hb)]QCAa!\"AM\r\1\n=a!AB!osJ+g\r%5\t!!\t!1^3q!\t\tR#\tAq+[:CCN,G\r1%!J|G-^2u!\tY1$\ta1+:jC2L'02mK\"AaBKq$u_V\tC%!E>$W\r%\tE\t!!\r!x\tM!\taJy%t !JCA\tqR1!Y!!A1\nAaY8qsR&=)\n1!y!%AA\nabY8qs\"WMZ1vYR$'F2U\t#gK4!\t!(D6\t1t'Av]DWmY6fI*DC:tw^1uS>tB6E)hn5fG.,GMV1sSt7-y\t\t\">5(o3vGR&/4jqV\ta@\t6\tIB!A.8h6bmL!!!\rM#(/8h9!!A!A:pIVG/:jif,!\t)K!a%sGCNI(AxZ;dicW-\3oiRqJ\tAK!!sCT\tA%a$CVI\t,AxZ;di&#XM]1u_J,a\t1n{U\"A-icAC2pY2,7\r^5p]&A,\tR,'/;pe\"9aAA\nyC2b]X/7CAb\tGBAC_>dW-8\tMk!a\"9Q\rAA\n25bg\"uZ3%Cq.u_N#(/8h)qbB6%\t\KF,\r\:lbB*k\raT_\n\t\t#q9n]*uKB\"!E9!EeNo\tQ<Kk*aDeVtG/[7f\tAXOA\tBEN$(/Y2u\rVt7\r^5p]FBQAJ9i$QF\t\"ji/!AzQ!9qYf$\"K@\tya\t\r/!AaB;oCBH.\tibAA\t1q\n;j_:D\"a\ta$CE\t\"Y!/Z1e%x<f)\t\t9E@3I1!aAy%M[3di
+   #17 = Utf8               to
+   #18 = Utf8               Lrpg/ooo/subcalls/Node;
+   #19 = Utf8               unapply
+   #20 = Utf8               (Lrpg/ooo/subcalls/WisStep;)Lscala/Option;
+   #21 = Utf8               rpg/ooo/subcalls/WisStep$
+   #22 = Class              #21           // rpg/ooo/subcalls/WisStep$
+   #23 = Utf8               MODULE$
+   #24 = Utf8               Lrpg/ooo/subcalls/WisStep$;
+   #25 = NameAndType        #23:#24       // MODULE$:Lrpg/ooo/subcalls/WisStep$;
+   #26 = Fieldref           #22.#25       // rpg/ooo/subcalls/WisStep$.MODULE$:Lrpg/ooo/subcalls/WisStep$;
+   #27 = NameAndType        #19:#20       // unapply:(Lrpg/ooo/subcalls/WisStep;)Lscala/Option;
+   #28 = Methodref          #22.#27       // rpg/ooo/subcalls/WisStep$.unapply:(Lrpg/ooo/subcalls/WisStep;)Lscala/Option;
+   #29 = Utf8               apply
+   #30 = Utf8               (Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/WisStep;
+   #31 = NameAndType        #29:#30       // apply:(Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/WisStep;
+   #32 = Methodref          #22.#31       // rpg/ooo/subcalls/WisStep$.apply:(Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/WisStep;
+   #33 = Utf8               andThen
+   #34 = Utf8               (Lscala/Function1;)Lscala/Function1;
+   #35 = NameAndType        #33:#34       // andThen:(Lscala/Function1;)Lscala/Function1;
+   #36 = Methodref          #22.#35       // rpg/ooo/subcalls/WisStep$.andThen:(Lscala/Function1;)Lscala/Function1;
+   #37 = Utf8               compose
+   #38 = NameAndType        #37:#34       // compose:(Lscala/Function1;)Lscala/Function1;
+   #39 = Methodref          #22.#38       // rpg/ooo/subcalls/WisStep$.compose:(Lscala/Function1;)Lscala/Function1;
+   #40 = Utf8               thisCost
+   #41 = Utf8               (Lrpg/PlayerTraits;)I
+   #42 = Utf8               traits
+   #43 = Utf8               thisCost$
+   #44 = Utf8               (Lrpg/ooo/subcalls/WisBased;Lrpg/PlayerTraits;)I
+   #45 = NameAndType        #43:#44       // thisCost$:(Lrpg/ooo/subcalls/WisBased;Lrpg/PlayerTraits;)I
+   #46 = InterfaceMethodref #8.#45        // rpg/ooo/subcalls/WisBased.thisCost$:(Lrpg/ooo/subcalls/WisBased;Lrpg/PlayerTraits;)I
+   #47 = Utf8               this
+   #48 = Utf8               Lrpg/ooo/subcalls/WisStep;
+   #49 = Utf8               Lrpg/PlayerTraits;
+   #50 = Utf8               cost
+   #51 = Utf8               cost$
+   #52 = Utf8               (Lrpg/ooo/subcalls/Step;Lrpg/PlayerTraits;)I
+   #53 = NameAndType        #51:#52       // cost$:(Lrpg/ooo/subcalls/Step;Lrpg/PlayerTraits;)I
+   #54 = InterfaceMethodref #6.#53        // rpg/ooo/subcalls/Step.cost$:(Lrpg/ooo/subcalls/Step;Lrpg/PlayerTraits;)I
+   #55 = Utf8               ()Lrpg/ooo/subcalls/Node;
+   #56 = NameAndType        #17:#18       // to:Lrpg/ooo/subcalls/Node;
+   #57 = Fieldref           #2.#56        // rpg/ooo/subcalls/WisStep.to:Lrpg/ooo/subcalls/Node;
+   #58 = Utf8               copy
+   #59 = Utf8               <init>
+   #60 = Utf8               (Lrpg/ooo/subcalls/Node;)V
+   #61 = NameAndType        #59:#60       // "<init>":(Lrpg/ooo/subcalls/Node;)V
+   #62 = Methodref          #2.#61        // rpg/ooo/subcalls/WisStep."<init>":(Lrpg/ooo/subcalls/Node;)V
+   #63 = Utf8               copy$default$1
+   #64 = NameAndType        #17:#55       // to:()Lrpg/ooo/subcalls/Node;
+   #65 = Methodref          #2.#64        // rpg/ooo/subcalls/WisStep.to:()Lrpg/ooo/subcalls/Node;
+   #66 = Utf8               productPrefix
+   #67 = Utf8               ()Ljava/lang/String;
+   #68 = Utf8               WisStep
+   #69 = String             #68           // WisStep
+   #70 = Utf8               productArity
+   #71 = Utf8               ()I
+   #72 = Utf8               productElement
+   #73 = Utf8               (I)Ljava/lang/Object;
+   #74 = Utf8               x$1
+   #75 = Utf8               java/lang/IndexOutOfBoundsException
+   #76 = Class              #75           // java/lang/IndexOutOfBoundsException
+   #77 = Utf8               scala/runtime/BoxesRunTime
+   #78 = Class              #77           // scala/runtime/BoxesRunTime
+   #79 = Utf8               boxToInteger
+   #80 = Utf8               (I)Ljava/lang/Integer;
+   #81 = NameAndType        #79:#80       // boxToInteger:(I)Ljava/lang/Integer;
+   #82 = Methodref          #78.#81       // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+   #83 = Utf8               toString
+   #84 = NameAndType        #83:#67       // toString:()Ljava/lang/String;
+   #85 = Methodref          #4.#84        // java/lang/Object.toString:()Ljava/lang/String;
+   #86 = Utf8               (Ljava/lang/String;)V
+   #87 = NameAndType        #59:#86       // "<init>":(Ljava/lang/String;)V
+   #88 = Methodref          #76.#87       // java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+   #89 = Utf8               I
+   #90 = Utf8               rpg/ooo/subcalls/Node
+   #91 = Class              #90           // rpg/ooo/subcalls/Node
+   #92 = Utf8               productIterator
+   #93 = Utf8               ()Lscala/collection/Iterator;
+   #94 = Utf8               scala/runtime/ScalaRunTime$
+   #95 = Class              #94           // scala/runtime/ScalaRunTime$
+   #96 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #97 = NameAndType        #23:#96       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #98 = Fieldref           #95.#97       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #99 = Utf8               typedProductIterator
+  #100 = Utf8               (Lscala/Product;)Lscala/collection/Iterator;
+  #101 = NameAndType        #99:#100      // typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+  #102 = Methodref          #95.#101      // scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+  #103 = Utf8               canEqual
+  #104 = Utf8               (Ljava/lang/Object;)Z
+  #105 = Utf8               Ljava/lang/Object;
+  #106 = Utf8               hashCode
+  #107 = Utf8               _hashCode
+  #108 = Utf8               (Lscala/Product;)I
+  #109 = NameAndType        #107:#108     // _hashCode:(Lscala/Product;)I
+  #110 = Methodref          #95.#109      // scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+  #111 = Utf8               _toString
+  #112 = Utf8               (Lscala/Product;)Ljava/lang/String;
+  #113 = NameAndType        #111:#112     // _toString:(Lscala/Product;)Ljava/lang/String;
+  #114 = Methodref          #95.#113      // scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+  #115 = Utf8               equals
+  #116 = NameAndType        #115:#104     // equals:(Ljava/lang/Object;)Z
+  #117 = Methodref          #4.#116       // java/lang/Object.equals:(Ljava/lang/Object;)Z
+  #118 = NameAndType        #103:#104     // canEqual:(Ljava/lang/Object;)Z
+  #119 = Methodref          #2.#118       // rpg/ooo/subcalls/WisStep.canEqual:(Ljava/lang/Object;)Z
+  #120 = Utf8               ()V
+  #121 = NameAndType        #59:#120      // "<init>":()V
+  #122 = Methodref          #4.#121       // java/lang/Object."<init>":()V
+  #123 = Utf8               $init$
+  #124 = Utf8               (Lrpg/ooo/subcalls/Step;)V
+  #125 = NameAndType        #123:#124     // $init$:(Lrpg/ooo/subcalls/Step;)V
+  #126 = InterfaceMethodref #6.#125       // rpg/ooo/subcalls/Step.$init$:(Lrpg/ooo/subcalls/Step;)V
+  #127 = Utf8               (Lrpg/ooo/subcalls/WisBased;)V
+  #128 = NameAndType        #123:#127     // $init$:(Lrpg/ooo/subcalls/WisBased;)V
+  #129 = InterfaceMethodref #8.#128       // rpg/ooo/subcalls/WisBased.$init$:(Lrpg/ooo/subcalls/WisBased;)V
+  #130 = Utf8               (Lscala/Product;)V
+  #131 = NameAndType        #123:#130     // $init$:(Lscala/Product;)V
+  #132 = InterfaceMethodref #10.#131      // scala/Product.$init$:(Lscala/Product;)V
+  #133 = Utf8               Code
+  #134 = Utf8               Signature
+  #135 = Utf8               (Lrpg/ooo/subcalls/WisStep;)Lscala/Option<Lrpg/ooo/subcalls/Node;>;
+  #136 = Utf8               <A:Ljava/lang/Object;>(Lscala/Function1<Lrpg/ooo/subcalls/WisStep;TA;>;)Lscala/Function1<Lrpg/ooo/subcalls/Node;TA;>;
+  #137 = Utf8               <A:Ljava/lang/Object;>(Lscala/Function1<TA;Lrpg/ooo/subcalls/Node;>;)Lscala/Function1<TA;Lrpg/ooo/subcalls/WisStep;>;
+  #138 = Utf8               LocalVariableTable
+  #139 = Utf8               LineNumberTable
+  #140 = Utf8               MethodParameters
+  #141 = Utf8               StackMapTable
+  #142 = Utf8               ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+  #143 = Utf8               SourceFile
+  #144 = Utf8               RuntimeVisibleAnnotations
+  #145 = Utf8               ScalaInlineInfo
+  #146 = Utf8               ScalaSig
+{
+  private final rpg.ooo.subcalls.Node to;
+    descriptor: Lrpg/ooo/subcalls/Node;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public static scala.Option<rpg.ooo.subcalls.Node> unapply(rpg.ooo.subcalls.WisStep);
+    descriptor: (Lrpg/ooo/subcalls/WisStep;)Lscala/Option;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #26                 // Field rpg/ooo/subcalls/WisStep$.MODULE$:Lrpg/ooo/subcalls/WisStep$;
+         3: aload_0
+         4: invokevirtual #28                 // Method rpg/ooo/subcalls/WisStep$.unapply:(Lrpg/ooo/subcalls/WisStep;)Lscala/Option;
+         7: areturn
+    Signature: #135                         // (Lrpg/ooo/subcalls/WisStep;)Lscala/Option<Lrpg/ooo/subcalls/Node;>;
+
+  public static rpg.ooo.subcalls.WisStep apply(rpg.ooo.subcalls.Node);
+    descriptor: (Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/WisStep;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #26                 // Field rpg/ooo/subcalls/WisStep$.MODULE$:Lrpg/ooo/subcalls/WisStep$;
+         3: aload_0
+         4: invokevirtual #32                 // Method rpg/ooo/subcalls/WisStep$.apply:(Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/WisStep;
+         7: areturn
+
+  public static <A extends java.lang.Object> scala.Function1<rpg.ooo.subcalls.Node, A> andThen(scala.Function1<rpg.ooo.subcalls.WisStep, A>);
+    descriptor: (Lscala/Function1;)Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #26                 // Field rpg/ooo/subcalls/WisStep$.MODULE$:Lrpg/ooo/subcalls/WisStep$;
+         3: aload_0
+         4: invokevirtual #36                 // Method rpg/ooo/subcalls/WisStep$.andThen:(Lscala/Function1;)Lscala/Function1;
+         7: areturn
+    Signature: #136                         // <A:Ljava/lang/Object;>(Lscala/Function1<Lrpg/ooo/subcalls/WisStep;TA;>;)Lscala/Function1<Lrpg/ooo/subcalls/Node;TA;>;
+
+  public static <A extends java.lang.Object> scala.Function1<A, rpg.ooo.subcalls.WisStep> compose(scala.Function1<A, rpg.ooo.subcalls.Node>);
+    descriptor: (Lscala/Function1;)Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #26                 // Field rpg/ooo/subcalls/WisStep$.MODULE$:Lrpg/ooo/subcalls/WisStep$;
+         3: aload_0
+         4: invokevirtual #39                 // Method rpg/ooo/subcalls/WisStep$.compose:(Lscala/Function1;)Lscala/Function1;
+         7: areturn
+    Signature: #137                         // <A:Ljava/lang/Object;>(Lscala/Function1<TA;Lrpg/ooo/subcalls/Node;>;)Lscala/Function1<TA;Lrpg/ooo/subcalls/WisStep;>;
+
+  public int thisCost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #46                 // InterfaceMethod rpg/ooo/subcalls/WisBased.thisCost$:(Lrpg/ooo/subcalls/WisBased;Lrpg/PlayerTraits;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/ooo/subcalls/WisStep;
+            0       6     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 51: 0
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #54                 // InterfaceMethod rpg/ooo/subcalls/Step.cost$:(Lrpg/ooo/subcalls/Step;Lrpg/PlayerTraits;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/ooo/subcalls/WisStep;
+            0       6     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 51: 0
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public rpg.ooo.subcalls.Node to();
+    descriptor: ()Lrpg/ooo/subcalls/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #57                 // Field to:Lrpg/ooo/subcalls/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/subcalls/WisStep;
+      LineNumberTable:
+        line 51: 0
+
+  public rpg.ooo.subcalls.WisStep copy(rpg.ooo.subcalls.Node);
+    descriptor: (Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/WisStep;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: new           #2                  // class rpg/ooo/subcalls/WisStep
+         3: dup
+         4: aload_1
+         5: invokespecial #62                 // Method "<init>":(Lrpg/ooo/subcalls/Node;)V
+         8: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/ooo/subcalls/WisStep;
+            0       9     1    to   Lrpg/ooo/subcalls/Node;
+      LineNumberTable:
+        line 51: 0
+    MethodParameters:
+      Name                           Flags
+      to                             final
+
+  public rpg.ooo.subcalls.Node copy$default$1();
+    descriptor: ()Lrpg/ooo/subcalls/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #65                 // Method to:()Lrpg/ooo/subcalls/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/subcalls/WisStep;
+      LineNumberTable:
+        line 51: 0
+
+  public java.lang.String productPrefix();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #69                 // String WisStep
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/ooo/subcalls/WisStep;
+      LineNumberTable:
+        line 51: 0
+
+  public int productArity();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_1
+         1: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lrpg/ooo/subcalls/WisStep;
+      LineNumberTable:
+        line 51: 0
+
+  public java.lang.Object productElement(int);
+    descriptor: (I)Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1
+         1: istore_2
+         2: iload_2
+         3: tableswitch   { // 0 to 0
+                       0: 20
+                 default: 27
+            }
+        20: aload_0
+        21: invokevirtual #65                 // Method to:()Lrpg/ooo/subcalls/Node;
+        24: goto          42
+        27: new           #76                 // class java/lang/IndexOutOfBoundsException
+        30: dup
+        31: iload_1
+        32: invokestatic  #82                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        35: invokevirtual #85                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        38: invokespecial #88                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+        41: athrow
+        42: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      43     0  this   Lrpg/ooo/subcalls/WisStep;
+            0      43     1   x$1   I
+      LineNumberTable:
+        line 51: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 20
+          locals = [ int ]
+        frame_type = 6 /* same */
+        frame_type = 78 /* same_locals_1_stack_item */
+          stack = [ class rpg/ooo/subcalls/Node ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    descriptor: ()Lscala/collection/Iterator;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #98                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #102                // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/ooo/subcalls/WisStep;
+      LineNumberTable:
+        line 51: 0
+    Signature: #142                         // ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+
+  public boolean canEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: instanceof    #2                  // class rpg/ooo/subcalls/WisStep
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/subcalls/WisStep;
+            0       5     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 51: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int hashCode();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #98                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #110                // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/ooo/subcalls/WisStep;
+      LineNumberTable:
+        line 51: 0
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #98                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #114                // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/ooo/subcalls/WisStep;
+      LineNumberTable:
+        line 51: 0
+
+  public boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=6, args_size=2
+         0: aload_0
+         1: aload_1
+         2: if_acmpeq     86
+         5: aload_1
+         6: astore_3
+         7: aload_3
+         8: instanceof    #2                  // class rpg/ooo/subcalls/WisStep
+        11: ifeq          19
+        14: iconst_1
+        15: istore_2
+        16: goto          27
+        19: goto          22
+        22: iconst_0
+        23: istore_2
+        24: goto          27
+        27: iload_2
+        28: ifeq          90
+        31: aload_1
+        32: checkcast     #2                  // class rpg/ooo/subcalls/WisStep
+        35: astore        4
+        37: aload_0
+        38: invokevirtual #65                 // Method to:()Lrpg/ooo/subcalls/Node;
+        41: aload         4
+        43: invokevirtual #65                 // Method to:()Lrpg/ooo/subcalls/Node;
+        46: astore        5
+        48: dup
+        49: ifnonnull     61
+        52: pop
+        53: aload         5
+        55: ifnull        69
+        58: goto          82
+        61: aload         5
+        63: invokevirtual #117                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        66: ifeq          82
+        69: aload         4
+        71: aload_0
+        72: invokevirtual #119                // Method canEqual:(Ljava/lang/Object;)Z
+        75: ifeq          82
+        78: iconst_1
+        79: goto          83
+        82: iconst_0
+        83: ifeq          90
+        86: iconst_1
+        87: goto          91
+        90: iconst_0
+        91: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      92     0  this   Lrpg/ooo/subcalls/WisStep;
+            0      92     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 51: 0
+      StackMapTable: number_of_entries = 10
+        frame_type = 253 /* append */
+          offset_delta = 19
+          locals = [ top, class java/lang/Object ]
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 4
+          locals = [ class rpg/ooo/subcalls/WisStep, class java/lang/Object, int, class java/lang/Object ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 33
+          locals = [ class rpg/ooo/subcalls/WisStep, class java/lang/Object, int, class java/lang/Object, class rpg/ooo/subcalls/WisStep, class rpg/ooo/subcalls/Node ]
+          stack = [ class rpg/ooo/subcalls/Node ]
+        frame_type = 7 /* same */
+        frame_type = 12 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class rpg/ooo/subcalls/WisStep, class java/lang/Object ]
+          stack = []
+        frame_type = 253 /* append */
+          offset_delta = 3
+          locals = [ int, class java/lang/Object ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class rpg/ooo/subcalls/WisStep, class java/lang/Object ]
+          stack = [ int ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public rpg.ooo.subcalls.WisStep(rpg.ooo.subcalls.Node);
+    descriptor: (Lrpg/ooo/subcalls/Node;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #57                 // Field to:Lrpg/ooo/subcalls/Node;
+         5: aload_0
+         6: invokespecial #122                // Method java/lang/Object."<init>":()V
+         9: aload_0
+        10: invokestatic  #126                // InterfaceMethod rpg/ooo/subcalls/Step.$init$:(Lrpg/ooo/subcalls/Step;)V
+        13: aload_0
+        14: invokestatic  #129                // InterfaceMethod rpg/ooo/subcalls/WisBased.$init$:(Lrpg/ooo/subcalls/WisBased;)V
+        17: aload_0
+        18: invokestatic  #132                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+        21: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      22     0  this   Lrpg/ooo/subcalls/WisStep;
+            0      22     1    to   Lrpg/ooo/subcalls/Node;
+      LineNumberTable:
+        line 51: 0
+    MethodParameters:
+      Name                           Flags
+      to                             final
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #14(#15=s#16)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4A
+   01 00 00 0E 00 3B 00 3C 00 00 67 00 68 00 00 3F
+   00 37 00 00 3A 00 1E 00 00 32 00 29 00 00 73 00
+   68 00 00 6A 00 47 00 00 46 00 47 00 00 48 00 49
+   00 00 5C 00 5D 00 00 42 00 43 00 00 28 00 29 00
+   00 11 00 37 00 00 53 00 43 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

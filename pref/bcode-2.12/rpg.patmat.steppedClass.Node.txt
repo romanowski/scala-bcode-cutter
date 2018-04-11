@@ -1,0 +1,16 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.Node {
+  public static int totalSkill(rpg.patmat.steppedClass.Node, rpg.PlayerTraits);
+    Code:
+       0: getstatic     #16                 // Field rpg/patmat/steppedClass/Node$.MODULE$:Lrpg/patmat/steppedClass/Node$;
+       3: aload_0
+       4: aload_1
+       5: invokevirtual #18                 // Method rpg/patmat/steppedClass/Node$.totalSkill:(Lrpg/patmat/steppedClass/Node;Lrpg/PlayerTraits;)I
+       8: ireturn
+
+  public rpg.patmat.steppedClass.Node();
+    Code:
+       0: aload_0
+       1: invokespecial #22                 // Method java/lang/Object."<init>":()V
+       4: return
+}

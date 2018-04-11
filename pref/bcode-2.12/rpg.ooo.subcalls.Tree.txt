@@ -1,0 +1,34 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.Tree extends rpg.ooo.subcalls.Node,rpg.ooo.subcalls.FeatBased {
+  public abstract rpg.ooo.subcalls.Node left();
+
+  public abstract rpg.ooo.subcalls.Node right();
+
+  public static int cost$(rpg.ooo.subcalls.Tree, rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #23                 // InterfaceMethod cost:(Lrpg/PlayerTraits;)I
+       5: ireturn
+
+  public int cost(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: invokeinterface #27,  1           // InterfaceMethod left:()Lrpg/ooo/subcalls/Node;
+       6: aload_1
+       7: invokeinterface #28,  2           // InterfaceMethod rpg/ooo/subcalls/Node.cost:(Lrpg/PlayerTraits;)I
+      12: aload_0
+      13: invokeinterface #30,  1           // InterfaceMethod right:()Lrpg/ooo/subcalls/Node;
+      18: aload_1
+      19: invokeinterface #28,  2           // InterfaceMethod rpg/ooo/subcalls/Node.cost:(Lrpg/PlayerTraits;)I
+      24: iadd
+      25: aload_0
+      26: aload_1
+      27: invokeinterface #33,  2           // InterfaceMethod thisCost:(Lrpg/PlayerTraits;)I
+      32: iadd
+      33: ireturn
+
+  public static void $init$(rpg.ooo.subcalls.Tree);
+    Code:
+       0: return
+}

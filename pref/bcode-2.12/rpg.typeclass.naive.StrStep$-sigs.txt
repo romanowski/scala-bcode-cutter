@@ -1,0 +1,10 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.StrStep$ implements scala.Serializable {
+  public static rpg.typeclass.naive.StrStep$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public <N> rpg.typeclass.naive.StrStep<N> apply(N);
+  public <N> scala.Option<N> unapply(rpg.typeclass.naive.StrStep<N>);
+  private java.lang.Object readResolve();
+  private rpg.typeclass.naive.StrStep$();
+}

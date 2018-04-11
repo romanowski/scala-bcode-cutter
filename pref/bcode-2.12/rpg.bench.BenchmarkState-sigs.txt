@@ -1,0 +1,33 @@
+Compiled from "Benchmarks.scala"
+public class rpg.bench.BenchmarkState {
+  private final rpg.SkillTreeRepr<?> patMat;
+  private final rpg.SkillTreeRepr<?> slowPatMat;
+  private final rpg.SkillTreeRepr<?> classesPatMat;
+  private final rpg.SkillTreeRepr<?> steppedPatMat;
+  private final rpg.SkillTreeRepr<?> steppedClassPatMat;
+  private final rpg.SkillTreeRepr<?> typeclass;
+  private final rpg.SkillTreeRepr<?> cake;
+  private final rpg.SkillTreeRepr<?> cake2;
+  private final rpg.SkillTreeRepr<?> oooTree;
+  private final rpg.SkillTreeRepr<?> oooSubcalls;
+  private final rpg.SkillTreeRepr<?> oooLambdas;
+  private final rpg.SkillTreeRepr<?> oooNested;
+  private final rpg.SkillTreeRepr<?> javaOOO;
+  private final rpg.SkillTreeRepr<?> javafast;
+  public rpg.SkillTreeRepr<?> patMat();
+  public rpg.SkillTreeRepr<?> slowPatMat();
+  public rpg.SkillTreeRepr<?> classesPatMat();
+  public rpg.SkillTreeRepr<?> steppedPatMat();
+  public rpg.SkillTreeRepr<?> steppedClassPatMat();
+  public rpg.SkillTreeRepr<?> typeclass();
+  public rpg.SkillTreeRepr<?> cake();
+  public rpg.SkillTreeRepr<?> cake2();
+  public rpg.SkillTreeRepr<?> oooTree();
+  public rpg.SkillTreeRepr<?> oooSubcalls();
+  public rpg.SkillTreeRepr<?> oooLambdas();
+  public rpg.SkillTreeRepr<?> oooNested();
+  public rpg.SkillTreeRepr<?> javaOOO();
+  public rpg.SkillTreeRepr<?> javafast();
+  public rpg.bench.BenchmarkState(rpg.PlayerTraits);
+  public rpg.bench.BenchmarkState();
+}

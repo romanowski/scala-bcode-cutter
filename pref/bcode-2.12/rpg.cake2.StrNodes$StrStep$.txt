@@ -1,0 +1,53 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake2.StrNodes$StrStep$ extends scala.runtime.AbstractFunction1<rpg.cake2.NodesTraits$Node, rpg.cake2.StrNodes$StrStep> implements scala.Serializable {
+  private final rpg.cake2.NodesTraits $outer;
+
+  public final java.lang.String toString();
+    Code:
+       0: ldc           #24                 // String StrStep
+       2: areturn
+
+  public rpg.cake2.StrNodes$StrStep apply(rpg.cake2.NodesTraits$Node);
+    Code:
+       0: new           #15                 // class rpg/cake2/StrNodes$StrStep
+       3: dup
+       4: aload_0
+       5: getfield      #31                 // Field $outer:Lrpg/cake2/NodesTraits;
+       8: aload_1
+       9: invokespecial #35                 // Method rpg/cake2/StrNodes$StrStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+      12: areturn
+
+  public scala.Option<rpg.cake2.NodesTraits$Node> unapply(rpg.cake2.StrNodes$StrStep);
+    Code:
+       0: aload_1
+       1: ifnonnull     10
+       4: getstatic     #45                 // Field scala/None$.MODULE$:Lscala/None$;
+       7: goto          21
+      10: new           #47                 // class scala/Some
+      13: dup
+      14: aload_1
+      15: invokevirtual #50                 // Method rpg/cake2/StrNodes$StrStep.to:()Lrpg/cake2/NodesTraits$Node;
+      18: invokespecial #53                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+      21: areturn
+
+  public java.lang.Object apply(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #10                 // class rpg/cake2/NodesTraits$Node
+       5: invokevirtual #60                 // Method apply:(Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/StrNodes$StrStep;
+       8: areturn
+
+  public rpg.cake2.StrNodes$StrStep$(rpg.cake2.NodesTraits);
+    Code:
+       0: aload_1
+       1: ifnonnull     6
+       4: aconst_null
+       5: athrow
+       6: aload_0
+       7: aload_1
+       8: putfield      #31                 // Field $outer:Lrpg/cake2/NodesTraits;
+      11: aload_0
+      12: invokespecial #65                 // Method scala/runtime/AbstractFunction1."<init>":()V
+      15: return
+}

@@ -1,0 +1,5 @@
+Compiled from "SkillTrees.scala"
+public abstract class rpg.SkillTrees {
+  public abstract rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+  public rpg.SkillTrees();
+}

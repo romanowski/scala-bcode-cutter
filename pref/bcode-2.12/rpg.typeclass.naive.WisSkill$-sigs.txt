@@ -1,0 +1,11 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.WisSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.typeclass.naive.WisSkill> implements scala.Serializable {
+  public static rpg.typeclass.naive.WisSkill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.typeclass.naive.WisSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.typeclass.naive.WisSkill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.typeclass.naive.WisSkill$();
+}

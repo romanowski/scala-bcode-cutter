@@ -1,0 +1,21 @@
+Compiled from "OOOSkillTrees.scala"
+public class rpg.ooo.StrStep implements rpg.ooo.Node,scala.Product,scala.Serializable {
+  private final rpg.ooo.Node to;
+  public static scala.Option<rpg.ooo.Node> unapply(rpg.ooo.StrStep);
+  public static rpg.ooo.StrStep apply(rpg.ooo.Node);
+  public static <A> scala.Function1<rpg.ooo.Node, A> andThen(scala.Function1<rpg.ooo.StrStep, A>);
+  public static <A> scala.Function1<A, rpg.ooo.StrStep> compose(scala.Function1<A, rpg.ooo.Node>);
+  public rpg.ooo.Node to();
+  public int cost(rpg.PlayerTraits);
+  public rpg.ooo.StrStep copy(rpg.ooo.Node);
+  public rpg.ooo.Node copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.ooo.StrStep(rpg.ooo.Node);
+}

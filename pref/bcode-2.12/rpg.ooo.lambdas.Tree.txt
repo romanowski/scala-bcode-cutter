@@ -1,0 +1,261 @@
+Compiled from "LambdasSkillTrees.scala"
+public class rpg.ooo.lambdas.Tree implements rpg.ooo.lambdas.Node,scala.Product,scala.Serializable {
+  private final scala.Function1<rpg.PlayerTraits, java.lang.Object> feat;
+
+  private final rpg.ooo.lambdas.Node left;
+
+  private final rpg.ooo.lambdas.Node right;
+
+  public static scala.Option<scala.Tuple3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node>> unapply(rpg.ooo.lambdas.Tree);
+    Code:
+       0: getstatic     #28                 // Field rpg/ooo/lambdas/Tree$.MODULE$:Lrpg/ooo/lambdas/Tree$;
+       3: aload_0
+       4: invokevirtual #30                 // Method rpg/ooo/lambdas/Tree$.unapply:(Lrpg/ooo/lambdas/Tree;)Lscala/Option;
+       7: areturn
+
+  public static rpg.ooo.lambdas.Tree apply(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+    Code:
+       0: getstatic     #28                 // Field rpg/ooo/lambdas/Tree$.MODULE$:Lrpg/ooo/lambdas/Tree$;
+       3: aload_0
+       4: aload_1
+       5: aload_2
+       6: invokevirtual #34                 // Method rpg/ooo/lambdas/Tree$.apply:(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+       9: areturn
+
+  public static scala.Function1<scala.Tuple3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node>, rpg.ooo.lambdas.Tree> tupled();
+    Code:
+       0: getstatic     #28                 // Field rpg/ooo/lambdas/Tree$.MODULE$:Lrpg/ooo/lambdas/Tree$;
+       3: invokevirtual #38                 // Method rpg/ooo/lambdas/Tree$.tupled:()Lscala/Function1;
+       6: areturn
+
+  public static scala.Function1<scala.Function1<rpg.PlayerTraits, java.lang.Object>, scala.Function1<rpg.ooo.lambdas.Node, scala.Function1<rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Tree>>> curried();
+    Code:
+       0: getstatic     #28                 // Field rpg/ooo/lambdas/Tree$.MODULE$:Lrpg/ooo/lambdas/Tree$;
+       3: invokevirtual #41                 // Method rpg/ooo/lambdas/Tree$.curried:()Lscala/Function1;
+       6: areturn
+
+  public scala.Function1<rpg.PlayerTraits, java.lang.Object> feat();
+    Code:
+       0: aload_0
+       1: getfield      #43                 // Field feat:Lscala/Function1;
+       4: areturn
+
+  public rpg.ooo.lambdas.Node left();
+    Code:
+       0: aload_0
+       1: getfield      #48                 // Field left:Lrpg/ooo/lambdas/Node;
+       4: areturn
+
+  public rpg.ooo.lambdas.Node right();
+    Code:
+       0: aload_0
+       1: getfield      #50                 // Field right:Lrpg/ooo/lambdas/Node;
+       4: areturn
+
+  public int cost(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: invokevirtual #55                 // Method left:()Lrpg/ooo/lambdas/Node;
+       4: aload_1
+       5: invokeinterface #57,  2           // InterfaceMethod rpg/ooo/lambdas/Node.cost:(Lrpg/PlayerTraits;)I
+      10: aload_0
+      11: invokevirtual #59                 // Method right:()Lrpg/ooo/lambdas/Node;
+      14: aload_1
+      15: invokeinterface #57,  2           // InterfaceMethod rpg/ooo/lambdas/Node.cost:(Lrpg/PlayerTraits;)I
+      20: iadd
+      21: aload_0
+      22: invokevirtual #61                 // Method feat:()Lscala/Function1;
+      25: aload_1
+      26: invokeinterface #66,  2           // InterfaceMethod scala/Function1.apply:(Ljava/lang/Object;)Ljava/lang/Object;
+      31: invokestatic  #72                 // Method scala/runtime/BoxesRunTime.unboxToInt:(Ljava/lang/Object;)I
+      34: iadd
+      35: ireturn
+
+  public rpg.ooo.lambdas.Tree copy(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+    Code:
+       0: new           #2                  // class rpg/ooo/lambdas/Tree
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: aload_3
+       7: invokespecial #78                 // Method "<init>":(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)V
+      10: areturn
+
+  public scala.Function1<rpg.PlayerTraits, java.lang.Object> copy$default$1();
+    Code:
+       0: aload_0
+       1: invokevirtual #61                 // Method feat:()Lscala/Function1;
+       4: areturn
+
+  public rpg.ooo.lambdas.Node copy$default$2();
+    Code:
+       0: aload_0
+       1: invokevirtual #55                 // Method left:()Lrpg/ooo/lambdas/Node;
+       4: areturn
+
+  public rpg.ooo.lambdas.Node copy$default$3();
+    Code:
+       0: aload_0
+       1: invokevirtual #59                 // Method right:()Lrpg/ooo/lambdas/Node;
+       4: areturn
+
+  public java.lang.String productPrefix();
+    Code:
+       0: ldc           #85                 // String Tree
+       2: areturn
+
+  public int productArity();
+    Code:
+       0: iconst_3
+       1: ireturn
+
+  public java.lang.Object productElement(int);
+    Code:
+       0: iload_1
+       1: istore_2
+       2: iload_2
+       3: tableswitch   { // 0 to 2
+                     0: 28
+                     1: 35
+                     2: 42
+               default: 49
+          }
+      28: aload_0
+      29: invokevirtual #61                 // Method feat:()Lscala/Function1;
+      32: goto          64
+      35: aload_0
+      36: invokevirtual #55                 // Method left:()Lrpg/ooo/lambdas/Node;
+      39: goto          64
+      42: aload_0
+      43: invokevirtual #59                 // Method right:()Lrpg/ooo/lambdas/Node;
+      46: goto          64
+      49: new           #92                 // class java/lang/IndexOutOfBoundsException
+      52: dup
+      53: iload_1
+      54: invokestatic  #96                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      57: invokevirtual #99                 // Method java/lang/Object.toString:()Ljava/lang/String;
+      60: invokespecial #102                // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+      63: athrow
+      64: areturn
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    Code:
+       0: getstatic     #110                // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #114                // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+       7: areturn
+
+  public boolean canEqual(java.lang.Object);
+    Code:
+       0: aload_1
+       1: instanceof    #2                  // class rpg/ooo/lambdas/Tree
+       4: ireturn
+
+  public int hashCode();
+    Code:
+       0: getstatic     #110                // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #122                // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+       7: ireturn
+
+  public java.lang.String toString();
+    Code:
+       0: getstatic     #110                // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #126                // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+       7: areturn
+
+  public boolean equals(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: if_acmpeq     150
+       5: aload_1
+       6: astore_3
+       7: aload_3
+       8: instanceof    #2                  // class rpg/ooo/lambdas/Tree
+      11: ifeq          19
+      14: iconst_1
+      15: istore_2
+      16: goto          27
+      19: goto          22
+      22: iconst_0
+      23: istore_2
+      24: goto          27
+      27: iload_2
+      28: ifeq          154
+      31: aload_1
+      32: checkcast     #2                  // class rpg/ooo/lambdas/Tree
+      35: astore        4
+      37: aload_0
+      38: invokevirtual #61                 // Method feat:()Lscala/Function1;
+      41: aload         4
+      43: invokevirtual #61                 // Method feat:()Lscala/Function1;
+      46: astore        5
+      48: dup
+      49: ifnonnull     61
+      52: pop
+      53: aload         5
+      55: ifnull        69
+      58: goto          146
+      61: aload         5
+      63: invokevirtual #129                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      66: ifeq          146
+      69: aload_0
+      70: invokevirtual #55                 // Method left:()Lrpg/ooo/lambdas/Node;
+      73: aload         4
+      75: invokevirtual #55                 // Method left:()Lrpg/ooo/lambdas/Node;
+      78: astore        6
+      80: dup
+      81: ifnonnull     93
+      84: pop
+      85: aload         6
+      87: ifnull        101
+      90: goto          146
+      93: aload         6
+      95: invokevirtual #129                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      98: ifeq          146
+     101: aload_0
+     102: invokevirtual #59                 // Method right:()Lrpg/ooo/lambdas/Node;
+     105: aload         4
+     107: invokevirtual #59                 // Method right:()Lrpg/ooo/lambdas/Node;
+     110: astore        7
+     112: dup
+     113: ifnonnull     125
+     116: pop
+     117: aload         7
+     119: ifnull        133
+     122: goto          146
+     125: aload         7
+     127: invokevirtual #129                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     130: ifeq          146
+     133: aload         4
+     135: aload_0
+     136: invokevirtual #131                // Method canEqual:(Ljava/lang/Object;)Z
+     139: ifeq          146
+     142: iconst_1
+     143: goto          147
+     146: iconst_0
+     147: ifeq          154
+     150: iconst_1
+     151: goto          155
+     154: iconst_0
+     155: ireturn
+
+  public rpg.ooo.lambdas.Tree(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #43                 // Field feat:Lscala/Function1;
+       5: aload_0
+       6: aload_2
+       7: putfield      #48                 // Field left:Lrpg/ooo/lambdas/Node;
+      10: aload_0
+      11: aload_3
+      12: putfield      #50                 // Field right:Lrpg/ooo/lambdas/Node;
+      15: aload_0
+      16: invokespecial #134                // Method java/lang/Object."<init>":()V
+      19: aload_0
+      20: invokestatic  #138                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+      23: return
+}

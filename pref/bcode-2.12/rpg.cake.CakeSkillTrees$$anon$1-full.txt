@@ -1,0 +1,135 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake/CakeSkillTrees$$anon$1.class
+  Last modified Apr 8, 2018; size 1266 bytes
+  MD5 checksum 36f35473a4a9f3bff859f17494335e42
+  Compiled from "CakeSkillTrees.scala"
+public final class rpg.cake.CakeSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.cake.DexNodes$DexTree>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/cake/CakeSkillTrees$$anon$1
+   #2 = Class              #1             // rpg/cake/CakeSkillTrees$$anon$1
+   #3 = Utf8               Lrpg/SkillTreeRepr<Lrpg/cake/DexNodes$DexTree;>;
+   #4 = Utf8               rpg/SkillTreeRepr
+   #5 = Class              #4             // rpg/SkillTreeRepr
+   #6 = Utf8               CakeSkillTrees.scala
+   #7 = Utf8               rpg/cake/CakeSkillTrees
+   #8 = Class              #7             // rpg/cake/CakeSkillTrees
+   #9 = Utf8               archeryTree
+  #10 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #11 = NameAndType        #9:#10         // archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #12 = Utf8               rpg/cake/DexNodes$DexTree
+  #13 = Class              #12            // rpg/cake/DexNodes$DexTree
+  #14 = Utf8               rpg/cake/DexNodes
+  #15 = Class              #14            // rpg/cake/DexNodes
+  #16 = Utf8               DexTree
+  #17 = Utf8               rpg/cake/Nodes$Node
+  #18 = Class              #17            // rpg/cake/Nodes$Node
+  #19 = Utf8               rpg/cake/Nodes
+  #20 = Class              #19            // rpg/cake/Nodes
+  #21 = Utf8               Node
+  #22 = Utf8               traits$1
+  #23 = Utf8               Lrpg/PlayerTraits;
+  #24 = Utf8               totalCost
+  #25 = Utf8               ()I
+  #26 = Utf8               rpg/cake/Nodes$
+  #27 = Class              #26            // rpg/cake/Nodes$
+  #28 = Utf8               MODULE$
+  #29 = Utf8               Lrpg/cake/Nodes$;
+  #30 = NameAndType        #28:#29        // MODULE$:Lrpg/cake/Nodes$;
+  #31 = Fieldref           #27.#30        // rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+  #32 = Utf8               tree
+  #33 = Utf8               ()Ljava/lang/Object;
+  #34 = NameAndType        #32:#33        // tree:()Ljava/lang/Object;
+  #35 = Methodref          #2.#34         // rpg/cake/CakeSkillTrees$$anon$1.tree:()Ljava/lang/Object;
+  #36 = NameAndType        #22:#23        // traits$1:Lrpg/PlayerTraits;
+  #37 = Fieldref           #2.#36         // rpg/cake/CakeSkillTrees$$anon$1.traits$1:Lrpg/PlayerTraits;
+  #38 = Utf8               totalSkill
+  #39 = Utf8               (Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+  #40 = NameAndType        #38:#39        // totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+  #41 = Methodref          #27.#40        // rpg/cake/Nodes$.totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+  #42 = Utf8               this
+  #43 = Utf8               Lrpg/cake/CakeSkillTrees$$anon$1;
+  #44 = Utf8               <init>
+  #45 = Utf8               (Lrpg/cake/CakeSkillTrees;Lrpg/PlayerTraits;Lrpg/cake/DexNodes$DexTree;)V
+  #46 = Utf8               $outer
+  #47 = Utf8               tree$1
+  #48 = Utf8               (Ljava/lang/Object;)V
+  #49 = NameAndType        #44:#48        // "<init>":(Ljava/lang/Object;)V
+  #50 = Methodref          #5.#49         // rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+  #51 = Utf8               Lrpg/cake/CakeSkillTrees;
+  #52 = Utf8               Lrpg/cake/DexNodes$DexTree;
+  #53 = Utf8               Code
+  #54 = Utf8               LocalVariableTable
+  #55 = Utf8               LineNumberTable
+  #56 = Utf8               MethodParameters
+  #57 = Utf8               Signature
+  #58 = Utf8               SourceFile
+  #59 = Utf8               EnclosingMethod
+  #60 = Utf8               InnerClasses
+  #61 = Utf8               ScalaInlineInfo
+  #62 = Utf8               Scala
+{
+  private final rpg.PlayerTraits traits$1;
+    descriptor: Lrpg/PlayerTraits;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public int totalCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #31                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+         3: aload_0
+         4: invokevirtual #35                 // Method tree:()Ljava/lang/Object;
+         7: checkcast     #18                 // class rpg/cake/Nodes$Node
+        10: aload_0
+        11: getfield      #37                 // Field traits$1:Lrpg/PlayerTraits;
+        14: invokevirtual #41                 // Method rpg/cake/Nodes$.totalSkill:(Lrpg/cake/Nodes$Node;Lrpg/PlayerTraits;)I
+        17: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      18     0  this   Lrpg/cake/CakeSkillTrees$$anon$1;
+      LineNumberTable:
+        line 77: 0
+
+  public rpg.cake.CakeSkillTrees$$anon$1(rpg.cake.CakeSkillTrees, rpg.PlayerTraits, rpg.cake.DexNodes$DexTree);
+    descriptor: (Lrpg/cake/CakeSkillTrees;Lrpg/PlayerTraits;Lrpg/cake/DexNodes$DexTree;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=4
+         0: aload_0
+         1: aload_2
+         2: putfield      #37                 // Field traits$1:Lrpg/PlayerTraits;
+         5: aload_0
+         6: aload_3
+         7: invokespecial #50                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+        10: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   Lrpg/cake/CakeSkillTrees$$anon$1;
+            0      11     1 $outer   Lrpg/cake/CakeSkillTrees;
+            0      11     2 traits$1   Lrpg/PlayerTraits;
+            0      11     3 tree$1   Lrpg/cake/DexNodes$DexTree;
+      LineNumberTable:
+        line 65: 0
+        line 76: 5
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+      traits$1                       final
+      tree$1                         final
+}
+Signature: #3                           // Lrpg/SkillTreeRepr<Lrpg/cake/DexNodes$DexTree;>;
+SourceFile: "CakeSkillTrees.scala"
+EnclosingMethod: #8.#11                 // rpg.cake.CakeSkillTrees.archeryTree
+InnerClasses:
+     public final #2; //class rpg/cake/CakeSkillTrees$$anon$1
+     public #16= #13 of #15; //DexTree=class rpg/cake/DexNodes$DexTree of class rpg/cake/DexNodes
+     public #21= #18 of #20; //Node=class rpg/cake/Nodes$Node of class rpg/cake/Nodes
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 01 00 02 00 2C 00 2D 01 00 18 00 19 01
+Error: unknown attribute
+  Scala: length = 0x0
+

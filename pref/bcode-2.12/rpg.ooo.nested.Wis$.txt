@@ -1,0 +1,143 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.nested.Wis$ implements rpg.ooo.nested.FeatTree {
+  public static rpg.ooo.nested.Wis$ MODULE$;
+
+  private volatile rpg.ooo.nested.FeatTree$Tree$ Tree$module;
+
+  private volatile rpg.ooo.nested.FeatTree$Step$ Step$module;
+
+  private volatile rpg.ooo.nested.FeatTree$Skill$ Skill$module;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/ooo/nested/Wis$
+       3: invokespecial #29                 // Method "<init>":()V
+       6: return
+
+  public rpg.ooo.nested.FeatTree$Tree$ Tree();
+    Code:
+       0: aload_0
+       1: getfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+       4: ifnonnull     11
+       7: aload_0
+       8: invokespecial #36                 // Method Tree$lzycompute$3:()V
+      11: aload_0
+      12: getfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+      15: areturn
+
+  public rpg.ooo.nested.FeatTree$Step$ Step();
+    Code:
+       0: aload_0
+       1: getfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+       4: ifnonnull     11
+       7: aload_0
+       8: invokespecial #44                 // Method Step$lzycompute$3:()V
+      11: aload_0
+      12: getfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+      15: areturn
+
+  public rpg.ooo.nested.FeatTree$Skill$ Skill();
+    Code:
+       0: aload_0
+       1: getfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+       4: ifnonnull     11
+       7: aload_0
+       8: invokespecial #51                 // Method Skill$lzycompute$3:()V
+      11: aload_0
+      12: getfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+      15: areturn
+
+  public int thisCost(rpg.PlayerTraits);
+    Code:
+       0: aload_1
+       1: invokevirtual #60                 // Method rpg/PlayerTraits.wisCost:()I
+       4: ireturn
+
+  private final void Tree$lzycompute$3();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+       8: ifnonnull     23
+      11: aload_0
+      12: new           #15                 // class rpg/ooo/nested/FeatTree$Tree$
+      15: dup
+      16: aload_0
+      17: invokespecial #64                 // Method rpg/ooo/nested/FeatTree$Tree$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+      20: putfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+      23: aload_1
+      24: monitorexit
+      25: goto          31
+      28: aload_1
+      29: monitorexit
+      30: athrow
+      31: return
+    Exception table:
+       from    to  target type
+           4    23    28   any
+
+  private final void Step$lzycompute$3();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+       8: ifnonnull     23
+      11: aload_0
+      12: new           #12                 // class rpg/ooo/nested/FeatTree$Step$
+      15: dup
+      16: aload_0
+      17: invokespecial #67                 // Method rpg/ooo/nested/FeatTree$Step$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+      20: putfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+      23: aload_1
+      24: monitorexit
+      25: goto          31
+      28: aload_1
+      29: monitorexit
+      30: athrow
+      31: return
+    Exception table:
+       from    to  target type
+           4    23    28   any
+
+  private final void Skill$lzycompute$3();
+    Code:
+       0: aload_0
+       1: dup
+       2: astore_1
+       3: monitorenter
+       4: aload_0
+       5: getfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+       8: ifnonnull     23
+      11: aload_0
+      12: new           #9                  // class rpg/ooo/nested/FeatTree$Skill$
+      15: dup
+      16: aload_0
+      17: invokespecial #68                 // Method rpg/ooo/nested/FeatTree$Skill$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+      20: putfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+      23: aload_1
+      24: monitorexit
+      25: goto          31
+      28: aload_1
+      29: monitorexit
+      30: athrow
+      31: return
+    Exception table:
+       from    to  target type
+           4    23    28   any
+
+  private rpg.ooo.nested.Wis$();
+    Code:
+       0: aload_0
+       1: invokespecial #69                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: putstatic     #71                 // Field MODULE$:Lrpg/ooo/nested/Wis$;
+       8: aload_0
+       9: invokestatic  #74                 // InterfaceMethod rpg/ooo/nested/FeatTree.$init$:(Lrpg/ooo/nested/FeatTree;)V
+      12: return
+}

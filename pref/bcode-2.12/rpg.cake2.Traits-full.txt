@@ -1,0 +1,37 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/Traits.class
+  Last modified Apr 8, 2018; size 428 bytes
+  MD5 checksum f162e33e3c5d705037abc8498a7eaf9d
+  Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake2.Traits
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/cake2/Traits
+   #2 = Class              #1             // rpg/cake2/Traits
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               CakeSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               U1q!GqAUeLGo\tQaY1lKJR!BeB<7A\n!\"!)QaCgG.Y)a!8z%4\"B\rA;sC&$8/F!\t2#D\t!BAQYLXM+sC&$8
+   #9 = Utf8               traits
+  #10 = Utf8               ()Lrpg/PlayerTraits;
+  #11 = Utf8               SourceFile
+  #12 = Utf8               RuntimeVisibleAnnotations
+  #13 = Utf8               ScalaInlineInfo
+  #14 = Utf8               ScalaSig
+{
+  public abstract rpg.PlayerTraits traits();
+    descriptor: ()Lrpg/PlayerTraits;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+}
+SourceFile: "CakeSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 00 00 01 00 09 00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

@@ -1,0 +1,126 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/SlowPathMatSkillTrees$$anon$2.class
+  Last modified Apr 8, 2018; size 1164 bytes
+  MD5 checksum a40ac63228501ebd5b507f3cb4ca2828
+  Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.SlowPathMatSkillTrees$$anon$2 extends rpg.SkillTreeRepr<rpg.patmat.DexTree>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/patmat/SlowPathMatSkillTrees$$anon$2
+   #2 = Class              #1             // rpg/patmat/SlowPathMatSkillTrees$$anon$2
+   #3 = Utf8               Lrpg/SkillTreeRepr<Lrpg/patmat/DexTree;>;
+   #4 = Utf8               rpg/SkillTreeRepr
+   #5 = Class              #4             // rpg/SkillTreeRepr
+   #6 = Utf8               PatMatSkillTrees.scala
+   #7 = Utf8               rpg/patmat/SlowPathMatSkillTrees
+   #8 = Class              #7             // rpg/patmat/SlowPathMatSkillTrees
+   #9 = Utf8               archeryTree
+  #10 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #11 = NameAndType        #9:#10         // archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #12 = Utf8               traits$2
+  #13 = Utf8               Lrpg/PlayerTraits;
+  #14 = Utf8               totalCost
+  #15 = Utf8               ()I
+  #16 = Utf8               rpg/patmat/Node$
+  #17 = Class              #16            // rpg/patmat/Node$
+  #18 = Utf8               MODULE$
+  #19 = Utf8               Lrpg/patmat/Node$;
+  #20 = NameAndType        #18:#19        // MODULE$:Lrpg/patmat/Node$;
+  #21 = Fieldref           #17.#20        // rpg/patmat/Node$.MODULE$:Lrpg/patmat/Node$;
+  #22 = Utf8               tree
+  #23 = Utf8               ()Ljava/lang/Object;
+  #24 = NameAndType        #22:#23        // tree:()Ljava/lang/Object;
+  #25 = Methodref          #2.#24         // rpg/patmat/SlowPathMatSkillTrees$$anon$2.tree:()Ljava/lang/Object;
+  #26 = Utf8               rpg/patmat/Node
+  #27 = Class              #26            // rpg/patmat/Node
+  #28 = NameAndType        #12:#13        // traits$2:Lrpg/PlayerTraits;
+  #29 = Fieldref           #2.#28         // rpg/patmat/SlowPathMatSkillTrees$$anon$2.traits$2:Lrpg/PlayerTraits;
+  #30 = Utf8               slowTotalSkill
+  #31 = Utf8               (Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #32 = NameAndType        #30:#31        // slowTotalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #33 = Methodref          #17.#32        // rpg/patmat/Node$.slowTotalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #34 = Utf8               this
+  #35 = Utf8               Lrpg/patmat/SlowPathMatSkillTrees$$anon$2;
+  #36 = Utf8               <init>
+  #37 = Utf8               (Lrpg/patmat/SlowPathMatSkillTrees;Lrpg/PlayerTraits;)V
+  #38 = Utf8               $outer
+  #39 = Utf8               mkTree
+  #40 = Utf8               ()Lrpg/patmat/DexTree;
+  #41 = NameAndType        #39:#40        // mkTree:()Lrpg/patmat/DexTree;
+  #42 = Methodref          #8.#41         // rpg/patmat/SlowPathMatSkillTrees.mkTree:()Lrpg/patmat/DexTree;
+  #43 = Utf8               (Ljava/lang/Object;)V
+  #44 = NameAndType        #36:#43        // "<init>":(Ljava/lang/Object;)V
+  #45 = Methodref          #5.#44         // rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+  #46 = Utf8               Lrpg/patmat/SlowPathMatSkillTrees;
+  #47 = Utf8               Code
+  #48 = Utf8               LocalVariableTable
+  #49 = Utf8               LineNumberTable
+  #50 = Utf8               MethodParameters
+  #51 = Utf8               Signature
+  #52 = Utf8               SourceFile
+  #53 = Utf8               EnclosingMethod
+  #54 = Utf8               InnerClasses
+  #55 = Utf8               ScalaInlineInfo
+  #56 = Utf8               Scala
+{
+  private final rpg.PlayerTraits traits$2;
+    descriptor: Lrpg/PlayerTraits;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public int totalCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #21                 // Field rpg/patmat/Node$.MODULE$:Lrpg/patmat/Node$;
+         3: aload_0
+         4: invokevirtual #25                 // Method tree:()Ljava/lang/Object;
+         7: checkcast     #27                 // class rpg/patmat/Node
+        10: aload_0
+        11: getfield      #29                 // Field traits$2:Lrpg/PlayerTraits;
+        14: invokevirtual #33                 // Method rpg/patmat/Node$.slowTotalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+        17: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      18     0  this   Lrpg/patmat/SlowPathMatSkillTrees$$anon$2;
+      LineNumberTable:
+        line 106: 0
+
+  public rpg.patmat.SlowPathMatSkillTrees$$anon$2(rpg.patmat.SlowPathMatSkillTrees, rpg.PlayerTraits);
+    descriptor: (Lrpg/patmat/SlowPathMatSkillTrees;Lrpg/PlayerTraits;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: aload_2
+         2: putfield      #29                 // Field traits$2:Lrpg/PlayerTraits;
+         5: aload_0
+         6: aload_1
+         7: invokevirtual #42                 // Method rpg/patmat/SlowPathMatSkillTrees.mkTree:()Lrpg/patmat/DexTree;
+        10: invokespecial #45                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+        13: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      14     0  this   Lrpg/patmat/SlowPathMatSkillTrees$$anon$2;
+            0      14     1 $outer   Lrpg/patmat/SlowPathMatSkillTrees;
+            0      14     2 traits$2   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 104: 0
+        line 105: 5
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+      traits$2                       final
+}
+Signature: #3                           // Lrpg/SkillTreeRepr<Lrpg/patmat/DexTree;>;
+SourceFile: "PatMatSkillTrees.scala"
+EnclosingMethod: #8.#11                 // rpg.patmat.SlowPathMatSkillTrees.archeryTree
+InnerClasses:
+     public final #2; //class rpg/patmat/SlowPathMatSkillTrees$$anon$2
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 01 00 02 00 24 00 25 01 00 0E 00 0F 01
+Error: unknown attribute
+  Scala: length = 0x0
+

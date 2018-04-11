@@ -1,0 +1,215 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/DexNodes$DexStep$.class
+  Last modified Apr 8, 2018; size 1860 bytes
+  MD5 checksum 40fd0d774af1d18a9afc6ad2f1b2d1a0
+  Compiled from "CakeSkillTrees.scala"
+public class rpg.cake2.DexNodes$DexStep$ extends scala.runtime.AbstractFunction1<rpg.cake2.NodesTraits$Node, rpg.cake2.DexNodes$DexStep> implements scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/cake2/DexNodes$DexStep$
+   #2 = Class              #1             // rpg/cake2/DexNodes$DexStep$
+   #3 = Utf8               Lscala/runtime/AbstractFunction1<Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/DexNodes$DexStep;>;Lscala/Serializable;
+   #4 = Utf8               scala/runtime/AbstractFunction1
+   #5 = Class              #4             // scala/runtime/AbstractFunction1
+   #6 = Utf8               scala/Serializable
+   #7 = Class              #6             // scala/Serializable
+   #8 = Utf8               CakeSkillTrees.scala
+   #9 = Utf8               rpg/cake2/DexNodes$DexStep
+  #10 = Class              #9             // rpg/cake2/DexNodes$DexStep
+  #11 = Utf8               rpg/cake2/DexNodes
+  #12 = Class              #11            // rpg/cake2/DexNodes
+  #13 = Utf8               DexStep
+  #14 = Utf8               DexStep$
+  #15 = Utf8               rpg/cake2/NodesTraits$Node
+  #16 = Class              #15            // rpg/cake2/NodesTraits$Node
+  #17 = Utf8               rpg/cake2/NodesTraits
+  #18 = Class              #17            // rpg/cake2/NodesTraits
+  #19 = Utf8               Node
+  #20 = Utf8               $outer
+  #21 = Utf8               Lrpg/cake2/NodesTraits;
+  #22 = Utf8               toString
+  #23 = Utf8               ()Ljava/lang/String;
+  #24 = String             #13            // DexStep
+  #25 = Utf8               this
+  #26 = Utf8               Lrpg/cake2/DexNodes$DexStep$;
+  #27 = Utf8               apply
+  #28 = Utf8               (Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/DexNodes$DexStep;
+  #29 = Utf8               to
+  #30 = NameAndType        #20:#21        // $outer:Lrpg/cake2/NodesTraits;
+  #31 = Fieldref           #2.#30         // rpg/cake2/DexNodes$DexStep$.$outer:Lrpg/cake2/NodesTraits;
+  #32 = Utf8               <init>
+  #33 = Utf8               (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+  #34 = NameAndType        #32:#33        // "<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+  #35 = Methodref          #10.#34        // rpg/cake2/DexNodes$DexStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+  #36 = Utf8               Lrpg/cake2/NodesTraits$Node;
+  #37 = Utf8               unapply
+  #38 = Utf8               (Lrpg/cake2/DexNodes$DexStep;)Lscala/Option;
+  #39 = Utf8               x$0
+  #40 = Utf8               scala/None$
+  #41 = Class              #40            // scala/None$
+  #42 = Utf8               MODULE$
+  #43 = Utf8               Lscala/None$;
+  #44 = NameAndType        #42:#43        // MODULE$:Lscala/None$;
+  #45 = Fieldref           #41.#44        // scala/None$.MODULE$:Lscala/None$;
+  #46 = Utf8               scala/Some
+  #47 = Class              #46            // scala/Some
+  #48 = Utf8               ()Lrpg/cake2/NodesTraits$Node;
+  #49 = NameAndType        #29:#48        // to:()Lrpg/cake2/NodesTraits$Node;
+  #50 = Methodref          #10.#49        // rpg/cake2/DexNodes$DexStep.to:()Lrpg/cake2/NodesTraits$Node;
+  #51 = Utf8               (Ljava/lang/Object;)V
+  #52 = NameAndType        #32:#51        // "<init>":(Ljava/lang/Object;)V
+  #53 = Methodref          #47.#52        // scala/Some."<init>":(Ljava/lang/Object;)V
+  #54 = Utf8               Lrpg/cake2/DexNodes$DexStep;
+  #55 = Utf8               scala/Option
+  #56 = Class              #55            // scala/Option
+  #57 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+  #58 = Utf8               v1
+  #59 = NameAndType        #27:#28        // apply:(Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/DexNodes$DexStep;
+  #60 = Methodref          #2.#59         // rpg/cake2/DexNodes$DexStep$.apply:(Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/DexNodes$DexStep;
+  #61 = Utf8               Ljava/lang/Object;
+  #62 = Utf8               (Lrpg/cake2/NodesTraits;)V
+  #63 = Utf8               ()V
+  #64 = NameAndType        #32:#63        // "<init>":()V
+  #65 = Methodref          #5.#64         // scala/runtime/AbstractFunction1."<init>":()V
+  #66 = Utf8               Code
+  #67 = Utf8               LocalVariableTable
+  #68 = Utf8               LineNumberTable
+  #69 = Utf8               MethodParameters
+  #70 = Utf8               StackMapTable
+  #71 = Utf8               Signature
+  #72 = Utf8               (Lrpg/cake2/DexNodes$DexStep;)Lscala/Option<Lrpg/cake2/NodesTraits$Node;>;
+  #73 = Utf8               SourceFile
+  #74 = Utf8               InnerClasses
+  #75 = Utf8               ScalaInlineInfo
+  #76 = Utf8               Scala
+{
+  private final rpg.cake2.NodesTraits $outer;
+    descriptor: Lrpg/cake2/NodesTraits;
+    flags: ACC_PRIVATE, ACC_FINAL, ACC_SYNTHETIC
+
+  public final java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #24                 // String DexStep
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/cake2/DexNodes$DexStep$;
+      LineNumberTable:
+        line 15: 0
+
+  public rpg.cake2.DexNodes$DexStep apply(rpg.cake2.NodesTraits$Node);
+    descriptor: (Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/DexNodes$DexStep;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=2, args_size=2
+         0: new           #10                 // class rpg/cake2/DexNodes$DexStep
+         3: dup
+         4: aload_0
+         5: getfield      #31                 // Field $outer:Lrpg/cake2/NodesTraits;
+         8: aload_1
+         9: invokespecial #35                 // Method rpg/cake2/DexNodes$DexStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+        12: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      13     0  this   Lrpg/cake2/DexNodes$DexStep$;
+            0      13     1    to   Lrpg/cake2/NodesTraits$Node;
+      LineNumberTable:
+        line 15: 0
+    MethodParameters:
+      Name                           Flags
+      to                             final
+
+  public scala.Option<rpg.cake2.NodesTraits$Node> unapply(rpg.cake2.DexNodes$DexStep);
+    descriptor: (Lrpg/cake2/DexNodes$DexStep;)Lscala/Option;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     10
+         4: getstatic     #45                 // Field scala/None$.MODULE$:Lscala/None$;
+         7: goto          21
+        10: new           #47                 // class scala/Some
+        13: dup
+        14: aload_1
+        15: invokevirtual #50                 // Method rpg/cake2/DexNodes$DexStep.to:()Lrpg/cake2/NodesTraits$Node;
+        18: invokespecial #53                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+        21: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      22     0  this   Lrpg/cake2/DexNodes$DexStep$;
+            0      22     1   x$0   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 10 /* same */
+        frame_type = 74 /* same_locals_1_stack_item */
+          stack = [ class scala/Option ]
+    Signature: #72                          // (Lrpg/cake2/DexNodes$DexStep;)Lscala/Option<Lrpg/cake2/NodesTraits$Node;>;
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  public java.lang.Object apply(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Ljava/lang/Object;
+    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: checkcast     #16                 // class rpg/cake2/NodesTraits$Node
+         5: invokevirtual #60                 // Method apply:(Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/DexNodes$DexStep;
+         8: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/cake2/DexNodes$DexStep$;
+            0       9     1    v1   Ljava/lang/Object;
+      LineNumberTable:
+        line 15: 0
+    MethodParameters:
+      Name                           Flags
+      v1                             final
+
+  public rpg.cake2.DexNodes$DexStep$(rpg.cake2.NodesTraits);
+    descriptor: (Lrpg/cake2/NodesTraits;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     6
+         4: aconst_null
+         5: athrow
+         6: aload_0
+         7: aload_1
+         8: putfield      #31                 // Field $outer:Lrpg/cake2/NodesTraits;
+        11: aload_0
+        12: invokespecial #65                 // Method scala/runtime/AbstractFunction1."<init>":()V
+        15: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/DexNodes$DexStep$;
+            0      16     1 $outer   Lrpg/cake2/NodesTraits;
+      LineNumberTable:
+        line 15: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 6 /* same */
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+}
+Signature: #3                           // Lscala/runtime/AbstractFunction1<Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/DexNodes$DexStep;>;Lscala/Serializable;
+SourceFile: "CakeSkillTrees.scala"
+InnerClasses:
+     public #13= #10 of #12; //DexStep=class rpg/cake2/DexNodes$DexStep of class rpg/cake2/DexNodes
+     public #14= #2 of #12; //DexStep$=class rpg/cake2/DexNodes$DexStep$ of class rpg/cake2/DexNodes
+     public #19= #16 of #18; //Node=class rpg/cake2/NodesTraits$Node of class rpg/cake2/NodesTraits
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x1D
+   01 01 00 05 00 20 00 3E 01 00 1B 00 39 01 00 1B
+   00 1C 01 00 16 00 17 01 00 25 00 26 01
+Error: unknown attribute
+  Scala: length = 0x0
+

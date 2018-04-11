@@ -1,0 +1,18 @@
+Compiled from "Benchmarks.scala"
+public class rpg.bench.ColdBenchmark implements rpg.bench.Benchmarks {
+  public int patMat(rpg.bench.BenchmarkState);
+  public int slowPatMat(rpg.bench.BenchmarkState);
+  public int classesPatMat(rpg.bench.BenchmarkState);
+  public int steppedPatMat(rpg.bench.BenchmarkState);
+  public int steppedClassPatMat(rpg.bench.BenchmarkState);
+  public int typeclass(rpg.bench.BenchmarkState);
+  public int cake(rpg.bench.BenchmarkState);
+  public int cake2(rpg.bench.BenchmarkState);
+  public int oooTree(rpg.bench.BenchmarkState);
+  public int oooSubcalls(rpg.bench.BenchmarkState);
+  public int oooLambdas(rpg.bench.BenchmarkState);
+  public int oooNested(rpg.bench.BenchmarkState);
+  public int javaOOO(rpg.bench.BenchmarkState);
+  public int javaFast(rpg.bench.BenchmarkState);
+  public rpg.bench.ColdBenchmark();
+}

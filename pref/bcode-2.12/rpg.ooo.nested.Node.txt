@@ -1,0 +1,4 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.nested.Node {
+  public abstract int cost(rpg.PlayerTraits);
+}

@@ -1,0 +1,6 @@
+Compiled from "CakeSkillTrees.scala"
+public final class rpg.cake.CakeSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.cake.DexNodes$DexTree> {
+  private final rpg.PlayerTraits traits$1;
+  public int totalCost();
+  public rpg.cake.CakeSkillTrees$$anon$1(rpg.cake.CakeSkillTrees, rpg.PlayerTraits, rpg.cake.DexNodes$DexTree);
+}

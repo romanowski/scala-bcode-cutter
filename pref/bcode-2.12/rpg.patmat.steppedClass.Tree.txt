@@ -1,0 +1,8 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.Tree extends rpg.patmat.steppedClass.Node {
+  public rpg.patmat.steppedClass.Tree();
+    Code:
+       0: aload_0
+       1: invokespecial #12                 // Method rpg/patmat/steppedClass/Node."<init>":()V
+       4: return
+}

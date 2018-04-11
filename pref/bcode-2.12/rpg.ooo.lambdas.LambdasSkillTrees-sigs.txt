@@ -1,0 +1,26 @@
+Compiled from "LambdasSkillTrees.scala"
+public class rpg.ooo.lambdas.LambdasSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$1(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$2(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$3(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$4(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$5(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$6(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$7(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$8(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$9(rpg.PlayerTraits);
+  public static final int $anonfun$archeryTree$10(rpg.PlayerTraits);
+  public rpg.ooo.lambdas.LambdasSkillTrees();
+  public static final java.lang.Object $anonfun$archeryTree$1$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$2$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$3$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$4$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$5$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$6$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$7$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$8$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$9$adapted(rpg.PlayerTraits);
+  public static final java.lang.Object $anonfun$archeryTree$10$adapted(rpg.PlayerTraits);
+  private static java.lang.Object $deserializeLambda$(java.lang.invoke.SerializedLambda);
+}

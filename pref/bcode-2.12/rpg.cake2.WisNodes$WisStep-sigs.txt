@@ -1,0 +1,18 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake2.WisNodes$WisStep implements rpg.cake2.NodesTraits$Node,scala.Product,scala.Serializable {
+  private final rpg.cake2.NodesTraits$Node to;
+  public final rpg.cake2.NodesTraits $outer;
+  public rpg.cake2.NodesTraits$Node to();
+  public rpg.cake2.WisNodes$WisStep copy(rpg.cake2.NodesTraits$Node);
+  public rpg.cake2.NodesTraits$Node copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.cake2.NodesTraits rpg$cake2$WisNodes$WisStep$$$outer();
+  public rpg.cake2.WisNodes$WisStep(rpg.cake2.NodesTraits, rpg.cake2.NodesTraits$Node);
+}

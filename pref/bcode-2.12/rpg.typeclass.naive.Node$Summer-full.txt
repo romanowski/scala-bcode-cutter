@@ -1,0 +1,49 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/typeclass/naive/Node$Summer.class
+  Last modified Apr 8, 2018; size 456 bytes
+  MD5 checksum 5caf5439c25a876b0f0e66c595023a57
+  Compiled from "TypeclassSkillTrees.scala"
+public interface rpg.typeclass.naive.Node$Summer<T extends java.lang.Object>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/typeclass/naive/Node$Summer
+   #2 = Class              #1             // rpg/typeclass/naive/Node$Summer
+   #3 = Utf8               <T:Ljava/lang/Object;>Ljava/lang/Object;
+   #4 = Utf8               java/lang/Object
+   #5 = Class              #4             // java/lang/Object
+   #6 = Utf8               TypeclassSkillTrees.scala
+   #7 = Utf8               rpg/typeclass/naive/Node
+   #8 = Class              #7             // rpg/typeclass/naive/Node
+   #9 = Utf8               Summer
+  #10 = Utf8               sumExp
+  #11 = Utf8               (Ljava/lang/Object;Lrpg/PlayerTraits;)I
+  #12 = Utf8               tree
+  #13 = Utf8               traits
+  #14 = Utf8               Signature
+  #15 = Utf8               (TT;Lrpg/PlayerTraits;)I
+  #16 = Utf8               MethodParameters
+  #17 = Utf8               SourceFile
+  #18 = Utf8               InnerClasses
+  #19 = Utf8               ScalaInlineInfo
+  #20 = Utf8               Scala
+{
+  public abstract int sumExp(T, rpg.PlayerTraits);
+    descriptor: (Ljava/lang/Object;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+    Signature: #15                          // (TT;Lrpg/PlayerTraits;)I
+    MethodParameters:
+      Name                           Flags
+      tree                           final
+      traits                         final
+}
+Signature: #3                           // <T:Ljava/lang/Object;>Ljava/lang/Object;
+SourceFile: "TypeclassSkillTrees.scala"
+InnerClasses:
+     public static #9= #2 of #8; //Summer=class rpg/typeclass/naive/Node$Summer of class rpg/typeclass/naive/Node
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 00 00 01 00 0A 00 0B 00
+Error: unknown attribute
+  Scala: length = 0x0
+

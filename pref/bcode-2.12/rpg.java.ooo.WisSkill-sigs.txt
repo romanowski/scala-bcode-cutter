@@ -1,0 +1,6 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.WisSkill implements rpg.java.ooo.Node {
+  java.lang.String name;
+  rpg.java.ooo.WisSkill(java.lang.String);
+  public int cost(rpg.PlayerTraits);
+}

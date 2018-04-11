@@ -1,0 +1,9 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake2.WisNodes$WisTree$ extends scala.runtime.AbstractFunction2<rpg.cake2.NodesTraits$Node, rpg.cake2.NodesTraits$Node, rpg.cake2.WisNodes$WisTree> implements scala.Serializable {
+  private final rpg.cake2.NodesTraits $outer;
+  public final java.lang.String toString();
+  public rpg.cake2.WisNodes$WisTree apply(rpg.cake2.NodesTraits$Node, rpg.cake2.NodesTraits$Node);
+  public scala.Option<scala.Tuple2<rpg.cake2.NodesTraits$Node, rpg.cake2.NodesTraits$Node>> unapply(rpg.cake2.WisNodes$WisTree);
+  public java.lang.Object apply(java.lang.Object, java.lang.Object);
+  public rpg.cake2.WisNodes$WisTree$(rpg.cake2.NodesTraits);
+}

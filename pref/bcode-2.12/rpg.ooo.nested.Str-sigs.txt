@@ -1,0 +1,7 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.nested.Str {
+  public static rpg.ooo.nested.FeatTree$Skill$ Skill();
+  public static rpg.ooo.nested.FeatTree$Step$ Step();
+  public static rpg.ooo.nested.FeatTree$Tree$ Tree();
+  public static int thisCost(rpg.PlayerTraits);
+}

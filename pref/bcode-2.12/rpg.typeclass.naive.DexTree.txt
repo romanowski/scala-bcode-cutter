@@ -1,0 +1,177 @@
+Compiled from "TypeclassSkillTrees.scala"
+public class rpg.typeclass.naive.DexTree<L, R> implements rpg.typeclass.naive.Node, scala.Product, scala.Serializable {
+  private final L left;
+
+  private final R right;
+
+  public static <L, R> scala.Option<scala.Tuple2<L, R>> unapply(rpg.typeclass.naive.DexTree<L, R>);
+    Code:
+       0: getstatic     #28                 // Field rpg/typeclass/naive/DexTree$.MODULE$:Lrpg/typeclass/naive/DexTree$;
+       3: aload_0
+       4: invokevirtual #30                 // Method rpg/typeclass/naive/DexTree$.unapply:(Lrpg/typeclass/naive/DexTree;)Lscala/Option;
+       7: areturn
+
+  public static <L, R> rpg.typeclass.naive.DexTree<L, R> apply(L, R);
+    Code:
+       0: getstatic     #28                 // Field rpg/typeclass/naive/DexTree$.MODULE$:Lrpg/typeclass/naive/DexTree$;
+       3: aload_0
+       4: aload_1
+       5: invokevirtual #34                 // Method rpg/typeclass/naive/DexTree$.apply:(Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/DexTree;
+       8: areturn
+
+  public L left();
+    Code:
+       0: aload_0
+       1: getfield      #37                 // Field left:Ljava/lang/Object;
+       4: areturn
+
+  public R right();
+    Code:
+       0: aload_0
+       1: getfield      #41                 // Field right:Ljava/lang/Object;
+       4: areturn
+
+  public <L, R> rpg.typeclass.naive.DexTree<L, R> copy(L, R);
+    Code:
+       0: new           #2                  // class rpg/typeclass/naive/DexTree
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: invokespecial #46                 // Method "<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+       9: areturn
+
+  public <L, R> L copy$default$1();
+    Code:
+       0: aload_0
+       1: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+       4: areturn
+
+  public <L, R> R copy$default$2();
+    Code:
+       0: aload_0
+       1: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+       4: areturn
+
+  public java.lang.String productPrefix();
+    Code:
+       0: ldc           #56                 // String DexTree
+       2: areturn
+
+  public int productArity();
+    Code:
+       0: iconst_2
+       1: ireturn
+
+  public java.lang.Object productElement(int);
+    Code:
+       0: iload_1
+       1: istore_2
+       2: iload_2
+       3: tableswitch   { // 0 to 1
+                     0: 24
+                     1: 31
+               default: 38
+          }
+      24: aload_0
+      25: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+      28: goto          53
+      31: aload_0
+      32: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+      35: goto          53
+      38: new           #63                 // class java/lang/IndexOutOfBoundsException
+      41: dup
+      42: iload_1
+      43: invokestatic  #69                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      46: invokevirtual #72                 // Method java/lang/Object.toString:()Ljava/lang/String;
+      49: invokespecial #75                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+      52: athrow
+      53: areturn
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    Code:
+       0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #87                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+       7: areturn
+
+  public boolean canEqual(java.lang.Object);
+    Code:
+       0: aload_1
+       1: instanceof    #2                  // class rpg/typeclass/naive/DexTree
+       4: ireturn
+
+  public int hashCode();
+    Code:
+       0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #94                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+       7: ireturn
+
+  public java.lang.String toString();
+    Code:
+       0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #98                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+       7: areturn
+
+  public boolean equals(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: if_acmpeq     84
+       5: aload_1
+       6: astore_3
+       7: aload_3
+       8: instanceof    #2                  // class rpg/typeclass/naive/DexTree
+      11: ifeq          19
+      14: iconst_1
+      15: istore_2
+      16: goto          27
+      19: goto          22
+      22: iconst_0
+      23: istore_2
+      24: goto          27
+      27: iload_2
+      28: ifeq          88
+      31: aload_1
+      32: checkcast     #2                  // class rpg/typeclass/naive/DexTree
+      35: astore        4
+      37: aload_0
+      38: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+      41: aload         4
+      43: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+      46: invokestatic  #102                // Method scala/runtime/BoxesRunTime.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+      49: ifeq          80
+      52: aload_0
+      53: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+      56: aload         4
+      58: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+      61: invokestatic  #102                // Method scala/runtime/BoxesRunTime.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+      64: ifeq          80
+      67: aload         4
+      69: aload_0
+      70: invokevirtual #104                // Method canEqual:(Ljava/lang/Object;)Z
+      73: ifeq          80
+      76: iconst_1
+      77: goto          81
+      80: iconst_0
+      81: ifeq          88
+      84: iconst_1
+      85: goto          89
+      88: iconst_0
+      89: ireturn
+
+  public rpg.typeclass.naive.DexTree(L, R);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #37                 // Field left:Ljava/lang/Object;
+       5: aload_0
+       6: aload_2
+       7: putfield      #41                 // Field right:Ljava/lang/Object;
+      10: aload_0
+      11: invokespecial #107                // Method java/lang/Object."<init>":()V
+      14: aload_0
+      15: invokestatic  #111                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+      18: return
+}

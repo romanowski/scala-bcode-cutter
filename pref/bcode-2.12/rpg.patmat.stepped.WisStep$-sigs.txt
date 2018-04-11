@@ -1,0 +1,11 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.stepped.WisStep$ extends scala.runtime.AbstractFunction1<rpg.patmat.stepped.Node, rpg.patmat.stepped.WisStep> implements scala.Serializable {
+  public static rpg.patmat.stepped.WisStep$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.patmat.stepped.WisStep apply(rpg.patmat.stepped.Node);
+  public scala.Option<rpg.patmat.stepped.Node> unapply(rpg.patmat.stepped.WisStep);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.patmat.stepped.WisStep$();
+}

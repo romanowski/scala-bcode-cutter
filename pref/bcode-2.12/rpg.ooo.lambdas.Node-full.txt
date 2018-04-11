@@ -1,0 +1,42 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/lambdas/Node.class
+  Last modified Apr 8, 2018; size 557 bytes
+  MD5 checksum b30d764ae38df7af70d62abd2f099d65
+  Compiled from "LambdasSkillTrees.scala"
+public interface rpg.ooo.lambdas.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/ooo/lambdas/Node
+   #2 = Class              #1             // rpg/ooo/lambdas/Node
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               LambdasSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               \r2q!GBO_,'BAa-2eCNT!!=|wNC\roZ'\t!5\tABC8-7b\tyABB]fVM#1\tAEG>H-A1F+11!8u91!(/Y5ugBDG\r%1D\r!20:UeLGo]uy%\t)1k[5mY&E'R,/#\t!AK]3f
+   #9 = Utf8               cost
+  #10 = Utf8               (Lrpg/PlayerTraits;)I
+  #11 = Utf8               traits
+  #12 = Utf8               MethodParameters
+  #13 = Utf8               SourceFile
+  #14 = Utf8               RuntimeVisibleAnnotations
+  #15 = Utf8               ScalaInlineInfo
+  #16 = Utf8               ScalaSig
+{
+  public abstract int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+}
+SourceFile: "LambdasSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 00 00 01 00 09 00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

@@ -1,0 +1,11 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.StrSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.typeclass.naive.StrSkill> implements scala.Serializable {
+  public static rpg.typeclass.naive.StrSkill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.typeclass.naive.StrSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.typeclass.naive.StrSkill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.typeclass.naive.StrSkill$();
+}

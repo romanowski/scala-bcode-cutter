@@ -1,0 +1,5 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public class rpg.ooo.subcalls.OOOSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+  public rpg.ooo.subcalls.OOOSkillTrees();
+}

@@ -1,0 +1,10 @@
+Compiled from "SkillTrees.scala"
+public abstract class rpg.SkillTrees {
+  public abstract rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+
+  public rpg.SkillTrees();
+    Code:
+       0: aload_0
+       1: invokespecial #15                 // Method java/lang/Object."<init>":()V
+       4: return
+}

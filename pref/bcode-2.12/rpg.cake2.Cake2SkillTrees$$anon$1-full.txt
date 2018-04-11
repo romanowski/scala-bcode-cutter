@@ -1,0 +1,886 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/Cake2SkillTrees$$anon$1.class
+  Last modified Apr 8, 2018; size 5115 bytes
+  MD5 checksum aa1ae500f1d4be5dc73f8dd5574d92a1
+  Compiled from "CakeSkillTrees.scala"
+public final class rpg.cake2.Cake2SkillTrees$$anon$1 implements rpg.cake2.NodesTraits
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/cake2/Cake2SkillTrees$$anon$1
+    #2 = Class              #1            // rpg/cake2/Cake2SkillTrees$$anon$1
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/cake2/NodesTraits
+    #6 = Class              #5            // rpg/cake2/NodesTraits
+    #7 = Utf8               CakeSkillTrees.scala
+    #8 = Utf8               rpg/cake2/Cake2SkillTrees
+    #9 = Class              #8            // rpg/cake2/Cake2SkillTrees
+   #10 = Utf8               archeryTree
+   #11 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #12 = NameAndType        #10:#11       // archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #13 = Utf8               rpg/cake2/DexNodes$DexSkill$
+   #14 = Class              #13           // rpg/cake2/DexNodes$DexSkill$
+   #15 = Utf8               rpg/cake2/DexNodes
+   #16 = Class              #15           // rpg/cake2/DexNodes
+   #17 = Utf8               DexSkill$
+   #18 = Utf8               rpg/cake2/DexNodes$DexStep$
+   #19 = Class              #18           // rpg/cake2/DexNodes$DexStep$
+   #20 = Utf8               DexStep$
+   #21 = Utf8               rpg/cake2/DexNodes$DexTree$
+   #22 = Class              #21           // rpg/cake2/DexNodes$DexTree$
+   #23 = Utf8               DexTree$
+   #24 = Utf8               rpg/cake2/NodesTraits$Node
+   #25 = Class              #24           // rpg/cake2/NodesTraits$Node
+   #26 = Utf8               Node
+   #27 = Utf8               rpg/cake2/StrNodes$StrSkill$
+   #28 = Class              #27           // rpg/cake2/StrNodes$StrSkill$
+   #29 = Utf8               rpg/cake2/StrNodes
+   #30 = Class              #29           // rpg/cake2/StrNodes
+   #31 = Utf8               StrSkill$
+   #32 = Utf8               rpg/cake2/StrNodes$StrStep$
+   #33 = Class              #32           // rpg/cake2/StrNodes$StrStep$
+   #34 = Utf8               StrStep$
+   #35 = Utf8               rpg/cake2/StrNodes$StrTree$
+   #36 = Class              #35           // rpg/cake2/StrNodes$StrTree$
+   #37 = Utf8               StrTree$
+   #38 = Utf8               rpg/cake2/WisNodes$WisSkill$
+   #39 = Class              #38           // rpg/cake2/WisNodes$WisSkill$
+   #40 = Utf8               rpg/cake2/WisNodes
+   #41 = Class              #40           // rpg/cake2/WisNodes
+   #42 = Utf8               WisSkill$
+   #43 = Utf8               rpg/cake2/WisNodes$WisStep$
+   #44 = Class              #43           // rpg/cake2/WisNodes$WisStep$
+   #45 = Utf8               WisStep$
+   #46 = Utf8               rpg/cake2/WisNodes$WisTree$
+   #47 = Class              #46           // rpg/cake2/WisNodes$WisTree$
+   #48 = Utf8               WisTree$
+   #49 = Utf8               StrTree$module
+   #50 = Utf8               Lrpg/cake2/StrNodes$StrTree$;
+   #51 = Utf8               StrStep$module
+   #52 = Utf8               Lrpg/cake2/StrNodes$StrStep$;
+   #53 = Utf8               StrSkill$module
+   #54 = Utf8               Lrpg/cake2/StrNodes$StrSkill$;
+   #55 = Utf8               DexSkill$module
+   #56 = Utf8               Lrpg/cake2/DexNodes$DexSkill$;
+   #57 = Utf8               DexStep$module
+   #58 = Utf8               Lrpg/cake2/DexNodes$DexStep$;
+   #59 = Utf8               DexTree$module
+   #60 = Utf8               Lrpg/cake2/DexNodes$DexTree$;
+   #61 = Utf8               WisTree$module
+   #62 = Utf8               Lrpg/cake2/WisNodes$WisTree$;
+   #63 = Utf8               WisStep$module
+   #64 = Utf8               Lrpg/cake2/WisNodes$WisStep$;
+   #65 = Utf8               WisSkill$module
+   #66 = Utf8               Lrpg/cake2/WisNodes$WisSkill$;
+   #67 = Utf8               playerTraits$1
+   #68 = Utf8               Lrpg/PlayerTraits;
+   #69 = Utf8               totalSkill
+   #70 = Utf8               (Lrpg/cake2/NodesTraits$Node;)I
+   #71 = Utf8               node
+   #72 = Utf8               totalSkill$
+   #73 = Utf8               (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)I
+   #74 = NameAndType        #72:#73       // totalSkill$:(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)I
+   #75 = InterfaceMethodref #6.#74        // rpg/cake2/NodesTraits.totalSkill$:(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)I
+   #76 = Utf8               this
+   #77 = Utf8               Lrpg/cake2/Cake2SkillTrees$$anon$1;
+   #78 = Utf8               Lrpg/cake2/NodesTraits$Node;
+   #79 = Utf8               StrTree
+   #80 = Utf8               ()Lrpg/cake2/StrNodes$StrTree$;
+   #81 = NameAndType        #49:#50       // StrTree$module:Lrpg/cake2/StrNodes$StrTree$;
+   #82 = Fieldref           #2.#81        // rpg/cake2/Cake2SkillTrees$$anon$1.StrTree$module:Lrpg/cake2/StrNodes$StrTree$;
+   #83 = Utf8               StrTree$lzycompute$1
+   #84 = Utf8               ()V
+   #85 = NameAndType        #83:#84       // StrTree$lzycompute$1:()V
+   #86 = Methodref          #2.#85        // rpg/cake2/Cake2SkillTrees$$anon$1.StrTree$lzycompute$1:()V
+   #87 = Utf8               StrStep
+   #88 = Utf8               ()Lrpg/cake2/StrNodes$StrStep$;
+   #89 = NameAndType        #51:#52       // StrStep$module:Lrpg/cake2/StrNodes$StrStep$;
+   #90 = Fieldref           #2.#89        // rpg/cake2/Cake2SkillTrees$$anon$1.StrStep$module:Lrpg/cake2/StrNodes$StrStep$;
+   #91 = Utf8               StrStep$lzycompute$1
+   #92 = NameAndType        #91:#84       // StrStep$lzycompute$1:()V
+   #93 = Methodref          #2.#92        // rpg/cake2/Cake2SkillTrees$$anon$1.StrStep$lzycompute$1:()V
+   #94 = Utf8               StrSkill
+   #95 = Utf8               ()Lrpg/cake2/StrNodes$StrSkill$;
+   #96 = NameAndType        #53:#54       // StrSkill$module:Lrpg/cake2/StrNodes$StrSkill$;
+   #97 = Fieldref           #2.#96        // rpg/cake2/Cake2SkillTrees$$anon$1.StrSkill$module:Lrpg/cake2/StrNodes$StrSkill$;
+   #98 = Utf8               StrSkill$lzycompute$1
+   #99 = NameAndType        #98:#84       // StrSkill$lzycompute$1:()V
+  #100 = Methodref          #2.#99        // rpg/cake2/Cake2SkillTrees$$anon$1.StrSkill$lzycompute$1:()V
+  #101 = Utf8               DexSkill
+  #102 = Utf8               ()Lrpg/cake2/DexNodes$DexSkill$;
+  #103 = NameAndType        #55:#56       // DexSkill$module:Lrpg/cake2/DexNodes$DexSkill$;
+  #104 = Fieldref           #2.#103       // rpg/cake2/Cake2SkillTrees$$anon$1.DexSkill$module:Lrpg/cake2/DexNodes$DexSkill$;
+  #105 = Utf8               DexSkill$lzycompute$1
+  #106 = NameAndType        #105:#84      // DexSkill$lzycompute$1:()V
+  #107 = Methodref          #2.#106       // rpg/cake2/Cake2SkillTrees$$anon$1.DexSkill$lzycompute$1:()V
+  #108 = Utf8               DexStep
+  #109 = Utf8               ()Lrpg/cake2/DexNodes$DexStep$;
+  #110 = NameAndType        #57:#58       // DexStep$module:Lrpg/cake2/DexNodes$DexStep$;
+  #111 = Fieldref           #2.#110       // rpg/cake2/Cake2SkillTrees$$anon$1.DexStep$module:Lrpg/cake2/DexNodes$DexStep$;
+  #112 = Utf8               DexStep$lzycompute$1
+  #113 = NameAndType        #112:#84      // DexStep$lzycompute$1:()V
+  #114 = Methodref          #2.#113       // rpg/cake2/Cake2SkillTrees$$anon$1.DexStep$lzycompute$1:()V
+  #115 = Utf8               DexTree
+  #116 = Utf8               ()Lrpg/cake2/DexNodes$DexTree$;
+  #117 = NameAndType        #59:#60       // DexTree$module:Lrpg/cake2/DexNodes$DexTree$;
+  #118 = Fieldref           #2.#117       // rpg/cake2/Cake2SkillTrees$$anon$1.DexTree$module:Lrpg/cake2/DexNodes$DexTree$;
+  #119 = Utf8               DexTree$lzycompute$1
+  #120 = NameAndType        #119:#84      // DexTree$lzycompute$1:()V
+  #121 = Methodref          #2.#120       // rpg/cake2/Cake2SkillTrees$$anon$1.DexTree$lzycompute$1:()V
+  #122 = Utf8               WisTree
+  #123 = Utf8               ()Lrpg/cake2/WisNodes$WisTree$;
+  #124 = NameAndType        #61:#62       // WisTree$module:Lrpg/cake2/WisNodes$WisTree$;
+  #125 = Fieldref           #2.#124       // rpg/cake2/Cake2SkillTrees$$anon$1.WisTree$module:Lrpg/cake2/WisNodes$WisTree$;
+  #126 = Utf8               WisTree$lzycompute$1
+  #127 = NameAndType        #126:#84      // WisTree$lzycompute$1:()V
+  #128 = Methodref          #2.#127       // rpg/cake2/Cake2SkillTrees$$anon$1.WisTree$lzycompute$1:()V
+  #129 = Utf8               WisStep
+  #130 = Utf8               ()Lrpg/cake2/WisNodes$WisStep$;
+  #131 = NameAndType        #63:#64       // WisStep$module:Lrpg/cake2/WisNodes$WisStep$;
+  #132 = Fieldref           #2.#131       // rpg/cake2/Cake2SkillTrees$$anon$1.WisStep$module:Lrpg/cake2/WisNodes$WisStep$;
+  #133 = Utf8               WisStep$lzycompute$1
+  #134 = NameAndType        #133:#84      // WisStep$lzycompute$1:()V
+  #135 = Methodref          #2.#134       // rpg/cake2/Cake2SkillTrees$$anon$1.WisStep$lzycompute$1:()V
+  #136 = Utf8               WisSkill
+  #137 = Utf8               ()Lrpg/cake2/WisNodes$WisSkill$;
+  #138 = NameAndType        #65:#66       // WisSkill$module:Lrpg/cake2/WisNodes$WisSkill$;
+  #139 = Fieldref           #2.#138       // rpg/cake2/Cake2SkillTrees$$anon$1.WisSkill$module:Lrpg/cake2/WisNodes$WisSkill$;
+  #140 = Utf8               WisSkill$lzycompute$1
+  #141 = NameAndType        #140:#84      // WisSkill$lzycompute$1:()V
+  #142 = Methodref          #2.#141       // rpg/cake2/Cake2SkillTrees$$anon$1.WisSkill$lzycompute$1:()V
+  #143 = Utf8               traits
+  #144 = Utf8               ()Lrpg/PlayerTraits;
+  #145 = NameAndType        #67:#68       // playerTraits$1:Lrpg/PlayerTraits;
+  #146 = Fieldref           #2.#145       // rpg/cake2/Cake2SkillTrees$$anon$1.playerTraits$1:Lrpg/PlayerTraits;
+  #147 = Utf8               <init>
+  #148 = Utf8               (Lrpg/cake2/NodesTraits;)V
+  #149 = NameAndType        #147:#148     // "<init>":(Lrpg/cake2/NodesTraits;)V
+  #150 = Methodref          #36.#149      // rpg/cake2/StrNodes$StrTree$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #151 = Utf8               java/lang/Throwable
+  #152 = Class              #151          // java/lang/Throwable
+  #153 = Methodref          #33.#149      // rpg/cake2/StrNodes$StrStep$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #154 = Methodref          #28.#149      // rpg/cake2/StrNodes$StrSkill$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #155 = Methodref          #14.#149      // rpg/cake2/DexNodes$DexSkill$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #156 = Methodref          #19.#149      // rpg/cake2/DexNodes$DexStep$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #157 = Methodref          #22.#149      // rpg/cake2/DexNodes$DexTree$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #158 = Methodref          #47.#149      // rpg/cake2/WisNodes$WisTree$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #159 = Methodref          #44.#149      // rpg/cake2/WisNodes$WisStep$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #160 = Methodref          #39.#149      // rpg/cake2/WisNodes$WisSkill$."<init>":(Lrpg/cake2/NodesTraits;)V
+  #161 = Utf8               (Lrpg/cake2/Cake2SkillTrees;Lrpg/PlayerTraits;)V
+  #162 = Utf8               $outer
+  #163 = NameAndType        #147:#84      // "<init>":()V
+  #164 = Methodref          #4.#163       // java/lang/Object."<init>":()V
+  #165 = Utf8               $init$
+  #166 = Utf8               (Lrpg/cake2/WisNodes;)V
+  #167 = NameAndType        #165:#166     // $init$:(Lrpg/cake2/WisNodes;)V
+  #168 = InterfaceMethodref #41.#167      // rpg/cake2/WisNodes.$init$:(Lrpg/cake2/WisNodes;)V
+  #169 = Utf8               (Lrpg/cake2/DexNodes;)V
+  #170 = NameAndType        #165:#169     // $init$:(Lrpg/cake2/DexNodes;)V
+  #171 = InterfaceMethodref #16.#170      // rpg/cake2/DexNodes.$init$:(Lrpg/cake2/DexNodes;)V
+  #172 = Utf8               (Lrpg/cake2/StrNodes;)V
+  #173 = NameAndType        #165:#172     // $init$:(Lrpg/cake2/StrNodes;)V
+  #174 = InterfaceMethodref #30.#173      // rpg/cake2/StrNodes.$init$:(Lrpg/cake2/StrNodes;)V
+  #175 = NameAndType        #165:#148     // $init$:(Lrpg/cake2/NodesTraits;)V
+  #176 = InterfaceMethodref #6.#175       // rpg/cake2/NodesTraits.$init$:(Lrpg/cake2/NodesTraits;)V
+  #177 = Utf8               Lrpg/cake2/Cake2SkillTrees;
+  #178 = Utf8               Code
+  #179 = Utf8               LocalVariableTable
+  #180 = Utf8               LineNumberTable
+  #181 = Utf8               MethodParameters
+  #182 = Utf8               StackMapTable
+  #183 = Utf8               SourceFile
+  #184 = Utf8               EnclosingMethod
+  #185 = Utf8               InnerClasses
+  #186 = Utf8               ScalaInlineInfo
+  #187 = Utf8               Scala
+{
+  private volatile rpg.cake2.StrNodes$StrTree$ StrTree$module;
+    descriptor: Lrpg/cake2/StrNodes$StrTree$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.StrNodes$StrStep$ StrStep$module;
+    descriptor: Lrpg/cake2/StrNodes$StrStep$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.StrNodes$StrSkill$ StrSkill$module;
+    descriptor: Lrpg/cake2/StrNodes$StrSkill$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.DexNodes$DexSkill$ DexSkill$module;
+    descriptor: Lrpg/cake2/DexNodes$DexSkill$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.DexNodes$DexStep$ DexStep$module;
+    descriptor: Lrpg/cake2/DexNodes$DexStep$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.DexNodes$DexTree$ DexTree$module;
+    descriptor: Lrpg/cake2/DexNodes$DexTree$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.WisNodes$WisTree$ WisTree$module;
+    descriptor: Lrpg/cake2/WisNodes$WisTree$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.WisNodes$WisStep$ WisStep$module;
+    descriptor: Lrpg/cake2/WisNodes$WisStep$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.cake2.WisNodes$WisSkill$ WisSkill$module;
+    descriptor: Lrpg/cake2/WisNodes$WisSkill$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private final rpg.PlayerTraits playerTraits$1;
+    descriptor: Lrpg/PlayerTraits;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public int totalSkill(rpg.cake2.NodesTraits$Node);
+    descriptor: (Lrpg/cake2/NodesTraits$Node;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #75                 // InterfaceMethod rpg/cake2/NodesTraits.totalSkill$:(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+            0       6     1  node   Lrpg/cake2/NodesTraits$Node;
+      LineNumberTable:
+        line 64: 0
+    MethodParameters:
+      Name                           Flags
+      node                           final
+
+  public rpg.cake2.StrNodes$StrTree$ StrTree();
+    descriptor: ()Lrpg/cake2/StrNodes$StrTree$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #82                 // Field StrTree$module:Lrpg/cake2/StrNodes$StrTree$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #86                 // Method StrTree$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #82                 // Field StrTree$module:Lrpg/cake2/StrNodes$StrTree$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.StrNodes$StrStep$ StrStep();
+    descriptor: ()Lrpg/cake2/StrNodes$StrStep$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #90                 // Field StrStep$module:Lrpg/cake2/StrNodes$StrStep$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #93                 // Method StrStep$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #90                 // Field StrStep$module:Lrpg/cake2/StrNodes$StrStep$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.StrNodes$StrSkill$ StrSkill();
+    descriptor: ()Lrpg/cake2/StrNodes$StrSkill$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #97                 // Field StrSkill$module:Lrpg/cake2/StrNodes$StrSkill$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #100                // Method StrSkill$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #97                 // Field StrSkill$module:Lrpg/cake2/StrNodes$StrSkill$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.DexNodes$DexSkill$ DexSkill();
+    descriptor: ()Lrpg/cake2/DexNodes$DexSkill$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #104                // Field DexSkill$module:Lrpg/cake2/DexNodes$DexSkill$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #107                // Method DexSkill$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #104                // Field DexSkill$module:Lrpg/cake2/DexNodes$DexSkill$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.DexNodes$DexStep$ DexStep();
+    descriptor: ()Lrpg/cake2/DexNodes$DexStep$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #111                // Field DexStep$module:Lrpg/cake2/DexNodes$DexStep$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #114                // Method DexStep$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #111                // Field DexStep$module:Lrpg/cake2/DexNodes$DexStep$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.DexNodes$DexTree$ DexTree();
+    descriptor: ()Lrpg/cake2/DexNodes$DexTree$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #118                // Field DexTree$module:Lrpg/cake2/DexNodes$DexTree$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #121                // Method DexTree$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #118                // Field DexTree$module:Lrpg/cake2/DexNodes$DexTree$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.WisNodes$WisTree$ WisTree();
+    descriptor: ()Lrpg/cake2/WisNodes$WisTree$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #125                // Field WisTree$module:Lrpg/cake2/WisNodes$WisTree$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #128                // Method WisTree$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #125                // Field WisTree$module:Lrpg/cake2/WisNodes$WisTree$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.WisNodes$WisStep$ WisStep();
+    descriptor: ()Lrpg/cake2/WisNodes$WisStep$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #132                // Field WisStep$module:Lrpg/cake2/WisNodes$WisStep$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #135                // Method WisStep$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #132                // Field WisStep$module:Lrpg/cake2/WisNodes$WisStep$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.cake2.WisNodes$WisSkill$ WisSkill();
+    descriptor: ()Lrpg/cake2/WisNodes$WisSkill$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #139                // Field WisSkill$module:Lrpg/cake2/WisNodes$WisSkill$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #142                // Method WisSkill$lzycompute$1:()V
+        11: aload_0
+        12: getfield      #139                // Field WisSkill$module:Lrpg/cake2/WisNodes$WisSkill$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.PlayerTraits traits();
+    descriptor: ()Lrpg/PlayerTraits;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #146                // Field playerTraits$1:Lrpg/PlayerTraits;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 65: 0
+
+  private final void StrTree$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #82                 // Field StrTree$module:Lrpg/cake2/StrNodes$StrTree$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #36                 // class rpg/cake2/StrNodes$StrTree$
+        15: dup
+        16: aload_0
+        17: invokespecial #150                // Method rpg/cake2/StrNodes$StrTree$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #82                 // Field StrTree$module:Lrpg/cake2/StrNodes$StrTree$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void StrStep$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #90                 // Field StrStep$module:Lrpg/cake2/StrNodes$StrStep$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #33                 // class rpg/cake2/StrNodes$StrStep$
+        15: dup
+        16: aload_0
+        17: invokespecial #153                // Method rpg/cake2/StrNodes$StrStep$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #90                 // Field StrStep$module:Lrpg/cake2/StrNodes$StrStep$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void StrSkill$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #97                 // Field StrSkill$module:Lrpg/cake2/StrNodes$StrSkill$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #28                 // class rpg/cake2/StrNodes$StrSkill$
+        15: dup
+        16: aload_0
+        17: invokespecial #154                // Method rpg/cake2/StrNodes$StrSkill$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #97                 // Field StrSkill$module:Lrpg/cake2/StrNodes$StrSkill$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void DexSkill$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #104                // Field DexSkill$module:Lrpg/cake2/DexNodes$DexSkill$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #14                 // class rpg/cake2/DexNodes$DexSkill$
+        15: dup
+        16: aload_0
+        17: invokespecial #155                // Method rpg/cake2/DexNodes$DexSkill$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #104                // Field DexSkill$module:Lrpg/cake2/DexNodes$DexSkill$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void DexStep$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #111                // Field DexStep$module:Lrpg/cake2/DexNodes$DexStep$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #19                 // class rpg/cake2/DexNodes$DexStep$
+        15: dup
+        16: aload_0
+        17: invokespecial #156                // Method rpg/cake2/DexNodes$DexStep$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #111                // Field DexStep$module:Lrpg/cake2/DexNodes$DexStep$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void DexTree$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #118                // Field DexTree$module:Lrpg/cake2/DexNodes$DexTree$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #22                 // class rpg/cake2/DexNodes$DexTree$
+        15: dup
+        16: aload_0
+        17: invokespecial #157                // Method rpg/cake2/DexNodes$DexTree$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #118                // Field DexTree$module:Lrpg/cake2/DexNodes$DexTree$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void WisTree$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #125                // Field WisTree$module:Lrpg/cake2/WisNodes$WisTree$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #47                 // class rpg/cake2/WisNodes$WisTree$
+        15: dup
+        16: aload_0
+        17: invokespecial #158                // Method rpg/cake2/WisNodes$WisTree$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #125                // Field WisTree$module:Lrpg/cake2/WisNodes$WisTree$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void WisStep$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #132                // Field WisStep$module:Lrpg/cake2/WisNodes$WisStep$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #44                 // class rpg/cake2/WisNodes$WisStep$
+        15: dup
+        16: aload_0
+        17: invokespecial #159                // Method rpg/cake2/WisNodes$WisStep$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #132                // Field WisStep$module:Lrpg/cake2/WisNodes$WisStep$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void WisSkill$lzycompute$1();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #139                // Field WisSkill$module:Lrpg/cake2/WisNodes$WisSkill$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #39                 // class rpg/cake2/WisNodes$WisSkill$
+        15: dup
+        16: aload_0
+        17: invokespecial #160                // Method rpg/cake2/WisNodes$WisSkill$."<init>":(Lrpg/cake2/NodesTraits;)V
+        20: putfield      #139                // Field WisSkill$module:Lrpg/cake2/WisNodes$WisSkill$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+      LineNumberTable:
+        line 64: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/cake2/Cake2SkillTrees$$anon$1 ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  public rpg.cake2.Cake2SkillTrees$$anon$1(rpg.cake2.Cake2SkillTrees, rpg.PlayerTraits);
+    descriptor: (Lrpg/cake2/Cake2SkillTrees;Lrpg/PlayerTraits;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: aload_2
+         2: putfield      #146                // Field playerTraits$1:Lrpg/PlayerTraits;
+         5: aload_0
+         6: invokespecial #164                // Method java/lang/Object."<init>":()V
+         9: aload_0
+        10: invokestatic  #168                // InterfaceMethod rpg/cake2/WisNodes.$init$:(Lrpg/cake2/WisNodes;)V
+        13: aload_0
+        14: invokestatic  #171                // InterfaceMethod rpg/cake2/DexNodes.$init$:(Lrpg/cake2/DexNodes;)V
+        17: aload_0
+        18: invokestatic  #174                // InterfaceMethod rpg/cake2/StrNodes.$init$:(Lrpg/cake2/StrNodes;)V
+        21: aload_0
+        22: invokestatic  #176                // InterfaceMethod rpg/cake2/NodesTraits.$init$:(Lrpg/cake2/NodesTraits;)V
+        25: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      26     0  this   Lrpg/cake2/Cake2SkillTrees$$anon$1;
+            0      26     1 $outer   Lrpg/cake2/Cake2SkillTrees;
+            0      26     2 playerTraits$1   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 63: 0
+        line 64: 5
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+      playerTraits$1                 final
+}
+SourceFile: "CakeSkillTrees.scala"
+EnclosingMethod: #9.#12                 // rpg.cake2.Cake2SkillTrees.archeryTree
+InnerClasses:
+     public final #2; //class rpg/cake2/Cake2SkillTrees$$anon$1
+     public #17= #14 of #16; //DexSkill$=class rpg/cake2/DexNodes$DexSkill$ of class rpg/cake2/DexNodes
+     public #20= #19 of #16; //DexStep$=class rpg/cake2/DexNodes$DexStep$ of class rpg/cake2/DexNodes
+     public #23= #22 of #16; //DexTree$=class rpg/cake2/DexNodes$DexTree$ of class rpg/cake2/DexNodes
+     public #26= #25 of #6; //Node=class rpg/cake2/NodesTraits$Node of class rpg/cake2/NodesTraits
+     public #31= #28 of #30; //StrSkill$=class rpg/cake2/StrNodes$StrSkill$ of class rpg/cake2/StrNodes
+     public #34= #33 of #30; //StrStep$=class rpg/cake2/StrNodes$StrStep$ of class rpg/cake2/StrNodes
+     public #37= #36 of #30; //StrTree$=class rpg/cake2/StrNodes$StrTree$ of class rpg/cake2/StrNodes
+     public #42= #39 of #41; //WisSkill$=class rpg/cake2/WisNodes$WisSkill$ of class rpg/cake2/WisNodes
+     public #45= #44 of #41; //WisStep$=class rpg/cake2/WisNodes$WisStep$ of class rpg/cake2/WisNodes
+     public #48= #47 of #41; //WisTree$=class rpg/cake2/WisNodes$WisTree$ of class rpg/cake2/WisNodes
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x6D
+   01 01 00 15 00 93 00 A1 01 00 69 00 54 01 00 65
+   00 66 01 00 70 00 54 01 00 6C 00 6D 01 00 77 00
+   54 01 00 73 00 74 01 00 62 00 54 01 00 5E 00 5F
+   01 00 5B 00 54 01 00 57 00 58 01 00 53 00 54 01
+   00 4F 00 50 01 00 8C 00 54 01 00 88 00 89 01 00
+   85 00 54 01 00 81 00 82 01 00 7E 00 54 01 00 7A
+   00 7B 01 00 45 00 46 01 00 8F 00 90 01
+Error: unknown attribute
+  Scala: length = 0x0
+

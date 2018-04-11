@@ -1,0 +1,6 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.WisStep implements rpg.java.ooo.Node {
+  rpg.java.ooo.Node to;
+  rpg.java.ooo.WisStep(rpg.java.ooo.Node);
+  public int cost(rpg.PlayerTraits);
+}

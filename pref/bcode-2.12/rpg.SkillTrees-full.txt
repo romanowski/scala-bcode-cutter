@@ -1,0 +1,69 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/SkillTrees.class
+  Last modified Apr 8, 2018; size 865 bytes
+  MD5 checksum 97411d4259ae2cd0b201936a16a122f2
+  Compiled from "SkillTrees.scala"
+public abstract class rpg.SkillTrees
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/SkillTrees
+   #2 = Class              #1             // rpg/SkillTrees
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               SkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               !2Q!!bU6jY2$&/Z3ta:qO1C!\t9!\"D\tI!B:dC2BA\t\te.*fM\")QC1A(8jiz\"a\t!iA%1\taECJ.:z)J,W\rGAQC\t!YABA56.7m)J,WMU3qeBD\t%Y#!AADA`IE\n\"!qBA\tqu5j]\"aB\n\tB!aA!os\")A%aKa\1zKJ$&/Y5ugBCJO\tA7bsHK]1jiN
+   #9 = Utf8               archeryTree
+  #10 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #11 = Utf8               playerTraits
+  #12 = Utf8               <init>
+  #13 = Utf8               ()V
+  #14 = NameAndType        #12:#13        // "<init>":()V
+  #15 = Methodref          #4.#14         // java/lang/Object."<init>":()V
+  #16 = Utf8               this
+  #17 = Utf8               Lrpg/SkillTrees;
+  #18 = Utf8               Signature
+  #19 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr<*>;
+  #20 = Utf8               MethodParameters
+  #21 = Utf8               Code
+  #22 = Utf8               LocalVariableTable
+  #23 = Utf8               LineNumberTable
+  #24 = Utf8               SourceFile
+  #25 = Utf8               RuntimeVisibleAnnotations
+  #26 = Utf8               ScalaInlineInfo
+  #27 = Utf8               ScalaSig
+{
+  public abstract rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+    Signature: #19                          // (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr<*>;
+    MethodParameters:
+      Name                           Flags
+      playerTraits                   final
+
+  public rpg.SkillTrees();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #15                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/SkillTrees;
+      LineNumberTable:
+        line 17: 0
+        line 9: 4
+}
+SourceFile: "SkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 00 00 02 00 0C 00 0D 00 00 09 00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

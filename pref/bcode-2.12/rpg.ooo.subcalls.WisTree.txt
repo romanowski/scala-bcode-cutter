@@ -1,0 +1,223 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public class rpg.ooo.subcalls.WisTree implements rpg.ooo.subcalls.Tree,rpg.ooo.subcalls.WisBased,scala.Product,scala.Serializable {
+  private final rpg.ooo.subcalls.Node left;
+
+  private final rpg.ooo.subcalls.Node right;
+
+  public static scala.Option<scala.Tuple2<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node>> unapply(rpg.ooo.subcalls.WisTree);
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/subcalls/WisTree$.MODULE$:Lrpg/ooo/subcalls/WisTree$;
+       3: aload_0
+       4: invokevirtual #29                 // Method rpg/ooo/subcalls/WisTree$.unapply:(Lrpg/ooo/subcalls/WisTree;)Lscala/Option;
+       7: areturn
+
+  public static rpg.ooo.subcalls.WisTree apply(rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node);
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/subcalls/WisTree$.MODULE$:Lrpg/ooo/subcalls/WisTree$;
+       3: aload_0
+       4: aload_1
+       5: invokevirtual #33                 // Method rpg/ooo/subcalls/WisTree$.apply:(Lrpg/ooo/subcalls/Node;Lrpg/ooo/subcalls/Node;)Lrpg/ooo/subcalls/WisTree;
+       8: areturn
+
+  public static scala.Function1<scala.Tuple2<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node>, rpg.ooo.subcalls.WisTree> tupled();
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/subcalls/WisTree$.MODULE$:Lrpg/ooo/subcalls/WisTree$;
+       3: invokevirtual #37                 // Method rpg/ooo/subcalls/WisTree$.tupled:()Lscala/Function1;
+       6: areturn
+
+  public static scala.Function1<rpg.ooo.subcalls.Node, scala.Function1<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.WisTree>> curried();
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/subcalls/WisTree$.MODULE$:Lrpg/ooo/subcalls/WisTree$;
+       3: invokevirtual #40                 // Method rpg/ooo/subcalls/WisTree$.curried:()Lscala/Function1;
+       6: areturn
+
+  public int thisCost(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #47                 // InterfaceMethod rpg/ooo/subcalls/WisBased.thisCost$:(Lrpg/ooo/subcalls/WisBased;Lrpg/PlayerTraits;)I
+       5: ireturn
+
+  public int cost(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #55                 // InterfaceMethod rpg/ooo/subcalls/Tree.cost$:(Lrpg/ooo/subcalls/Tree;Lrpg/PlayerTraits;)I
+       5: ireturn
+
+  public rpg.ooo.subcalls.Node left();
+    Code:
+       0: aload_0
+       1: getfield      #58                 // Field left:Lrpg/ooo/subcalls/Node;
+       4: areturn
+
+  public rpg.ooo.subcalls.Node right();
+    Code:
+       0: aload_0
+       1: getfield      #60                 // Field right:Lrpg/ooo/subcalls/Node;
+       4: areturn
+
+  public rpg.ooo.subcalls.WisTree copy(rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node);
+    Code:
+       0: new           #2                  // class rpg/ooo/subcalls/WisTree
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: invokespecial #65                 // Method "<init>":(Lrpg/ooo/subcalls/Node;Lrpg/ooo/subcalls/Node;)V
+       9: areturn
+
+  public rpg.ooo.subcalls.Node copy$default$1();
+    Code:
+       0: aload_0
+       1: invokevirtual #68                 // Method left:()Lrpg/ooo/subcalls/Node;
+       4: areturn
+
+  public rpg.ooo.subcalls.Node copy$default$2();
+    Code:
+       0: aload_0
+       1: invokevirtual #71                 // Method right:()Lrpg/ooo/subcalls/Node;
+       4: areturn
+
+  public java.lang.String productPrefix();
+    Code:
+       0: ldc           #75                 // String WisTree
+       2: areturn
+
+  public int productArity();
+    Code:
+       0: iconst_2
+       1: ireturn
+
+  public java.lang.Object productElement(int);
+    Code:
+       0: iload_1
+       1: istore_2
+       2: iload_2
+       3: tableswitch   { // 0 to 1
+                     0: 24
+                     1: 31
+               default: 38
+          }
+      24: aload_0
+      25: invokevirtual #68                 // Method left:()Lrpg/ooo/subcalls/Node;
+      28: goto          53
+      31: aload_0
+      32: invokevirtual #71                 // Method right:()Lrpg/ooo/subcalls/Node;
+      35: goto          53
+      38: new           #82                 // class java/lang/IndexOutOfBoundsException
+      41: dup
+      42: iload_1
+      43: invokestatic  #88                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      46: invokevirtual #91                 // Method java/lang/Object.toString:()Ljava/lang/String;
+      49: invokespecial #94                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+      52: athrow
+      53: areturn
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    Code:
+       0: getstatic     #104                // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #108                // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+       7: areturn
+
+  public boolean canEqual(java.lang.Object);
+    Code:
+       0: aload_1
+       1: instanceof    #2                  // class rpg/ooo/subcalls/WisTree
+       4: ireturn
+
+  public int hashCode();
+    Code:
+       0: getstatic     #104                // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #116                // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+       7: ireturn
+
+  public java.lang.String toString();
+    Code:
+       0: getstatic     #104                // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #120                // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+       7: areturn
+
+  public boolean equals(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: if_acmpeq     118
+       5: aload_1
+       6: astore_3
+       7: aload_3
+       8: instanceof    #2                  // class rpg/ooo/subcalls/WisTree
+      11: ifeq          19
+      14: iconst_1
+      15: istore_2
+      16: goto          27
+      19: goto          22
+      22: iconst_0
+      23: istore_2
+      24: goto          27
+      27: iload_2
+      28: ifeq          122
+      31: aload_1
+      32: checkcast     #2                  // class rpg/ooo/subcalls/WisTree
+      35: astore        4
+      37: aload_0
+      38: invokevirtual #68                 // Method left:()Lrpg/ooo/subcalls/Node;
+      41: aload         4
+      43: invokevirtual #68                 // Method left:()Lrpg/ooo/subcalls/Node;
+      46: astore        5
+      48: dup
+      49: ifnonnull     61
+      52: pop
+      53: aload         5
+      55: ifnull        69
+      58: goto          114
+      61: aload         5
+      63: invokevirtual #123                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      66: ifeq          114
+      69: aload_0
+      70: invokevirtual #71                 // Method right:()Lrpg/ooo/subcalls/Node;
+      73: aload         4
+      75: invokevirtual #71                 // Method right:()Lrpg/ooo/subcalls/Node;
+      78: astore        6
+      80: dup
+      81: ifnonnull     93
+      84: pop
+      85: aload         6
+      87: ifnull        101
+      90: goto          114
+      93: aload         6
+      95: invokevirtual #123                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      98: ifeq          114
+     101: aload         4
+     103: aload_0
+     104: invokevirtual #125                // Method canEqual:(Ljava/lang/Object;)Z
+     107: ifeq          114
+     110: iconst_1
+     111: goto          115
+     114: iconst_0
+     115: ifeq          122
+     118: iconst_1
+     119: goto          123
+     122: iconst_0
+     123: ireturn
+
+  public rpg.ooo.subcalls.WisTree(rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #58                 // Field left:Lrpg/ooo/subcalls/Node;
+       5: aload_0
+       6: aload_2
+       7: putfield      #60                 // Field right:Lrpg/ooo/subcalls/Node;
+      10: aload_0
+      11: invokespecial #128                // Method java/lang/Object."<init>":()V
+      14: aload_0
+      15: invokestatic  #132                // InterfaceMethod rpg/ooo/subcalls/Tree.$init$:(Lrpg/ooo/subcalls/Tree;)V
+      18: aload_0
+      19: invokestatic  #135                // InterfaceMethod rpg/ooo/subcalls/WisBased.$init$:(Lrpg/ooo/subcalls/WisBased;)V
+      22: aload_0
+      23: invokestatic  #138                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+      26: return
+}

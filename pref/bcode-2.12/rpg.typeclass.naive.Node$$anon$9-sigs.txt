@@ -1,0 +1,8 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.Node$$anon$9 implements rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexTree<L, R>> {
+  private final rpg.typeclass.naive.Node$Summer evidence$8$1;
+  private final rpg.typeclass.naive.Node$Summer evidence$9$1;
+  public int sumExp(rpg.typeclass.naive.DexTree<L, R>, rpg.PlayerTraits);
+  public int sumExp(java.lang.Object, rpg.PlayerTraits);
+  public rpg.typeclass.naive.Node$$anon$9(rpg.typeclass.naive.Node$Summer, rpg.typeclass.naive.Node$Summer);
+}

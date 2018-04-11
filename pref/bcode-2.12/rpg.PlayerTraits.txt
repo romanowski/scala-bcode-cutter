@@ -1,0 +1,41 @@
+Compiled from "SkillTrees.scala"
+public class rpg.PlayerTraits {
+  private final int strCost;
+
+  private final int dexCost;
+
+  private final int wisCost;
+
+  public int strCost();
+    Code:
+       0: aload_0
+       1: getfield      #15                 // Field strCost:I
+       4: ireturn
+
+  public int dexCost();
+    Code:
+       0: aload_0
+       1: getfield      #19                 // Field dexCost:I
+       4: ireturn
+
+  public int wisCost();
+    Code:
+       0: aload_0
+       1: getfield      #21                 // Field wisCost:I
+       4: ireturn
+
+  public rpg.PlayerTraits(int, int, int);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #15                 // Field strCost:I
+       5: aload_0
+       6: iload_2
+       7: putfield      #19                 // Field dexCost:I
+      10: aload_0
+      11: iload_3
+      12: putfield      #21                 // Field wisCost:I
+      15: aload_0
+      16: invokespecial #26                 // Method java/lang/Object."<init>":()V
+      19: return
+}

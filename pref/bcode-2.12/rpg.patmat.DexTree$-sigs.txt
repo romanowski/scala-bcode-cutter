@@ -1,0 +1,11 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.DexTree$ extends scala.runtime.AbstractFunction2<rpg.patmat.Node, rpg.patmat.Node, rpg.patmat.DexTree> implements scala.Serializable {
+  public static rpg.patmat.DexTree$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.patmat.DexTree apply(rpg.patmat.Node, rpg.patmat.Node);
+  public scala.Option<scala.Tuple2<rpg.patmat.Node, rpg.patmat.Node>> unapply(rpg.patmat.DexTree);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object, java.lang.Object);
+  private rpg.patmat.DexTree$();
+}

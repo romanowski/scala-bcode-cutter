@@ -1,0 +1,63 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public class rpg.ooo.nested.OOOSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    Code:
+       0: new           #18                 // class rpg/ooo/nested/FeatTree$Tree
+       3: dup
+       4: getstatic     #30                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+       7: new           #15                 // class rpg/ooo/nested/FeatTree$Step
+      10: dup
+      11: getstatic     #30                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+      14: new           #18                 // class rpg/ooo/nested/FeatTree$Tree
+      17: dup
+      18: getstatic     #35                 // Field rpg/ooo/nested/Wis$.MODULE$:Lrpg/ooo/nested/Wis$;
+      21: new           #10                 // class rpg/ooo/nested/FeatTree$Skill
+      24: dup
+      25: getstatic     #35                 // Field rpg/ooo/nested/Wis$.MODULE$:Lrpg/ooo/nested/Wis$;
+      28: ldc           #37                 // String aimed
+      30: invokespecial #41                 // Method rpg/ooo/nested/FeatTree$Skill."<init>":(Lrpg/ooo/nested/FeatTree;Ljava/lang/String;)V
+      33: new           #15                 // class rpg/ooo/nested/FeatTree$Step
+      36: dup
+      37: getstatic     #35                 // Field rpg/ooo/nested/Wis$.MODULE$:Lrpg/ooo/nested/Wis$;
+      40: new           #10                 // class rpg/ooo/nested/FeatTree$Skill
+      43: dup
+      44: getstatic     #30                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+      47: ldc           #43                 // String rapid
+      49: invokespecial #41                 // Method rpg/ooo/nested/FeatTree$Skill."<init>":(Lrpg/ooo/nested/FeatTree;Ljava/lang/String;)V
+      52: invokespecial #46                 // Method rpg/ooo/nested/FeatTree$Step."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;)V
+      55: invokespecial #49                 // Method rpg/ooo/nested/FeatTree$Tree."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;Lrpg/ooo/nested/Node;)V
+      58: invokespecial #46                 // Method rpg/ooo/nested/FeatTree$Step."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;)V
+      61: new           #18                 // class rpg/ooo/nested/FeatTree$Tree
+      64: dup
+      65: getstatic     #54                 // Field rpg/ooo/nested/Str$.MODULE$:Lrpg/ooo/nested/Str$;
+      68: new           #10                 // class rpg/ooo/nested/FeatTree$Skill
+      71: dup
+      72: getstatic     #54                 // Field rpg/ooo/nested/Str$.MODULE$:Lrpg/ooo/nested/Str$;
+      75: ldc           #56                 // String power
+      77: invokespecial #41                 // Method rpg/ooo/nested/FeatTree$Skill."<init>":(Lrpg/ooo/nested/FeatTree;Ljava/lang/String;)V
+      80: new           #15                 // class rpg/ooo/nested/FeatTree$Step
+      83: dup
+      84: getstatic     #54                 // Field rpg/ooo/nested/Str$.MODULE$:Lrpg/ooo/nested/Str$;
+      87: new           #10                 // class rpg/ooo/nested/FeatTree$Skill
+      90: dup
+      91: getstatic     #30                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+      94: ldc           #58                 // String double
+      96: invokespecial #41                 // Method rpg/ooo/nested/FeatTree$Skill."<init>":(Lrpg/ooo/nested/FeatTree;Ljava/lang/String;)V
+      99: invokespecial #46                 // Method rpg/ooo/nested/FeatTree$Step."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;)V
+     102: invokespecial #49                 // Method rpg/ooo/nested/FeatTree$Tree."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;Lrpg/ooo/nested/Node;)V
+     105: invokespecial #49                 // Method rpg/ooo/nested/FeatTree$Tree."<init>":(Lrpg/ooo/nested/FeatTree;Lrpg/ooo/nested/Node;Lrpg/ooo/nested/Node;)V
+     108: astore_2
+     109: new           #21                 // class rpg/ooo/nested/OOOSkillTrees$$anon$1
+     112: dup
+     113: aconst_null
+     114: aload_1
+     115: aload_2
+     116: invokespecial #61                 // Method rpg/ooo/nested/OOOSkillTrees$$anon$1."<init>":(Lrpg/ooo/nested/OOOSkillTrees;Lrpg/PlayerTraits;Lrpg/ooo/nested/Node;)V
+     119: areturn
+
+  public rpg.ooo.nested.OOOSkillTrees();
+    Code:
+       0: aload_0
+       1: invokespecial #69                 // Method rpg/SkillTrees."<init>":()V
+       4: return
+}

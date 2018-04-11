@@ -1,0 +1,18 @@
+Compiled from "TypeclassSkillTrees.scala"
+public class rpg.typeclass.naive.DexStep<N> implements rpg.typeclass.naive.Node, scala.Product, scala.Serializable {
+  private final N to;
+  public static <N> scala.Option<N> unapply(rpg.typeclass.naive.DexStep<N>);
+  public static <N> rpg.typeclass.naive.DexStep<N> apply(N);
+  public N to();
+  public <N> rpg.typeclass.naive.DexStep<N> copy(N);
+  public <N> N copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.typeclass.naive.DexStep(N);
+}

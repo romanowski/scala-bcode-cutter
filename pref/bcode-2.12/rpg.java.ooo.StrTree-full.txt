@@ -1,0 +1,92 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/java/ooo/StrTree.class
+  Last modified Apr 8, 2018; size 522 bytes
+  MD5 checksum d71a6f7aa3c52c16c8ec7814fd84c1da
+  Compiled from "SkillTrees.java"
+class rpg.java.ooo.StrTree implements rpg.java.ooo.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Methodref          #7.#20         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #6.#21         // rpg/java/ooo/StrTree.left:Lrpg/java/ooo/Node;
+   #3 = Fieldref           #6.#22         // rpg/java/ooo/StrTree.right:Lrpg/java/ooo/Node;
+   #4 = InterfaceMethodref #8.#23         // rpg/java/ooo/Node.cost:(Lrpg/PlayerTraits;)I
+   #5 = Methodref          #24.#25        // rpg/PlayerTraits.strCost:()I
+   #6 = Class              #26            // rpg/java/ooo/StrTree
+   #7 = Class              #27            // java/lang/Object
+   #8 = Class              #28            // rpg/java/ooo/Node
+   #9 = Utf8               left
+  #10 = Utf8               Lrpg/java/ooo/Node;
+  #11 = Utf8               right
+  #12 = Utf8               <init>
+  #13 = Utf8               (Lrpg/java/ooo/Node;Lrpg/java/ooo/Node;)V
+  #14 = Utf8               Code
+  #15 = Utf8               LineNumberTable
+  #16 = Utf8               cost
+  #17 = Utf8               (Lrpg/PlayerTraits;)I
+  #18 = Utf8               SourceFile
+  #19 = Utf8               SkillTrees.java
+  #20 = NameAndType        #12:#29        // "<init>":()V
+  #21 = NameAndType        #9:#10         // left:Lrpg/java/ooo/Node;
+  #22 = NameAndType        #11:#10        // right:Lrpg/java/ooo/Node;
+  #23 = NameAndType        #16:#17        // cost:(Lrpg/PlayerTraits;)I
+  #24 = Class              #30            // rpg/PlayerTraits
+  #25 = NameAndType        #31:#32        // strCost:()I
+  #26 = Utf8               rpg/java/ooo/StrTree
+  #27 = Utf8               java/lang/Object
+  #28 = Utf8               rpg/java/ooo/Node
+  #29 = Utf8               ()V
+  #30 = Utf8               rpg/PlayerTraits
+  #31 = Utf8               strCost
+  #32 = Utf8               ()I
+{
+  rpg.java.ooo.Node left;
+    descriptor: Lrpg/java/ooo/Node;
+    flags:
+
+  rpg.java.ooo.Node right;
+    descriptor: Lrpg/java/ooo/Node;
+    flags:
+
+  rpg.java.ooo.StrTree(rpg.java.ooo.Node, rpg.java.ooo.Node);
+    descriptor: (Lrpg/java/ooo/Node;Lrpg/java/ooo/Node;)V
+    flags:
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #2                  // Field left:Lrpg/java/ooo/Node;
+         9: aload_0
+        10: aload_2
+        11: putfield      #3                  // Field right:Lrpg/java/ooo/Node;
+        14: return
+      LineNumberTable:
+        line 14: 0
+        line 15: 4
+        line 16: 9
+        line 18: 14
+
+  public int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #2                  // Field left:Lrpg/java/ooo/Node;
+         4: aload_1
+         5: invokeinterface #4,  2            // InterfaceMethod rpg/java/ooo/Node.cost:(Lrpg/PlayerTraits;)I
+        10: aload_0
+        11: getfield      #3                  // Field right:Lrpg/java/ooo/Node;
+        14: aload_1
+        15: invokeinterface #4,  2            // InterfaceMethod rpg/java/ooo/Node.cost:(Lrpg/PlayerTraits;)I
+        20: iadd
+        21: aload_1
+        22: invokevirtual #5                  // Method rpg/PlayerTraits.strCost:()I
+        25: iadd
+        26: ireturn
+      LineNumberTable:
+        line 22: 0
+}
+SourceFile: "SkillTrees.java"

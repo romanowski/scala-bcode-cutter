@@ -1,0 +1,448 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/bench/HotBenchmark.class
+  Last modified Apr 8, 2018; size 3672 bytes
+  MD5 checksum 2ebab5b5cdb8e0c4bd67f6186b59feac
+  Compiled from "Benchmarks.scala"
+public class rpg.bench.HotBenchmark implements rpg.bench.Benchmarks
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/bench/HotBenchmark
+    #2 = Class              #1            // rpg/bench/HotBenchmark
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/bench/Benchmarks
+    #6 = Class              #5            // rpg/bench/Benchmarks
+    #7 = Utf8               Benchmarks.scala
+    #8 = Utf8               Lorg/openjdk/jmh/annotations/BenchmarkMode;
+    #9 = Utf8               value
+   #10 = Utf8               Lorg/openjdk/jmh/annotations/Mode;
+   #11 = Utf8               SampleTime
+   #12 = Utf8               Lorg/openjdk/jmh/annotations/OutputTimeUnit;
+   #13 = Utf8               Ljava/util/concurrent/TimeUnit;
+   #14 = Utf8               MICROSECONDS
+   #15 = Utf8               Lorg/openjdk/jmh/annotations/Warmup;
+   #16 = Utf8               iterations
+   #17 = Integer            10
+   #18 = Utf8               time
+   #19 = Integer            100
+   #20 = Utf8               timeUnit
+   #21 = Utf8               MILLISECONDS
+   #22 = Utf8               Lorg/openjdk/jmh/annotations/Measurement;
+   #23 = Integer            1000
+   #24 = Utf8               Lorg/openjdk/jmh/annotations/Fork;
+   #25 = Integer            1
+   #26 = Utf8               jvmArgs
+   #27 = Utf8               -Xms2G
+   #28 = Utf8               -Xmx2G
+   #29 = Utf8               Lscala/reflect/ScalaSignature;
+   #30 = Utf8               bytes
+   #31 = Utf8               U3A!\taj;CK:.\1sW*1BEt7\r!]4M%aQ\"-\tQa]2bYL!!\rsPU3g!\ty#D\t\t\"ACK:.\1sWNDQaQ\taP5oSRtD#A=FG*cC5\tD7YM8pi$n8t\taR$Ak[\"T!AH=XM6eW*\t%ApeL!AI\r\t{'o[mdW/Z9!N^7BeHFA*CAABY[Nt)I+i,=3\"BL1cID[%a&7/:f[tG/ji\r^5p]NlACi&lW-QAA/[7f+:LGJ6\t1t'N2cjU#D:#5K9sAA+[7f+:LGO;wQ1m8dkJXM;qjB;uS2TAPU4\r>gQ5!\tA)C3\t1q+:nkBl\n\r&q)V$/;US6,WK\5uIIB&81ij*P'uJ#TQAjI(aiB(5UM\2i[8.T8eK2\nJR\t6+TC6H.+j[T!V\r\t5{G-
+   #32 = Utf8               patMat
+   #33 = Utf8               (Lrpg/bench/BenchmarkState;)I
+   #34 = Utf8               bs
+   #35 = Utf8               Lorg/openjdk/jmh/annotations/Benchmark;
+   #36 = Utf8               patMat$
+   #37 = Utf8               (Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #38 = NameAndType        #36:#37       // patMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #39 = InterfaceMethodref #6.#38        // rpg/bench/Benchmarks.patMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #40 = Utf8               this
+   #41 = Utf8               Lrpg/bench/HotBenchmark;
+   #42 = Utf8               Lrpg/bench/BenchmarkState;
+   #43 = Utf8               slowPatMat
+   #44 = Utf8               slowPatMat$
+   #45 = NameAndType        #44:#37       // slowPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #46 = InterfaceMethodref #6.#45        // rpg/bench/Benchmarks.slowPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #47 = Utf8               classesPatMat
+   #48 = Utf8               classesPatMat$
+   #49 = NameAndType        #48:#37       // classesPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #50 = InterfaceMethodref #6.#49        // rpg/bench/Benchmarks.classesPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #51 = Utf8               steppedPatMat
+   #52 = Utf8               steppedPatMat$
+   #53 = NameAndType        #52:#37       // steppedPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #54 = InterfaceMethodref #6.#53        // rpg/bench/Benchmarks.steppedPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #55 = Utf8               steppedClassPatMat
+   #56 = Utf8               steppedClassPatMat$
+   #57 = NameAndType        #56:#37       // steppedClassPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #58 = InterfaceMethodref #6.#57        // rpg/bench/Benchmarks.steppedClassPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #59 = Utf8               typeclass
+   #60 = Utf8               typeclass$
+   #61 = NameAndType        #60:#37       // typeclass$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #62 = InterfaceMethodref #6.#61        // rpg/bench/Benchmarks.typeclass$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #63 = Utf8               cake
+   #64 = Utf8               cake$
+   #65 = NameAndType        #64:#37       // cake$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #66 = InterfaceMethodref #6.#65        // rpg/bench/Benchmarks.cake$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #67 = Utf8               cake2
+   #68 = Utf8               cake2$
+   #69 = NameAndType        #68:#37       // cake2$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #70 = InterfaceMethodref #6.#69        // rpg/bench/Benchmarks.cake2$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #71 = Utf8               oooTree
+   #72 = Utf8               oooTree$
+   #73 = NameAndType        #72:#37       // oooTree$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #74 = InterfaceMethodref #6.#73        // rpg/bench/Benchmarks.oooTree$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #75 = Utf8               oooSubcalls
+   #76 = Utf8               oooSubcalls$
+   #77 = NameAndType        #76:#37       // oooSubcalls$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #78 = InterfaceMethodref #6.#77        // rpg/bench/Benchmarks.oooSubcalls$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #79 = Utf8               oooLambdas
+   #80 = Utf8               oooLambdas$
+   #81 = NameAndType        #80:#37       // oooLambdas$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #82 = InterfaceMethodref #6.#81        // rpg/bench/Benchmarks.oooLambdas$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #83 = Utf8               oooNested
+   #84 = Utf8               oooNested$
+   #85 = NameAndType        #84:#37       // oooNested$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #86 = InterfaceMethodref #6.#85        // rpg/bench/Benchmarks.oooNested$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #87 = Utf8               javaOOO
+   #88 = Utf8               javaOOO$
+   #89 = NameAndType        #88:#37       // javaOOO$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #90 = InterfaceMethodref #6.#89        // rpg/bench/Benchmarks.javaOOO$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #91 = Utf8               javaFast
+   #92 = Utf8               javaFast$
+   #93 = NameAndType        #92:#37       // javaFast$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #94 = InterfaceMethodref #6.#93        // rpg/bench/Benchmarks.javaFast$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+   #95 = Utf8               <init>
+   #96 = Utf8               ()V
+   #97 = NameAndType        #95:#96       // "<init>":()V
+   #98 = Methodref          #4.#97        // java/lang/Object."<init>":()V
+   #99 = Utf8               $init$
+  #100 = Utf8               (Lrpg/bench/Benchmarks;)V
+  #101 = NameAndType        #99:#100      // $init$:(Lrpg/bench/Benchmarks;)V
+  #102 = InterfaceMethodref #6.#101       // rpg/bench/Benchmarks.$init$:(Lrpg/bench/Benchmarks;)V
+  #103 = Utf8               Code
+  #104 = Utf8               LocalVariableTable
+  #105 = Utf8               LineNumberTable
+  #106 = Utf8               MethodParameters
+  #107 = Utf8               RuntimeVisibleAnnotations
+  #108 = Utf8               SourceFile
+  #109 = Utf8               ScalaInlineInfo
+  #110 = Utf8               ScalaSig
+{
+  public int patMat(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #39                 // InterfaceMethod rpg/bench/Benchmarks.patMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int slowPatMat(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #46                 // InterfaceMethod rpg/bench/Benchmarks.slowPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int classesPatMat(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #50                 // InterfaceMethod rpg/bench/Benchmarks.classesPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int steppedPatMat(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #54                 // InterfaceMethod rpg/bench/Benchmarks.steppedPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int steppedClassPatMat(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #58                 // InterfaceMethod rpg/bench/Benchmarks.steppedClassPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int typeclass(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #62                 // InterfaceMethod rpg/bench/Benchmarks.typeclass$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int cake(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #66                 // InterfaceMethod rpg/bench/Benchmarks.cake$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int cake2(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #70                 // InterfaceMethod rpg/bench/Benchmarks.cake2$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int oooTree(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #74                 // InterfaceMethod rpg/bench/Benchmarks.oooTree$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int oooSubcalls(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #78                 // InterfaceMethod rpg/bench/Benchmarks.oooSubcalls$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int oooLambdas(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #82                 // InterfaceMethod rpg/bench/Benchmarks.oooLambdas$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int oooNested(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #86                 // InterfaceMethod rpg/bench/Benchmarks.oooNested$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int javaOOO(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #90                 // InterfaceMethod rpg/bench/Benchmarks.javaOOO$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public int javaFast(rpg.bench.BenchmarkState);
+    descriptor: (Lrpg/bench/BenchmarkState;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #94                 // InterfaceMethod rpg/bench/Benchmarks.javaFast$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lrpg/bench/HotBenchmark;
+            0       6     1    bs   Lrpg/bench/BenchmarkState;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      bs                             final
+    RuntimeVisibleAnnotations:
+      0: #35()
+
+  public rpg.bench.HotBenchmark();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #98                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: invokestatic  #102                // InterfaceMethod rpg/bench/Benchmarks.$init$:(Lrpg/bench/Benchmarks;)V
+         8: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/bench/HotBenchmark;
+      LineNumberTable:
+        line 76: 0
+}
+SourceFile: "Benchmarks.scala"
+RuntimeVisibleAnnotations:
+  0: #8(#9=[e#10.#11])
+  1: #12(#9=e#13.#14)
+  2: #15(#16=I#17,#18=I#19,#20=e#13.#21)
+  3: #22(#16=I#17,#18=I#23,#20=e#13.#21)
+  4: #24(#9=I#25,#26=[s#27,s#28])
+  5: #29(#30=s#31)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4F
+   01 00 00 0F 00 5F 00 60 00 00 3F 00 21 00 00 43
+   00 21 00 00 2F 00 21 00 00 5B 00 21 00 00 57 00
+   21 00 00 4F 00 21 00 00 53 00 21 00 00 4B 00 21
+   00 00 47 00 21 00 00 20 00 21 00 00 2B 00 21 00
+   00 37 00 21 00 00 33 00 21 00 00 3B 00 21 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

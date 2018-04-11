@@ -1,0 +1,25 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.steppedClass.ImplSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.patmat.steppedClass.DexTree> {
+  private final rpg.PlayerTraits traits$1;
+
+  public int totalCost();
+    Code:
+       0: getstatic     #21                 // Field rpg/patmat/steppedClass/Node$.MODULE$:Lrpg/patmat/steppedClass/Node$;
+       3: aload_0
+       4: invokevirtual #25                 // Method tree:()Ljava/lang/Object;
+       7: checkcast     #27                 // class rpg/patmat/steppedClass/Node
+      10: aload_0
+      11: getfield      #29                 // Field traits$1:Lrpg/PlayerTraits;
+      14: invokevirtual #33                 // Method rpg/patmat/steppedClass/Node$.totalSkill:(Lrpg/patmat/steppedClass/Node;Lrpg/PlayerTraits;)I
+      17: ireturn
+
+  public rpg.patmat.steppedClass.ImplSkillTrees$$anon$1(rpg.patmat.steppedClass.ImplSkillTrees, rpg.PlayerTraits, rpg.patmat.steppedClass.DexTree);
+    Code:
+       0: aload_0
+       1: aload_2
+       2: putfield      #29                 // Field traits$1:Lrpg/PlayerTraits;
+       5: aload_0
+       6: aload_3
+       7: invokespecial #42                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+      10: return
+}

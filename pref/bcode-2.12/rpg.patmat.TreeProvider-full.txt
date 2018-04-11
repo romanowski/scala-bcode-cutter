@@ -1,0 +1,173 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/TreeProvider.class
+  Last modified Apr 8, 2018; size 1417 bytes
+  MD5 checksum f95b99d094b2daf47a8bfe3550b0c597
+  Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.TreeProvider
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/patmat/TreeProvider
+   #2 = Class              #1             // rpg/patmat/TreeProvider
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               PatMatSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               m1q!qAUe,K]8wS,'O\t1/;nCRT!BeB<7A\n!\"!)QaCgG.Y)a!8z%4\"B\tAj]&$HF!\tI!#\t!QK\5u)\"i7:fKV\tq35\t!!\t9A)=Ue,
+   #9 = Utf8               mkTree$
+  #10 = Utf8               (Lrpg/patmat/TreeProvider;)Lrpg/patmat/DexTree;
+  #11 = Utf8               $this
+  #12 = Utf8               mkTree
+  #13 = Utf8               ()Lrpg/patmat/DexTree;
+  #14 = NameAndType        #12:#13        // mkTree:()Lrpg/patmat/DexTree;
+  #15 = InterfaceMethodref #2.#14         // rpg/patmat/TreeProvider.mkTree:()Lrpg/patmat/DexTree;
+  #16 = Utf8               Lrpg/patmat/TreeProvider;
+  #17 = Utf8               rpg/patmat/DexTree
+  #18 = Class              #17            // rpg/patmat/DexTree
+  #19 = Utf8               rpg/patmat/DexStep
+  #20 = Class              #19            // rpg/patmat/DexStep
+  #21 = Utf8               rpg/patmat/WisTree
+  #22 = Class              #21            // rpg/patmat/WisTree
+  #23 = Utf8               rpg/patmat/WisSkill
+  #24 = Class              #23            // rpg/patmat/WisSkill
+  #25 = Utf8               aimed
+  #26 = String             #25            // aimed
+  #27 = Utf8               <init>
+  #28 = Utf8               (Ljava/lang/String;)V
+  #29 = NameAndType        #27:#28        // "<init>":(Ljava/lang/String;)V
+  #30 = Methodref          #24.#29        // rpg/patmat/WisSkill."<init>":(Ljava/lang/String;)V
+  #31 = Utf8               rpg/patmat/WisStep
+  #32 = Class              #31            // rpg/patmat/WisStep
+  #33 = Utf8               rpg/patmat/DexSkill
+  #34 = Class              #33            // rpg/patmat/DexSkill
+  #35 = Utf8               rapid
+  #36 = String             #35            // rapid
+  #37 = Methodref          #34.#29        // rpg/patmat/DexSkill."<init>":(Ljava/lang/String;)V
+  #38 = Utf8               (Lrpg/patmat/Node;)V
+  #39 = NameAndType        #27:#38        // "<init>":(Lrpg/patmat/Node;)V
+  #40 = Methodref          #32.#39        // rpg/patmat/WisStep."<init>":(Lrpg/patmat/Node;)V
+  #41 = Utf8               (Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #42 = NameAndType        #27:#41        // "<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #43 = Methodref          #22.#42        // rpg/patmat/WisTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #44 = Methodref          #20.#39        // rpg/patmat/DexStep."<init>":(Lrpg/patmat/Node;)V
+  #45 = Utf8               rpg/patmat/StrTree
+  #46 = Class              #45            // rpg/patmat/StrTree
+  #47 = Utf8               rpg/patmat/StrSkill
+  #48 = Class              #47            // rpg/patmat/StrSkill
+  #49 = Utf8               power
+  #50 = String             #49            // power
+  #51 = Methodref          #48.#29        // rpg/patmat/StrSkill."<init>":(Ljava/lang/String;)V
+  #52 = Utf8               rpg/patmat/StrStep
+  #53 = Class              #52            // rpg/patmat/StrStep
+  #54 = Utf8               double
+  #55 = String             #54            // double
+  #56 = Methodref          #53.#39        // rpg/patmat/StrStep."<init>":(Lrpg/patmat/Node;)V
+  #57 = Methodref          #46.#42        // rpg/patmat/StrTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #58 = Methodref          #18.#42        // rpg/patmat/DexTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #59 = Utf8               this
+  #60 = Utf8               $init$
+  #61 = Utf8               (Lrpg/patmat/TreeProvider;)V
+  #62 = Utf8               Code
+  #63 = Utf8               LocalVariableTable
+  #64 = Utf8               LineNumberTable
+  #65 = Utf8               MethodParameters
+  #66 = Utf8               SourceFile
+  #67 = Utf8               RuntimeVisibleAnnotations
+  #68 = Utf8               ScalaInlineInfo
+  #69 = Utf8               ScalaSig
+{
+  public static rpg.patmat.DexTree mkTree$(rpg.patmat.TreeProvider);
+    descriptor: (Lrpg/patmat/TreeProvider;)Lrpg/patmat/DexTree;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #15                 // InterfaceMethod mkTree:()Lrpg/patmat/DexTree;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0 $this   Lrpg/patmat/TreeProvider;
+      LineNumberTable:
+        line 83: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+
+  public rpg.patmat.DexTree mkTree();
+    descriptor: ()Lrpg/patmat/DexTree;
+    flags: ACC_PUBLIC
+    Code:
+      stack=12, locals=1, args_size=1
+         0: new           #18                 // class rpg/patmat/DexTree
+         3: dup
+         4: new           #20                 // class rpg/patmat/DexStep
+         7: dup
+         8: new           #22                 // class rpg/patmat/WisTree
+        11: dup
+        12: new           #24                 // class rpg/patmat/WisSkill
+        15: dup
+        16: ldc           #26                 // String aimed
+        18: invokespecial #30                 // Method rpg/patmat/WisSkill."<init>":(Ljava/lang/String;)V
+        21: new           #32                 // class rpg/patmat/WisStep
+        24: dup
+        25: new           #34                 // class rpg/patmat/DexSkill
+        28: dup
+        29: ldc           #36                 // String rapid
+        31: invokespecial #37                 // Method rpg/patmat/DexSkill."<init>":(Ljava/lang/String;)V
+        34: invokespecial #40                 // Method rpg/patmat/WisStep."<init>":(Lrpg/patmat/Node;)V
+        37: invokespecial #43                 // Method rpg/patmat/WisTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+        40: invokespecial #44                 // Method rpg/patmat/DexStep."<init>":(Lrpg/patmat/Node;)V
+        43: new           #46                 // class rpg/patmat/StrTree
+        46: dup
+        47: new           #48                 // class rpg/patmat/StrSkill
+        50: dup
+        51: ldc           #50                 // String power
+        53: invokespecial #51                 // Method rpg/patmat/StrSkill."<init>":(Ljava/lang/String;)V
+        56: new           #53                 // class rpg/patmat/StrStep
+        59: dup
+        60: new           #34                 // class rpg/patmat/DexSkill
+        63: dup
+        64: ldc           #55                 // String double
+        66: invokespecial #37                 // Method rpg/patmat/DexSkill."<init>":(Ljava/lang/String;)V
+        69: invokespecial #56                 // Method rpg/patmat/StrStep."<init>":(Lrpg/patmat/Node;)V
+        72: invokespecial #57                 // Method rpg/patmat/StrTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+        75: invokespecial #58                 // Method rpg/patmat/DexTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+        78: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      79     0  this   Lrpg/patmat/TreeProvider;
+      LineNumberTable:
+        line 83: 0
+        line 84: 4
+        line 85: 12
+        line 86: 21
+        line 88: 43
+        line 89: 47
+        line 90: 56
+
+  public static void $init$(rpg.patmat.TreeProvider);
+    descriptor: (Lrpg/patmat/TreeProvider;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0 $this   Lrpg/patmat/TreeProvider;
+      LineNumberTable:
+        line 76: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+}
+SourceFile: "PatMatSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 00 00 03 00 3C 00 3D 01 00 09 00 0A 01 00 0C
+   00 0D 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

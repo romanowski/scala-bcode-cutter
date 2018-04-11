@@ -1,0 +1,44 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.TypeclassSkillTrees$$anon$10 extends rpg.SkillTreeRepr<rpg.typeclass.naive.DexTree<rpg.typeclass.naive.DexStep<rpg.typeclass.naive.WisTree<rpg.typeclass.naive.WisSkill, rpg.typeclass.naive.WisStep<rpg.typeclass.naive.DexSkill>>>, rpg.typeclass.naive.StrTree<rpg.typeclass.naive.StrSkill, rpg.typeclass.naive.StrStep<rpg.typeclass.naive.DexSkill>>>> {
+  private final rpg.PlayerTraits traits$1;
+
+  public int totalCost();
+    Code:
+       0: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+       3: aload_0
+       4: invokevirtual #30                 // Method tree:()Ljava/lang/Object;
+       7: aload_0
+       8: getfield      #32                 // Field traits$1:Lrpg/PlayerTraits;
+      11: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      14: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      17: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      20: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      23: invokevirtual #36                 // Method rpg/typeclass/naive/Node$.wisSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+      26: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      29: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      32: invokevirtual #39                 // Method rpg/typeclass/naive/Node$.dexSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+      35: invokevirtual #43                 // Method rpg/typeclass/naive/Node$.wisStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+      38: invokevirtual #47                 // Method rpg/typeclass/naive/Node$.wisTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+      41: invokevirtual #50                 // Method rpg/typeclass/naive/Node$.dexStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+      44: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      47: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      50: invokevirtual #53                 // Method rpg/typeclass/naive/Node$.strSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+      53: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      56: getstatic     #26                 // Field rpg/typeclass/naive/Node$.MODULE$:Lrpg/typeclass/naive/Node$;
+      59: invokevirtual #39                 // Method rpg/typeclass/naive/Node$.dexSkillSummer:()Lrpg/typeclass/naive/Node$Summer;
+      62: invokevirtual #56                 // Method rpg/typeclass/naive/Node$.strStepSummer:(Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+      65: invokevirtual #59                 // Method rpg/typeclass/naive/Node$.strTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+      68: invokevirtual #62                 // Method rpg/typeclass/naive/Node$.dexTreeSummer:(Lrpg/typeclass/naive/Node$Summer;Lrpg/typeclass/naive/Node$Summer;)Lrpg/typeclass/naive/Node$Summer;
+      71: invokevirtual #66                 // Method rpg/typeclass/naive/Node$.totalSkill:(Ljava/lang/Object;Lrpg/PlayerTraits;Lrpg/typeclass/naive/Node$Summer;)I
+      74: ireturn
+
+  public rpg.typeclass.naive.TypeclassSkillTrees$$anon$10(rpg.typeclass.naive.TypeclassSkillTrees, rpg.PlayerTraits, rpg.typeclass.naive.DexTree);
+    Code:
+       0: aload_0
+       1: aload_2
+       2: putfield      #32                 // Field traits$1:Lrpg/PlayerTraits;
+       5: aload_0
+       6: aload_3
+       7: invokespecial #75                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+      10: return
+}

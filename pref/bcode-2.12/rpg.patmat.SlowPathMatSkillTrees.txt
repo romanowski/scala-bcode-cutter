@@ -1,0 +1,25 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.SlowPathMatSkillTrees extends rpg.SkillTrees implements rpg.patmat.TreeProvider {
+  public rpg.patmat.DexTree mkTree();
+    Code:
+       0: aload_0
+       1: invokestatic  #18                 // InterfaceMethod rpg/patmat/TreeProvider.mkTree$:(Lrpg/patmat/TreeProvider;)Lrpg/patmat/DexTree;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    Code:
+       0: new           #12                 // class rpg/patmat/SlowPathMatSkillTrees$$anon$2
+       3: dup
+       4: aload_0
+       5: aload_1
+       6: invokespecial #27                 // Method rpg/patmat/SlowPathMatSkillTrees$$anon$2."<init>":(Lrpg/patmat/SlowPathMatSkillTrees;Lrpg/PlayerTraits;)V
+       9: areturn
+
+  public rpg.patmat.SlowPathMatSkillTrees();
+    Code:
+       0: aload_0
+       1: invokespecial #31                 // Method rpg/SkillTrees."<init>":()V
+       4: aload_0
+       5: invokestatic  #35                 // InterfaceMethod rpg/patmat/TreeProvider.$init$:(Lrpg/patmat/TreeProvider;)V
+       8: return
+}

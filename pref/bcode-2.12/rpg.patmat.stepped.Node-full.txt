@@ -1,0 +1,53 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/stepped/Node.class
+  Last modified Apr 8, 2018; size 755 bytes
+  MD5 checksum 14864b982b845bd8f6036d59012cbc01
+  Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.stepped.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/patmat/stepped/Node
+   #2 = Class              #1             // rpg/patmat/stepped/Node
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               PatMatSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               =2q!GBO_,'BAH/9qKT!!\rAG/\1u9a:qO1C!\tYa\"D\ri!B:dC2BA\r\te.*fM&\"!E\n\t\"AATW&dG.\t!1^3q\t1\"AUe,w!\rI(pI\"AG\t1Q!\tq\"a\tyYBA\rqJg.;?)I\"B\tA;pid7k[5mYR1EJ-!BA\r\rIeO\rK]>$W\r!)!\taW1AO]1jiN\"LI!AAc-_3s)J^:
+   #9 = Utf8               totalSkill
+  #10 = Utf8               (Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+  #11 = Utf8               rpg/patmat/stepped/Node$
+  #12 = Class              #11            // rpg/patmat/stepped/Node$
+  #13 = Utf8               MODULE$
+  #14 = Utf8               Lrpg/patmat/stepped/Node$;
+  #15 = NameAndType        #13:#14        // MODULE$:Lrpg/patmat/stepped/Node$;
+  #16 = Fieldref           #12.#15        // rpg/patmat/stepped/Node$.MODULE$:Lrpg/patmat/stepped/Node$;
+  #17 = NameAndType        #9:#10         // totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+  #18 = Methodref          #12.#17        // rpg/patmat/stepped/Node$.totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+  #19 = Utf8               Code
+  #20 = Utf8               SourceFile
+  #21 = Utf8               RuntimeVisibleAnnotations
+  #22 = Utf8               ScalaInlineInfo
+  #23 = Utf8               ScalaSig
+{
+  public static int totalSkill(rpg.patmat.stepped.Node, rpg.PlayerTraits);
+    descriptor: (Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #16                 // Field rpg/patmat/stepped/Node$.MODULE$:Lrpg/patmat/stepped/Node$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #18                 // Method rpg/patmat/stepped/Node$.totalSkill:(Lrpg/patmat/stepped/Node;Lrpg/PlayerTraits;)I
+         8: ireturn
+}
+SourceFile: "PatMatSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4
+   01 00 00 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

@@ -1,0 +1,38 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.Node$$anon$4 implements rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.WisStep<T>> {
+  private final rpg.typeclass.naive.Node$Summer evidence$1$1;
+
+  public int sumExp(rpg.typeclass.naive.WisStep<T>, rpg.PlayerTraits);
+    Code:
+       0: getstatic     #28                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+       3: aload_0
+       4: getfield      #30                 // Field evidence$1$1:Lrpg/typeclass/naive/Node$Summer;
+       7: invokevirtual #34                 // Method scala/Predef$.implicitly:(Ljava/lang/Object;)Ljava/lang/Object;
+      10: checkcast     #7                  // class rpg/typeclass/naive/Node$Summer
+      13: aload_1
+      14: invokevirtual #40                 // Method rpg/typeclass/naive/WisStep.to:()Ljava/lang/Object;
+      17: aload_2
+      18: invokeinterface #43,  3           // InterfaceMethod rpg/typeclass/naive/Node$Summer.sumExp:(Ljava/lang/Object;Lrpg/PlayerTraits;)I
+      23: aload_2
+      24: invokevirtual #49                 // Method rpg/PlayerTraits.wisCost:()I
+      27: iadd
+      28: ireturn
+
+  public int sumExp(java.lang.Object, rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #36                 // class rpg/typeclass/naive/WisStep
+       5: aload_2
+       6: invokevirtual #55                 // Method sumExp:(Lrpg/typeclass/naive/WisStep;Lrpg/PlayerTraits;)I
+       9: ireturn
+
+  public rpg.typeclass.naive.Node$$anon$4(rpg.typeclass.naive.Node$Summer);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #30                 // Field evidence$1$1:Lrpg/typeclass/naive/Node$Summer;
+       5: aload_0
+       6: invokespecial #61                 // Method java/lang/Object."<init>":()V
+       9: return
+}

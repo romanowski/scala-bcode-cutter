@@ -1,0 +1,125 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/steppedClass/ImplSkillTrees$$anon$1.class
+  Last modified Apr 8, 2018; size 1300 bytes
+  MD5 checksum 32399f4299b7ab73f193553fef3eea87
+  Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.steppedClass.ImplSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.patmat.steppedClass.DexTree>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/patmat/steppedClass/ImplSkillTrees$$anon$1
+   #2 = Class              #1             // rpg/patmat/steppedClass/ImplSkillTrees$$anon$1
+   #3 = Utf8               Lrpg/SkillTreeRepr<Lrpg/patmat/steppedClass/DexTree;>;
+   #4 = Utf8               rpg/SkillTreeRepr
+   #5 = Class              #4             // rpg/SkillTreeRepr
+   #6 = Utf8               PatMatSkillTrees.scala
+   #7 = Utf8               rpg/patmat/steppedClass/ImplSkillTrees
+   #8 = Class              #7             // rpg/patmat/steppedClass/ImplSkillTrees
+   #9 = Utf8               archeryTree
+  #10 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #11 = NameAndType        #9:#10         // archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+  #12 = Utf8               traits$1
+  #13 = Utf8               Lrpg/PlayerTraits;
+  #14 = Utf8               totalCost
+  #15 = Utf8               ()I
+  #16 = Utf8               rpg/patmat/steppedClass/Node$
+  #17 = Class              #16            // rpg/patmat/steppedClass/Node$
+  #18 = Utf8               MODULE$
+  #19 = Utf8               Lrpg/patmat/steppedClass/Node$;
+  #20 = NameAndType        #18:#19        // MODULE$:Lrpg/patmat/steppedClass/Node$;
+  #21 = Fieldref           #17.#20        // rpg/patmat/steppedClass/Node$.MODULE$:Lrpg/patmat/steppedClass/Node$;
+  #22 = Utf8               tree
+  #23 = Utf8               ()Ljava/lang/Object;
+  #24 = NameAndType        #22:#23        // tree:()Ljava/lang/Object;
+  #25 = Methodref          #2.#24         // rpg/patmat/steppedClass/ImplSkillTrees$$anon$1.tree:()Ljava/lang/Object;
+  #26 = Utf8               rpg/patmat/steppedClass/Node
+  #27 = Class              #26            // rpg/patmat/steppedClass/Node
+  #28 = NameAndType        #12:#13        // traits$1:Lrpg/PlayerTraits;
+  #29 = Fieldref           #2.#28         // rpg/patmat/steppedClass/ImplSkillTrees$$anon$1.traits$1:Lrpg/PlayerTraits;
+  #30 = Utf8               totalSkill
+  #31 = Utf8               (Lrpg/patmat/steppedClass/Node;Lrpg/PlayerTraits;)I
+  #32 = NameAndType        #30:#31        // totalSkill:(Lrpg/patmat/steppedClass/Node;Lrpg/PlayerTraits;)I
+  #33 = Methodref          #17.#32        // rpg/patmat/steppedClass/Node$.totalSkill:(Lrpg/patmat/steppedClass/Node;Lrpg/PlayerTraits;)I
+  #34 = Utf8               this
+  #35 = Utf8               Lrpg/patmat/steppedClass/ImplSkillTrees$$anon$1;
+  #36 = Utf8               <init>
+  #37 = Utf8               (Lrpg/patmat/steppedClass/ImplSkillTrees;Lrpg/PlayerTraits;Lrpg/patmat/steppedClass/DexTree;)V
+  #38 = Utf8               $outer
+  #39 = Utf8               tree$1
+  #40 = Utf8               (Ljava/lang/Object;)V
+  #41 = NameAndType        #36:#40        // "<init>":(Ljava/lang/Object;)V
+  #42 = Methodref          #5.#41         // rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+  #43 = Utf8               Lrpg/patmat/steppedClass/ImplSkillTrees;
+  #44 = Utf8               Lrpg/patmat/steppedClass/DexTree;
+  #45 = Utf8               Code
+  #46 = Utf8               LocalVariableTable
+  #47 = Utf8               LineNumberTable
+  #48 = Utf8               MethodParameters
+  #49 = Utf8               Signature
+  #50 = Utf8               SourceFile
+  #51 = Utf8               EnclosingMethod
+  #52 = Utf8               InnerClasses
+  #53 = Utf8               ScalaInlineInfo
+  #54 = Utf8               Scala
+{
+  private final rpg.PlayerTraits traits$1;
+    descriptor: Lrpg/PlayerTraits;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public int totalCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #21                 // Field rpg/patmat/steppedClass/Node$.MODULE$:Lrpg/patmat/steppedClass/Node$;
+         3: aload_0
+         4: invokevirtual #25                 // Method tree:()Ljava/lang/Object;
+         7: checkcast     #27                 // class rpg/patmat/steppedClass/Node
+        10: aload_0
+        11: getfield      #29                 // Field traits$1:Lrpg/PlayerTraits;
+        14: invokevirtual #33                 // Method rpg/patmat/steppedClass/Node$.totalSkill:(Lrpg/patmat/steppedClass/Node;Lrpg/PlayerTraits;)I
+        17: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      18     0  this   Lrpg/patmat/steppedClass/ImplSkillTrees$$anon$1;
+      LineNumberTable:
+        line 81: 0
+
+  public rpg.patmat.steppedClass.ImplSkillTrees$$anon$1(rpg.patmat.steppedClass.ImplSkillTrees, rpg.PlayerTraits, rpg.patmat.steppedClass.DexTree);
+    descriptor: (Lrpg/patmat/steppedClass/ImplSkillTrees;Lrpg/PlayerTraits;Lrpg/patmat/steppedClass/DexTree;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=4
+         0: aload_0
+         1: aload_2
+         2: putfield      #29                 // Field traits$1:Lrpg/PlayerTraits;
+         5: aload_0
+         6: aload_3
+         7: invokespecial #42                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+        10: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   Lrpg/patmat/steppedClass/ImplSkillTrees$$anon$1;
+            0      11     1 $outer   Lrpg/patmat/steppedClass/ImplSkillTrees;
+            0      11     2 traits$1   Lrpg/PlayerTraits;
+            0      11     3 tree$1   Lrpg/patmat/steppedClass/DexTree;
+      LineNumberTable:
+        line 69: 0
+        line 80: 5
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+      traits$1                       final
+      tree$1                         final
+}
+Signature: #3                           // Lrpg/SkillTreeRepr<Lrpg/patmat/steppedClass/DexTree;>;
+SourceFile: "PatMatSkillTrees.scala"
+EnclosingMethod: #8.#11                 // rpg.patmat.steppedClass.ImplSkillTrees.archeryTree
+InnerClasses:
+     public final #2; //class rpg/patmat/steppedClass/ImplSkillTrees$$anon$1
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 01 00 02 00 24 00 25 01 00 0E 00 0F 01
+Error: unknown attribute
+  Scala: length = 0x0
+

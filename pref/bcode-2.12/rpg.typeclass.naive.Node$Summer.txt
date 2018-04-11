@@ -1,0 +1,4 @@
+Compiled from "TypeclassSkillTrees.scala"
+public interface rpg.typeclass.naive.Node$Summer<T> {
+  public abstract int sumExp(T, rpg.PlayerTraits);
+}

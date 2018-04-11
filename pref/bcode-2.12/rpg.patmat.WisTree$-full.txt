@@ -1,0 +1,236 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/WisTree$.class
+  Last modified Apr 8, 2018; size 1869 bytes
+  MD5 checksum 9fc132d773fa2d24f70a985145b672da
+  Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.WisTree$ extends scala.runtime.AbstractFunction2<rpg.patmat.Node, rpg.patmat.Node, rpg.patmat.WisTree> implements scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/patmat/WisTree$
+   #2 = Class              #1             // rpg/patmat/WisTree$
+   #3 = Utf8               Lscala/runtime/AbstractFunction2<Lrpg/patmat/Node;Lrpg/patmat/Node;Lrpg/patmat/WisTree;>;Lscala/Serializable;
+   #4 = Utf8               scala/runtime/AbstractFunction2
+   #5 = Class              #4             // scala/runtime/AbstractFunction2
+   #6 = Utf8               scala/Serializable
+   #7 = Class              #6             // scala/Serializable
+   #8 = Utf8               PatMatSkillTrees.scala
+   #9 = Utf8               MODULE$
+  #10 = Utf8               Lrpg/patmat/WisTree$;
+  #11 = Utf8               <clinit>
+  #12 = Utf8               ()V
+  #13 = Utf8               <init>
+  #14 = NameAndType        #13:#12        // "<init>":()V
+  #15 = Methodref          #2.#14         // rpg/patmat/WisTree$."<init>":()V
+  #16 = Utf8               toString
+  #17 = Utf8               ()Ljava/lang/String;
+  #18 = Utf8               WisTree
+  #19 = String             #18            // WisTree
+  #20 = Utf8               this
+  #21 = Utf8               apply
+  #22 = Utf8               (Lrpg/patmat/Node;Lrpg/patmat/Node;)Lrpg/patmat/WisTree;
+  #23 = Utf8               left
+  #24 = Utf8               right
+  #25 = Utf8               rpg/patmat/WisTree
+  #26 = Class              #25            // rpg/patmat/WisTree
+  #27 = Utf8               (Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #28 = NameAndType        #13:#27        // "<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #29 = Methodref          #26.#28        // rpg/patmat/WisTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+  #30 = Utf8               Lrpg/patmat/Node;
+  #31 = Utf8               unapply
+  #32 = Utf8               (Lrpg/patmat/WisTree;)Lscala/Option;
+  #33 = Utf8               x$0
+  #34 = Utf8               scala/None$
+  #35 = Class              #34            // scala/None$
+  #36 = Utf8               Lscala/None$;
+  #37 = NameAndType        #9:#36         // MODULE$:Lscala/None$;
+  #38 = Fieldref           #35.#37        // scala/None$.MODULE$:Lscala/None$;
+  #39 = Utf8               scala/Some
+  #40 = Class              #39            // scala/Some
+  #41 = Utf8               scala/Tuple2
+  #42 = Class              #41            // scala/Tuple2
+  #43 = Utf8               ()Lrpg/patmat/Node;
+  #44 = NameAndType        #23:#43        // left:()Lrpg/patmat/Node;
+  #45 = Methodref          #26.#44        // rpg/patmat/WisTree.left:()Lrpg/patmat/Node;
+  #46 = NameAndType        #24:#43        // right:()Lrpg/patmat/Node;
+  #47 = Methodref          #26.#46        // rpg/patmat/WisTree.right:()Lrpg/patmat/Node;
+  #48 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)V
+  #49 = NameAndType        #13:#48        // "<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+  #50 = Methodref          #42.#49        // scala/Tuple2."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+  #51 = Utf8               (Ljava/lang/Object;)V
+  #52 = NameAndType        #13:#51        // "<init>":(Ljava/lang/Object;)V
+  #53 = Methodref          #40.#52        // scala/Some."<init>":(Ljava/lang/Object;)V
+  #54 = Utf8               Lrpg/patmat/WisTree;
+  #55 = Utf8               scala/Option
+  #56 = Class              #55            // scala/Option
+  #57 = Utf8               readResolve
+  #58 = Utf8               ()Ljava/lang/Object;
+  #59 = NameAndType        #9:#10         // MODULE$:Lrpg/patmat/WisTree$;
+  #60 = Fieldref           #2.#59         // rpg/patmat/WisTree$.MODULE$:Lrpg/patmat/WisTree$;
+  #61 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #62 = Utf8               v1
+  #63 = Utf8               v2
+  #64 = Utf8               rpg/patmat/Node
+  #65 = Class              #64            // rpg/patmat/Node
+  #66 = NameAndType        #21:#22        // apply:(Lrpg/patmat/Node;Lrpg/patmat/Node;)Lrpg/patmat/WisTree;
+  #67 = Methodref          #2.#66         // rpg/patmat/WisTree$.apply:(Lrpg/patmat/Node;Lrpg/patmat/Node;)Lrpg/patmat/WisTree;
+  #68 = Utf8               Ljava/lang/Object;
+  #69 = Methodref          #5.#14         // scala/runtime/AbstractFunction2."<init>":()V
+  #70 = Utf8               Code
+  #71 = Utf8               LocalVariableTable
+  #72 = Utf8               LineNumberTable
+  #73 = Utf8               MethodParameters
+  #74 = Utf8               StackMapTable
+  #75 = Utf8               Signature
+  #76 = Utf8               (Lrpg/patmat/WisTree;)Lscala/Option<Lscala/Tuple2<Lrpg/patmat/Node;Lrpg/patmat/Node;>;>;
+  #77 = Utf8               SourceFile
+  #78 = Utf8               ScalaInlineInfo
+  #79 = Utf8               Scala
+{
+  public static rpg.patmat.WisTree$ MODULE$;
+    descriptor: Lrpg/patmat/WisTree$;
+    flags: ACC_PUBLIC, ACC_STATIC
+
+  public static {};
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: new           #2                  // class rpg/patmat/WisTree$
+         3: invokespecial #15                 // Method "<init>":()V
+         6: return
+
+  public final java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #19                 // String WisTree
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/patmat/WisTree$;
+      LineNumberTable:
+        line 10: 0
+
+  public rpg.patmat.WisTree apply(rpg.patmat.Node, rpg.patmat.Node);
+    descriptor: (Lrpg/patmat/Node;Lrpg/patmat/Node;)Lrpg/patmat/WisTree;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=3, args_size=3
+         0: new           #26                 // class rpg/patmat/WisTree
+         3: dup
+         4: aload_1
+         5: aload_2
+         6: invokespecial #29                 // Method rpg/patmat/WisTree."<init>":(Lrpg/patmat/Node;Lrpg/patmat/Node;)V
+         9: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   Lrpg/patmat/WisTree$;
+            0      10     1  left   Lrpg/patmat/Node;
+            0      10     2 right   Lrpg/patmat/Node;
+      LineNumberTable:
+        line 10: 0
+    MethodParameters:
+      Name                           Flags
+      left                           final
+      right                          final
+
+  public scala.Option<scala.Tuple2<rpg.patmat.Node, rpg.patmat.Node>> unapply(rpg.patmat.WisTree);
+    descriptor: (Lrpg/patmat/WisTree;)Lscala/Option;
+    flags: ACC_PUBLIC
+    Code:
+      stack=6, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     10
+         4: getstatic     #38                 // Field scala/None$.MODULE$:Lscala/None$;
+         7: goto          32
+        10: new           #40                 // class scala/Some
+        13: dup
+        14: new           #42                 // class scala/Tuple2
+        17: dup
+        18: aload_1
+        19: invokevirtual #45                 // Method rpg/patmat/WisTree.left:()Lrpg/patmat/Node;
+        22: aload_1
+        23: invokevirtual #47                 // Method rpg/patmat/WisTree.right:()Lrpg/patmat/Node;
+        26: invokespecial #50                 // Method scala/Tuple2."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+        29: invokespecial #53                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+        32: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      33     0  this   Lrpg/patmat/WisTree$;
+            0      33     1   x$0   Lrpg/patmat/WisTree;
+      LineNumberTable:
+        line 10: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 10 /* same */
+        frame_type = 85 /* same_locals_1_stack_item */
+          stack = [ class scala/Option ]
+    Signature: #76                          // (Lrpg/patmat/WisTree;)Lscala/Option<Lscala/Tuple2<Lrpg/patmat/Node;Lrpg/patmat/Node;>;>;
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  private java.lang.Object readResolve();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #60                 // Field MODULE$:Lrpg/patmat/WisTree$;
+         3: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Lrpg/patmat/WisTree$;
+      LineNumberTable:
+        line 10: 0
+
+  public java.lang.Object apply(java.lang.Object, java.lang.Object);
+    descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=3, locals=3, args_size=3
+         0: aload_0
+         1: aload_1
+         2: checkcast     #65                 // class rpg/patmat/Node
+         5: aload_2
+         6: checkcast     #65                 // class rpg/patmat/Node
+         9: invokevirtual #67                 // Method apply:(Lrpg/patmat/Node;Lrpg/patmat/Node;)Lrpg/patmat/WisTree;
+        12: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      13     0  this   Lrpg/patmat/WisTree$;
+            0      13     1    v1   Ljava/lang/Object;
+            0      13     2    v2   Ljava/lang/Object;
+      LineNumberTable:
+        line 10: 0
+    MethodParameters:
+      Name                           Flags
+      v1                             final
+      v2                             final
+
+  private rpg.patmat.WisTree$();
+    descriptor: ()V
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #69                 // Method scala/runtime/AbstractFunction2."<init>":()V
+         4: aload_0
+         5: putstatic     #60                 // Field MODULE$:Lrpg/patmat/WisTree$;
+         8: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/patmat/WisTree$;
+      LineNumberTable:
+        line 10: 0
+}
+Signature: #3                           // Lscala/runtime/AbstractFunction2<Lrpg/patmat/Node;Lrpg/patmat/Node;Lrpg/patmat/WisTree;>;Lscala/Serializable;
+SourceFile: "PatMatSkillTrees.scala"
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x22
+   01 01 00 06 00 0D 00 0C 01 00 15 00 3D 01 00 15
+   00 16 01 00 39 00 3A 01 00 10 00 11 01 00 1F 00
+   20 01
+Error: unknown attribute
+  Scala: length = 0x0
+

@@ -1,0 +1,516 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/typeclass/naive/StrTree.class
+  Last modified Apr 8, 2018; size 5128 bytes
+  MD5 checksum 595142ecb5f6f18a893d76274b1c848e
+  Compiled from "TypeclassSkillTrees.scala"
+public class rpg.typeclass.naive.StrTree<L extends java.lang.Object, R extends java.lang.Object> extends java.lang.Object implements rpg.typeclass.naive.Node, scala.Product, scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/typeclass/naive/StrTree
+    #2 = Class              #1            // rpg/typeclass/naive/StrTree
+    #3 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>Ljava/lang/Object;Lrpg/typeclass/naive/Node;Lscala/Product;Lscala/Serializable;
+    #4 = Utf8               java/lang/Object
+    #5 = Class              #4            // java/lang/Object
+    #6 = Utf8               rpg/typeclass/naive/Node
+    #7 = Class              #6            // rpg/typeclass/naive/Node
+    #8 = Utf8               scala/Product
+    #9 = Class              #8            // scala/Product
+   #10 = Utf8               scala/Serializable
+   #11 = Class              #10           // scala/Serializable
+   #12 = Utf8               TypeclassSkillTrees.scala
+   #13 = Utf8               Lscala/reflect/ScalaSignature;
+   #14 = Utf8               bytes
+   #15 = Utf8               -dB&qa;s)J,WM\t)a.Y5wK*QAB\nifXm7bgNTaBeB<7Az3##UACi!\"M\r\1\nAi!AB!osJ+g\r'5\t!!\t!aj3f!\taa#\t9K]8ek$C\tQRBTKJL\r\5{C\ndW\r\tU\r\"aWM;y\"a\r)bE\t\tA*$MAAJK5qAT8uQ&tw\r\rO%&:L#1,g\r\t1!Q3A5\nQA]5hQR,A\t?=\"Q\rC\tA\te\t)A]1!/[4iiBQU\naP5oSRtDc8qA!!/a21a31/Q!!Am\nAaY8qsVAhP!u5\tyCA@\t\tH1#!\ty\tB1s\t!CsA\t \t1J!a\"9Q\tAI\n1AD2paf$C-4bk2$H%MJV#%+yI5&&-V\"'5s!C;oG\",7m[3e\tyU\"b]:|G/;j_:L!!'#Ut7\r[3dW$g+:jC:W\rB\"\t\n!B1\t\n!CVEI,\r|/eKW;%eUq+.aS#AL%\"&A\"&\tq!C!;iO]8ek$K]3gSb,A\t?lC\nA\1oO*\t1-kCZBA3aFO]5oO\"9q\rAA\nA9s_,8\r^!sSRLX#A51QBA6\rIe[\t\t\"o9(o3vGR,E.Z7f]R$\"AJ8\tAd!aSJ\tI!C!gyO]8ek$\n^3sCR|'/Fu!\r)PJm*q/DG>dG.Z2uS>tBA=w!IE/:bi>bB>%\t`\tGtW)];bYRQ0!1qBA@un7fC:Dq>aC\t\t\"A.Y:i>$W\rFj%\tYAA\n\ni!u_N#(/8h)q\"CA\tIIA\n)/^1mgRQ0!\tAy!!AA:\"!E\t!aM#(:fKB!#!!E?B!!1!9A'!\rBCAA)\tY!!QS\ti\"!A-!B1qa2LXCBAg\t90e1\t%\t\t$!}\t\"O\rA\t\t?]BA(\t!CO\r!!\r\t1\n916!QqHA%\t)!Ut\r9msV11IA*/\"B!!ZA)A\"aL%J\r=H/[8o!aQJA)+J1!a!V7feAq$a\r\niD1#!\ryqau\"\tmQHA\ti&AyIAbARUBCA1;\t\t\"dY!/Z1e%x<f)\t\t)E`OJ1!!ay%M[3di
+   #16 = Utf8               left
+   #17 = Utf8               Ljava/lang/Object;
+   #18 = Utf8               TL;
+   #19 = Utf8               right
+   #20 = Utf8               TR;
+   #21 = Utf8               unapply
+   #22 = Utf8               (Lrpg/typeclass/naive/StrTree;)Lscala/Option;
+   #23 = Utf8               rpg/typeclass/naive/StrTree$
+   #24 = Class              #23           // rpg/typeclass/naive/StrTree$
+   #25 = Utf8               MODULE$
+   #26 = Utf8               Lrpg/typeclass/naive/StrTree$;
+   #27 = NameAndType        #25:#26       // MODULE$:Lrpg/typeclass/naive/StrTree$;
+   #28 = Fieldref           #24.#27       // rpg/typeclass/naive/StrTree$.MODULE$:Lrpg/typeclass/naive/StrTree$;
+   #29 = NameAndType        #21:#22       // unapply:(Lrpg/typeclass/naive/StrTree;)Lscala/Option;
+   #30 = Methodref          #24.#29       // rpg/typeclass/naive/StrTree$.unapply:(Lrpg/typeclass/naive/StrTree;)Lscala/Option;
+   #31 = Utf8               apply
+   #32 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+   #33 = NameAndType        #31:#32       // apply:(Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+   #34 = Methodref          #24.#33       // rpg/typeclass/naive/StrTree$.apply:(Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+   #35 = Utf8               ()Ljava/lang/Object;
+   #36 = NameAndType        #16:#17       // left:Ljava/lang/Object;
+   #37 = Fieldref           #2.#36        // rpg/typeclass/naive/StrTree.left:Ljava/lang/Object;
+   #38 = Utf8               this
+   #39 = Utf8               Lrpg/typeclass/naive/StrTree;
+   #40 = NameAndType        #19:#17       // right:Ljava/lang/Object;
+   #41 = Fieldref           #2.#40        // rpg/typeclass/naive/StrTree.right:Ljava/lang/Object;
+   #42 = Utf8               copy
+   #43 = Utf8               <init>
+   #44 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)V
+   #45 = NameAndType        #43:#44       // "<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+   #46 = Methodref          #2.#45        // rpg/typeclass/naive/StrTree."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+   #47 = Utf8               copy$default$1
+   #48 = NameAndType        #16:#35       // left:()Ljava/lang/Object;
+   #49 = Methodref          #2.#48        // rpg/typeclass/naive/StrTree.left:()Ljava/lang/Object;
+   #50 = Utf8               copy$default$2
+   #51 = NameAndType        #19:#35       // right:()Ljava/lang/Object;
+   #52 = Methodref          #2.#51        // rpg/typeclass/naive/StrTree.right:()Ljava/lang/Object;
+   #53 = Utf8               productPrefix
+   #54 = Utf8               ()Ljava/lang/String;
+   #55 = Utf8               StrTree
+   #56 = String             #55           // StrTree
+   #57 = Utf8               productArity
+   #58 = Utf8               ()I
+   #59 = Utf8               productElement
+   #60 = Utf8               (I)Ljava/lang/Object;
+   #61 = Utf8               x$1
+   #62 = Utf8               java/lang/IndexOutOfBoundsException
+   #63 = Class              #62           // java/lang/IndexOutOfBoundsException
+   #64 = Utf8               scala/runtime/BoxesRunTime
+   #65 = Class              #64           // scala/runtime/BoxesRunTime
+   #66 = Utf8               boxToInteger
+   #67 = Utf8               (I)Ljava/lang/Integer;
+   #68 = NameAndType        #66:#67       // boxToInteger:(I)Ljava/lang/Integer;
+   #69 = Methodref          #65.#68       // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+   #70 = Utf8               toString
+   #71 = NameAndType        #70:#54       // toString:()Ljava/lang/String;
+   #72 = Methodref          #5.#71        // java/lang/Object.toString:()Ljava/lang/String;
+   #73 = Utf8               (Ljava/lang/String;)V
+   #74 = NameAndType        #43:#73       // "<init>":(Ljava/lang/String;)V
+   #75 = Methodref          #63.#74       // java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+   #76 = Utf8               I
+   #77 = Utf8               productIterator
+   #78 = Utf8               ()Lscala/collection/Iterator;
+   #79 = Utf8               scala/runtime/ScalaRunTime$
+   #80 = Class              #79           // scala/runtime/ScalaRunTime$
+   #81 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #82 = NameAndType        #25:#81       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #83 = Fieldref           #80.#82       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #84 = Utf8               typedProductIterator
+   #85 = Utf8               (Lscala/Product;)Lscala/collection/Iterator;
+   #86 = NameAndType        #84:#85       // typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #87 = Methodref          #80.#86       // scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #88 = Utf8               canEqual
+   #89 = Utf8               (Ljava/lang/Object;)Z
+   #90 = Utf8               hashCode
+   #91 = Utf8               _hashCode
+   #92 = Utf8               (Lscala/Product;)I
+   #93 = NameAndType        #91:#92       // _hashCode:(Lscala/Product;)I
+   #94 = Methodref          #80.#93       // scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+   #95 = Utf8               _toString
+   #96 = Utf8               (Lscala/Product;)Ljava/lang/String;
+   #97 = NameAndType        #95:#96       // _toString:(Lscala/Product;)Ljava/lang/String;
+   #98 = Methodref          #80.#97       // scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+   #99 = Utf8               equals
+  #100 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Z
+  #101 = NameAndType        #99:#100      // equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+  #102 = Methodref          #65.#101      // scala/runtime/BoxesRunTime.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+  #103 = NameAndType        #88:#89       // canEqual:(Ljava/lang/Object;)Z
+  #104 = Methodref          #2.#103       // rpg/typeclass/naive/StrTree.canEqual:(Ljava/lang/Object;)Z
+  #105 = Utf8               ()V
+  #106 = NameAndType        #43:#105      // "<init>":()V
+  #107 = Methodref          #5.#106       // java/lang/Object."<init>":()V
+  #108 = Utf8               $init$
+  #109 = Utf8               (Lscala/Product;)V
+  #110 = NameAndType        #108:#109     // $init$:(Lscala/Product;)V
+  #111 = InterfaceMethodref #9.#110       // scala/Product.$init$:(Lscala/Product;)V
+  #112 = Utf8               Signature
+  #113 = Utf8               Code
+  #114 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/StrTree<TL;TR;>;)Lscala/Option<Lscala/Tuple2<TL;TR;>;>;
+  #115 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>(TL;TR;)Lrpg/typeclass/naive/StrTree<TL;TR;>;
+  #116 = Utf8               LocalVariableTable
+  #117 = Utf8               LineNumberTable
+  #118 = Utf8               ()TL;
+  #119 = Utf8               ()TR;
+  #120 = Utf8               MethodParameters
+  #121 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>()TL;
+  #122 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>()TR;
+  #123 = Utf8               StackMapTable
+  #124 = Utf8               ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+  #125 = Utf8               (TL;TR;)V
+  #126 = Utf8               SourceFile
+  #127 = Utf8               RuntimeVisibleAnnotations
+  #128 = Utf8               ScalaInlineInfo
+  #129 = Utf8               ScalaSig
+{
+  private final L left;
+    descriptor: Ljava/lang/Object;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #18                          // TL;
+
+  private final R right;
+    descriptor: Ljava/lang/Object;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #20                          // TR;
+
+  public static <L extends java.lang.Object, R extends java.lang.Object> scala.Option<scala.Tuple2<L, R>> unapply(rpg.typeclass.naive.StrTree<L, R>);
+    descriptor: (Lrpg/typeclass/naive/StrTree;)Lscala/Option;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #28                 // Field rpg/typeclass/naive/StrTree$.MODULE$:Lrpg/typeclass/naive/StrTree$;
+         3: aload_0
+         4: invokevirtual #30                 // Method rpg/typeclass/naive/StrTree$.unapply:(Lrpg/typeclass/naive/StrTree;)Lscala/Option;
+         7: areturn
+    Signature: #114                         // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/StrTree<TL;TR;>;)Lscala/Option<Lscala/Tuple2<TL;TR;>;>;
+
+  public static <L extends java.lang.Object, R extends java.lang.Object> rpg.typeclass.naive.StrTree<L, R> apply(L, R);
+    descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #28                 // Field rpg/typeclass/naive/StrTree$.MODULE$:Lrpg/typeclass/naive/StrTree$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #34                 // Method rpg/typeclass/naive/StrTree$.apply:(Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+         8: areturn
+    Signature: #115                         // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(TL;TR;)Lrpg/typeclass/naive/StrTree<TL;TR;>;
+
+  public L left();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #37                 // Field left:Ljava/lang/Object;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+    Signature: #118                         // ()TL;
+
+  public R right();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #41                 // Field right:Ljava/lang/Object;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+    Signature: #119                         // ()TR;
+
+  public <L extends java.lang.Object, R extends java.lang.Object> rpg.typeclass.naive.StrTree<L, R> copy(L, R);
+    descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=3, args_size=3
+         0: new           #2                  // class rpg/typeclass/naive/StrTree
+         3: dup
+         4: aload_1
+         5: aload_2
+         6: invokespecial #46                 // Method "<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+         9: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   Lrpg/typeclass/naive/StrTree;
+            0      10     1  left   Ljava/lang/Object;
+            0      10     2 right   Ljava/lang/Object;
+      LineNumberTable:
+        line 11: 0
+    Signature: #115                         // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(TL;TR;)Lrpg/typeclass/naive/StrTree<TL;TR;>;
+    MethodParameters:
+      Name                           Flags
+      left                           final
+      right                          final
+
+  public <L extends java.lang.Object, R extends java.lang.Object> L copy$default$1();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+    Signature: #121                         // <L:Ljava/lang/Object;R:Ljava/lang/Object;>()TL;
+
+  public <L extends java.lang.Object, R extends java.lang.Object> R copy$default$2();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+    Signature: #122                         // <L:Ljava/lang/Object;R:Ljava/lang/Object;>()TR;
+
+  public java.lang.String productPrefix();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #56                 // String StrTree
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+
+  public int productArity();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_2
+         1: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+
+  public java.lang.Object productElement(int);
+    descriptor: (I)Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1
+         1: istore_2
+         2: iload_2
+         3: tableswitch   { // 0 to 1
+                       0: 24
+                       1: 31
+                 default: 38
+            }
+        24: aload_0
+        25: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+        28: goto          53
+        31: aload_0
+        32: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+        35: goto          53
+        38: new           #63                 // class java/lang/IndexOutOfBoundsException
+        41: dup
+        42: iload_1
+        43: invokestatic  #69                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        46: invokevirtual #72                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        49: invokespecial #75                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+        52: athrow
+        53: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      54     0  this   Lrpg/typeclass/naive/StrTree;
+            0      54     1   x$1   I
+      LineNumberTable:
+        line 11: 0
+      StackMapTable: number_of_entries = 4
+        frame_type = 252 /* append */
+          offset_delta = 24
+          locals = [ int ]
+        frame_type = 6 /* same */
+        frame_type = 6 /* same */
+        frame_type = 78 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Object ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    descriptor: ()Lscala/collection/Iterator;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #87                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+    Signature: #124                         // ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+
+  public boolean canEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: instanceof    #2                  // class rpg/typeclass/naive/StrTree
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/typeclass/naive/StrTree;
+            0       5     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int hashCode();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #94                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #98                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+
+  public boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=5, args_size=2
+         0: aload_0
+         1: aload_1
+         2: if_acmpeq     84
+         5: aload_1
+         6: astore_3
+         7: aload_3
+         8: instanceof    #2                  // class rpg/typeclass/naive/StrTree
+        11: ifeq          19
+        14: iconst_1
+        15: istore_2
+        16: goto          27
+        19: goto          22
+        22: iconst_0
+        23: istore_2
+        24: goto          27
+        27: iload_2
+        28: ifeq          88
+        31: aload_1
+        32: checkcast     #2                  // class rpg/typeclass/naive/StrTree
+        35: astore        4
+        37: aload_0
+        38: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+        41: aload         4
+        43: invokevirtual #49                 // Method left:()Ljava/lang/Object;
+        46: invokestatic  #102                // Method scala/runtime/BoxesRunTime.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+        49: ifeq          80
+        52: aload_0
+        53: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+        56: aload         4
+        58: invokevirtual #52                 // Method right:()Ljava/lang/Object;
+        61: invokestatic  #102                // Method scala/runtime/BoxesRunTime.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+        64: ifeq          80
+        67: aload         4
+        69: aload_0
+        70: invokevirtual #104                // Method canEqual:(Ljava/lang/Object;)Z
+        73: ifeq          80
+        76: iconst_1
+        77: goto          81
+        80: iconst_0
+        81: ifeq          88
+        84: iconst_1
+        85: goto          89
+        88: iconst_0
+        89: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      90     0  this   Lrpg/typeclass/naive/StrTree;
+            0      90     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 11: 0
+      StackMapTable: number_of_entries = 8
+        frame_type = 253 /* append */
+          offset_delta = 19
+          locals = [ top, class java/lang/Object ]
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 4
+          locals = [ class rpg/typeclass/naive/StrTree, class java/lang/Object, int, class java/lang/Object ]
+          stack = []
+        frame_type = 252 /* append */
+          offset_delta = 52
+          locals = [ class rpg/typeclass/naive/StrTree ]
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 248 /* chop */
+          offset_delta = 2
+        frame_type = 253 /* append */
+          offset_delta = 3
+          locals = [ int, class java/lang/Object ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class rpg/typeclass/naive/StrTree, class java/lang/Object ]
+          stack = [ int ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public rpg.typeclass.naive.StrTree(L, R);
+    descriptor: (Ljava/lang/Object;Ljava/lang/Object;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: aload_1
+         2: putfield      #37                 // Field left:Ljava/lang/Object;
+         5: aload_0
+         6: aload_2
+         7: putfield      #41                 // Field right:Ljava/lang/Object;
+        10: aload_0
+        11: invokespecial #107                // Method java/lang/Object."<init>":()V
+        14: aload_0
+        15: invokestatic  #111                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+        18: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      19     0  this   Lrpg/typeclass/naive/StrTree;
+            0      19     1  left   Ljava/lang/Object;
+            0      19     2 right   Ljava/lang/Object;
+      LineNumberTable:
+        line 11: 0
+    Signature: #125                         // (TL;TR;)V
+    MethodParameters:
+      Name                           Flags
+      left                           final
+      right                          final
+}
+Signature: #3                           // <L:Ljava/lang/Object;R:Ljava/lang/Object;>Ljava/lang/Object;Lrpg/typeclass/naive/Node;Lscala/Product;Lscala/Serializable;
+SourceFile: "TypeclassSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #13(#14=s#15)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4A
+   01 00 00 0E 00 2B 00 2C 00 00 58 00 59 00 00 2F
+   00 23 00 00 32 00 23 00 00 2A 00 20 00 00 63 00
+   59 00 00 5A 00 3A 00 00 10 00 23 00 00 39 00 3A
+   00 00 3B 00 3C 00 00 4D 00 4E 00 00 35 00 36 00
+   00 13 00 23 00 00 46 00 36 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

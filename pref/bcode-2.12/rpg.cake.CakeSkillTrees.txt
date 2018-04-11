@@ -1,0 +1,63 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake.CakeSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    Code:
+       0: new           #20                 // class rpg/cake/DexNodes$DexTree
+       3: dup
+       4: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+       7: new           #17                 // class rpg/cake/DexNodes$DexStep
+      10: dup
+      11: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      14: new           #47                 // class rpg/cake/WisNodes$WisTree
+      17: dup
+      18: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      21: new           #39                 // class rpg/cake/WisNodes$WisSkill
+      24: dup
+      25: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      28: ldc           #59                 // String aimed
+      30: invokespecial #63                 // Method rpg/cake/WisNodes$WisSkill."<init>":(Lrpg/cake/Nodes;Ljava/lang/String;)V
+      33: new           #44                 // class rpg/cake/WisNodes$WisStep
+      36: dup
+      37: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      40: new           #12                 // class rpg/cake/DexNodes$DexSkill
+      43: dup
+      44: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      47: ldc           #65                 // String rapid
+      49: invokespecial #66                 // Method rpg/cake/DexNodes$DexSkill."<init>":(Lrpg/cake/Nodes;Ljava/lang/String;)V
+      52: invokespecial #69                 // Method rpg/cake/WisNodes$WisStep."<init>":(Lrpg/cake/Nodes;Lrpg/cake/Nodes$Node;)V
+      55: invokespecial #72                 // Method rpg/cake/WisNodes$WisTree."<init>":(Lrpg/cake/Nodes;Lrpg/cake/Nodes$Node;Lrpg/cake/Nodes$Node;)V
+      58: invokespecial #73                 // Method rpg/cake/DexNodes$DexStep."<init>":(Lrpg/cake/Nodes;Lrpg/cake/Nodes$Node;)V
+      61: new           #36                 // class rpg/cake/StrNodes$StrTree
+      64: dup
+      65: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      68: new           #28                 // class rpg/cake/StrNodes$StrSkill
+      71: dup
+      72: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      75: ldc           #75                 // String power
+      77: invokespecial #76                 // Method rpg/cake/StrNodes$StrSkill."<init>":(Lrpg/cake/Nodes;Ljava/lang/String;)V
+      80: new           #33                 // class rpg/cake/StrNodes$StrStep
+      83: dup
+      84: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      87: new           #12                 // class rpg/cake/DexNodes$DexSkill
+      90: dup
+      91: getstatic     #57                 // Field rpg/cake/Nodes$.MODULE$:Lrpg/cake/Nodes$;
+      94: ldc           #78                 // String double
+      96: invokespecial #66                 // Method rpg/cake/DexNodes$DexSkill."<init>":(Lrpg/cake/Nodes;Ljava/lang/String;)V
+      99: invokespecial #79                 // Method rpg/cake/StrNodes$StrStep."<init>":(Lrpg/cake/Nodes;Lrpg/cake/Nodes$Node;)V
+     102: invokespecial #80                 // Method rpg/cake/StrNodes$StrTree."<init>":(Lrpg/cake/Nodes;Lrpg/cake/Nodes$Node;Lrpg/cake/Nodes$Node;)V
+     105: invokespecial #81                 // Method rpg/cake/DexNodes$DexTree."<init>":(Lrpg/cake/Nodes;Lrpg/cake/Nodes$Node;Lrpg/cake/Nodes$Node;)V
+     108: astore_2
+     109: new           #10                 // class rpg/cake/CakeSkillTrees$$anon$1
+     112: dup
+     113: aconst_null
+     114: aload_1
+     115: aload_2
+     116: invokespecial #84                 // Method rpg/cake/CakeSkillTrees$$anon$1."<init>":(Lrpg/cake/CakeSkillTrees;Lrpg/PlayerTraits;Lrpg/cake/DexNodes$DexTree;)V
+     119: areturn
+
+  public rpg.cake.CakeSkillTrees();
+    Code:
+       0: aload_0
+       1: invokespecial #92                 // Method rpg/SkillTrees."<init>":()V
+       4: return
+}

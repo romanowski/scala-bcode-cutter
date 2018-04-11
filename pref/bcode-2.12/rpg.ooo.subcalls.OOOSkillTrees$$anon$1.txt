@@ -1,0 +1,24 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.subcalls.OOOSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.ooo.subcalls.DexTree> {
+  private final rpg.PlayerTraits traits$1;
+
+  public int totalCost();
+    Code:
+       0: aload_0
+       1: invokevirtual #19                 // Method tree:()Ljava/lang/Object;
+       4: checkcast     #21                 // class rpg/ooo/subcalls/Tree
+       7: aload_0
+       8: getfield      #23                 // Field traits$1:Lrpg/PlayerTraits;
+      11: invokeinterface #27,  2           // InterfaceMethod rpg/ooo/subcalls/Tree.cost:(Lrpg/PlayerTraits;)I
+      16: ireturn
+
+  public rpg.ooo.subcalls.OOOSkillTrees$$anon$1(rpg.ooo.subcalls.OOOSkillTrees, rpg.PlayerTraits, rpg.ooo.subcalls.DexTree);
+    Code:
+       0: aload_0
+       1: aload_2
+       2: putfield      #23                 // Field traits$1:Lrpg/PlayerTraits;
+       5: aload_0
+       6: aload_3
+       7: invokespecial #36                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+      10: return
+}

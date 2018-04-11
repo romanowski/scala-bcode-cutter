@@ -1,0 +1,353 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/nested/Str$.class
+  Last modified Apr 8, 2018; size 1996 bytes
+  MD5 checksum 40ab1f0fe625e796d95439b6391c40fc
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.nested.Str$ implements rpg.ooo.nested.FeatTree
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/ooo/nested/Str$
+   #2 = Class              #1             // rpg/ooo/nested/Str$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               rpg/ooo/nested/FeatTree
+   #6 = Class              #5             // rpg/ooo/nested/FeatTree
+   #7 = Utf8               OOOSubcallsSkillTrees.scala
+   #8 = Utf8               rpg/ooo/nested/FeatTree$Skill$
+   #9 = Class              #8             // rpg/ooo/nested/FeatTree$Skill$
+  #10 = Utf8               Skill$
+  #11 = Utf8               rpg/ooo/nested/FeatTree$Step$
+  #12 = Class              #11            // rpg/ooo/nested/FeatTree$Step$
+  #13 = Utf8               Step$
+  #14 = Utf8               rpg/ooo/nested/FeatTree$Tree$
+  #15 = Class              #14            // rpg/ooo/nested/FeatTree$Tree$
+  #16 = Utf8               Tree$
+  #17 = Utf8               MODULE$
+  #18 = Utf8               Lrpg/ooo/nested/Str$;
+  #19 = Utf8               Tree$module
+  #20 = Utf8               Lrpg/ooo/nested/FeatTree$Tree$;
+  #21 = Utf8               Step$module
+  #22 = Utf8               Lrpg/ooo/nested/FeatTree$Step$;
+  #23 = Utf8               Skill$module
+  #24 = Utf8               Lrpg/ooo/nested/FeatTree$Skill$;
+  #25 = Utf8               <clinit>
+  #26 = Utf8               ()V
+  #27 = Utf8               <init>
+  #28 = NameAndType        #27:#26        // "<init>":()V
+  #29 = Methodref          #2.#28         // rpg/ooo/nested/Str$."<init>":()V
+  #30 = Utf8               Tree
+  #31 = Utf8               ()Lrpg/ooo/nested/FeatTree$Tree$;
+  #32 = NameAndType        #19:#20        // Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+  #33 = Fieldref           #2.#32         // rpg/ooo/nested/Str$.Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+  #34 = Utf8               Tree$lzycompute$2
+  #35 = NameAndType        #34:#26        // Tree$lzycompute$2:()V
+  #36 = Methodref          #2.#35         // rpg/ooo/nested/Str$.Tree$lzycompute$2:()V
+  #37 = Utf8               this
+  #38 = Utf8               Step
+  #39 = Utf8               ()Lrpg/ooo/nested/FeatTree$Step$;
+  #40 = NameAndType        #21:#22        // Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+  #41 = Fieldref           #2.#40         // rpg/ooo/nested/Str$.Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+  #42 = Utf8               Step$lzycompute$2
+  #43 = NameAndType        #42:#26        // Step$lzycompute$2:()V
+  #44 = Methodref          #2.#43         // rpg/ooo/nested/Str$.Step$lzycompute$2:()V
+  #45 = Utf8               Skill
+  #46 = Utf8               ()Lrpg/ooo/nested/FeatTree$Skill$;
+  #47 = NameAndType        #23:#24        // Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+  #48 = Fieldref           #2.#47         // rpg/ooo/nested/Str$.Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+  #49 = Utf8               Skill$lzycompute$2
+  #50 = NameAndType        #49:#26        // Skill$lzycompute$2:()V
+  #51 = Methodref          #2.#50         // rpg/ooo/nested/Str$.Skill$lzycompute$2:()V
+  #52 = Utf8               thisCost
+  #53 = Utf8               (Lrpg/PlayerTraits;)I
+  #54 = Utf8               traits
+  #55 = Utf8               rpg/PlayerTraits
+  #56 = Class              #55            // rpg/PlayerTraits
+  #57 = Utf8               strCost
+  #58 = Utf8               ()I
+  #59 = NameAndType        #57:#58        // strCost:()I
+  #60 = Methodref          #56.#59        // rpg/PlayerTraits.strCost:()I
+  #61 = Utf8               Lrpg/PlayerTraits;
+  #62 = Utf8               (Lrpg/ooo/nested/FeatTree;)V
+  #63 = NameAndType        #27:#62        // "<init>":(Lrpg/ooo/nested/FeatTree;)V
+  #64 = Methodref          #15.#63        // rpg/ooo/nested/FeatTree$Tree$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+  #65 = Utf8               java/lang/Throwable
+  #66 = Class              #65            // java/lang/Throwable
+  #67 = Methodref          #12.#63        // rpg/ooo/nested/FeatTree$Step$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+  #68 = Methodref          #9.#63         // rpg/ooo/nested/FeatTree$Skill$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+  #69 = Methodref          #4.#28         // java/lang/Object."<init>":()V
+  #70 = NameAndType        #17:#18        // MODULE$:Lrpg/ooo/nested/Str$;
+  #71 = Fieldref           #2.#70         // rpg/ooo/nested/Str$.MODULE$:Lrpg/ooo/nested/Str$;
+  #72 = Utf8               $init$
+  #73 = NameAndType        #72:#62        // $init$:(Lrpg/ooo/nested/FeatTree;)V
+  #74 = InterfaceMethodref #6.#73         // rpg/ooo/nested/FeatTree.$init$:(Lrpg/ooo/nested/FeatTree;)V
+  #75 = Utf8               Code
+  #76 = Utf8               LocalVariableTable
+  #77 = Utf8               LineNumberTable
+  #78 = Utf8               StackMapTable
+  #79 = Utf8               MethodParameters
+  #80 = Utf8               SourceFile
+  #81 = Utf8               InnerClasses
+  #82 = Utf8               ScalaInlineInfo
+  #83 = Utf8               Scala
+{
+  public static rpg.ooo.nested.Str$ MODULE$;
+    descriptor: Lrpg/ooo/nested/Str$;
+    flags: ACC_PUBLIC, ACC_STATIC
+
+  private volatile rpg.ooo.nested.FeatTree$Tree$ Tree$module;
+    descriptor: Lrpg/ooo/nested/FeatTree$Tree$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.ooo.nested.FeatTree$Step$ Step$module;
+    descriptor: Lrpg/ooo/nested/FeatTree$Step$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  private volatile rpg.ooo.nested.FeatTree$Skill$ Skill$module;
+    descriptor: Lrpg/ooo/nested/FeatTree$Skill$;
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  public static {};
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: new           #2                  // class rpg/ooo/nested/Str$
+         3: invokespecial #29                 // Method "<init>":()V
+         6: return
+
+  public rpg.ooo.nested.FeatTree$Tree$ Tree();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Tree$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #36                 // Method Tree$lzycompute$2:()V
+        11: aload_0
+        12: getfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/ooo/nested/Str$;
+      LineNumberTable:
+        line 33: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.ooo.nested.FeatTree$Step$ Step();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Step$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #44                 // Method Step$lzycompute$2:()V
+        11: aload_0
+        12: getfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/ooo/nested/Str$;
+      LineNumberTable:
+        line 33: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public rpg.ooo.nested.FeatTree$Skill$ Skill();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Skill$;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+         4: ifnonnull     11
+         7: aload_0
+         8: invokespecial #51                 // Method Skill$lzycompute$2:()V
+        11: aload_0
+        12: getfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+        15: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lrpg/ooo/nested/Str$;
+      LineNumberTable:
+        line 33: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+
+  public int thisCost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: invokevirtual #60                 // Method rpg/PlayerTraits.strCost:()I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/ooo/nested/Str$;
+            0       5     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 34: 0
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  private final void Tree$lzycompute$2();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #15                 // class rpg/ooo/nested/FeatTree$Tree$
+        15: dup
+        16: aload_0
+        17: invokespecial #64                 // Method rpg/ooo/nested/FeatTree$Tree$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+        20: putfield      #33                 // Field Tree$module:Lrpg/ooo/nested/FeatTree$Tree$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/ooo/nested/Str$;
+      LineNumberTable:
+        line 33: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/ooo/nested/Str$ ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void Step$lzycompute$2();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #12                 // class rpg/ooo/nested/FeatTree$Step$
+        15: dup
+        16: aload_0
+        17: invokespecial #67                 // Method rpg/ooo/nested/FeatTree$Step$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+        20: putfield      #41                 // Field Step$module:Lrpg/ooo/nested/FeatTree$Step$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/ooo/nested/Str$;
+      LineNumberTable:
+        line 33: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/ooo/nested/Str$ ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private final void Skill$lzycompute$2();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_FINAL
+    Code:
+      stack=4, locals=2, args_size=1
+         0: aload_0
+         1: dup
+         2: astore_1
+         3: monitorenter
+         4: aload_0
+         5: getfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+         8: ifnonnull     23
+        11: aload_0
+        12: new           #9                  // class rpg/ooo/nested/FeatTree$Skill$
+        15: dup
+        16: aload_0
+        17: invokespecial #68                 // Method rpg/ooo/nested/FeatTree$Skill$."<init>":(Lrpg/ooo/nested/FeatTree;)V
+        20: putfield      #48                 // Field Skill$module:Lrpg/ooo/nested/FeatTree$Skill$;
+        23: aload_1
+        24: monitorexit
+        25: goto          31
+        28: aload_1
+        29: monitorexit
+        30: athrow
+        31: return
+      Exception table:
+         from    to  target type
+             4    23    28   any
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      32     0  this   Lrpg/ooo/nested/Str$;
+      LineNumberTable:
+        line 33: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class rpg/ooo/nested/Str$ ]
+        frame_type = 68 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 2 /* same */
+
+  private rpg.ooo.nested.Str$();
+    descriptor: ()V
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #69                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: putstatic     #71                 // Field MODULE$:Lrpg/ooo/nested/Str$;
+         8: aload_0
+         9: invokestatic  #74                 // InterfaceMethod rpg/ooo/nested/FeatTree.$init$:(Lrpg/ooo/nested/FeatTree;)V
+        12: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      13     0  this   Lrpg/ooo/nested/Str$;
+      LineNumberTable:
+        line 33: 0
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+InnerClasses:
+     public #10= #9 of #6; //Skill$=class rpg/ooo/nested/FeatTree$Skill$ of class rpg/ooo/nested/FeatTree
+     public #13= #12 of #6; //Step$=class rpg/ooo/nested/FeatTree$Step$ of class rpg/ooo/nested/FeatTree
+     public #16= #15 of #6; //Tree$=class rpg/ooo/nested/FeatTree$Tree$ of class rpg/ooo/nested/FeatTree
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x2C
+   01 01 00 08 00 1B 00 1A 01 00 31 00 1A 01 00 2D
+   00 2E 01 00 2A 00 1A 01 00 26 00 27 01 00 22 00
+   1A 01 00 1E 00 1F 01 00 34 00 35 01
+Error: unknown attribute
+  Scala: length = 0x0
+

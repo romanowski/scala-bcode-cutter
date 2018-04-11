@@ -1,0 +1,69 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake2.Cake2SkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    Code:
+       0: new           #10                 // class rpg/cake2/Cake2SkillTrees$$anon$1
+       3: dup
+       4: aconst_null
+       5: aload_1
+       6: invokespecial #57                 // Method rpg/cake2/Cake2SkillTrees$$anon$1."<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/PlayerTraits;)V
+       9: astore_2
+      10: new           #22                 // class rpg/cake2/DexNodes$DexTree
+      13: dup
+      14: aload_2
+      15: new           #19                 // class rpg/cake2/DexNodes$DexStep
+      18: dup
+      19: aload_2
+      20: new           #49                 // class rpg/cake2/WisNodes$WisTree
+      23: dup
+      24: aload_2
+      25: new           #41                 // class rpg/cake2/WisNodes$WisSkill
+      28: dup
+      29: aload_2
+      30: ldc           #59                 // String aimed
+      32: invokespecial #62                 // Method rpg/cake2/WisNodes$WisSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+      35: new           #46                 // class rpg/cake2/WisNodes$WisStep
+      38: dup
+      39: aload_2
+      40: new           #14                 // class rpg/cake2/DexNodes$DexSkill
+      43: dup
+      44: aload_2
+      45: ldc           #64                 // String rapid
+      47: invokespecial #65                 // Method rpg/cake2/DexNodes$DexSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+      50: invokespecial #68                 // Method rpg/cake2/WisNodes$WisStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+      53: invokespecial #71                 // Method rpg/cake2/WisNodes$WisTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+      56: invokespecial #72                 // Method rpg/cake2/DexNodes$DexStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+      59: new           #38                 // class rpg/cake2/StrNodes$StrTree
+      62: dup
+      63: aload_2
+      64: new           #30                 // class rpg/cake2/StrNodes$StrSkill
+      67: dup
+      68: aload_2
+      69: ldc           #74                 // String power
+      71: invokespecial #75                 // Method rpg/cake2/StrNodes$StrSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+      74: new           #35                 // class rpg/cake2/StrNodes$StrStep
+      77: dup
+      78: aload_2
+      79: new           #14                 // class rpg/cake2/DexNodes$DexSkill
+      82: dup
+      83: aload_2
+      84: ldc           #77                 // String double
+      86: invokespecial #65                 // Method rpg/cake2/DexNodes$DexSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+      89: invokespecial #78                 // Method rpg/cake2/StrNodes$StrStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+      92: invokespecial #79                 // Method rpg/cake2/StrNodes$StrTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+      95: invokespecial #80                 // Method rpg/cake2/DexNodes$DexTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+      98: astore_3
+      99: new           #12                 // class rpg/cake2/Cake2SkillTrees$$anon$2
+     102: dup
+     103: aconst_null
+     104: aload_2
+     105: aload_3
+     106: invokespecial #83                 // Method rpg/cake2/Cake2SkillTrees$$anon$2."<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/cake2/NodesTraits;Lrpg/cake2/DexNodes$DexTree;)V
+     109: areturn
+
+  public rpg.cake2.Cake2SkillTrees();
+    Code:
+       0: aload_0
+       1: invokespecial #93                 // Method rpg/SkillTrees."<init>":()V
+       4: return
+}

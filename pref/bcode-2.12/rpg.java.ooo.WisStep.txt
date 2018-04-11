@@ -1,0 +1,24 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.WisStep implements rpg.java.ooo.Node {
+  rpg.java.ooo.Node to;
+
+  rpg.java.ooo.WisStep(rpg.java.ooo.Node);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: aload_1
+       6: putfield      #2                  // Field to:Lrpg/java/ooo/Node;
+       9: return
+
+  public int cost(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: getfield      #2                  // Field to:Lrpg/java/ooo/Node;
+       4: aload_1
+       5: invokeinterface #3,  2            // InterfaceMethod rpg/java/ooo/Node.cost:(Lrpg/PlayerTraits;)I
+      10: aload_1
+      11: invokevirtual #4                  // Method rpg/PlayerTraits.wisCost:()I
+      14: iadd
+      15: ireturn
+}

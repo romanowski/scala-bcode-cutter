@@ -1,0 +1,106 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/nested/FeatTree.class
+  Last modified Apr 8, 2018; size 3398 bytes
+  MD5 checksum 7d6923c55372aeacf6feadfd3daa3b81
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.nested.FeatTree
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/ooo/nested/FeatTree
+   #2 = Class              #1             // rpg/ooo/nested/FeatTree
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               OOOSubcallsSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               \t%baB!\r\t!\t\rG:fK*1B]H/31aA8p_*\tq!AsaaA1BD)\tQ\"AtGd-\t1I\=SKDQ!I\taJ5oSR$C#A\n-!BA\r)f.;\t]a\rQDn]\"pgR$\"!-QBA\r\rIe;Y\rAHiJ^:}S\"\n2!)mCf,':bSRhBA:fKN)!EC*YAaeJ%F>$W\rU%1!J|G-^2u!\tYQ&/\ta1+:jC2L'02mK\"AG\tBK'mK$X#A\tM##Q\n\nQ\3giB\"%\t!Me&<\to\t\t)AK1!/[4iiBQ!i\naP5oSRtDcA>}AAHI!)aK!)QaK!)I\tC!!1m\:u)\tI\"\tCaCEEIA#\t\r|/w;bD!\r!\nk\r\n1&I%%%A)abY8qs\"WMZ1vYR$'FLU\t)CjKN!\tq5+DP\t+Av]DWmY6fI*!DC:tw^1uS>tB+PE)hn5fG.,GMV1sSt7--\n\n\n\"K9w]=%I4-7uIIBq,Aqe>$Wo;Qe4_5B1Y9*QLXYtwMC`QM^1\nd&AB*ue&tw\rCdEI3AxZ;di^=eAqAq-qe>$Wo;FYlWM;!\CAj\tQGBAB]fDq\3$AyIEBqAs.Aqe>$Wo;Ji\r^8s+cA9uQ6\t!OtQ1m7mK$n8\nU(C%uKJGo:\t]!CqA1-8FcVGzyB1B_w2qAQ8pYgCmm\t5\ty!C!A.Y:i>$W\rF%\tAIA\n\n)!u_N#(/8h)Q\"CAEIIA)/^1mgR0!\t19!!AA!<\"!E\t!a\tQX-\tyUaCE\t!aUmE&w5Q?aa:v]RLW.ZG\tiBA\tBEN$(/Y2u\rVt7\r^5p]JBq!OA\t\t9!Q1AA%)%!\t5QCA\ny#AbaBdF<c\t1W\r!\nk-A\t]QCA\nI$Av]\=\tmq\t\tuIa!AB(qi&|gE*S%CF1aV;qY\"CA%k\t\t1<\rAH\r)a\tM#X\r]\nRQ%\tM1\nBK'u_\"QqKA&#BQ|C:\"\t!a\tuq\ty-bBA*3\r!\n-CIA2)\rIQ\r;\tY%!A%DBA/WB\"ahA\tA\t%Y%%A)CWA&%\t%\tG-!CI\"Ia-aQQ]7t\tA\r\t9Y%!AB=Db^A&%\t!! eymw\n\t1i!q1JA\nzBCA\n\t\"!QBA&%\t%a\"eI\tm\t1i%\ti\tAA\ty)TicIQ\n#1S\n#)\n\t7\t9*JA/\tI*!#7:bGR4UO\2uS>tC:##\t!!(=BCA#\t\"!QQFAI%\t)a)\tuQ'\n\t1&)\t9$!%Wi{)BCA%O\t1^1AgQaU6jY2b!a,K%bbCA\_)!CsAA\1nKV1\t{YM@cAAa51DAs_>$h(CJ2\ta:fI4bA1N*\tEqB\tB%1X]lW\r\ts=FAAk)\t9.!7q\ny8MAA^qC!;$2!GApi1a=!IA)a,1/)8!awC\"SAX#%\t!!;-(fAA^\"A,a,d_\t\"e%1qVA\n\tFikD\Ay\r!\t]=!C!_\"Iq/a,1 su7z\t5\tyy+!AB}D!\"a0IIA)\tI!a,#Qs\n7\t5\t-!!A\t\t5!B*lS2dcI#!C\n\t\t7\t9*a/X\"9Ha\t]ACB)\tAaQ[y!!A\nuABAl?A\"a.1oy!!A\n\rBBORaCAwC!\"!\"\tAAl
+   #9 = Utf8               rpg/ooo/nested/FeatTree$Skill
+  #10 = Class              #9             // rpg/ooo/nested/FeatTree$Skill
+  #11 = Utf8               Skill
+  #12 = Utf8               rpg/ooo/nested/FeatTree$Skill$
+  #13 = Class              #12            // rpg/ooo/nested/FeatTree$Skill$
+  #14 = Utf8               Skill$
+  #15 = Utf8               rpg/ooo/nested/FeatTree$Step
+  #16 = Class              #15            // rpg/ooo/nested/FeatTree$Step
+  #17 = Utf8               Step
+  #18 = Utf8               rpg/ooo/nested/FeatTree$Step$
+  #19 = Class              #18            // rpg/ooo/nested/FeatTree$Step$
+  #20 = Utf8               Step$
+  #21 = Utf8               rpg/ooo/nested/FeatTree$Tree
+  #22 = Class              #21            // rpg/ooo/nested/FeatTree$Tree
+  #23 = Utf8               Tree
+  #24 = Utf8               rpg/ooo/nested/FeatTree$Tree$
+  #25 = Class              #24            // rpg/ooo/nested/FeatTree$Tree$
+  #26 = Utf8               Tree$
+  #27 = Utf8               ()Lrpg/ooo/nested/FeatTree$Tree$;
+  #28 = Utf8               ()Lrpg/ooo/nested/FeatTree$Step$;
+  #29 = Utf8               ()Lrpg/ooo/nested/FeatTree$Skill$;
+  #30 = Utf8               thisCost
+  #31 = Utf8               (Lrpg/PlayerTraits;)I
+  #32 = Utf8               traits
+  #33 = Utf8               $init$
+  #34 = Utf8               (Lrpg/ooo/nested/FeatTree;)V
+  #35 = Utf8               $this
+  #36 = Utf8               Lrpg/ooo/nested/FeatTree;
+  #37 = Utf8               MethodParameters
+  #38 = Utf8               Code
+  #39 = Utf8               LocalVariableTable
+  #40 = Utf8               LineNumberTable
+  #41 = Utf8               SourceFile
+  #42 = Utf8               InnerClasses
+  #43 = Utf8               RuntimeVisibleAnnotations
+  #44 = Utf8               ScalaInlineInfo
+  #45 = Utf8               ScalaSig
+{
+  public abstract rpg.ooo.nested.FeatTree$Tree$ Tree();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Tree$;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract rpg.ooo.nested.FeatTree$Step$ Step();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Step$;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract rpg.ooo.nested.FeatTree$Skill$ Skill();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Skill$;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract int thisCost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public static void $init$(rpg.ooo.nested.FeatTree);
+    descriptor: (Lrpg/ooo/nested/FeatTree;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0 $this   Lrpg/ooo/nested/FeatTree;
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+InnerClasses:
+     public #11= #10 of #2; //Skill=class rpg/ooo/nested/FeatTree$Skill of class rpg/ooo/nested/FeatTree
+     public #14= #13 of #2; //Skill$=class rpg/ooo/nested/FeatTree$Skill$ of class rpg/ooo/nested/FeatTree
+     public #17= #16 of #2; //Step=class rpg/ooo/nested/FeatTree$Step of class rpg/ooo/nested/FeatTree
+     public #20= #19 of #2; //Step$=class rpg/ooo/nested/FeatTree$Step$ of class rpg/ooo/nested/FeatTree
+     public #23= #22 of #2; //Tree=class rpg/ooo/nested/FeatTree$Tree of class rpg/ooo/nested/FeatTree
+     public #26= #25 of #2; //Tree$=class rpg/ooo/nested/FeatTree$Tree$ of class rpg/ooo/nested/FeatTree
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x1D
+   01 00 00 05 00 21 00 22 01 00 0B 00 1D 00 00 11
+   00 1C 00 00 17 00 1B 00 00 1E 00 1F 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

@@ -1,0 +1,20 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.stepped.DexStep implements rpg.patmat.stepped.Step,scala.Product,scala.Serializable {
+  private final rpg.patmat.stepped.Node to;
+  public static scala.Option<rpg.patmat.stepped.Node> unapply(rpg.patmat.stepped.DexStep);
+  public static rpg.patmat.stepped.DexStep apply(rpg.patmat.stepped.Node);
+  public static <A> scala.Function1<rpg.patmat.stepped.Node, A> andThen(scala.Function1<rpg.patmat.stepped.DexStep, A>);
+  public static <A> scala.Function1<A, rpg.patmat.stepped.DexStep> compose(scala.Function1<A, rpg.patmat.stepped.Node>);
+  public rpg.patmat.stepped.Node to();
+  public rpg.patmat.stepped.DexStep copy(rpg.patmat.stepped.Node);
+  public rpg.patmat.stepped.Node copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.patmat.stepped.DexStep(rpg.patmat.stepped.Node);
+}

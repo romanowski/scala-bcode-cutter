@@ -1,0 +1,24 @@
+Compiled from "OOOSkillTrees.scala"
+public class rpg.ooo.WisTree implements rpg.ooo.Node,scala.Product,scala.Serializable {
+  private final rpg.ooo.Node left;
+  private final rpg.ooo.Node right;
+  public static scala.Option<scala.Tuple2<rpg.ooo.Node, rpg.ooo.Node>> unapply(rpg.ooo.WisTree);
+  public static rpg.ooo.WisTree apply(rpg.ooo.Node, rpg.ooo.Node);
+  public static scala.Function1<scala.Tuple2<rpg.ooo.Node, rpg.ooo.Node>, rpg.ooo.WisTree> tupled();
+  public static scala.Function1<rpg.ooo.Node, scala.Function1<rpg.ooo.Node, rpg.ooo.WisTree>> curried();
+  public rpg.ooo.Node left();
+  public rpg.ooo.Node right();
+  public int cost(rpg.PlayerTraits);
+  public rpg.ooo.WisTree copy(rpg.ooo.Node, rpg.ooo.Node);
+  public rpg.ooo.Node copy$default$1();
+  public rpg.ooo.Node copy$default$2();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.ooo.WisTree(rpg.ooo.Node, rpg.ooo.Node);
+}

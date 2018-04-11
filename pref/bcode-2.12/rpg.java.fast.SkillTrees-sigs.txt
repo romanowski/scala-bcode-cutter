@@ -1,0 +1,5 @@
+Compiled from "SkillTrees.java"
+public class rpg.java.fast.SkillTrees extends rpg.SkillTrees {
+  public rpg.java.fast.SkillTrees();
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+}

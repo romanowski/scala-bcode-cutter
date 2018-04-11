@@ -1,0 +1,108 @@
+Compiled from "Benchmarks.scala"
+public class rpg.bench.ColdBenchmark implements rpg.bench.Benchmarks {
+  public int patMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #34                 // InterfaceMethod rpg/bench/Benchmarks.patMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int slowPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #41                 // InterfaceMethod rpg/bench/Benchmarks.slowPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int classesPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #45                 // InterfaceMethod rpg/bench/Benchmarks.classesPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int steppedPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #49                 // InterfaceMethod rpg/bench/Benchmarks.steppedPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int steppedClassPatMat(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #53                 // InterfaceMethod rpg/bench/Benchmarks.steppedClassPatMat$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int typeclass(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #57                 // InterfaceMethod rpg/bench/Benchmarks.typeclass$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int cake(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #61                 // InterfaceMethod rpg/bench/Benchmarks.cake$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int cake2(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #65                 // InterfaceMethod rpg/bench/Benchmarks.cake2$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooTree(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #69                 // InterfaceMethod rpg/bench/Benchmarks.oooTree$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooSubcalls(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #73                 // InterfaceMethod rpg/bench/Benchmarks.oooSubcalls$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooLambdas(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #77                 // InterfaceMethod rpg/bench/Benchmarks.oooLambdas$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int oooNested(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #81                 // InterfaceMethod rpg/bench/Benchmarks.oooNested$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int javaOOO(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #85                 // InterfaceMethod rpg/bench/Benchmarks.javaOOO$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public int javaFast(rpg.bench.BenchmarkState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokestatic  #89                 // InterfaceMethod rpg/bench/Benchmarks.javaFast$:(Lrpg/bench/Benchmarks;Lrpg/bench/BenchmarkState;)I
+       5: ireturn
+
+  public rpg.bench.ColdBenchmark();
+    Code:
+       0: aload_0
+       1: invokespecial #93                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: invokestatic  #97                 // InterfaceMethod rpg/bench/Benchmarks.$init$:(Lrpg/bench/Benchmarks;)V
+       8: return
+}

@@ -1,0 +1,11 @@
+Compiled from "LambdasSkillTrees.scala"
+public final class rpg.ooo.lambdas.Skill$ extends scala.runtime.AbstractFunction2<scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String, rpg.ooo.lambdas.Skill> implements scala.Serializable {
+  public static rpg.ooo.lambdas.Skill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.ooo.lambdas.Skill apply(scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String);
+  public scala.Option<scala.Tuple2<scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String>> unapply(rpg.ooo.lambdas.Skill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object, java.lang.Object);
+  private rpg.ooo.lambdas.Skill$();
+}

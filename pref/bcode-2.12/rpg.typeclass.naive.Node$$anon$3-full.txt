@@ -1,0 +1,127 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/typeclass/naive/Node$$anon$3.class
+  Last modified Apr 8, 2018; size 1152 bytes
+  MD5 checksum 0ad251fcfdd4205bf5fc58149fdec4c1
+  Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.Node$$anon$3 extends java.lang.Object implements rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexSkill>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/typeclass/naive/Node$$anon$3
+   #2 = Class              #1             // rpg/typeclass/naive/Node$$anon$3
+   #3 = Utf8               Ljava/lang/Object;Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexSkill;>;
+   #4 = Utf8               java/lang/Object
+   #5 = Class              #4             // java/lang/Object
+   #6 = Utf8               rpg/typeclass/naive/Node$Summer
+   #7 = Class              #6             // rpg/typeclass/naive/Node$Summer
+   #8 = Utf8               TypeclassSkillTrees.scala
+   #9 = Utf8               rpg/typeclass/naive/Node$
+  #10 = Class              #9             // rpg/typeclass/naive/Node$
+  #11 = Utf8               rpg/typeclass/naive/Node
+  #12 = Class              #11            // rpg/typeclass/naive/Node
+  #13 = Utf8               Summer
+  #14 = Utf8               sumExp
+  #15 = Utf8               (Lrpg/typeclass/naive/DexSkill;Lrpg/PlayerTraits;)I
+  #16 = Utf8               tree
+  #17 = Utf8               traits
+  #18 = Utf8               rpg/PlayerTraits
+  #19 = Class              #18            // rpg/PlayerTraits
+  #20 = Utf8               dexCost
+  #21 = Utf8               ()I
+  #22 = NameAndType        #20:#21        // dexCost:()I
+  #23 = Methodref          #19.#22        // rpg/PlayerTraits.dexCost:()I
+  #24 = Utf8               this
+  #25 = Utf8               Lrpg/typeclass/naive/Node$$anon$3;
+  #26 = Utf8               Lrpg/typeclass/naive/DexSkill;
+  #27 = Utf8               Lrpg/PlayerTraits;
+  #28 = Utf8               (Ljava/lang/Object;Lrpg/PlayerTraits;)I
+  #29 = Utf8               rpg/typeclass/naive/DexSkill
+  #30 = Class              #29            // rpg/typeclass/naive/DexSkill
+  #31 = NameAndType        #14:#15        // sumExp:(Lrpg/typeclass/naive/DexSkill;Lrpg/PlayerTraits;)I
+  #32 = Methodref          #2.#31         // rpg/typeclass/naive/Node$$anon$3.sumExp:(Lrpg/typeclass/naive/DexSkill;Lrpg/PlayerTraits;)I
+  #33 = Utf8               Ljava/lang/Object;
+  #34 = Utf8               <init>
+  #35 = Utf8               ()V
+  #36 = NameAndType        #34:#35        // "<init>":()V
+  #37 = Methodref          #5.#36         // java/lang/Object."<init>":()V
+  #38 = Utf8               Code
+  #39 = Utf8               LocalVariableTable
+  #40 = Utf8               LineNumberTable
+  #41 = Utf8               MethodParameters
+  #42 = Utf8               Signature
+  #43 = Utf8               SourceFile
+  #44 = Utf8               EnclosingMethod
+  #45 = Utf8               InnerClasses
+  #46 = Utf8               ScalaInlineInfo
+  #47 = Utf8               Scala
+{
+  public int sumExp(rpg.typeclass.naive.DexSkill, rpg.PlayerTraits);
+    descriptor: (Lrpg/typeclass/naive/DexSkill;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=3, args_size=3
+         0: aload_2
+         1: invokevirtual #23                 // Method rpg/PlayerTraits.dexCost:()I
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/typeclass/naive/Node$$anon$3;
+            0       5     1  tree   Lrpg/typeclass/naive/DexSkill;
+            0       5     2 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 35: 0
+    MethodParameters:
+      Name                           Flags
+      tree                           final
+      traits                         final
+
+  public int sumExp(java.lang.Object, rpg.PlayerTraits);
+    descriptor: (Ljava/lang/Object;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=3, locals=3, args_size=3
+         0: aload_0
+         1: aload_1
+         2: checkcast     #30                 // class rpg/typeclass/naive/DexSkill
+         5: aload_2
+         6: invokevirtual #32                 // Method sumExp:(Lrpg/typeclass/naive/DexSkill;Lrpg/PlayerTraits;)I
+         9: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   Lrpg/typeclass/naive/Node$$anon$3;
+            0      10     1  tree   Ljava/lang/Object;
+            0      10     2 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 34: 0
+    MethodParameters:
+      Name                           Flags
+      tree                           final
+      traits                         final
+
+  public rpg.typeclass.naive.Node$$anon$3();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #37                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/typeclass/naive/Node$$anon$3;
+      LineNumberTable:
+        line 34: 0
+}
+Signature: #3                           // Ljava/lang/Object;Lrpg/typeclass/naive/Node$Summer<Lrpg/typeclass/naive/DexSkill;>;
+SourceFile: "TypeclassSkillTrees.scala"
+EnclosingMethod: #10.#0                 // rpg.typeclass.naive.Node$
+InnerClasses:
+     public final #2; //class rpg/typeclass/naive/Node$$anon$3
+     public static #13= #7 of #12; //Summer=class rpg/typeclass/naive/Node$Summer of class rpg/typeclass/naive/Node
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 01 00 03 00 22 00 23 01 00 0E 00 1C 01 00 0E
+   00 0F 01
+Error: unknown attribute
+  Scala: length = 0x0
+

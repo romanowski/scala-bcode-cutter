@@ -1,0 +1,7 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.Node$$anon$5 implements rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.StrStep<T>> {
+  private final rpg.typeclass.naive.Node$Summer evidence$2$1;
+  public int sumExp(rpg.typeclass.naive.StrStep<T>, rpg.PlayerTraits);
+  public int sumExp(java.lang.Object, rpg.PlayerTraits);
+  public rpg.typeclass.naive.Node$$anon$5(rpg.typeclass.naive.Node$Summer);
+}

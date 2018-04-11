@@ -1,0 +1,24 @@
+Compiled from "CakeSkillTrees.scala"
+public final class rpg.cake2.Cake2SkillTrees$$anon$2 extends rpg.SkillTreeRepr<rpg.cake2.DexNodes$DexTree> {
+  private final rpg.cake2.NodesTraits nodes$1;
+
+  public int totalCost();
+    Code:
+       0: aload_0
+       1: getfield      #27                 // Field nodes$1:Lrpg/cake2/NodesTraits;
+       4: aload_0
+       5: invokevirtual #31                 // Method tree:()Ljava/lang/Object;
+       8: checkcast     #18                 // class rpg/cake2/NodesTraits$Node
+      11: invokeinterface #35,  2           // InterfaceMethod rpg/cake2/NodesTraits.totalSkill:(Lrpg/cake2/NodesTraits$Node;)I
+      16: ireturn
+
+  public rpg.cake2.Cake2SkillTrees$$anon$2(rpg.cake2.Cake2SkillTrees, rpg.cake2.NodesTraits, rpg.cake2.DexNodes$DexTree);
+    Code:
+       0: aload_0
+       1: aload_2
+       2: putfield      #27                 // Field nodes$1:Lrpg/cake2/NodesTraits;
+       5: aload_0
+       6: aload_3
+       7: invokespecial #44                 // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+      10: return
+}

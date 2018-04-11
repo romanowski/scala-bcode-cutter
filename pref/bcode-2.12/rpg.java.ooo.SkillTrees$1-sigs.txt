@@ -1,0 +1,8 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.SkillTrees$1 extends rpg.SkillTreeRepr<rpg.java.ooo.Node> {
+  final rpg.java.ooo.Node val$tree;
+  final rpg.PlayerTraits val$playerTraits;
+  final rpg.java.ooo.SkillTrees this$0;
+  rpg.java.ooo.SkillTrees$1(rpg.java.ooo.SkillTrees, rpg.java.ooo.Node, rpg.java.ooo.Node, rpg.PlayerTraits);
+  public int totalCost();
+}

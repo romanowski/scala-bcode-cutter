@@ -1,0 +1,6 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.StrSkill implements rpg.java.ooo.Node {
+  java.lang.String name;
+  rpg.java.ooo.StrSkill(java.lang.String);
+  public int cost(rpg.PlayerTraits);
+}

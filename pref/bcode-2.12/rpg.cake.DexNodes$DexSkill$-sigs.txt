@@ -1,0 +1,9 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake.DexNodes$DexSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.cake.DexNodes$DexSkill> implements scala.Serializable {
+  private final rpg.cake.Nodes $outer;
+  public final java.lang.String toString();
+  public rpg.cake.DexNodes$DexSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.cake.DexNodes$DexSkill);
+  public java.lang.Object apply(java.lang.Object);
+  public rpg.cake.DexNodes$DexSkill$(rpg.cake.Nodes);
+}

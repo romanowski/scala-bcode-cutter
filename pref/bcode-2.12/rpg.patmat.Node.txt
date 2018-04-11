@@ -1,0 +1,18 @@
+Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.Node {
+  public static int slowTotalSkill(rpg.patmat.Node, rpg.PlayerTraits);
+    Code:
+       0: getstatic     #16                 // Field rpg/patmat/Node$.MODULE$:Lrpg/patmat/Node$;
+       3: aload_0
+       4: aload_1
+       5: invokevirtual #18                 // Method rpg/patmat/Node$.slowTotalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+       8: ireturn
+
+  public static int totalSkill(rpg.patmat.Node, rpg.PlayerTraits);
+    Code:
+       0: getstatic     #16                 // Field rpg/patmat/Node$.MODULE$:Lrpg/patmat/Node$;
+       3: aload_0
+       4: aload_1
+       5: invokevirtual #21                 // Method rpg/patmat/Node$.totalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+       8: ireturn
+}

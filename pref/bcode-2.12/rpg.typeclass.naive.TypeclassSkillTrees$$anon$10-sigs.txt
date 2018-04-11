@@ -1,0 +1,6 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.TypeclassSkillTrees$$anon$10 extends rpg.SkillTreeRepr<rpg.typeclass.naive.DexTree<rpg.typeclass.naive.DexStep<rpg.typeclass.naive.WisTree<rpg.typeclass.naive.WisSkill, rpg.typeclass.naive.WisStep<rpg.typeclass.naive.DexSkill>>>, rpg.typeclass.naive.StrTree<rpg.typeclass.naive.StrSkill, rpg.typeclass.naive.StrStep<rpg.typeclass.naive.DexSkill>>>> {
+  private final rpg.PlayerTraits traits$1;
+  public int totalCost();
+  public rpg.typeclass.naive.TypeclassSkillTrees$$anon$10(rpg.typeclass.naive.TypeclassSkillTrees, rpg.PlayerTraits, rpg.typeclass.naive.DexTree);
+}

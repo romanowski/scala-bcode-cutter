@@ -20,9 +20,17 @@ import rpg.patmat._
 import rpg.patmat.stepped.SteppedPatMatSkillTrees
 import rpg.typeclass.naive.TypeclassSkillTrees
 
+class BaselineSimple(traits: PlayerTraits) extends SkillTreeRepr {
+	override def totalCost(): Int =
+		traits.dexCost + traits.strCost + traits.wisCost +
+			traits.dexCost + traits.strCost + traits.wisCost +
+			traits.dexCost + traits.strCost + traits.wisCost +
+			traits.dexCost
+}
+
 
 @State(Scope.Benchmark)
-class BenchmarkState(playerTraits: PlayerTraits) {
+class BenchmarkState(val playerTraits: PlayerTraits) {
 	def this(){
 		this(new PlayerTraits(100, 100, 100))
 	}
@@ -44,6 +52,7 @@ class BenchmarkState(playerTraits: PlayerTraits) {
 	val javaOOO: SkillTreeRepr[_] = (new java.ooo.SkillTrees).archeryTree(playerTraits)
 	val javafast: SkillTreeRepr[_] = (new java.fast.SkillTrees).archeryTree(playerTraits)
 
+	val baseline = new BaselineSimple(playerTraits)
 }
 
 
@@ -65,6 +74,14 @@ trait Benchmarks {
 	@Benchmark def javaOOO(bs: BenchmarkState): Int =  bs.javaOOO.totalCost()
 	@Benchmark def javaFast(bs: BenchmarkState): Int =  bs.javafast.totalCost()
 
+	@Benchmark def baseline(bs: BenchmarkState): Int =  {
+		val traits = bs.playerTraits
+		traits.dexCost + traits.strCost + traits.wisCost +
+			traits.dexCost + traits.strCost + traits.wisCost +
+			traits.dexCost + traits.strCost + traits.wisCost +
+			traits.dexCost
+	}
+	// @Benchmark def baseline3(bs: BenchmarkState): Int =  bs.baseline.totalCost()
 }
 
 
@@ -75,18 +92,25 @@ trait Benchmarks {
 @Fork(value = 1, jvmArgs = Array("-Xms2G", "-Xmx2G"))
 class HotBenchmark extends Benchmarks
 
-@BenchmarkMode(Array(SampleTime))
-@OutputTimeUnit(TimeUnit.MICROSECONDS)
-@Warmup(iterations = 30, time = 200, timeUnit = TimeUnit.MICROSECONDS)
-@Measurement(iterations = 10, time = 200, timeUnit = TimeUnit.MICROSECONDS)
-@Fork(value = 2, jvmArgs = Array("-Xms2G", "-Xmx2G"))
-class SemiHotBenchmark extends Benchmarks
-
 @BenchmarkMode(Array(SingleShotTime))
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
-@Measurement(iterations = 1024)
-@Warmup(iterations = 1024)
-@Fork(value = 2, jvmArgs = Array("-Xms2G", "-Xmx2G"))
-class ColdBenchmark extends Benchmarks
+@Warmup(iterations = 1, batchSize = 20)
+@Measurement(iterations = 5000, batchSize = 50)
+@Fork(value = 1, jvmArgs = Array("-Xms2G", "-Xmx2G"))
+class WarmingBenchmark extends Benchmarks
+//
+//@BenchmarkMode(Array(SampleTime))
+//@OutputTimeUnit(TimeUnit.MICROSECONDS)
+//@Warmup(iterations = 30, time = 200, timeUnit = TimeUnit.MICROSECONDS)
+//@Measurement(iterations = 10, time = 200, timeUnit = TimeUnit.MICROSECONDS)
+//@Fork(value = 2, jvmArgs = Array("-Xms2G", "-Xmx2G"))
+//class SemiHotBenchmark extends Benchmarks
+
+//@BenchmarkMode(Array(SingleShotTime))
+//@OutputTimeUnit(TimeUnit.MICROSECONDS)
+//@Measurement(iterations = 1024)
+//@Warmup(iterations = 1024)
+//@Fork(value = 2, jvmArgs = Array("-Xms2G", "-Xmx2G"))
+//class ColdBenchmark extends Benchmarks
 
 

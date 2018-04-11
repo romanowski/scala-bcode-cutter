@@ -1,0 +1,33 @@
+Compiled from "SkillTrees.java"
+class rpg.java.fast.SkillTrees$1 extends rpg.SkillTreeRepr<rpg.java.fast.Node> {
+  final rpg.java.fast.Node val$tree;
+
+  final rpg.PlayerTraits val$playerTraits;
+
+  final rpg.java.fast.SkillTrees this$0;
+
+  rpg.java.fast.SkillTrees$1(rpg.java.fast.SkillTrees, rpg.java.fast.Node, rpg.java.fast.Node, rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #1                  // Field this$0:Lrpg/java/fast/SkillTrees;
+       5: aload_0
+       6: aload_3
+       7: putfield      #2                  // Field val$tree:Lrpg/java/fast/Node;
+      10: aload_0
+      11: aload         4
+      13: putfield      #3                  // Field val$playerTraits:Lrpg/PlayerTraits;
+      16: aload_0
+      17: aload_2
+      18: invokespecial #4                  // Method rpg/SkillTreeRepr."<init>":(Ljava/lang/Object;)V
+      21: return
+
+  public int totalCost();
+    Code:
+       0: aload_0
+       1: getfield      #2                  // Field val$tree:Lrpg/java/fast/Node;
+       4: aload_0
+       5: getfield      #3                  // Field val$playerTraits:Lrpg/PlayerTraits;
+       8: invokevirtual #5                  // Method rpg/java/fast/Node.cost:(Lrpg/PlayerTraits;)I
+      11: ireturn
+}

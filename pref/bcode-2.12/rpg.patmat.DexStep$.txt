@@ -1,0 +1,57 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.DexStep$ extends scala.runtime.AbstractFunction1<rpg.patmat.Node, rpg.patmat.DexStep> implements scala.Serializable {
+  public static rpg.patmat.DexStep$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/patmat/DexStep$
+       3: invokespecial #15                 // Method "<init>":()V
+       6: return
+
+  public final java.lang.String toString();
+    Code:
+       0: ldc           #19                 // String DexStep
+       2: areturn
+
+  public rpg.patmat.DexStep apply(rpg.patmat.Node);
+    Code:
+       0: new           #25                 // class rpg/patmat/DexStep
+       3: dup
+       4: aload_1
+       5: invokespecial #28                 // Method rpg/patmat/DexStep."<init>":(Lrpg/patmat/Node;)V
+       8: areturn
+
+  public scala.Option<rpg.patmat.Node> unapply(rpg.patmat.DexStep);
+    Code:
+       0: aload_1
+       1: ifnonnull     10
+       4: getstatic     #37                 // Field scala/None$.MODULE$:Lscala/None$;
+       7: goto          21
+      10: new           #39                 // class scala/Some
+      13: dup
+      14: aload_1
+      15: invokevirtual #42                 // Method rpg/patmat/DexStep.to:()Lrpg/patmat/Node;
+      18: invokespecial #45                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+      21: areturn
+
+  private java.lang.Object readResolve();
+    Code:
+       0: getstatic     #52                 // Field MODULE$:Lrpg/patmat/DexStep$;
+       3: areturn
+
+  public java.lang.Object apply(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #56                 // class rpg/patmat/Node
+       5: invokevirtual #58                 // Method apply:(Lrpg/patmat/Node;)Lrpg/patmat/DexStep;
+       8: areturn
+
+  private rpg.patmat.DexStep$();
+    Code:
+       0: aload_0
+       1: invokespecial #60                 // Method scala/runtime/AbstractFunction1."<init>":()V
+       4: aload_0
+       5: putstatic     #52                 // Field MODULE$:Lrpg/patmat/DexStep$;
+       8: return
+}

@@ -1,0 +1,103 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/nested/Dex.class
+  Last modified Apr 8, 2018; size 1091 bytes
+  MD5 checksum f5ba4933060ca35ac78c1e862ba39fc2
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.nested.Dex
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/ooo/nested/Dex
+   #2 = Class              #1             // rpg/ooo/nested/Dex
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               OOOSubcallsSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               :Q!\t%\t1R3y\tA!oKN$X\r\t1a\8p9a:qOCa!i!a#fqN1B=R\"\tE\tQa]2bYL!a\t\rsPU3g!\tQQ#\tAa)Z1u)J,W\rC$=S:LGO!)1dC!9AA[5t>HAAqBH?A1!8u\t#1#!(/Y5ugB1J\r%QE\r!20:UeLGo
+   #9 = Utf8               rpg/ooo/nested/FeatTree$Skill$
+  #10 = Class              #9             // rpg/ooo/nested/FeatTree$Skill$
+  #11 = Utf8               rpg/ooo/nested/FeatTree
+  #12 = Class              #11            // rpg/ooo/nested/FeatTree
+  #13 = Utf8               Skill$
+  #14 = Utf8               rpg/ooo/nested/FeatTree$Step$
+  #15 = Class              #14            // rpg/ooo/nested/FeatTree$Step$
+  #16 = Utf8               Step$
+  #17 = Utf8               rpg/ooo/nested/FeatTree$Tree$
+  #18 = Class              #17            // rpg/ooo/nested/FeatTree$Tree$
+  #19 = Utf8               Tree$
+  #20 = Utf8               Skill
+  #21 = Utf8               ()Lrpg/ooo/nested/FeatTree$Skill$;
+  #22 = Utf8               rpg/ooo/nested/Dex$
+  #23 = Class              #22            // rpg/ooo/nested/Dex$
+  #24 = Utf8               MODULE$
+  #25 = Utf8               Lrpg/ooo/nested/Dex$;
+  #26 = NameAndType        #24:#25        // MODULE$:Lrpg/ooo/nested/Dex$;
+  #27 = Fieldref           #23.#26        // rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+  #28 = NameAndType        #20:#21        // Skill:()Lrpg/ooo/nested/FeatTree$Skill$;
+  #29 = Methodref          #23.#28        // rpg/ooo/nested/Dex$.Skill:()Lrpg/ooo/nested/FeatTree$Skill$;
+  #30 = Utf8               Step
+  #31 = Utf8               ()Lrpg/ooo/nested/FeatTree$Step$;
+  #32 = NameAndType        #30:#31        // Step:()Lrpg/ooo/nested/FeatTree$Step$;
+  #33 = Methodref          #23.#32        // rpg/ooo/nested/Dex$.Step:()Lrpg/ooo/nested/FeatTree$Step$;
+  #34 = Utf8               Tree
+  #35 = Utf8               ()Lrpg/ooo/nested/FeatTree$Tree$;
+  #36 = NameAndType        #34:#35        // Tree:()Lrpg/ooo/nested/FeatTree$Tree$;
+  #37 = Methodref          #23.#36        // rpg/ooo/nested/Dex$.Tree:()Lrpg/ooo/nested/FeatTree$Tree$;
+  #38 = Utf8               thisCost
+  #39 = Utf8               (Lrpg/PlayerTraits;)I
+  #40 = NameAndType        #38:#39        // thisCost:(Lrpg/PlayerTraits;)I
+  #41 = Methodref          #23.#40        // rpg/ooo/nested/Dex$.thisCost:(Lrpg/PlayerTraits;)I
+  #42 = Utf8               Code
+  #43 = Utf8               SourceFile
+  #44 = Utf8               InnerClasses
+  #45 = Utf8               RuntimeVisibleAnnotations
+  #46 = Utf8               ScalaSig
+{
+  public static rpg.ooo.nested.FeatTree$Skill$ Skill();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Skill$;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #27                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+         3: invokevirtual #29                 // Method rpg/ooo/nested/Dex$.Skill:()Lrpg/ooo/nested/FeatTree$Skill$;
+         6: areturn
+
+  public static rpg.ooo.nested.FeatTree$Step$ Step();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Step$;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #27                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+         3: invokevirtual #33                 // Method rpg/ooo/nested/Dex$.Step:()Lrpg/ooo/nested/FeatTree$Step$;
+         6: areturn
+
+  public static rpg.ooo.nested.FeatTree$Tree$ Tree();
+    descriptor: ()Lrpg/ooo/nested/FeatTree$Tree$;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #27                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+         3: invokevirtual #37                 // Method rpg/ooo/nested/Dex$.Tree:()Lrpg/ooo/nested/FeatTree$Tree$;
+         6: areturn
+
+  public static int thisCost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #27                 // Field rpg/ooo/nested/Dex$.MODULE$:Lrpg/ooo/nested/Dex$;
+         3: aload_0
+         4: invokevirtual #41                 // Method rpg/ooo/nested/Dex$.thisCost:(Lrpg/PlayerTraits;)I
+         7: ireturn
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+InnerClasses:
+     public #13= #10 of #12; //Skill$=class rpg/ooo/nested/FeatTree$Skill$ of class rpg/ooo/nested/FeatTree
+     public #16= #15 of #12; //Step$=class rpg/ooo/nested/FeatTree$Step$ of class rpg/ooo/nested/FeatTree
+     public #19= #18 of #12; //Tree$=class rpg/ooo/nested/FeatTree$Tree$ of class rpg/ooo/nested/FeatTree
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

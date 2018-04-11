@@ -1,0 +1,20 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.StrSkill implements rpg.patmat.Node,scala.Product,scala.Serializable {
+  private final java.lang.String name;
+  public static scala.Option<java.lang.String> unapply(rpg.patmat.StrSkill);
+  public static rpg.patmat.StrSkill apply(java.lang.String);
+  public static <A> scala.Function1<java.lang.String, A> andThen(scala.Function1<rpg.patmat.StrSkill, A>);
+  public static <A> scala.Function1<A, rpg.patmat.StrSkill> compose(scala.Function1<A, java.lang.String>);
+  public java.lang.String name();
+  public rpg.patmat.StrSkill copy(java.lang.String);
+  public java.lang.String copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.patmat.StrSkill(java.lang.String);
+}

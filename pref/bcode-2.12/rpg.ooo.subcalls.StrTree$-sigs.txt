@@ -1,0 +1,11 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.subcalls.StrTree$ extends scala.runtime.AbstractFunction2<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node, rpg.ooo.subcalls.StrTree> implements scala.Serializable {
+  public static rpg.ooo.subcalls.StrTree$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.ooo.subcalls.StrTree apply(rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node);
+  public scala.Option<scala.Tuple2<rpg.ooo.subcalls.Node, rpg.ooo.subcalls.Node>> unapply(rpg.ooo.subcalls.StrTree);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object, java.lang.Object);
+  private rpg.ooo.subcalls.StrTree$();
+}

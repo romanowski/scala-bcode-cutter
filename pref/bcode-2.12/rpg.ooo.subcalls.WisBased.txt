@@ -1,0 +1,19 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.WisBased extends rpg.ooo.subcalls.FeatBased {
+  public static int thisCost$(rpg.ooo.subcalls.WisBased, rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #18                 // InterfaceMethod thisCost:(Lrpg/PlayerTraits;)I
+       5: ireturn
+
+  public int thisCost(rpg.PlayerTraits);
+    Code:
+       0: aload_1
+       1: invokevirtual #26                 // Method rpg/PlayerTraits.wisCost:()I
+       4: ireturn
+
+  public static void $init$(rpg.ooo.subcalls.WisBased);
+    Code:
+       0: return
+}

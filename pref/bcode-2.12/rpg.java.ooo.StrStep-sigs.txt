@@ -1,0 +1,6 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.StrStep implements rpg.java.ooo.Node {
+  rpg.java.ooo.Node to;
+  rpg.java.ooo.StrStep(rpg.java.ooo.Node);
+  public int cost(rpg.PlayerTraits);
+}

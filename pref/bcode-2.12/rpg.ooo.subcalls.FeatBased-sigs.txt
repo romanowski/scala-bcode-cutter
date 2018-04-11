@@ -1,0 +1,4 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.FeatBased {
+  public abstract int thisCost(rpg.PlayerTraits);
+}

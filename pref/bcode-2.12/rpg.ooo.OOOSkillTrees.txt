@@ -1,0 +1,53 @@
+Compiled from "OOOSkillTrees.scala"
+public class rpg.ooo.OOOSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    Code:
+       0: new           #15                 // class rpg/ooo/DexTree
+       3: dup
+       4: new           #17                 // class rpg/ooo/DexStep
+       7: dup
+       8: new           #19                 // class rpg/ooo/WisTree
+      11: dup
+      12: new           #21                 // class rpg/ooo/WisSkill
+      15: dup
+      16: ldc           #23                 // String aimed
+      18: invokespecial #27                 // Method rpg/ooo/WisSkill."<init>":(Ljava/lang/String;)V
+      21: new           #29                 // class rpg/ooo/WisStep
+      24: dup
+      25: new           #31                 // class rpg/ooo/DexSkill
+      28: dup
+      29: ldc           #33                 // String rapid
+      31: invokespecial #34                 // Method rpg/ooo/DexSkill."<init>":(Ljava/lang/String;)V
+      34: invokespecial #37                 // Method rpg/ooo/WisStep."<init>":(Lrpg/ooo/Node;)V
+      37: invokespecial #40                 // Method rpg/ooo/WisTree."<init>":(Lrpg/ooo/Node;Lrpg/ooo/Node;)V
+      40: invokespecial #41                 // Method rpg/ooo/DexStep."<init>":(Lrpg/ooo/Node;)V
+      43: new           #43                 // class rpg/ooo/StrTree
+      46: dup
+      47: new           #45                 // class rpg/ooo/StrSkill
+      50: dup
+      51: ldc           #47                 // String power
+      53: invokespecial #48                 // Method rpg/ooo/StrSkill."<init>":(Ljava/lang/String;)V
+      56: new           #50                 // class rpg/ooo/StrStep
+      59: dup
+      60: new           #31                 // class rpg/ooo/DexSkill
+      63: dup
+      64: ldc           #52                 // String double
+      66: invokespecial #34                 // Method rpg/ooo/DexSkill."<init>":(Ljava/lang/String;)V
+      69: invokespecial #53                 // Method rpg/ooo/StrStep."<init>":(Lrpg/ooo/Node;)V
+      72: invokespecial #54                 // Method rpg/ooo/StrTree."<init>":(Lrpg/ooo/Node;Lrpg/ooo/Node;)V
+      75: invokespecial #55                 // Method rpg/ooo/DexTree."<init>":(Lrpg/ooo/Node;Lrpg/ooo/Node;)V
+      78: astore_2
+      79: new           #10                 // class rpg/ooo/OOOSkillTrees$$anon$1
+      82: dup
+      83: aconst_null
+      84: aload_1
+      85: aload_2
+      86: invokespecial #58                 // Method rpg/ooo/OOOSkillTrees$$anon$1."<init>":(Lrpg/ooo/OOOSkillTrees;Lrpg/PlayerTraits;Lrpg/ooo/DexTree;)V
+      89: areturn
+
+  public rpg.ooo.OOOSkillTrees();
+    Code:
+       0: aload_0
+       1: invokespecial #66                 // Method rpg/SkillTrees."<init>":()V
+       4: return
+}

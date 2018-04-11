@@ -1,0 +1,10 @@
+Compiled from "SkillTrees.java"
+final class rpg.java.fast.Node {
+  private final rpg.java.fast.Node left;
+  private final rpg.java.fast.Node right;
+  private final java.lang.String name;
+  private final boolean dex;
+  private final boolean str;
+  rpg.java.fast.Node(boolean, boolean, rpg.java.fast.Node, rpg.java.fast.Node, java.lang.String);
+  int cost(rpg.PlayerTraits);
+}

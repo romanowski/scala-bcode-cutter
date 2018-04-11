@@ -1,0 +1,32 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/NodesTraits$Node.class
+  Last modified Apr 8, 2018; size 229 bytes
+  MD5 checksum beaeddf8a69780e0a01097ce965e7026
+  Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake2.NodesTraits$Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/cake2/NodesTraits$Node
+   #2 = Class              #1             // rpg/cake2/NodesTraits$Node
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               CakeSkillTrees.scala
+   #6 = Utf8               rpg/cake2/NodesTraits
+   #7 = Class              #6             // rpg/cake2/NodesTraits
+   #8 = Utf8               Node
+   #9 = Utf8               SourceFile
+  #10 = Utf8               InnerClasses
+  #11 = Utf8               ScalaInlineInfo
+  #12 = Utf8               Scala
+{
+}
+SourceFile: "CakeSkillTrees.scala"
+InnerClasses:
+     public #8= #2 of #7; //Node=class rpg/cake2/NodesTraits$Node of class rpg/cake2/NodesTraits
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4
+   01 00 00 00
+Error: unknown attribute
+  Scala: length = 0x0
+

@@ -1,0 +1,11 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.DexSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.typeclass.naive.DexSkill> implements scala.Serializable {
+  public static rpg.typeclass.naive.DexSkill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.typeclass.naive.DexSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.typeclass.naive.DexSkill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.typeclass.naive.DexSkill$();
+}

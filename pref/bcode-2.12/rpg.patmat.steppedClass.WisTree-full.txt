@@ -1,0 +1,555 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/steppedClass/WisTree.class
+  Last modified Apr 8, 2018; size 5082 bytes
+  MD5 checksum 358d63f3e1691b89b5dd3f5d08b5168b
+  Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.WisTree extends rpg.patmat.steppedClass.Tree implements scala.Product,scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/patmat/steppedClass/WisTree
+    #2 = Class              #1            // rpg/patmat/steppedClass/WisTree
+    #3 = Utf8               rpg/patmat/steppedClass/Tree
+    #4 = Class              #3            // rpg/patmat/steppedClass/Tree
+    #5 = Utf8               scala/Product
+    #6 = Class              #5            // scala/Product
+    #7 = Utf8               scala/Serializable
+    #8 = Class              #7            // scala/Serializable
+    #9 = Utf8               PatMatSkillTrees.scala
+   #10 = Utf8               Lscala/reflect/ScalaSignature;
+   #11 = Utf8               bytes
+   #12 = Utf8               %bB&qaV5t)J,WM\ta1^3qa$7\t\1tg*QABa$X.;\t1A9hB)A1D%QB)J,W\r%5\tCC8-7b\tCAQe>$Wo;=)B1VM]5bY&TM7f!AA!f\nI7fMR,A\tmI!\t9{G-\t=\t)A5)A.4uA!ABK$AsSDG#\tE\t!n5uA!)ACK1A(8jiz\"2AJ)!\tYCG!C!G!C+IA\t\r|/M1jb\r*!\rAA%\n1y!%AA\nabY8qs\"WMZ1vYR$'F2U\tQ\"gK4!\t!(D6\t1t'Av]DWmY6fI*EC:tw^1uS>tB6E)hn5fG.,GMV1sSt7-y\t\n\"19w]=%I4-7uIIBqAs(Aqe>$Wo;Qe4_BIR*1\tRYtwMCFQM^1\n%AB*ue&tw\rCJI&AxZ;di^=-\"a'\n5\"aA%oi\"9q\nAA\nA9s_,8\r^#mK6,g#R\"a*\nM\"aA!os\"9QKTAYa=%c!9qAA\nBa9s_,8\r^%uKJGo:e2AW/RY&B/)w7fGRLwN\=n\";fe$xNA\t\t\"b!M\#rkdGC2f!\ty1-e!\t9!i\8mKtbB+`\r!O\t\t\"i!Am5D_,G#A&\t)!C!WAAo\*ue&tw\rFAi!!AB9a!Z9vC2HC2p)F.!AAE;q!#!/AXSN$&/Z3-haBE\t^\ngV$#<z5i1S\"A<aa:v]RLW.Zu^#2tiJ7\r$v]$n83!3\"})b6t%)e\tN\t\"!)\r9msR)a%a!)D a5!)E a5!IB:1Bk:7z)\ti!!=\ty!a\nECPaRLwN\tU!DG/\"A+va2,'C!aM\n\t}1/!A\na:fCVm]8mm$\"!a\t)#C(\taa2kK$
+   #13 = Utf8               left
+   #14 = Utf8               Lrpg/patmat/steppedClass/Node;
+   #15 = Utf8               right
+   #16 = Utf8               unapply
+   #17 = Utf8               (Lrpg/patmat/steppedClass/WisTree;)Lscala/Option;
+   #18 = Utf8               rpg/patmat/steppedClass/WisTree$
+   #19 = Class              #18           // rpg/patmat/steppedClass/WisTree$
+   #20 = Utf8               MODULE$
+   #21 = Utf8               Lrpg/patmat/steppedClass/WisTree$;
+   #22 = NameAndType        #20:#21       // MODULE$:Lrpg/patmat/steppedClass/WisTree$;
+   #23 = Fieldref           #19.#22       // rpg/patmat/steppedClass/WisTree$.MODULE$:Lrpg/patmat/steppedClass/WisTree$;
+   #24 = NameAndType        #16:#17       // unapply:(Lrpg/patmat/steppedClass/WisTree;)Lscala/Option;
+   #25 = Methodref          #19.#24       // rpg/patmat/steppedClass/WisTree$.unapply:(Lrpg/patmat/steppedClass/WisTree;)Lscala/Option;
+   #26 = Utf8               apply
+   #27 = Utf8               (Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)Lrpg/patmat/steppedClass/WisTree;
+   #28 = NameAndType        #26:#27       // apply:(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)Lrpg/patmat/steppedClass/WisTree;
+   #29 = Methodref          #19.#28       // rpg/patmat/steppedClass/WisTree$.apply:(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)Lrpg/patmat/steppedClass/WisTree;
+   #30 = Utf8               tupled
+   #31 = Utf8               ()Lscala/Function1;
+   #32 = NameAndType        #30:#31       // tupled:()Lscala/Function1;
+   #33 = Methodref          #19.#32       // rpg/patmat/steppedClass/WisTree$.tupled:()Lscala/Function1;
+   #34 = Utf8               curried
+   #35 = NameAndType        #34:#31       // curried:()Lscala/Function1;
+   #36 = Methodref          #19.#35       // rpg/patmat/steppedClass/WisTree$.curried:()Lscala/Function1;
+   #37 = Utf8               ()Lrpg/patmat/steppedClass/Node;
+   #38 = NameAndType        #13:#14       // left:Lrpg/patmat/steppedClass/Node;
+   #39 = Fieldref           #2.#38        // rpg/patmat/steppedClass/WisTree.left:Lrpg/patmat/steppedClass/Node;
+   #40 = Utf8               this
+   #41 = Utf8               Lrpg/patmat/steppedClass/WisTree;
+   #42 = NameAndType        #15:#14       // right:Lrpg/patmat/steppedClass/Node;
+   #43 = Fieldref           #2.#42        // rpg/patmat/steppedClass/WisTree.right:Lrpg/patmat/steppedClass/Node;
+   #44 = Utf8               copy
+   #45 = Utf8               <init>
+   #46 = Utf8               (Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+   #47 = NameAndType        #45:#46       // "<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+   #48 = Methodref          #2.#47        // rpg/patmat/steppedClass/WisTree."<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+   #49 = Utf8               copy$default$1
+   #50 = NameAndType        #13:#37       // left:()Lrpg/patmat/steppedClass/Node;
+   #51 = Methodref          #2.#50        // rpg/patmat/steppedClass/WisTree.left:()Lrpg/patmat/steppedClass/Node;
+   #52 = Utf8               copy$default$2
+   #53 = NameAndType        #15:#37       // right:()Lrpg/patmat/steppedClass/Node;
+   #54 = Methodref          #2.#53        // rpg/patmat/steppedClass/WisTree.right:()Lrpg/patmat/steppedClass/Node;
+   #55 = Utf8               productPrefix
+   #56 = Utf8               ()Ljava/lang/String;
+   #57 = Utf8               WisTree
+   #58 = String             #57           // WisTree
+   #59 = Utf8               productArity
+   #60 = Utf8               ()I
+   #61 = Utf8               productElement
+   #62 = Utf8               (I)Ljava/lang/Object;
+   #63 = Utf8               x$1
+   #64 = Utf8               java/lang/IndexOutOfBoundsException
+   #65 = Class              #64           // java/lang/IndexOutOfBoundsException
+   #66 = Utf8               scala/runtime/BoxesRunTime
+   #67 = Class              #66           // scala/runtime/BoxesRunTime
+   #68 = Utf8               boxToInteger
+   #69 = Utf8               (I)Ljava/lang/Integer;
+   #70 = NameAndType        #68:#69       // boxToInteger:(I)Ljava/lang/Integer;
+   #71 = Methodref          #67.#70       // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+   #72 = Utf8               java/lang/Object
+   #73 = Class              #72           // java/lang/Object
+   #74 = Utf8               toString
+   #75 = NameAndType        #74:#56       // toString:()Ljava/lang/String;
+   #76 = Methodref          #73.#75       // java/lang/Object.toString:()Ljava/lang/String;
+   #77 = Utf8               (Ljava/lang/String;)V
+   #78 = NameAndType        #45:#77       // "<init>":(Ljava/lang/String;)V
+   #79 = Methodref          #65.#78       // java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+   #80 = Utf8               I
+   #81 = Utf8               rpg/patmat/steppedClass/Node
+   #82 = Class              #81           // rpg/patmat/steppedClass/Node
+   #83 = Utf8               productIterator
+   #84 = Utf8               ()Lscala/collection/Iterator;
+   #85 = Utf8               scala/runtime/ScalaRunTime$
+   #86 = Class              #85           // scala/runtime/ScalaRunTime$
+   #87 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #88 = NameAndType        #20:#87       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #89 = Fieldref           #86.#88       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #90 = Utf8               typedProductIterator
+   #91 = Utf8               (Lscala/Product;)Lscala/collection/Iterator;
+   #92 = NameAndType        #90:#91       // typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #93 = Methodref          #86.#92       // scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #94 = Utf8               canEqual
+   #95 = Utf8               (Ljava/lang/Object;)Z
+   #96 = Utf8               Ljava/lang/Object;
+   #97 = Utf8               hashCode
+   #98 = Utf8               _hashCode
+   #99 = Utf8               (Lscala/Product;)I
+  #100 = NameAndType        #98:#99       // _hashCode:(Lscala/Product;)I
+  #101 = Methodref          #86.#100      // scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+  #102 = Utf8               _toString
+  #103 = Utf8               (Lscala/Product;)Ljava/lang/String;
+  #104 = NameAndType        #102:#103     // _toString:(Lscala/Product;)Ljava/lang/String;
+  #105 = Methodref          #86.#104      // scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+  #106 = Utf8               equals
+  #107 = NameAndType        #106:#95      // equals:(Ljava/lang/Object;)Z
+  #108 = Methodref          #73.#107      // java/lang/Object.equals:(Ljava/lang/Object;)Z
+  #109 = NameAndType        #94:#95       // canEqual:(Ljava/lang/Object;)Z
+  #110 = Methodref          #2.#109       // rpg/patmat/steppedClass/WisTree.canEqual:(Ljava/lang/Object;)Z
+  #111 = Utf8               ()V
+  #112 = NameAndType        #45:#111      // "<init>":()V
+  #113 = Methodref          #4.#112       // rpg/patmat/steppedClass/Tree."<init>":()V
+  #114 = Utf8               $init$
+  #115 = Utf8               (Lscala/Product;)V
+  #116 = NameAndType        #114:#115     // $init$:(Lscala/Product;)V
+  #117 = InterfaceMethodref #6.#116       // scala/Product.$init$:(Lscala/Product;)V
+  #118 = Utf8               Code
+  #119 = Utf8               Signature
+  #120 = Utf8               (Lrpg/patmat/steppedClass/WisTree;)Lscala/Option<Lscala/Tuple2<Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;>;>;
+  #121 = Utf8               ()Lscala/Function1<Lscala/Tuple2<Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;>;Lrpg/patmat/steppedClass/WisTree;>;
+  #122 = Utf8               ()Lscala/Function1<Lrpg/patmat/steppedClass/Node;Lscala/Function1<Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/WisTree;>;>;
+  #123 = Utf8               LocalVariableTable
+  #124 = Utf8               LineNumberTable
+  #125 = Utf8               MethodParameters
+  #126 = Utf8               StackMapTable
+  #127 = Utf8               ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+  #128 = Utf8               SourceFile
+  #129 = Utf8               RuntimeVisibleAnnotations
+  #130 = Utf8               ScalaInlineInfo
+  #131 = Utf8               ScalaSig
+{
+  private final rpg.patmat.steppedClass.Node left;
+    descriptor: Lrpg/patmat/steppedClass/Node;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  private final rpg.patmat.steppedClass.Node right;
+    descriptor: Lrpg/patmat/steppedClass/Node;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public static scala.Option<scala.Tuple2<rpg.patmat.steppedClass.Node, rpg.patmat.steppedClass.Node>> unapply(rpg.patmat.steppedClass.WisTree);
+    descriptor: (Lrpg/patmat/steppedClass/WisTree;)Lscala/Option;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #23                 // Field rpg/patmat/steppedClass/WisTree$.MODULE$:Lrpg/patmat/steppedClass/WisTree$;
+         3: aload_0
+         4: invokevirtual #25                 // Method rpg/patmat/steppedClass/WisTree$.unapply:(Lrpg/patmat/steppedClass/WisTree;)Lscala/Option;
+         7: areturn
+    Signature: #120                         // (Lrpg/patmat/steppedClass/WisTree;)Lscala/Option<Lscala/Tuple2<Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;>;>;
+
+  public static rpg.patmat.steppedClass.WisTree apply(rpg.patmat.steppedClass.Node, rpg.patmat.steppedClass.Node);
+    descriptor: (Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)Lrpg/patmat/steppedClass/WisTree;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #23                 // Field rpg/patmat/steppedClass/WisTree$.MODULE$:Lrpg/patmat/steppedClass/WisTree$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #29                 // Method rpg/patmat/steppedClass/WisTree$.apply:(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)Lrpg/patmat/steppedClass/WisTree;
+         8: areturn
+
+  public static scala.Function1<scala.Tuple2<rpg.patmat.steppedClass.Node, rpg.patmat.steppedClass.Node>, rpg.patmat.steppedClass.WisTree> tupled();
+    descriptor: ()Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #23                 // Field rpg/patmat/steppedClass/WisTree$.MODULE$:Lrpg/patmat/steppedClass/WisTree$;
+         3: invokevirtual #33                 // Method rpg/patmat/steppedClass/WisTree$.tupled:()Lscala/Function1;
+         6: areturn
+    Signature: #121                         // ()Lscala/Function1<Lscala/Tuple2<Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;>;Lrpg/patmat/steppedClass/WisTree;>;
+
+  public static scala.Function1<rpg.patmat.steppedClass.Node, scala.Function1<rpg.patmat.steppedClass.Node, rpg.patmat.steppedClass.WisTree>> curried();
+    descriptor: ()Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #23                 // Field rpg/patmat/steppedClass/WisTree$.MODULE$:Lrpg/patmat/steppedClass/WisTree$;
+         3: invokevirtual #36                 // Method rpg/patmat/steppedClass/WisTree$.curried:()Lscala/Function1;
+         6: areturn
+    Signature: #122                         // ()Lscala/Function1<Lrpg/patmat/steppedClass/Node;Lscala/Function1<Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/WisTree;>;>;
+
+  public rpg.patmat.steppedClass.Node left();
+    descriptor: ()Lrpg/patmat/steppedClass/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #39                 // Field left:Lrpg/patmat/steppedClass/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public rpg.patmat.steppedClass.Node right();
+    descriptor: ()Lrpg/patmat/steppedClass/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #43                 // Field right:Lrpg/patmat/steppedClass/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public rpg.patmat.steppedClass.WisTree copy(rpg.patmat.steppedClass.Node, rpg.patmat.steppedClass.Node);
+    descriptor: (Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)Lrpg/patmat/steppedClass/WisTree;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=3, args_size=3
+         0: new           #2                  // class rpg/patmat/steppedClass/WisTree
+         3: dup
+         4: aload_1
+         5: aload_2
+         6: invokespecial #48                 // Method "<init>":(Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+         9: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   Lrpg/patmat/steppedClass/WisTree;
+            0      10     1  left   Lrpg/patmat/steppedClass/Node;
+            0      10     2 right   Lrpg/patmat/steppedClass/Node;
+      LineNumberTable:
+        line 12: 0
+    MethodParameters:
+      Name                           Flags
+      left                           final
+      right                          final
+
+  public rpg.patmat.steppedClass.Node copy$default$1();
+    descriptor: ()Lrpg/patmat/steppedClass/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #51                 // Method left:()Lrpg/patmat/steppedClass/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public rpg.patmat.steppedClass.Node copy$default$2();
+    descriptor: ()Lrpg/patmat/steppedClass/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #54                 // Method right:()Lrpg/patmat/steppedClass/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public java.lang.String productPrefix();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #58                 // String WisTree
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public int productArity();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_2
+         1: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public java.lang.Object productElement(int);
+    descriptor: (I)Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1
+         1: istore_2
+         2: iload_2
+         3: tableswitch   { // 0 to 1
+                       0: 24
+                       1: 31
+                 default: 38
+            }
+        24: aload_0
+        25: invokevirtual #51                 // Method left:()Lrpg/patmat/steppedClass/Node;
+        28: goto          53
+        31: aload_0
+        32: invokevirtual #54                 // Method right:()Lrpg/patmat/steppedClass/Node;
+        35: goto          53
+        38: new           #65                 // class java/lang/IndexOutOfBoundsException
+        41: dup
+        42: iload_1
+        43: invokestatic  #71                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        46: invokevirtual #76                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        49: invokespecial #79                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+        52: athrow
+        53: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      54     0  this   Lrpg/patmat/steppedClass/WisTree;
+            0      54     1   x$1   I
+      LineNumberTable:
+        line 12: 0
+      StackMapTable: number_of_entries = 4
+        frame_type = 252 /* append */
+          offset_delta = 24
+          locals = [ int ]
+        frame_type = 6 /* same */
+        frame_type = 6 /* same */
+        frame_type = 78 /* same_locals_1_stack_item */
+          stack = [ class rpg/patmat/steppedClass/Node ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    descriptor: ()Lscala/collection/Iterator;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #89                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #93                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+    Signature: #127                         // ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+
+  public boolean canEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: instanceof    #2                  // class rpg/patmat/steppedClass/WisTree
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/steppedClass/WisTree;
+            0       5     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 12: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int hashCode();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #89                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #101                // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #89                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #105                // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/patmat/steppedClass/WisTree;
+      LineNumberTable:
+        line 12: 0
+
+  public boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=7, args_size=2
+         0: aload_0
+         1: aload_1
+         2: if_acmpeq     118
+         5: aload_1
+         6: astore_3
+         7: aload_3
+         8: instanceof    #2                  // class rpg/patmat/steppedClass/WisTree
+        11: ifeq          19
+        14: iconst_1
+        15: istore_2
+        16: goto          27
+        19: goto          22
+        22: iconst_0
+        23: istore_2
+        24: goto          27
+        27: iload_2
+        28: ifeq          122
+        31: aload_1
+        32: checkcast     #2                  // class rpg/patmat/steppedClass/WisTree
+        35: astore        4
+        37: aload_0
+        38: invokevirtual #51                 // Method left:()Lrpg/patmat/steppedClass/Node;
+        41: aload         4
+        43: invokevirtual #51                 // Method left:()Lrpg/patmat/steppedClass/Node;
+        46: astore        5
+        48: dup
+        49: ifnonnull     61
+        52: pop
+        53: aload         5
+        55: ifnull        69
+        58: goto          114
+        61: aload         5
+        63: invokevirtual #108                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        66: ifeq          114
+        69: aload_0
+        70: invokevirtual #54                 // Method right:()Lrpg/patmat/steppedClass/Node;
+        73: aload         4
+        75: invokevirtual #54                 // Method right:()Lrpg/patmat/steppedClass/Node;
+        78: astore        6
+        80: dup
+        81: ifnonnull     93
+        84: pop
+        85: aload         6
+        87: ifnull        101
+        90: goto          114
+        93: aload         6
+        95: invokevirtual #108                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        98: ifeq          114
+       101: aload         4
+       103: aload_0
+       104: invokevirtual #110                // Method canEqual:(Ljava/lang/Object;)Z
+       107: ifeq          114
+       110: iconst_1
+       111: goto          115
+       114: iconst_0
+       115: ifeq          122
+       118: iconst_1
+       119: goto          123
+       122: iconst_0
+       123: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     124     0  this   Lrpg/patmat/steppedClass/WisTree;
+            0     124     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 12: 0
+      StackMapTable: number_of_entries = 12
+        frame_type = 253 /* append */
+          offset_delta = 19
+          locals = [ top, class java/lang/Object ]
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 4
+          locals = [ class rpg/patmat/steppedClass/WisTree, class java/lang/Object, int, class java/lang/Object ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 33
+          locals = [ class rpg/patmat/steppedClass/WisTree, class java/lang/Object, int, class java/lang/Object, class rpg/patmat/steppedClass/WisTree, class rpg/patmat/steppedClass/Node ]
+          stack = [ class rpg/patmat/steppedClass/Node ]
+        frame_type = 7 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 23
+          locals = [ class rpg/patmat/steppedClass/WisTree, class java/lang/Object, int, class java/lang/Object, class rpg/patmat/steppedClass/WisTree, class rpg/patmat/steppedClass/Node, class rpg/patmat/steppedClass/Node ]
+          stack = [ class rpg/patmat/steppedClass/Node ]
+        frame_type = 7 /* same */
+        frame_type = 250 /* chop */
+          offset_delta = 12
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class rpg/patmat/steppedClass/WisTree, class java/lang/Object ]
+          stack = []
+        frame_type = 253 /* append */
+          offset_delta = 3
+          locals = [ int, class java/lang/Object ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class rpg/patmat/steppedClass/WisTree, class java/lang/Object ]
+          stack = [ int ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public rpg.patmat.steppedClass.WisTree(rpg.patmat.steppedClass.Node, rpg.patmat.steppedClass.Node);
+    descriptor: (Lrpg/patmat/steppedClass/Node;Lrpg/patmat/steppedClass/Node;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: aload_1
+         2: putfield      #39                 // Field left:Lrpg/patmat/steppedClass/Node;
+         5: aload_0
+         6: aload_2
+         7: putfield      #43                 // Field right:Lrpg/patmat/steppedClass/Node;
+        10: aload_0
+        11: invokespecial #113                // Method rpg/patmat/steppedClass/Tree."<init>":()V
+        14: aload_0
+        15: invokestatic  #117                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+        18: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      19     0  this   Lrpg/patmat/steppedClass/WisTree;
+            0      19     1  left   Lrpg/patmat/steppedClass/Node;
+            0      19     2 right   Lrpg/patmat/steppedClass/Node;
+      LineNumberTable:
+        line 12: 0
+    MethodParameters:
+      Name                           Flags
+      left                           final
+      right                          final
+}
+SourceFile: "PatMatSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #10(#11=s#12)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4A
+   01 00 00 0E 00 2D 00 2E 00 00 5E 00 5F 00 00 31
+   00 25 00 00 34 00 25 00 00 2C 00 1B 00 00 6A 00
+   5F 00 00 61 00 3C 00 00 0D 00 25 00 00 3B 00 3C
+   00 00 3D 00 3E 00 00 53 00 54 00 00 37 00 38 00
+   00 0F 00 25 00 00 4A 00 38 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

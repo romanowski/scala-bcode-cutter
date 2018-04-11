@@ -1,0 +1,53 @@
+Compiled from "TypeclassSkillTrees.scala"
+public class rpg.typeclass.naive.TypeclassSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    Code:
+       0: new           #15                 // class rpg/typeclass/naive/DexTree
+       3: dup
+       4: new           #17                 // class rpg/typeclass/naive/DexStep
+       7: dup
+       8: new           #19                 // class rpg/typeclass/naive/WisTree
+      11: dup
+      12: new           #21                 // class rpg/typeclass/naive/WisSkill
+      15: dup
+      16: ldc           #23                 // String aimed
+      18: invokespecial #27                 // Method rpg/typeclass/naive/WisSkill."<init>":(Ljava/lang/String;)V
+      21: new           #29                 // class rpg/typeclass/naive/WisStep
+      24: dup
+      25: new           #31                 // class rpg/typeclass/naive/DexSkill
+      28: dup
+      29: ldc           #33                 // String rapid
+      31: invokespecial #34                 // Method rpg/typeclass/naive/DexSkill."<init>":(Ljava/lang/String;)V
+      34: invokespecial #37                 // Method rpg/typeclass/naive/WisStep."<init>":(Ljava/lang/Object;)V
+      37: invokespecial #40                 // Method rpg/typeclass/naive/WisTree."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+      40: invokespecial #41                 // Method rpg/typeclass/naive/DexStep."<init>":(Ljava/lang/Object;)V
+      43: new           #43                 // class rpg/typeclass/naive/StrTree
+      46: dup
+      47: new           #45                 // class rpg/typeclass/naive/StrSkill
+      50: dup
+      51: ldc           #47                 // String power
+      53: invokespecial #48                 // Method rpg/typeclass/naive/StrSkill."<init>":(Ljava/lang/String;)V
+      56: new           #50                 // class rpg/typeclass/naive/StrStep
+      59: dup
+      60: new           #31                 // class rpg/typeclass/naive/DexSkill
+      63: dup
+      64: ldc           #52                 // String double
+      66: invokespecial #34                 // Method rpg/typeclass/naive/DexSkill."<init>":(Ljava/lang/String;)V
+      69: invokespecial #53                 // Method rpg/typeclass/naive/StrStep."<init>":(Ljava/lang/Object;)V
+      72: invokespecial #54                 // Method rpg/typeclass/naive/StrTree."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+      75: invokespecial #55                 // Method rpg/typeclass/naive/DexTree."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+      78: astore_2
+      79: new           #10                 // class rpg/typeclass/naive/TypeclassSkillTrees$$anon$10
+      82: dup
+      83: aconst_null
+      84: aload_1
+      85: aload_2
+      86: invokespecial #58                 // Method rpg/typeclass/naive/TypeclassSkillTrees$$anon$10."<init>":(Lrpg/typeclass/naive/TypeclassSkillTrees;Lrpg/PlayerTraits;Lrpg/typeclass/naive/DexTree;)V
+      89: areturn
+
+  public rpg.typeclass.naive.TypeclassSkillTrees();
+    Code:
+       0: aload_0
+       1: invokespecial #66                 // Method rpg/SkillTrees."<init>":()V
+       4: return
+}

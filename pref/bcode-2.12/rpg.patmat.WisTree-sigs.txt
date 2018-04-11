@@ -1,0 +1,23 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.WisTree implements rpg.patmat.Node,scala.Product,scala.Serializable {
+  private final rpg.patmat.Node left;
+  private final rpg.patmat.Node right;
+  public static scala.Option<scala.Tuple2<rpg.patmat.Node, rpg.patmat.Node>> unapply(rpg.patmat.WisTree);
+  public static rpg.patmat.WisTree apply(rpg.patmat.Node, rpg.patmat.Node);
+  public static scala.Function1<scala.Tuple2<rpg.patmat.Node, rpg.patmat.Node>, rpg.patmat.WisTree> tupled();
+  public static scala.Function1<rpg.patmat.Node, scala.Function1<rpg.patmat.Node, rpg.patmat.WisTree>> curried();
+  public rpg.patmat.Node left();
+  public rpg.patmat.Node right();
+  public rpg.patmat.WisTree copy(rpg.patmat.Node, rpg.patmat.Node);
+  public rpg.patmat.Node copy$default$1();
+  public rpg.patmat.Node copy$default$2();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.patmat.WisTree(rpg.patmat.Node, rpg.patmat.Node);
+}

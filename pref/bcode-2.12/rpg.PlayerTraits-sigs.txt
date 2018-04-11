@@ -1,0 +1,10 @@
+Compiled from "SkillTrees.scala"
+public class rpg.PlayerTraits {
+  private final int strCost;
+  private final int dexCost;
+  private final int wisCost;
+  public int strCost();
+  public int dexCost();
+  public int wisCost();
+  public rpg.PlayerTraits(int, int, int);
+}

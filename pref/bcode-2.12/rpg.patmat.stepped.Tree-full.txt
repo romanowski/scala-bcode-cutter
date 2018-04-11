@@ -1,0 +1,34 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/stepped/Tree.class
+  Last modified Apr 8, 2018; size 408 bytes
+  MD5 checksum 9cb193b82ddb58f8307e466ef89d6457
+  Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.stepped.Tree extends rpg.patmat.stepped.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/patmat/stepped/Tree
+   #2 = Class              #1             // rpg/patmat/stepped/Tree
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               rpg/patmat/stepped/Node
+   #6 = Class              #5             // rpg/patmat/stepped/Node
+   #7 = Utf8               PatMatSkillTrees.scala
+   #8 = Utf8               Lscala/reflect/ScalaSignature;
+   #9 = Utf8               bytes
+  #10 = Utf8               Q1q!GBUe,'BAH/9qKT!!\rAG/\1u9a:qO1c!A1BD)\tQ\"AtGd-\t1I\=SK\"!\n\tI!a\t9{G-
+  #11 = Utf8               SourceFile
+  #12 = Utf8               RuntimeVisibleAnnotations
+  #13 = Utf8               ScalaInlineInfo
+  #14 = Utf8               ScalaSig
+{
+}
+SourceFile: "PatMatSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #8(#9=s#10)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4
+   01 00 00 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

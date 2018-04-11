@@ -1,0 +1,4 @@
+Compiled from "LambdasSkillTrees.scala"
+public interface rpg.ooo.lambdas.Node {
+  public abstract int cost(rpg.PlayerTraits);
+}

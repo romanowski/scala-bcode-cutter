@@ -1,0 +1,3 @@
+Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake2.NodesTraits$Node {
+}

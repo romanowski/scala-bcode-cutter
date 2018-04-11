@@ -1,0 +1,21 @@
+Compiled from "OOOSkillTrees.scala"
+public class rpg.ooo.DexStep implements rpg.ooo.Node,scala.Product,scala.Serializable {
+  private final rpg.ooo.Node to;
+  public static scala.Option<rpg.ooo.Node> unapply(rpg.ooo.DexStep);
+  public static rpg.ooo.DexStep apply(rpg.ooo.Node);
+  public static <A> scala.Function1<rpg.ooo.Node, A> andThen(scala.Function1<rpg.ooo.DexStep, A>);
+  public static <A> scala.Function1<A, rpg.ooo.DexStep> compose(scala.Function1<A, rpg.ooo.Node>);
+  public rpg.ooo.Node to();
+  public int cost(rpg.PlayerTraits);
+  public rpg.ooo.DexStep copy(rpg.ooo.Node);
+  public rpg.ooo.Node copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.ooo.DexStep(rpg.ooo.Node);
+}

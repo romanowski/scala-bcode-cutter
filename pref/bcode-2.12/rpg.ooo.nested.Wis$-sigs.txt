@@ -1,0 +1,16 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.nested.Wis$ implements rpg.ooo.nested.FeatTree {
+  public static rpg.ooo.nested.Wis$ MODULE$;
+  private volatile rpg.ooo.nested.FeatTree$Tree$ Tree$module;
+  private volatile rpg.ooo.nested.FeatTree$Step$ Step$module;
+  private volatile rpg.ooo.nested.FeatTree$Skill$ Skill$module;
+  public static {};
+  public rpg.ooo.nested.FeatTree$Tree$ Tree();
+  public rpg.ooo.nested.FeatTree$Step$ Step();
+  public rpg.ooo.nested.FeatTree$Skill$ Skill();
+  public int thisCost(rpg.PlayerTraits);
+  private final void Tree$lzycompute$3();
+  private final void Step$lzycompute$3();
+  private final void Skill$lzycompute$3();
+  private rpg.ooo.nested.Wis$();
+}

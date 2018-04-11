@@ -1,0 +1,6 @@
+Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake.Nodes extends rpg.cake.WisNodes,rpg.cake.DexNodes,rpg.cake.StrNodes {
+  public static int totalSkill$(rpg.cake.Nodes, rpg.cake.Nodes$Node, rpg.PlayerTraits);
+  public int totalSkill(rpg.cake.Nodes$Node, rpg.PlayerTraits);
+  public static void $init$(rpg.cake.Nodes);
+}

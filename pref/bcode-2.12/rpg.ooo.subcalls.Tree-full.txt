@@ -1,0 +1,136 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/subcalls/Tree.class
+  Last modified Apr 8, 2018; size 1281 bytes
+  MD5 checksum d111361080e6f2f1e6bc3c8eacc0e47a
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.Tree extends rpg.ooo.subcalls.Node,rpg.ooo.subcalls.FeatBased
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/ooo/subcalls/Tree
+   #2 = Class              #1             // rpg/ooo/subcalls/Tree
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               rpg/ooo/subcalls/Node
+   #6 = Class              #5             // rpg/ooo/subcalls/Node
+   #7 = Utf8               rpg/ooo/subcalls/FeatBased
+   #8 = Class              #7             // rpg/ooo/subcalls/FeatBased
+   #9 = Utf8               OOOSubcallsSkillTrees.scala
+  #10 = Utf8               Lscala/reflect/ScalaSignature;
+  #11 = Utf8               bytes
+  #12 = Utf8               92q!BUe,'BA!XOY2bY2(BA\rywn!]4M!A\t!\tYa\"D\ri!B:dC2BA\r\te.*fMBCE%1C>$W\r+%aC\n\rGOQ1tKDQe\taJ5oSR$C#-YB\r)f.;\tyaA\t1,g\r^!!)D?)!/[4ii\")1C!I!1m\:u)\t)M%q:$\"B#QA;sC&$8,Y5\ta!.\r\ta\1zKJ$&/Y5ug
+  #13 = Utf8               left
+  #14 = Utf8               ()Lrpg/ooo/subcalls/Node;
+  #15 = Utf8               right
+  #16 = Utf8               cost$
+  #17 = Utf8               (Lrpg/ooo/subcalls/Tree;Lrpg/PlayerTraits;)I
+  #18 = Utf8               $this
+  #19 = Utf8               traits
+  #20 = Utf8               cost
+  #21 = Utf8               (Lrpg/PlayerTraits;)I
+  #22 = NameAndType        #20:#21        // cost:(Lrpg/PlayerTraits;)I
+  #23 = InterfaceMethodref #2.#22         // rpg/ooo/subcalls/Tree.cost:(Lrpg/PlayerTraits;)I
+  #24 = Utf8               Lrpg/ooo/subcalls/Tree;
+  #25 = Utf8               Lrpg/PlayerTraits;
+  #26 = NameAndType        #13:#14        // left:()Lrpg/ooo/subcalls/Node;
+  #27 = InterfaceMethodref #2.#26         // rpg/ooo/subcalls/Tree.left:()Lrpg/ooo/subcalls/Node;
+  #28 = InterfaceMethodref #6.#22         // rpg/ooo/subcalls/Node.cost:(Lrpg/PlayerTraits;)I
+  #29 = NameAndType        #15:#14        // right:()Lrpg/ooo/subcalls/Node;
+  #30 = InterfaceMethodref #2.#29         // rpg/ooo/subcalls/Tree.right:()Lrpg/ooo/subcalls/Node;
+  #31 = Utf8               thisCost
+  #32 = NameAndType        #31:#21        // thisCost:(Lrpg/PlayerTraits;)I
+  #33 = InterfaceMethodref #2.#32         // rpg/ooo/subcalls/Tree.thisCost:(Lrpg/PlayerTraits;)I
+  #34 = Utf8               this
+  #35 = Utf8               $init$
+  #36 = Utf8               (Lrpg/ooo/subcalls/Tree;)V
+  #37 = Utf8               Code
+  #38 = Utf8               LocalVariableTable
+  #39 = Utf8               LineNumberTable
+  #40 = Utf8               MethodParameters
+  #41 = Utf8               SourceFile
+  #42 = Utf8               RuntimeVisibleAnnotations
+  #43 = Utf8               ScalaInlineInfo
+  #44 = Utf8               ScalaSig
+{
+  public abstract rpg.ooo.subcalls.Node left();
+    descriptor: ()Lrpg/ooo/subcalls/Node;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public abstract rpg.ooo.subcalls.Node right();
+    descriptor: ()Lrpg/ooo/subcalls/Node;
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public static int cost$(rpg.ooo.subcalls.Tree, rpg.PlayerTraits);
+    descriptor: (Lrpg/ooo/subcalls/Tree;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokespecial #23                 // InterfaceMethod cost:(Lrpg/PlayerTraits;)I
+         5: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0 $this   Lrpg/ooo/subcalls/Tree;
+            0       6     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 30: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+      traits                         final
+
+  public int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_0
+         1: invokeinterface #27,  1           // InterfaceMethod left:()Lrpg/ooo/subcalls/Node;
+         6: aload_1
+         7: invokeinterface #28,  2           // InterfaceMethod rpg/ooo/subcalls/Node.cost:(Lrpg/PlayerTraits;)I
+        12: aload_0
+        13: invokeinterface #30,  1           // InterfaceMethod right:()Lrpg/ooo/subcalls/Node;
+        18: aload_1
+        19: invokeinterface #28,  2           // InterfaceMethod rpg/ooo/subcalls/Node.cost:(Lrpg/PlayerTraits;)I
+        24: iadd
+        25: aload_0
+        26: aload_1
+        27: invokeinterface #33,  2           // InterfaceMethod thisCost:(Lrpg/PlayerTraits;)I
+        32: iadd
+        33: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      34     0  this   Lrpg/ooo/subcalls/Tree;
+            0      34     1 traits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 31: 0
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+
+  public static void $init$(rpg.ooo.subcalls.Tree);
+    descriptor: (Lrpg/ooo/subcalls/Tree;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0 $this   Lrpg/ooo/subcalls/Tree;
+      LineNumberTable:
+        line 26: 0
+    MethodParameters:
+      Name                           Flags
+      $this                          final synthetic
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #10(#11=s#12)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x1D
+   01 00 00 05 00 23 00 24 01 00 10 00 11 01 00 14
+   00 15 00 00 0D 00 0E 00 00 0F 00 0E 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

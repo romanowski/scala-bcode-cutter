@@ -1,0 +1,11 @@
+Compiled from "OOOSkillTrees.scala"
+public final class rpg.ooo.StrStep$ extends scala.runtime.AbstractFunction1<rpg.ooo.Node, rpg.ooo.StrStep> implements scala.Serializable {
+  public static rpg.ooo.StrStep$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.ooo.StrStep apply(rpg.ooo.Node);
+  public scala.Option<rpg.ooo.Node> unapply(rpg.ooo.StrStep);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.ooo.StrStep$();
+}

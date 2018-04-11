@@ -1,0 +1,42 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/subcalls/Node.class
+  Last modified Apr 8, 2018; size 563 bytes
+  MD5 checksum c1cd0d212754cec1617c88f70a065fc7
+  Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/ooo/subcalls/Node
+   #2 = Class              #1             // rpg/ooo/subcalls/Node
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               OOOSubcallsSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               \r2q!GBO_,'BA!XOY2bY2(BA\rywn!]4MA\t9i)1oY1mC&q:L(+4\tEa\n\t\r|7'Y\"a\nUa!aA%oi\")qa11AO]1jiN\"!I!aAc-_3s)J^:*\tir$I=\tQaU6jY2L!\t\tM#X\r]E\tA:fK
+   #9 = Utf8               cost
+  #10 = Utf8               (Lrpg/PlayerTraits;)I
+  #11 = Utf8               traits
+  #12 = Utf8               MethodParameters
+  #13 = Utf8               SourceFile
+  #14 = Utf8               RuntimeVisibleAnnotations
+  #15 = Utf8               ScalaInlineInfo
+  #16 = Utf8               ScalaSig
+{
+  public abstract int cost(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+    MethodParameters:
+      Name                           Flags
+      traits                         final
+}
+SourceFile: "OOOSubcallsSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x9
+   01 00 00 01 00 09 00 0A 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

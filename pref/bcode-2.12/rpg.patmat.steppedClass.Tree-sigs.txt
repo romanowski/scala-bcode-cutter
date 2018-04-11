@@ -1,0 +1,4 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.Tree extends rpg.patmat.steppedClass.Node {
+  public rpg.patmat.steppedClass.Tree();
+}

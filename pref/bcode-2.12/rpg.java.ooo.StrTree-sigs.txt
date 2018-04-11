@@ -1,0 +1,7 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.StrTree implements rpg.java.ooo.Node {
+  rpg.java.ooo.Node left;
+  rpg.java.ooo.Node right;
+  rpg.java.ooo.StrTree(rpg.java.ooo.Node, rpg.java.ooo.Node);
+  public int cost(rpg.PlayerTraits);
+}

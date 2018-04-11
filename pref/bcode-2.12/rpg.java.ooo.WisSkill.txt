@@ -1,0 +1,19 @@
+Compiled from "SkillTrees.java"
+class rpg.java.ooo.WisSkill implements rpg.java.ooo.Node {
+  java.lang.String name;
+
+  rpg.java.ooo.WisSkill(java.lang.String);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: aload_1
+       6: putfield      #2                  // Field name:Ljava/lang/String;
+       9: return
+
+  public int cost(rpg.PlayerTraits);
+    Code:
+       0: aload_1
+       1: invokevirtual #3                  // Method rpg/PlayerTraits.wisCost:()I
+       4: ireturn
+}

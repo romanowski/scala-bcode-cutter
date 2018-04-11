@@ -1,0 +1,11 @@
+Compiled from "PatMatSkillTrees.scala"
+public final class rpg.patmat.StrSkill$ extends scala.runtime.AbstractFunction1<java.lang.String, rpg.patmat.StrSkill> implements scala.Serializable {
+  public static rpg.patmat.StrSkill$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.patmat.StrSkill apply(java.lang.String);
+  public scala.Option<java.lang.String> unapply(rpg.patmat.StrSkill);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.patmat.StrSkill$();
+}

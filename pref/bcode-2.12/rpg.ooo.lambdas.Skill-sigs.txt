@@ -1,0 +1,24 @@
+Compiled from "LambdasSkillTrees.scala"
+public class rpg.ooo.lambdas.Skill implements rpg.ooo.lambdas.Node,scala.Product,scala.Serializable {
+  private final scala.Function1<rpg.PlayerTraits, java.lang.Object> feat;
+  private final java.lang.String name;
+  public static scala.Option<scala.Tuple2<scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String>> unapply(rpg.ooo.lambdas.Skill);
+  public static rpg.ooo.lambdas.Skill apply(scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String);
+  public static scala.Function1<scala.Tuple2<scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String>, rpg.ooo.lambdas.Skill> tupled();
+  public static scala.Function1<scala.Function1<rpg.PlayerTraits, java.lang.Object>, scala.Function1<java.lang.String, rpg.ooo.lambdas.Skill>> curried();
+  public scala.Function1<rpg.PlayerTraits, java.lang.Object> feat();
+  public java.lang.String name();
+  public int cost(rpg.PlayerTraits);
+  public rpg.ooo.lambdas.Skill copy(scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String);
+  public scala.Function1<rpg.PlayerTraits, java.lang.Object> copy$default$1();
+  public java.lang.String copy$default$2();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.ooo.lambdas.Skill(scala.Function1<rpg.PlayerTraits, java.lang.Object>, java.lang.String);
+}

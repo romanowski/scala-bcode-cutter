@@ -1,0 +1,20 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.stepped.WisStep implements rpg.patmat.stepped.Step,scala.Product,scala.Serializable {
+  private final rpg.patmat.stepped.Node to;
+  public static scala.Option<rpg.patmat.stepped.Node> unapply(rpg.patmat.stepped.WisStep);
+  public static rpg.patmat.stepped.WisStep apply(rpg.patmat.stepped.Node);
+  public static <A> scala.Function1<rpg.patmat.stepped.Node, A> andThen(scala.Function1<rpg.patmat.stepped.WisStep, A>);
+  public static <A> scala.Function1<A, rpg.patmat.stepped.WisStep> compose(scala.Function1<A, rpg.patmat.stepped.Node>);
+  public rpg.patmat.stepped.Node to();
+  public rpg.patmat.stepped.WisStep copy(rpg.patmat.stepped.Node);
+  public rpg.patmat.stepped.Node copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.patmat.stepped.WisStep(rpg.patmat.stepped.Node);
+}

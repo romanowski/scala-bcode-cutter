@@ -1,0 +1,21 @@
+Compiled from "SkillTrees.scala"
+public abstract class rpg.SkillTreeRepr<T> {
+  private final T tree;
+
+  public T tree();
+    Code:
+       0: aload_0
+       1: getfield      #15                 // Field tree:Ljava/lang/Object;
+       4: areturn
+
+  public abstract int totalCost();
+
+  public rpg.SkillTreeRepr(T);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #15                 // Field tree:Ljava/lang/Object;
+       5: aload_0
+       6: invokespecial #24                 // Method java/lang/Object."<init>":()V
+       9: return
+}

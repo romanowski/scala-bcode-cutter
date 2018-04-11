@@ -1,0 +1,255 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/ooo/lambdas/Tree$.class
+  Last modified Apr 8, 2018; size 2374 bytes
+  MD5 checksum ba9eaa74812cae2f45cc2fdcfdaef322
+  Compiled from "LambdasSkillTrees.scala"
+public final class rpg.ooo.lambdas.Tree$ extends scala.runtime.AbstractFunction3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Tree> implements scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/ooo/lambdas/Tree$
+   #2 = Class              #1             // rpg/ooo/lambdas/Tree$
+   #3 = Utf8               Lscala/runtime/AbstractFunction3<Lscala/Function1<Lrpg/PlayerTraits;Ljava/lang/Object;>;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Tree;>;Lscala/Serializable;
+   #4 = Utf8               scala/runtime/AbstractFunction3
+   #5 = Class              #4             // scala/runtime/AbstractFunction3
+   #6 = Utf8               scala/Serializable
+   #7 = Class              #6             // scala/Serializable
+   #8 = Utf8               LambdasSkillTrees.scala
+   #9 = Utf8               MODULE$
+  #10 = Utf8               Lrpg/ooo/lambdas/Tree$;
+  #11 = Utf8               <clinit>
+  #12 = Utf8               ()V
+  #13 = Utf8               <init>
+  #14 = NameAndType        #13:#12        // "<init>":()V
+  #15 = Methodref          #2.#14         // rpg/ooo/lambdas/Tree$."<init>":()V
+  #16 = Utf8               toString
+  #17 = Utf8               ()Ljava/lang/String;
+  #18 = Utf8               Tree
+  #19 = String             #18            // Tree
+  #20 = Utf8               this
+  #21 = Utf8               apply
+  #22 = Utf8               (Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+  #23 = Utf8               feat
+  #24 = Utf8               left
+  #25 = Utf8               right
+  #26 = Utf8               rpg/ooo/lambdas/Tree
+  #27 = Class              #26            // rpg/ooo/lambdas/Tree
+  #28 = Utf8               (Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)V
+  #29 = NameAndType        #13:#28        // "<init>":(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)V
+  #30 = Methodref          #27.#29        // rpg/ooo/lambdas/Tree."<init>":(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)V
+  #31 = Utf8               Lscala/Function1;
+  #32 = Utf8               Lrpg/ooo/lambdas/Node;
+  #33 = Utf8               unapply
+  #34 = Utf8               (Lrpg/ooo/lambdas/Tree;)Lscala/Option;
+  #35 = Utf8               x$0
+  #36 = Utf8               scala/None$
+  #37 = Class              #36            // scala/None$
+  #38 = Utf8               Lscala/None$;
+  #39 = NameAndType        #9:#38         // MODULE$:Lscala/None$;
+  #40 = Fieldref           #37.#39        // scala/None$.MODULE$:Lscala/None$;
+  #41 = Utf8               scala/Some
+  #42 = Class              #41            // scala/Some
+  #43 = Utf8               scala/Tuple3
+  #44 = Class              #43            // scala/Tuple3
+  #45 = Utf8               ()Lscala/Function1;
+  #46 = NameAndType        #23:#45        // feat:()Lscala/Function1;
+  #47 = Methodref          #27.#46        // rpg/ooo/lambdas/Tree.feat:()Lscala/Function1;
+  #48 = Utf8               ()Lrpg/ooo/lambdas/Node;
+  #49 = NameAndType        #24:#48        // left:()Lrpg/ooo/lambdas/Node;
+  #50 = Methodref          #27.#49        // rpg/ooo/lambdas/Tree.left:()Lrpg/ooo/lambdas/Node;
+  #51 = NameAndType        #25:#48        // right:()Lrpg/ooo/lambdas/Node;
+  #52 = Methodref          #27.#51        // rpg/ooo/lambdas/Tree.right:()Lrpg/ooo/lambdas/Node;
+  #53 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+  #54 = NameAndType        #13:#53        // "<init>":(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+  #55 = Methodref          #44.#54        // scala/Tuple3."<init>":(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+  #56 = Utf8               (Ljava/lang/Object;)V
+  #57 = NameAndType        #13:#56        // "<init>":(Ljava/lang/Object;)V
+  #58 = Methodref          #42.#57        // scala/Some."<init>":(Ljava/lang/Object;)V
+  #59 = Utf8               Lrpg/ooo/lambdas/Tree;
+  #60 = Utf8               scala/Option
+  #61 = Class              #60            // scala/Option
+  #62 = Utf8               readResolve
+  #63 = Utf8               ()Ljava/lang/Object;
+  #64 = NameAndType        #9:#10         // MODULE$:Lrpg/ooo/lambdas/Tree$;
+  #65 = Fieldref           #2.#64         // rpg/ooo/lambdas/Tree$.MODULE$:Lrpg/ooo/lambdas/Tree$;
+  #66 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #67 = Utf8               v1
+  #68 = Utf8               v2
+  #69 = Utf8               v3
+  #70 = Utf8               scala/Function1
+  #71 = Class              #70            // scala/Function1
+  #72 = Utf8               rpg/ooo/lambdas/Node
+  #73 = Class              #72            // rpg/ooo/lambdas/Node
+  #74 = NameAndType        #21:#22        // apply:(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+  #75 = Methodref          #2.#74         // rpg/ooo/lambdas/Tree$.apply:(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+  #76 = Utf8               Ljava/lang/Object;
+  #77 = Methodref          #5.#14         // scala/runtime/AbstractFunction3."<init>":()V
+  #78 = Utf8               Code
+  #79 = Utf8               LocalVariableTable
+  #80 = Utf8               LineNumberTable
+  #81 = Utf8               Signature
+  #82 = Utf8               (Lscala/Function1<Lrpg/PlayerTraits;Ljava/lang/Object;>;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+  #83 = Utf8               MethodParameters
+  #84 = Utf8               StackMapTable
+  #85 = Utf8               (Lrpg/ooo/lambdas/Tree;)Lscala/Option<Lscala/Tuple3<Lscala/Function1<Lrpg/PlayerTraits;Ljava/lang/Object;>;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;>;>;
+  #86 = Utf8               SourceFile
+  #87 = Utf8               ScalaInlineInfo
+  #88 = Utf8               Scala
+{
+  public static rpg.ooo.lambdas.Tree$ MODULE$;
+    descriptor: Lrpg/ooo/lambdas/Tree$;
+    flags: ACC_PUBLIC, ACC_STATIC
+
+  public static {};
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: new           #2                  // class rpg/ooo/lambdas/Tree$
+         3: invokespecial #15                 // Method "<init>":()V
+         6: return
+
+  public final java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #19                 // String Tree
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/ooo/lambdas/Tree$;
+      LineNumberTable:
+        line 11: 0
+
+  public rpg.ooo.lambdas.Tree apply(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+    descriptor: (Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+    flags: ACC_PUBLIC
+    Code:
+      stack=5, locals=4, args_size=4
+         0: new           #27                 // class rpg/ooo/lambdas/Tree
+         3: dup
+         4: aload_1
+         5: aload_2
+         6: aload_3
+         7: invokespecial #30                 // Method rpg/ooo/lambdas/Tree."<init>":(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)V
+        10: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   Lrpg/ooo/lambdas/Tree$;
+            0      11     1  feat   Lscala/Function1;
+            0      11     2  left   Lrpg/ooo/lambdas/Node;
+            0      11     3 right   Lrpg/ooo/lambdas/Node;
+      LineNumberTable:
+        line 11: 0
+    Signature: #82                          // (Lscala/Function1<Lrpg/PlayerTraits;Ljava/lang/Object;>;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+    MethodParameters:
+      Name                           Flags
+      feat                           final
+      left                           final
+      right                          final
+
+  public scala.Option<scala.Tuple3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node>> unapply(rpg.ooo.lambdas.Tree);
+    descriptor: (Lrpg/ooo/lambdas/Tree;)Lscala/Option;
+    flags: ACC_PUBLIC
+    Code:
+      stack=7, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     10
+         4: getstatic     #40                 // Field scala/None$.MODULE$:Lscala/None$;
+         7: goto          36
+        10: new           #42                 // class scala/Some
+        13: dup
+        14: new           #44                 // class scala/Tuple3
+        17: dup
+        18: aload_1
+        19: invokevirtual #47                 // Method rpg/ooo/lambdas/Tree.feat:()Lscala/Function1;
+        22: aload_1
+        23: invokevirtual #50                 // Method rpg/ooo/lambdas/Tree.left:()Lrpg/ooo/lambdas/Node;
+        26: aload_1
+        27: invokevirtual #52                 // Method rpg/ooo/lambdas/Tree.right:()Lrpg/ooo/lambdas/Node;
+        30: invokespecial #55                 // Method scala/Tuple3."<init>":(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+        33: invokespecial #58                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+        36: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      37     0  this   Lrpg/ooo/lambdas/Tree$;
+            0      37     1   x$0   Lrpg/ooo/lambdas/Tree;
+      LineNumberTable:
+        line 11: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 10 /* same */
+        frame_type = 89 /* same_locals_1_stack_item */
+          stack = [ class scala/Option ]
+    Signature: #85                          // (Lrpg/ooo/lambdas/Tree;)Lscala/Option<Lscala/Tuple3<Lscala/Function1<Lrpg/PlayerTraits;Ljava/lang/Object;>;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;>;>;
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  private java.lang.Object readResolve();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #65                 // Field MODULE$:Lrpg/ooo/lambdas/Tree$;
+         3: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Lrpg/ooo/lambdas/Tree$;
+      LineNumberTable:
+        line 11: 0
+
+  public java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object);
+    descriptor: (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=4, locals=4, args_size=4
+         0: aload_0
+         1: aload_1
+         2: checkcast     #71                 // class scala/Function1
+         5: aload_2
+         6: checkcast     #73                 // class rpg/ooo/lambdas/Node
+         9: aload_3
+        10: checkcast     #73                 // class rpg/ooo/lambdas/Node
+        13: invokevirtual #75                 // Method apply:(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+        16: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      17     0  this   Lrpg/ooo/lambdas/Tree$;
+            0      17     1    v1   Ljava/lang/Object;
+            0      17     2    v2   Ljava/lang/Object;
+            0      17     3    v3   Ljava/lang/Object;
+      LineNumberTable:
+        line 11: 0
+    MethodParameters:
+      Name                           Flags
+      v1                             final
+      v2                             final
+      v3                             final
+
+  private rpg.ooo.lambdas.Tree$();
+    descriptor: ()V
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #77                 // Method scala/runtime/AbstractFunction3."<init>":()V
+         4: aload_0
+         5: putstatic     #65                 // Field MODULE$:Lrpg/ooo/lambdas/Tree$;
+         8: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/ooo/lambdas/Tree$;
+      LineNumberTable:
+        line 11: 0
+}
+Signature: #3                           // Lscala/runtime/AbstractFunction3<Lscala/Function1<Lrpg/PlayerTraits;Ljava/lang/Object;>;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Tree;>;Lscala/Serializable;
+SourceFile: "LambdasSkillTrees.scala"
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x22
+   01 01 00 06 00 0D 00 0C 01 00 15 00 42 01 00 15
+   00 16 01 00 3E 00 3F 01 00 10 00 11 01 00 21 00
+   22 01
+Error: unknown attribute
+  Scala: length = 0x0
+

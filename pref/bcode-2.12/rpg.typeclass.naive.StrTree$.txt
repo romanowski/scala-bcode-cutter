@@ -1,0 +1,55 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.StrTree$ implements scala.Serializable {
+  public static rpg.typeclass.naive.StrTree$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/typeclass/naive/StrTree$
+       3: invokespecial #14                 // Method "<init>":()V
+       6: return
+
+  public final java.lang.String toString();
+    Code:
+       0: ldc           #18                 // String StrTree
+       2: areturn
+
+  public <L, R> rpg.typeclass.naive.StrTree<L, R> apply(L, R);
+    Code:
+       0: new           #25                 // class rpg/typeclass/naive/StrTree
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: invokespecial #28                 // Method rpg/typeclass/naive/StrTree."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+       9: areturn
+
+  public <L, R> scala.Option<scala.Tuple2<L, R>> unapply(rpg.typeclass.naive.StrTree<L, R>);
+    Code:
+       0: aload_1
+       1: ifnonnull     10
+       4: getstatic     #37                 // Field scala/None$.MODULE$:Lscala/None$;
+       7: goto          32
+      10: new           #39                 // class scala/Some
+      13: dup
+      14: new           #41                 // class scala/Tuple2
+      17: dup
+      18: aload_1
+      19: invokevirtual #44                 // Method rpg/typeclass/naive/StrTree.left:()Ljava/lang/Object;
+      22: aload_1
+      23: invokevirtual #46                 // Method rpg/typeclass/naive/StrTree.right:()Ljava/lang/Object;
+      26: invokespecial #47                 // Method scala/Tuple2."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+      29: invokespecial #50                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+      32: areturn
+
+  private java.lang.Object readResolve();
+    Code:
+       0: getstatic     #56                 // Field MODULE$:Lrpg/typeclass/naive/StrTree$;
+       3: areturn
+
+  private rpg.typeclass.naive.StrTree$();
+    Code:
+       0: aload_0
+       1: invokespecial #57                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: putstatic     #56                 // Field MODULE$:Lrpg/typeclass/naive/StrTree$;
+       8: return
+}

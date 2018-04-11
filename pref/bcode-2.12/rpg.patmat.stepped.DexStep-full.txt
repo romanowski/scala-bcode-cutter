@@ -1,0 +1,485 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/stepped/DexStep.class
+  Last modified Apr 8, 2018; size 4488 bytes
+  MD5 checksum b1058b59f070e5086872c0d8703f3fb7
+  Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.stepped.DexStep implements rpg.patmat.stepped.Step,scala.Product,scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/patmat/stepped/DexStep
+    #2 = Class              #1            // rpg/patmat/stepped/DexStep
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/patmat/stepped/Step
+    #6 = Class              #5            // rpg/patmat/stepped/Step
+    #7 = Utf8               scala/Product
+    #8 = Class              #7            // scala/Product
+    #9 = Utf8               scala/Serializable
+   #10 = Class              #9            // scala/Serializable
+   #11 = Utf8               PatMatSkillTrees.scala
+   #12 = Utf8               Lscala/reflect/ScalaSignature;
+   #13 = Utf8               bytes
+   #14 = Utf8               ]aB&qR3y'R,O\t91^3qa$'BA\r^7bi*\tq!AsaaEA!r5\tABC8-7b\tyABB]fVM\t#IiAA'\tAa;faB1\"F-1q:pIVG1%\r'.7juG.\t7)!C9Ao\;ACH?\tAAT8eK\"AB\tB%Q$Au_BQa\t\naP5oSRtDCA'!\t\tCEQC)IA\t\r|/K)BqaGQC-EIA\r|/eKW;%cU\taF_-\n2m5\t!G4iIQO\2iK\W\rk1\t!\"8o_RG/[8o\t9$GA\tv]DWmY6fIZ'/[1oGDq!#(Aqe>$Wo;Qe4_wAA(Q{)ahPYtwMCAQM^1\n\tk$AB*ue&tw\rCEIA#AxZ;di^=\"aC$\n!c!aA%oi\"9!\nAA\nYA9s_,8\r^#mK6,g>\"aC'\n9c!aA!os\"9+SA1a=%c!9!AA\na9s_,8\r^%uKJGo:Q2!-M1&BA,\r)w7fGRLwN\3Z\";fe$xN7\t\t\"]!M\#rkdGCA/a!\tYa,`\t9!i\8mKtb)[\rE\t\t\"d!Am5D_,G#$\t!C!MAAo\*ue&tw\rF<A!!AB%a!Z9vC2HCA/kv-!AA1;q#Q.AEKbF/9EqgaBE\ta\\n]B<B9u;jAg2\tqA];oi&lW-ve\n\tIY:ueGOR;oGRLwN\\t\rrGA<5Dq!8c\rC{]IQ>\=b\"Bzib@o%\ti`k:7z)\t\t!a\t-\t!Ha!AB(qi&|g\nu\t1&\rAH\r\nq!C\t1B]3bIJ+7o7wKR\tyMbAA{\t1qJ6fGR
+   #15 = Utf8               to
+   #16 = Utf8               Lrpg/patmat/stepped/Node;
+   #17 = Utf8               unapply
+   #18 = Utf8               (Lrpg/patmat/stepped/DexStep;)Lscala/Option;
+   #19 = Utf8               rpg/patmat/stepped/DexStep$
+   #20 = Class              #19           // rpg/patmat/stepped/DexStep$
+   #21 = Utf8               MODULE$
+   #22 = Utf8               Lrpg/patmat/stepped/DexStep$;
+   #23 = NameAndType        #21:#22       // MODULE$:Lrpg/patmat/stepped/DexStep$;
+   #24 = Fieldref           #20.#23       // rpg/patmat/stepped/DexStep$.MODULE$:Lrpg/patmat/stepped/DexStep$;
+   #25 = NameAndType        #17:#18       // unapply:(Lrpg/patmat/stepped/DexStep;)Lscala/Option;
+   #26 = Methodref          #20.#25       // rpg/patmat/stepped/DexStep$.unapply:(Lrpg/patmat/stepped/DexStep;)Lscala/Option;
+   #27 = Utf8               apply
+   #28 = Utf8               (Lrpg/patmat/stepped/Node;)Lrpg/patmat/stepped/DexStep;
+   #29 = NameAndType        #27:#28       // apply:(Lrpg/patmat/stepped/Node;)Lrpg/patmat/stepped/DexStep;
+   #30 = Methodref          #20.#29       // rpg/patmat/stepped/DexStep$.apply:(Lrpg/patmat/stepped/Node;)Lrpg/patmat/stepped/DexStep;
+   #31 = Utf8               andThen
+   #32 = Utf8               (Lscala/Function1;)Lscala/Function1;
+   #33 = NameAndType        #31:#32       // andThen:(Lscala/Function1;)Lscala/Function1;
+   #34 = Methodref          #20.#33       // rpg/patmat/stepped/DexStep$.andThen:(Lscala/Function1;)Lscala/Function1;
+   #35 = Utf8               compose
+   #36 = NameAndType        #35:#32       // compose:(Lscala/Function1;)Lscala/Function1;
+   #37 = Methodref          #20.#36       // rpg/patmat/stepped/DexStep$.compose:(Lscala/Function1;)Lscala/Function1;
+   #38 = Utf8               ()Lrpg/patmat/stepped/Node;
+   #39 = NameAndType        #15:#16       // to:Lrpg/patmat/stepped/Node;
+   #40 = Fieldref           #2.#39        // rpg/patmat/stepped/DexStep.to:Lrpg/patmat/stepped/Node;
+   #41 = Utf8               this
+   #42 = Utf8               Lrpg/patmat/stepped/DexStep;
+   #43 = Utf8               copy
+   #44 = Utf8               <init>
+   #45 = Utf8               (Lrpg/patmat/stepped/Node;)V
+   #46 = NameAndType        #44:#45       // "<init>":(Lrpg/patmat/stepped/Node;)V
+   #47 = Methodref          #2.#46        // rpg/patmat/stepped/DexStep."<init>":(Lrpg/patmat/stepped/Node;)V
+   #48 = Utf8               copy$default$1
+   #49 = NameAndType        #15:#38       // to:()Lrpg/patmat/stepped/Node;
+   #50 = Methodref          #2.#49        // rpg/patmat/stepped/DexStep.to:()Lrpg/patmat/stepped/Node;
+   #51 = Utf8               productPrefix
+   #52 = Utf8               ()Ljava/lang/String;
+   #53 = Utf8               DexStep
+   #54 = String             #53           // DexStep
+   #55 = Utf8               productArity
+   #56 = Utf8               ()I
+   #57 = Utf8               productElement
+   #58 = Utf8               (I)Ljava/lang/Object;
+   #59 = Utf8               x$1
+   #60 = Utf8               java/lang/IndexOutOfBoundsException
+   #61 = Class              #60           // java/lang/IndexOutOfBoundsException
+   #62 = Utf8               scala/runtime/BoxesRunTime
+   #63 = Class              #62           // scala/runtime/BoxesRunTime
+   #64 = Utf8               boxToInteger
+   #65 = Utf8               (I)Ljava/lang/Integer;
+   #66 = NameAndType        #64:#65       // boxToInteger:(I)Ljava/lang/Integer;
+   #67 = Methodref          #63.#66       // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+   #68 = Utf8               toString
+   #69 = NameAndType        #68:#52       // toString:()Ljava/lang/String;
+   #70 = Methodref          #4.#69        // java/lang/Object.toString:()Ljava/lang/String;
+   #71 = Utf8               (Ljava/lang/String;)V
+   #72 = NameAndType        #44:#71       // "<init>":(Ljava/lang/String;)V
+   #73 = Methodref          #61.#72       // java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+   #74 = Utf8               I
+   #75 = Utf8               rpg/patmat/stepped/Node
+   #76 = Class              #75           // rpg/patmat/stepped/Node
+   #77 = Utf8               productIterator
+   #78 = Utf8               ()Lscala/collection/Iterator;
+   #79 = Utf8               scala/runtime/ScalaRunTime$
+   #80 = Class              #79           // scala/runtime/ScalaRunTime$
+   #81 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #82 = NameAndType        #21:#81       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #83 = Fieldref           #80.#82       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #84 = Utf8               typedProductIterator
+   #85 = Utf8               (Lscala/Product;)Lscala/collection/Iterator;
+   #86 = NameAndType        #84:#85       // typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #87 = Methodref          #80.#86       // scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #88 = Utf8               canEqual
+   #89 = Utf8               (Ljava/lang/Object;)Z
+   #90 = Utf8               Ljava/lang/Object;
+   #91 = Utf8               hashCode
+   #92 = Utf8               _hashCode
+   #93 = Utf8               (Lscala/Product;)I
+   #94 = NameAndType        #92:#93       // _hashCode:(Lscala/Product;)I
+   #95 = Methodref          #80.#94       // scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+   #96 = Utf8               _toString
+   #97 = Utf8               (Lscala/Product;)Ljava/lang/String;
+   #98 = NameAndType        #96:#97       // _toString:(Lscala/Product;)Ljava/lang/String;
+   #99 = Methodref          #80.#98       // scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+  #100 = Utf8               equals
+  #101 = NameAndType        #100:#89      // equals:(Ljava/lang/Object;)Z
+  #102 = Methodref          #4.#101       // java/lang/Object.equals:(Ljava/lang/Object;)Z
+  #103 = NameAndType        #88:#89       // canEqual:(Ljava/lang/Object;)Z
+  #104 = Methodref          #2.#103       // rpg/patmat/stepped/DexStep.canEqual:(Ljava/lang/Object;)Z
+  #105 = Utf8               ()V
+  #106 = NameAndType        #44:#105      // "<init>":()V
+  #107 = Methodref          #4.#106       // java/lang/Object."<init>":()V
+  #108 = Utf8               $init$
+  #109 = Utf8               (Lscala/Product;)V
+  #110 = NameAndType        #108:#109     // $init$:(Lscala/Product;)V
+  #111 = InterfaceMethodref #8.#110       // scala/Product.$init$:(Lscala/Product;)V
+  #112 = Utf8               Code
+  #113 = Utf8               Signature
+  #114 = Utf8               (Lrpg/patmat/stepped/DexStep;)Lscala/Option<Lrpg/patmat/stepped/Node;>;
+  #115 = Utf8               <A:Ljava/lang/Object;>(Lscala/Function1<Lrpg/patmat/stepped/DexStep;TA;>;)Lscala/Function1<Lrpg/patmat/stepped/Node;TA;>;
+  #116 = Utf8               <A:Ljava/lang/Object;>(Lscala/Function1<TA;Lrpg/patmat/stepped/Node;>;)Lscala/Function1<TA;Lrpg/patmat/stepped/DexStep;>;
+  #117 = Utf8               LocalVariableTable
+  #118 = Utf8               LineNumberTable
+  #119 = Utf8               MethodParameters
+  #120 = Utf8               StackMapTable
+  #121 = Utf8               ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+  #122 = Utf8               SourceFile
+  #123 = Utf8               RuntimeVisibleAnnotations
+  #124 = Utf8               ScalaInlineInfo
+  #125 = Utf8               ScalaSig
+{
+  private final rpg.patmat.stepped.Node to;
+    descriptor: Lrpg/patmat/stepped/Node;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public static scala.Option<rpg.patmat.stepped.Node> unapply(rpg.patmat.stepped.DexStep);
+    descriptor: (Lrpg/patmat/stepped/DexStep;)Lscala/Option;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/patmat/stepped/DexStep$.MODULE$:Lrpg/patmat/stepped/DexStep$;
+         3: aload_0
+         4: invokevirtual #26                 // Method rpg/patmat/stepped/DexStep$.unapply:(Lrpg/patmat/stepped/DexStep;)Lscala/Option;
+         7: areturn
+    Signature: #114                         // (Lrpg/patmat/stepped/DexStep;)Lscala/Option<Lrpg/patmat/stepped/Node;>;
+
+  public static rpg.patmat.stepped.DexStep apply(rpg.patmat.stepped.Node);
+    descriptor: (Lrpg/patmat/stepped/Node;)Lrpg/patmat/stepped/DexStep;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/patmat/stepped/DexStep$.MODULE$:Lrpg/patmat/stepped/DexStep$;
+         3: aload_0
+         4: invokevirtual #30                 // Method rpg/patmat/stepped/DexStep$.apply:(Lrpg/patmat/stepped/Node;)Lrpg/patmat/stepped/DexStep;
+         7: areturn
+
+  public static <A extends java.lang.Object> scala.Function1<rpg.patmat.stepped.Node, A> andThen(scala.Function1<rpg.patmat.stepped.DexStep, A>);
+    descriptor: (Lscala/Function1;)Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/patmat/stepped/DexStep$.MODULE$:Lrpg/patmat/stepped/DexStep$;
+         3: aload_0
+         4: invokevirtual #34                 // Method rpg/patmat/stepped/DexStep$.andThen:(Lscala/Function1;)Lscala/Function1;
+         7: areturn
+    Signature: #115                         // <A:Ljava/lang/Object;>(Lscala/Function1<Lrpg/patmat/stepped/DexStep;TA;>;)Lscala/Function1<Lrpg/patmat/stepped/Node;TA;>;
+
+  public static <A extends java.lang.Object> scala.Function1<A, rpg.patmat.stepped.DexStep> compose(scala.Function1<A, rpg.patmat.stepped.Node>);
+    descriptor: (Lscala/Function1;)Lscala/Function1;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #24                 // Field rpg/patmat/stepped/DexStep$.MODULE$:Lrpg/patmat/stepped/DexStep$;
+         3: aload_0
+         4: invokevirtual #37                 // Method rpg/patmat/stepped/DexStep$.compose:(Lscala/Function1;)Lscala/Function1;
+         7: areturn
+    Signature: #116                         // <A:Ljava/lang/Object;>(Lscala/Function1<TA;Lrpg/patmat/stepped/Node;>;)Lscala/Function1<TA;Lrpg/patmat/stepped/DexStep;>;
+
+  public rpg.patmat.stepped.Node to();
+    descriptor: ()Lrpg/patmat/stepped/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #40                 // Field to:Lrpg/patmat/stepped/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/stepped/DexStep;
+      LineNumberTable:
+        line 16: 0
+
+  public rpg.patmat.stepped.DexStep copy(rpg.patmat.stepped.Node);
+    descriptor: (Lrpg/patmat/stepped/Node;)Lrpg/patmat/stepped/DexStep;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: new           #2                  // class rpg/patmat/stepped/DexStep
+         3: dup
+         4: aload_1
+         5: invokespecial #47                 // Method "<init>":(Lrpg/patmat/stepped/Node;)V
+         8: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/patmat/stepped/DexStep;
+            0       9     1    to   Lrpg/patmat/stepped/Node;
+      LineNumberTable:
+        line 16: 0
+    MethodParameters:
+      Name                           Flags
+      to                             final
+
+  public rpg.patmat.stepped.Node copy$default$1();
+    descriptor: ()Lrpg/patmat/stepped/Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #50                 // Method to:()Lrpg/patmat/stepped/Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/stepped/DexStep;
+      LineNumberTable:
+        line 16: 0
+
+  public java.lang.String productPrefix();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #54                 // String DexStep
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/patmat/stepped/DexStep;
+      LineNumberTable:
+        line 16: 0
+
+  public int productArity();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_1
+         1: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lrpg/patmat/stepped/DexStep;
+      LineNumberTable:
+        line 16: 0
+
+  public java.lang.Object productElement(int);
+    descriptor: (I)Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1
+         1: istore_2
+         2: iload_2
+         3: tableswitch   { // 0 to 0
+                       0: 20
+                 default: 27
+            }
+        20: aload_0
+        21: invokevirtual #50                 // Method to:()Lrpg/patmat/stepped/Node;
+        24: goto          42
+        27: new           #61                 // class java/lang/IndexOutOfBoundsException
+        30: dup
+        31: iload_1
+        32: invokestatic  #67                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        35: invokevirtual #70                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        38: invokespecial #73                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+        41: athrow
+        42: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      43     0  this   Lrpg/patmat/stepped/DexStep;
+            0      43     1   x$1   I
+      LineNumberTable:
+        line 16: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 20
+          locals = [ int ]
+        frame_type = 6 /* same */
+        frame_type = 78 /* same_locals_1_stack_item */
+          stack = [ class rpg/patmat/stepped/Node ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    descriptor: ()Lscala/collection/Iterator;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #87                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/patmat/stepped/DexStep;
+      LineNumberTable:
+        line 16: 0
+    Signature: #121                         // ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+
+  public boolean canEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: instanceof    #2                  // class rpg/patmat/stepped/DexStep
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/patmat/stepped/DexStep;
+            0       5     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 16: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int hashCode();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #95                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/patmat/stepped/DexStep;
+      LineNumberTable:
+        line 16: 0
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #83                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #99                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/patmat/stepped/DexStep;
+      LineNumberTable:
+        line 16: 0
+
+  public boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=6, args_size=2
+         0: aload_0
+         1: aload_1
+         2: if_acmpeq     86
+         5: aload_1
+         6: astore_3
+         7: aload_3
+         8: instanceof    #2                  // class rpg/patmat/stepped/DexStep
+        11: ifeq          19
+        14: iconst_1
+        15: istore_2
+        16: goto          27
+        19: goto          22
+        22: iconst_0
+        23: istore_2
+        24: goto          27
+        27: iload_2
+        28: ifeq          90
+        31: aload_1
+        32: checkcast     #2                  // class rpg/patmat/stepped/DexStep
+        35: astore        4
+        37: aload_0
+        38: invokevirtual #50                 // Method to:()Lrpg/patmat/stepped/Node;
+        41: aload         4
+        43: invokevirtual #50                 // Method to:()Lrpg/patmat/stepped/Node;
+        46: astore        5
+        48: dup
+        49: ifnonnull     61
+        52: pop
+        53: aload         5
+        55: ifnull        69
+        58: goto          82
+        61: aload         5
+        63: invokevirtual #102                // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        66: ifeq          82
+        69: aload         4
+        71: aload_0
+        72: invokevirtual #104                // Method canEqual:(Ljava/lang/Object;)Z
+        75: ifeq          82
+        78: iconst_1
+        79: goto          83
+        82: iconst_0
+        83: ifeq          90
+        86: iconst_1
+        87: goto          91
+        90: iconst_0
+        91: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      92     0  this   Lrpg/patmat/stepped/DexStep;
+            0      92     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 16: 0
+      StackMapTable: number_of_entries = 10
+        frame_type = 253 /* append */
+          offset_delta = 19
+          locals = [ top, class java/lang/Object ]
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 4
+          locals = [ class rpg/patmat/stepped/DexStep, class java/lang/Object, int, class java/lang/Object ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 33
+          locals = [ class rpg/patmat/stepped/DexStep, class java/lang/Object, int, class java/lang/Object, class rpg/patmat/stepped/DexStep, class rpg/patmat/stepped/Node ]
+          stack = [ class rpg/patmat/stepped/Node ]
+        frame_type = 7 /* same */
+        frame_type = 12 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class rpg/patmat/stepped/DexStep, class java/lang/Object ]
+          stack = []
+        frame_type = 253 /* append */
+          offset_delta = 3
+          locals = [ int, class java/lang/Object ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class rpg/patmat/stepped/DexStep, class java/lang/Object ]
+          stack = [ int ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public rpg.patmat.stepped.DexStep(rpg.patmat.stepped.Node);
+    descriptor: (Lrpg/patmat/stepped/Node;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #40                 // Field to:Lrpg/patmat/stepped/Node;
+         5: aload_0
+         6: invokespecial #107                // Method java/lang/Object."<init>":()V
+         9: aload_0
+        10: invokestatic  #111                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+        13: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      14     0  this   Lrpg/patmat/stepped/DexStep;
+            0      14     1    to   Lrpg/patmat/stepped/Node;
+      LineNumberTable:
+        line 16: 0
+    MethodParameters:
+      Name                           Flags
+      to                             final
+}
+SourceFile: "PatMatSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #12(#13=s#14)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x40
+   01 00 00 0C 00 2C 00 2D 00 00 58 00 59 00 00 30
+   00 26 00 00 2B 00 1C 00 00 64 00 59 00 00 5B 00
+   38 00 00 37 00 38 00 00 39 00 3A 00 00 4D 00 4E
+   00 00 33 00 34 00 00 0F 00 26 00 00 44 00 34 00
+
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

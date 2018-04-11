@@ -1,0 +1,7 @@
+Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake.DexNodes {
+  public abstract rpg.cake.DexNodes$DexSkill$ DexSkill();
+  public abstract rpg.cake.DexNodes$DexStep$ DexStep();
+  public abstract rpg.cake.DexNodes$DexTree$ DexTree();
+  public static void $init$(rpg.cake.DexNodes);
+}

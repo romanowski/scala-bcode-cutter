@@ -1,0 +1,201 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake.WisNodes$WisTree implements rpg.cake.Nodes$Node,scala.Product,scala.Serializable {
+  private final rpg.cake.Nodes$Node left;
+
+  private final rpg.cake.Nodes$Node right;
+
+  public final rpg.cake.Nodes $outer;
+
+  public rpg.cake.Nodes$Node left();
+    Code:
+       0: aload_0
+       1: getfield      #25                 // Field left:Lrpg/cake/Nodes$Node;
+       4: areturn
+
+  public rpg.cake.Nodes$Node right();
+    Code:
+       0: aload_0
+       1: getfield      #29                 // Field right:Lrpg/cake/Nodes$Node;
+       4: areturn
+
+  public rpg.cake.WisNodes$WisTree copy(rpg.cake.Nodes$Node, rpg.cake.Nodes$Node);
+    Code:
+       0: new           #2                  // class rpg/cake/WisNodes$WisTree
+       3: dup
+       4: aload_0
+       5: invokevirtual #35                 // Method rpg$cake$WisNodes$WisTree$$$outer:()Lrpg/cake/Nodes;
+       8: aload_1
+       9: aload_2
+      10: invokespecial #39                 // Method "<init>":(Lrpg/cake/Nodes;Lrpg/cake/Nodes$Node;Lrpg/cake/Nodes$Node;)V
+      13: areturn
+
+  public rpg.cake.Nodes$Node copy$default$1();
+    Code:
+       0: aload_0
+       1: invokevirtual #42                 // Method left:()Lrpg/cake/Nodes$Node;
+       4: areturn
+
+  public rpg.cake.Nodes$Node copy$default$2();
+    Code:
+       0: aload_0
+       1: invokevirtual #45                 // Method right:()Lrpg/cake/Nodes$Node;
+       4: areturn
+
+  public java.lang.String productPrefix();
+    Code:
+       0: ldc           #48                 // String WisTree
+       2: areturn
+
+  public int productArity();
+    Code:
+       0: iconst_2
+       1: ireturn
+
+  public java.lang.Object productElement(int);
+    Code:
+       0: iload_1
+       1: istore_2
+       2: iload_2
+       3: tableswitch   { // 0 to 1
+                     0: 24
+                     1: 31
+               default: 38
+          }
+      24: aload_0
+      25: invokevirtual #42                 // Method left:()Lrpg/cake/Nodes$Node;
+      28: goto          53
+      31: aload_0
+      32: invokevirtual #45                 // Method right:()Lrpg/cake/Nodes$Node;
+      35: goto          53
+      38: new           #55                 // class java/lang/IndexOutOfBoundsException
+      41: dup
+      42: iload_1
+      43: invokestatic  #61                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      46: invokevirtual #64                 // Method java/lang/Object.toString:()Ljava/lang/String;
+      49: invokespecial #67                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+      52: athrow
+      53: areturn
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    Code:
+       0: getstatic     #76                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #80                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+       7: areturn
+
+  public boolean canEqual(java.lang.Object);
+    Code:
+       0: aload_1
+       1: instanceof    #2                  // class rpg/cake/WisNodes$WisTree
+       4: ireturn
+
+  public int hashCode();
+    Code:
+       0: getstatic     #76                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #88                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+       7: ireturn
+
+  public java.lang.String toString();
+    Code:
+       0: getstatic     #76                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+       3: aload_0
+       4: invokevirtual #92                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+       7: areturn
+
+  public boolean equals(java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: if_acmpeq     132
+       5: aload_1
+       6: astore_3
+       7: aload_3
+       8: instanceof    #2                  // class rpg/cake/WisNodes$WisTree
+      11: ifeq          33
+      14: aload_3
+      15: checkcast     #2                  // class rpg/cake/WisNodes$WisTree
+      18: invokevirtual #35                 // Method rpg$cake$WisNodes$WisTree$$$outer:()Lrpg/cake/Nodes;
+      21: aload_0
+      22: invokevirtual #35                 // Method rpg$cake$WisNodes$WisTree$$$outer:()Lrpg/cake/Nodes;
+      25: if_acmpne     33
+      28: iconst_1
+      29: istore_2
+      30: goto          41
+      33: goto          36
+      36: iconst_0
+      37: istore_2
+      38: goto          41
+      41: iload_2
+      42: ifeq          136
+      45: aload_1
+      46: checkcast     #2                  // class rpg/cake/WisNodes$WisTree
+      49: astore        4
+      51: aload_0
+      52: invokevirtual #42                 // Method left:()Lrpg/cake/Nodes$Node;
+      55: aload         4
+      57: invokevirtual #42                 // Method left:()Lrpg/cake/Nodes$Node;
+      60: astore        5
+      62: dup
+      63: ifnonnull     75
+      66: pop
+      67: aload         5
+      69: ifnull        83
+      72: goto          128
+      75: aload         5
+      77: invokevirtual #95                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      80: ifeq          128
+      83: aload_0
+      84: invokevirtual #45                 // Method right:()Lrpg/cake/Nodes$Node;
+      87: aload         4
+      89: invokevirtual #45                 // Method right:()Lrpg/cake/Nodes$Node;
+      92: astore        6
+      94: dup
+      95: ifnonnull     107
+      98: pop
+      99: aload         6
+     101: ifnull        115
+     104: goto          128
+     107: aload         6
+     109: invokevirtual #95                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     112: ifeq          128
+     115: aload         4
+     117: aload_0
+     118: invokevirtual #97                 // Method canEqual:(Ljava/lang/Object;)Z
+     121: ifeq          128
+     124: iconst_1
+     125: goto          129
+     128: iconst_0
+     129: ifeq          136
+     132: iconst_1
+     133: goto          137
+     136: iconst_0
+     137: ireturn
+
+  public rpg.cake.Nodes rpg$cake$WisNodes$WisTree$$$outer();
+    Code:
+       0: aload_0
+       1: getfield      #99                 // Field $outer:Lrpg/cake/Nodes;
+       4: areturn
+
+  public rpg.cake.WisNodes$WisTree(rpg.cake.Nodes, rpg.cake.Nodes$Node, rpg.cake.Nodes$Node);
+    Code:
+       0: aload_0
+       1: aload_2
+       2: putfield      #25                 // Field left:Lrpg/cake/Nodes$Node;
+       5: aload_0
+       6: aload_3
+       7: putfield      #29                 // Field right:Lrpg/cake/Nodes$Node;
+      10: aload_1
+      11: ifnonnull     16
+      14: aconst_null
+      15: athrow
+      16: aload_0
+      17: aload_1
+      18: putfield      #99                 // Field $outer:Lrpg/cake/Nodes;
+      21: aload_0
+      22: invokespecial #102                // Method java/lang/Object."<init>":()V
+      25: aload_0
+      26: invokestatic  #106                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+      29: return
+}

@@ -1,0 +1,6 @@
+Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.TreeProvider {
+  public static rpg.patmat.DexTree mkTree$(rpg.patmat.TreeProvider);
+  public rpg.patmat.DexTree mkTree();
+  public static void $init$(rpg.patmat.TreeProvider);
+}

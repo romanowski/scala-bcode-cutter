@@ -1,0 +1,466 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/DexNodes$DexStep.class
+  Last modified Apr 8, 2018; size 2962 bytes
+  MD5 checksum d74b1cba87ee3e28f6923d08cc264afd
+  Compiled from "CakeSkillTrees.scala"
+public class rpg.cake2.DexNodes$DexStep implements rpg.cake2.NodesTraits$Node,scala.Product,scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/cake2/DexNodes$DexStep
+    #2 = Class              #1            // rpg/cake2/DexNodes$DexStep
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/cake2/NodesTraits$Node
+    #6 = Class              #5            // rpg/cake2/NodesTraits$Node
+    #7 = Utf8               scala/Product
+    #8 = Class              #7            // scala/Product
+    #9 = Utf8               scala/Serializable
+   #10 = Class              #9            // scala/Serializable
+   #11 = Utf8               CakeSkillTrees.scala
+   #12 = Utf8               rpg/cake2/DexNodes
+   #13 = Class              #12           // rpg/cake2/DexNodes
+   #14 = Utf8               DexStep
+   #15 = Utf8               rpg/cake2/NodesTraits
+   #16 = Class              #15           // rpg/cake2/NodesTraits
+   #17 = Utf8               Node
+   #18 = Utf8               to
+   #19 = Utf8               Lrpg/cake2/NodesTraits$Node;
+   #20 = Utf8               $outer
+   #21 = Utf8               Lrpg/cake2/NodesTraits;
+   #22 = Utf8               ()Lrpg/cake2/NodesTraits$Node;
+   #23 = NameAndType        #18:#19       // to:Lrpg/cake2/NodesTraits$Node;
+   #24 = Fieldref           #2.#23        // rpg/cake2/DexNodes$DexStep.to:Lrpg/cake2/NodesTraits$Node;
+   #25 = Utf8               this
+   #26 = Utf8               Lrpg/cake2/DexNodes$DexStep;
+   #27 = Utf8               copy
+   #28 = Utf8               (Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/DexNodes$DexStep;
+   #29 = Utf8               rpg$cake2$DexNodes$DexStep$$$outer
+   #30 = Utf8               ()Lrpg/cake2/NodesTraits;
+   #31 = NameAndType        #29:#30       // rpg$cake2$DexNodes$DexStep$$$outer:()Lrpg/cake2/NodesTraits;
+   #32 = Methodref          #2.#31        // rpg/cake2/DexNodes$DexStep.rpg$cake2$DexNodes$DexStep$$$outer:()Lrpg/cake2/NodesTraits;
+   #33 = Utf8               <init>
+   #34 = Utf8               (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #35 = NameAndType        #33:#34       // "<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #36 = Methodref          #2.#35        // rpg/cake2/DexNodes$DexStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #37 = Utf8               copy$default$1
+   #38 = NameAndType        #18:#22       // to:()Lrpg/cake2/NodesTraits$Node;
+   #39 = Methodref          #2.#38        // rpg/cake2/DexNodes$DexStep.to:()Lrpg/cake2/NodesTraits$Node;
+   #40 = Utf8               productPrefix
+   #41 = Utf8               ()Ljava/lang/String;
+   #42 = String             #14           // DexStep
+   #43 = Utf8               productArity
+   #44 = Utf8               ()I
+   #45 = Utf8               productElement
+   #46 = Utf8               (I)Ljava/lang/Object;
+   #47 = Utf8               x$1
+   #48 = Utf8               java/lang/IndexOutOfBoundsException
+   #49 = Class              #48           // java/lang/IndexOutOfBoundsException
+   #50 = Utf8               scala/runtime/BoxesRunTime
+   #51 = Class              #50           // scala/runtime/BoxesRunTime
+   #52 = Utf8               boxToInteger
+   #53 = Utf8               (I)Ljava/lang/Integer;
+   #54 = NameAndType        #52:#53       // boxToInteger:(I)Ljava/lang/Integer;
+   #55 = Methodref          #51.#54       // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+   #56 = Utf8               toString
+   #57 = NameAndType        #56:#41       // toString:()Ljava/lang/String;
+   #58 = Methodref          #4.#57        // java/lang/Object.toString:()Ljava/lang/String;
+   #59 = Utf8               (Ljava/lang/String;)V
+   #60 = NameAndType        #33:#59       // "<init>":(Ljava/lang/String;)V
+   #61 = Methodref          #49.#60       // java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+   #62 = Utf8               I
+   #63 = Utf8               productIterator
+   #64 = Utf8               ()Lscala/collection/Iterator;
+   #65 = Utf8               scala/runtime/ScalaRunTime$
+   #66 = Class              #65           // scala/runtime/ScalaRunTime$
+   #67 = Utf8               MODULE$
+   #68 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #69 = NameAndType        #67:#68       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #70 = Fieldref           #66.#69       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #71 = Utf8               typedProductIterator
+   #72 = Utf8               (Lscala/Product;)Lscala/collection/Iterator;
+   #73 = NameAndType        #71:#72       // typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #74 = Methodref          #66.#73       // scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #75 = Utf8               canEqual
+   #76 = Utf8               (Ljava/lang/Object;)Z
+   #77 = Utf8               Ljava/lang/Object;
+   #78 = Utf8               hashCode
+   #79 = Utf8               _hashCode
+   #80 = Utf8               (Lscala/Product;)I
+   #81 = NameAndType        #79:#80       // _hashCode:(Lscala/Product;)I
+   #82 = Methodref          #66.#81       // scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+   #83 = Utf8               _toString
+   #84 = Utf8               (Lscala/Product;)Ljava/lang/String;
+   #85 = NameAndType        #83:#84       // _toString:(Lscala/Product;)Ljava/lang/String;
+   #86 = Methodref          #66.#85       // scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+   #87 = Utf8               equals
+   #88 = NameAndType        #87:#76       // equals:(Ljava/lang/Object;)Z
+   #89 = Methodref          #4.#88        // java/lang/Object.equals:(Ljava/lang/Object;)Z
+   #90 = NameAndType        #75:#76       // canEqual:(Ljava/lang/Object;)Z
+   #91 = Methodref          #2.#90        // rpg/cake2/DexNodes$DexStep.canEqual:(Ljava/lang/Object;)Z
+   #92 = NameAndType        #20:#21       // $outer:Lrpg/cake2/NodesTraits;
+   #93 = Fieldref           #2.#92        // rpg/cake2/DexNodes$DexStep.$outer:Lrpg/cake2/NodesTraits;
+   #94 = Utf8               ()V
+   #95 = NameAndType        #33:#94       // "<init>":()V
+   #96 = Methodref          #4.#95        // java/lang/Object."<init>":()V
+   #97 = Utf8               $init$
+   #98 = Utf8               (Lscala/Product;)V
+   #99 = NameAndType        #97:#98       // $init$:(Lscala/Product;)V
+  #100 = InterfaceMethodref #8.#99        // scala/Product.$init$:(Lscala/Product;)V
+  #101 = Utf8               Code
+  #102 = Utf8               LocalVariableTable
+  #103 = Utf8               LineNumberTable
+  #104 = Utf8               MethodParameters
+  #105 = Utf8               StackMapTable
+  #106 = Utf8               Signature
+  #107 = Utf8               ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+  #108 = Utf8               SourceFile
+  #109 = Utf8               InnerClasses
+  #110 = Utf8               ScalaInlineInfo
+  #111 = Utf8               Scala
+{
+  private final rpg.cake2.NodesTraits$Node to;
+    descriptor: Lrpg/cake2/NodesTraits$Node;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public final rpg.cake2.NodesTraits $outer;
+    descriptor: Lrpg/cake2/NodesTraits;
+    flags: ACC_PUBLIC, ACC_FINAL, ACC_SYNTHETIC
+
+  public rpg.cake2.NodesTraits$Node to();
+    descriptor: ()Lrpg/cake2/NodesTraits$Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #24                 // Field to:Lrpg/cake2/NodesTraits$Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+
+  public rpg.cake2.DexNodes$DexStep copy(rpg.cake2.NodesTraits$Node);
+    descriptor: (Lrpg/cake2/NodesTraits$Node;)Lrpg/cake2/DexNodes$DexStep;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=2, args_size=2
+         0: new           #2                  // class rpg/cake2/DexNodes$DexStep
+         3: dup
+         4: aload_0
+         5: invokevirtual #32                 // Method rpg$cake2$DexNodes$DexStep$$$outer:()Lrpg/cake2/NodesTraits;
+         8: aload_1
+         9: invokespecial #36                 // Method "<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+        12: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      13     0  this   Lrpg/cake2/DexNodes$DexStep;
+            0      13     1    to   Lrpg/cake2/NodesTraits$Node;
+      LineNumberTable:
+        line 15: 0
+    MethodParameters:
+      Name                           Flags
+      to                             final
+
+  public rpg.cake2.NodesTraits$Node copy$default$1();
+    descriptor: ()Lrpg/cake2/NodesTraits$Node;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #39                 // Method to:()Lrpg/cake2/NodesTraits$Node;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+
+  public java.lang.String productPrefix();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #42                 // String DexStep
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+
+  public int productArity();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_1
+         1: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+
+  public java.lang.Object productElement(int);
+    descriptor: (I)Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1
+         1: istore_2
+         2: iload_2
+         3: tableswitch   { // 0 to 0
+                       0: 20
+                 default: 27
+            }
+        20: aload_0
+        21: invokevirtual #39                 // Method to:()Lrpg/cake2/NodesTraits$Node;
+        24: goto          42
+        27: new           #49                 // class java/lang/IndexOutOfBoundsException
+        30: dup
+        31: iload_1
+        32: invokestatic  #55                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        35: invokevirtual #58                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        38: invokespecial #61                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+        41: athrow
+        42: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      43     0  this   Lrpg/cake2/DexNodes$DexStep;
+            0      43     1   x$1   I
+      LineNumberTable:
+        line 15: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 20
+          locals = [ int ]
+        frame_type = 6 /* same */
+        frame_type = 78 /* same_locals_1_stack_item */
+          stack = [ class rpg/cake2/NodesTraits$Node ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    descriptor: ()Lscala/collection/Iterator;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #70                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #74                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+    Signature: #107                         // ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+
+  public boolean canEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: instanceof    #2                  // class rpg/cake2/DexNodes$DexStep
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake2/DexNodes$DexStep;
+            0       5     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 15: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int hashCode();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #70                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #82                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #70                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #86                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+
+  public boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=6, args_size=2
+         0: aload_0
+         1: aload_1
+         2: if_acmpeq     100
+         5: aload_1
+         6: astore_3
+         7: aload_3
+         8: instanceof    #2                  // class rpg/cake2/DexNodes$DexStep
+        11: ifeq          33
+        14: aload_3
+        15: checkcast     #2                  // class rpg/cake2/DexNodes$DexStep
+        18: invokevirtual #32                 // Method rpg$cake2$DexNodes$DexStep$$$outer:()Lrpg/cake2/NodesTraits;
+        21: aload_0
+        22: invokevirtual #32                 // Method rpg$cake2$DexNodes$DexStep$$$outer:()Lrpg/cake2/NodesTraits;
+        25: if_acmpne     33
+        28: iconst_1
+        29: istore_2
+        30: goto          41
+        33: goto          36
+        36: iconst_0
+        37: istore_2
+        38: goto          41
+        41: iload_2
+        42: ifeq          104
+        45: aload_1
+        46: checkcast     #2                  // class rpg/cake2/DexNodes$DexStep
+        49: astore        4
+        51: aload_0
+        52: invokevirtual #39                 // Method to:()Lrpg/cake2/NodesTraits$Node;
+        55: aload         4
+        57: invokevirtual #39                 // Method to:()Lrpg/cake2/NodesTraits$Node;
+        60: astore        5
+        62: dup
+        63: ifnonnull     75
+        66: pop
+        67: aload         5
+        69: ifnull        83
+        72: goto          96
+        75: aload         5
+        77: invokevirtual #89                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        80: ifeq          96
+        83: aload         4
+        85: aload_0
+        86: invokevirtual #91                 // Method canEqual:(Ljava/lang/Object;)Z
+        89: ifeq          96
+        92: iconst_1
+        93: goto          97
+        96: iconst_0
+        97: ifeq          104
+       100: iconst_1
+       101: goto          105
+       104: iconst_0
+       105: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     106     0  this   Lrpg/cake2/DexNodes$DexStep;
+            0     106     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 15: 0
+      StackMapTable: number_of_entries = 10
+        frame_type = 253 /* append */
+          offset_delta = 33
+          locals = [ top, class java/lang/Object ]
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 4
+          locals = [ class rpg/cake2/DexNodes$DexStep, class java/lang/Object, int, class java/lang/Object ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 33
+          locals = [ class rpg/cake2/DexNodes$DexStep, class java/lang/Object, int, class java/lang/Object, class rpg/cake2/DexNodes$DexStep, class rpg/cake2/NodesTraits$Node ]
+          stack = [ class rpg/cake2/NodesTraits$Node ]
+        frame_type = 7 /* same */
+        frame_type = 12 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class rpg/cake2/DexNodes$DexStep, class java/lang/Object ]
+          stack = []
+        frame_type = 253 /* append */
+          offset_delta = 3
+          locals = [ int, class java/lang/Object ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class rpg/cake2/DexNodes$DexStep, class java/lang/Object ]
+          stack = [ int ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public rpg.cake2.NodesTraits rpg$cake2$DexNodes$DexStep$$$outer();
+    descriptor: ()Lrpg/cake2/NodesTraits;
+    flags: ACC_PUBLIC, ACC_SYNTHETIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #93                 // Field $outer:Lrpg/cake2/NodesTraits;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake2/DexNodes$DexStep;
+      LineNumberTable:
+        line 15: 0
+
+  public rpg.cake2.DexNodes$DexStep(rpg.cake2.NodesTraits, rpg.cake2.NodesTraits$Node);
+    descriptor: (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: aload_2
+         2: putfield      #24                 // Field to:Lrpg/cake2/NodesTraits$Node;
+         5: aload_1
+         6: ifnonnull     11
+         9: aconst_null
+        10: athrow
+        11: aload_0
+        12: aload_1
+        13: putfield      #93                 // Field $outer:Lrpg/cake2/NodesTraits;
+        16: aload_0
+        17: invokespecial #96                 // Method java/lang/Object."<init>":()V
+        20: aload_0
+        21: invokestatic  #100                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+        24: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      25     0  this   Lrpg/cake2/DexNodes$DexStep;
+            0      25     1 $outer   Lrpg/cake2/NodesTraits;
+            0      25     2    to   Lrpg/cake2/NodesTraits$Node;
+      LineNumberTable:
+        line 15: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+      to                             final
+}
+SourceFile: "CakeSkillTrees.scala"
+InnerClasses:
+     public #14= #2 of #13; //DexStep=class rpg/cake2/DexNodes$DexStep of class rpg/cake2/DexNodes
+     public #17= #6 of #16; //Node=class rpg/cake2/NodesTraits$Node of class rpg/cake2/NodesTraits
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x45
+   01 00 00 0D 00 21 00 22 00 00 4B 00 4C 00 00 25
+   00 16 00 00 1B 00 1C 00 00 57 00 4C 00 00 4E 00
+   2C 00 00 2B 00 2C 00 00 2D 00 2E 00 00 3F 00 40
+   00 00 28 00 29 00 00 1D 00 1E 00 00 12 00 16 00
+   00 38 00 29 00
+Error: unknown attribute
+  Scala: length = 0x0
+

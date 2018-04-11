@@ -1,0 +1,27 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public final class rpg.ooo.nested.Wis {
+  public static rpg.ooo.nested.FeatTree$Skill$ Skill();
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/nested/Wis$.MODULE$:Lrpg/ooo/nested/Wis$;
+       3: invokevirtual #29                 // Method rpg/ooo/nested/Wis$.Skill:()Lrpg/ooo/nested/FeatTree$Skill$;
+       6: areturn
+
+  public static rpg.ooo.nested.FeatTree$Step$ Step();
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/nested/Wis$.MODULE$:Lrpg/ooo/nested/Wis$;
+       3: invokevirtual #33                 // Method rpg/ooo/nested/Wis$.Step:()Lrpg/ooo/nested/FeatTree$Step$;
+       6: areturn
+
+  public static rpg.ooo.nested.FeatTree$Tree$ Tree();
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/nested/Wis$.MODULE$:Lrpg/ooo/nested/Wis$;
+       3: invokevirtual #37                 // Method rpg/ooo/nested/Wis$.Tree:()Lrpg/ooo/nested/FeatTree$Tree$;
+       6: areturn
+
+  public static int thisCost(rpg.PlayerTraits);
+    Code:
+       0: getstatic     #27                 // Field rpg/ooo/nested/Wis$.MODULE$:Lrpg/ooo/nested/Wis$;
+       3: aload_0
+       4: invokevirtual #41                 // Method rpg/ooo/nested/Wis$.thisCost:(Lrpg/PlayerTraits;)I
+       7: ireturn
+}

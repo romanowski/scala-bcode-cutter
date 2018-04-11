@@ -1,0 +1,12 @@
+Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake2.WisNodes {
+  public abstract rpg.cake2.WisNodes$WisTree$ WisTree();
+
+  public abstract rpg.cake2.WisNodes$WisStep$ WisStep();
+
+  public abstract rpg.cake2.WisNodes$WisSkill$ WisSkill();
+
+  public static void $init$(rpg.cake2.WisNodes);
+    Code:
+       0: return
+}

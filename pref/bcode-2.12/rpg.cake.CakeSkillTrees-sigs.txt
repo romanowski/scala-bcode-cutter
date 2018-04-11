@@ -1,0 +1,5 @@
+Compiled from "CakeSkillTrees.scala"
+public class rpg.cake.CakeSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+  public rpg.cake.CakeSkillTrees();
+}

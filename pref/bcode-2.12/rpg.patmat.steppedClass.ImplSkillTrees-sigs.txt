@@ -1,0 +1,5 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.steppedClass.ImplSkillTrees extends rpg.SkillTrees {
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+  public rpg.patmat.steppedClass.ImplSkillTrees();
+}

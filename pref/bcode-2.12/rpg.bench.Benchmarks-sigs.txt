@@ -1,0 +1,32 @@
+Compiled from "Benchmarks.scala"
+public interface rpg.bench.Benchmarks {
+  public static int patMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int patMat(rpg.bench.BenchmarkState);
+  public static int slowPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int slowPatMat(rpg.bench.BenchmarkState);
+  public static int classesPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int classesPatMat(rpg.bench.BenchmarkState);
+  public static int steppedPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int steppedPatMat(rpg.bench.BenchmarkState);
+  public static int steppedClassPatMat$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int steppedClassPatMat(rpg.bench.BenchmarkState);
+  public static int typeclass$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int typeclass(rpg.bench.BenchmarkState);
+  public static int cake$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int cake(rpg.bench.BenchmarkState);
+  public static int cake2$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int cake2(rpg.bench.BenchmarkState);
+  public static int oooTree$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int oooTree(rpg.bench.BenchmarkState);
+  public static int oooSubcalls$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int oooSubcalls(rpg.bench.BenchmarkState);
+  public static int oooLambdas$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int oooLambdas(rpg.bench.BenchmarkState);
+  public static int oooNested$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int oooNested(rpg.bench.BenchmarkState);
+  public static int javaOOO$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int javaOOO(rpg.bench.BenchmarkState);
+  public static int javaFast$(rpg.bench.Benchmarks, rpg.bench.BenchmarkState);
+  public int javaFast(rpg.bench.BenchmarkState);
+  public static void $init$(rpg.bench.Benchmarks);
+}

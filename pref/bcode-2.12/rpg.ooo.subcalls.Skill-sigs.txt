@@ -1,0 +1,6 @@
+Compiled from "OOOSubcallsSkillTrees.scala"
+public interface rpg.ooo.subcalls.Skill extends rpg.ooo.subcalls.Node,rpg.ooo.subcalls.FeatBased {
+  public static int cost$(rpg.ooo.subcalls.Skill, rpg.PlayerTraits);
+  public int cost(rpg.PlayerTraits);
+  public static void $init$(rpg.ooo.subcalls.Skill);
+}

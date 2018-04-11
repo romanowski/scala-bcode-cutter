@@ -1,0 +1,5 @@
+Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.Node {
+  public static int slowTotalSkill(rpg.patmat.Node, rpg.PlayerTraits);
+  public static int totalSkill(rpg.patmat.Node, rpg.PlayerTraits);
+}

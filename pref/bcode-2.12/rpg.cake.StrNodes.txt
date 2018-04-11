@@ -1,0 +1,12 @@
+Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake.StrNodes {
+  public abstract rpg.cake.StrNodes$StrTree$ StrTree();
+
+  public abstract rpg.cake.StrNodes$StrStep$ StrStep();
+
+  public abstract rpg.cake.StrNodes$StrSkill$ StrSkill();
+
+  public static void $init$(rpg.cake.StrNodes);
+    Code:
+       0: return
+}

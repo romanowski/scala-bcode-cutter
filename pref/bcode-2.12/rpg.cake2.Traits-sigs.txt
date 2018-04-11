@@ -1,0 +1,4 @@
+Compiled from "CakeSkillTrees.scala"
+public interface rpg.cake2.Traits {
+  public abstract rpg.PlayerTraits traits();
+}

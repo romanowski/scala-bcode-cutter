@@ -1,0 +1,20 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.StrStep implements rpg.patmat.Node,scala.Product,scala.Serializable {
+  private final rpg.patmat.Node to;
+  public static scala.Option<rpg.patmat.Node> unapply(rpg.patmat.StrStep);
+  public static rpg.patmat.StrStep apply(rpg.patmat.Node);
+  public static <A> scala.Function1<rpg.patmat.Node, A> andThen(scala.Function1<rpg.patmat.StrStep, A>);
+  public static <A> scala.Function1<A, rpg.patmat.StrStep> compose(scala.Function1<A, rpg.patmat.Node>);
+  public rpg.patmat.Node to();
+  public rpg.patmat.StrStep copy(rpg.patmat.Node);
+  public rpg.patmat.Node copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.patmat.StrStep(rpg.patmat.Node);
+}

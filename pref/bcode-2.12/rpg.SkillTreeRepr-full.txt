@@ -1,0 +1,104 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/SkillTreeRepr.class
+  Last modified Apr 8, 2018; size 1024 bytes
+  MD5 checksum 09a50ab08a2e2af370703e7a7db2861c
+  Compiled from "SkillTrees.scala"
+public abstract class rpg.SkillTreeRepr<T extends java.lang.Object> extends java.lang.Object
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/SkillTreeRepr
+   #2 = Class              #1             // rpg/SkillTreeRepr
+   #3 = Utf8               <T:Ljava/lang/Object;>Ljava/lang/Object;
+   #4 = Utf8               java/lang/Object
+   #5 = Class              #4             // java/lang/Object
+   #6 = Utf8               SkillTrees.scala
+   #7 = Utf8               Lscala/reflect/ScalaSignature;
+   #8 = Utf8               bytes
+   #9 = Utf8               %2Q!QbU6jY2$&/Z3SKB(\"AIxm2C!\tA1\"D\nQ!B:dC2B\n\te.*fM\"AaBCq\"ue,W#\tEB'\r)FQ\tYI!aF9{G[5oOB\"G5%1!8z!aA!A!!;sK\"\tyAj]&$h!EA\t\tAQADAAAQ\n\n^8uC2un;\"C\n!J!aA%oi
+  #10 = Utf8               tree
+  #11 = Utf8               Ljava/lang/Object;
+  #12 = Utf8               TT;
+  #13 = Utf8               ()Ljava/lang/Object;
+  #14 = NameAndType        #10:#11        // tree:Ljava/lang/Object;
+  #15 = Fieldref           #2.#14         // rpg/SkillTreeRepr.tree:Ljava/lang/Object;
+  #16 = Utf8               this
+  #17 = Utf8               Lrpg/SkillTreeRepr;
+  #18 = Utf8               totalCost
+  #19 = Utf8               ()I
+  #20 = Utf8               <init>
+  #21 = Utf8               (Ljava/lang/Object;)V
+  #22 = Utf8               ()V
+  #23 = NameAndType        #20:#22        // "<init>":()V
+  #24 = Methodref          #5.#23         // java/lang/Object."<init>":()V
+  #25 = Utf8               Signature
+  #26 = Utf8               Code
+  #27 = Utf8               LocalVariableTable
+  #28 = Utf8               LineNumberTable
+  #29 = Utf8               ()TT;
+  #30 = Utf8               (TT;)V
+  #31 = Utf8               MethodParameters
+  #32 = Utf8               SourceFile
+  #33 = Utf8               RuntimeVisibleAnnotations
+  #34 = Utf8               ScalaInlineInfo
+  #35 = Utf8               ScalaSig
+{
+  private final T tree;
+    descriptor: Ljava/lang/Object;
+    flags: ACC_PRIVATE, ACC_FINAL
+    Signature: #12                          // TT;
+
+  public T tree();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #15                 // Field tree:Ljava/lang/Object;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/SkillTreeRepr;
+      LineNumberTable:
+        line 5: 0
+    Signature: #29                          // ()TT;
+
+  public abstract int totalCost();
+    descriptor: ()I
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+
+  public rpg.SkillTreeRepr(T);
+    descriptor: (Ljava/lang/Object;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #15                 // Field tree:Ljava/lang/Object;
+         5: aload_0
+         6: invokespecial #24                 // Method java/lang/Object."<init>":()V
+         9: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   Lrpg/SkillTreeRepr;
+            0      10     1  tree   Ljava/lang/Object;
+      LineNumberTable:
+        line 5: 0
+        line 9: 5
+        line 5: 9
+    Signature: #30                          // (TT;)V
+    MethodParameters:
+      Name                           Flags
+      tree                           final
+}
+Signature: #3                           // <T:Ljava/lang/Object;>Ljava/lang/Object;
+SourceFile: "SkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #7(#8=s#9)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x13
+   01 00 00 03 00 14 00 15 00 00 12 00 13 00 00 0A
+   00 0D 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

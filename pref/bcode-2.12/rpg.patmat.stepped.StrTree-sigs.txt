@@ -1,0 +1,23 @@
+Compiled from "PatMatSkillTrees.scala"
+public class rpg.patmat.stepped.StrTree implements rpg.patmat.stepped.Tree,scala.Product,scala.Serializable {
+  private final rpg.patmat.stepped.Node left;
+  private final rpg.patmat.stepped.Node right;
+  public static scala.Option<scala.Tuple2<rpg.patmat.stepped.Node, rpg.patmat.stepped.Node>> unapply(rpg.patmat.stepped.StrTree);
+  public static rpg.patmat.stepped.StrTree apply(rpg.patmat.stepped.Node, rpg.patmat.stepped.Node);
+  public static scala.Function1<scala.Tuple2<rpg.patmat.stepped.Node, rpg.patmat.stepped.Node>, rpg.patmat.stepped.StrTree> tupled();
+  public static scala.Function1<rpg.patmat.stepped.Node, scala.Function1<rpg.patmat.stepped.Node, rpg.patmat.stepped.StrTree>> curried();
+  public rpg.patmat.stepped.Node left();
+  public rpg.patmat.stepped.Node right();
+  public rpg.patmat.stepped.StrTree copy(rpg.patmat.stepped.Node, rpg.patmat.stepped.Node);
+  public rpg.patmat.stepped.Node copy$default$1();
+  public rpg.patmat.stepped.Node copy$default$2();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.patmat.stepped.StrTree(rpg.patmat.stepped.Node, rpg.patmat.stepped.Node);
+}

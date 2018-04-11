@@ -1,0 +1,21 @@
+Compiled from "OOOSkillTrees.scala"
+public class rpg.ooo.StrSkill implements rpg.ooo.Node,scala.Product,scala.Serializable {
+  private final java.lang.String name;
+  public static scala.Option<java.lang.String> unapply(rpg.ooo.StrSkill);
+  public static rpg.ooo.StrSkill apply(java.lang.String);
+  public static <A> scala.Function1<java.lang.String, A> andThen(scala.Function1<rpg.ooo.StrSkill, A>);
+  public static <A> scala.Function1<A, rpg.ooo.StrSkill> compose(scala.Function1<A, java.lang.String>);
+  public java.lang.String name();
+  public int cost(rpg.PlayerTraits);
+  public rpg.ooo.StrSkill copy(java.lang.String);
+  public java.lang.String copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public rpg.ooo.StrSkill(java.lang.String);
+}

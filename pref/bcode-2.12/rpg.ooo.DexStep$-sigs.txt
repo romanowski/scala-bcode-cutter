@@ -1,0 +1,11 @@
+Compiled from "OOOSkillTrees.scala"
+public final class rpg.ooo.DexStep$ extends scala.runtime.AbstractFunction1<rpg.ooo.Node, rpg.ooo.DexStep> implements scala.Serializable {
+  public static rpg.ooo.DexStep$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public rpg.ooo.DexStep apply(rpg.ooo.Node);
+  public scala.Option<rpg.ooo.Node> unapply(rpg.ooo.DexStep);
+  private java.lang.Object readResolve();
+  public java.lang.Object apply(java.lang.Object);
+  private rpg.ooo.DexStep$();
+}

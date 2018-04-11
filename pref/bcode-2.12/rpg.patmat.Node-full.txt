@@ -1,0 +1,67 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/patmat/Node.class
+  Last modified Apr 8, 2018; size 927 bytes
+  MD5 checksum a819ced72290165ae2d22b5a48395e84
+  Compiled from "PatMatSkillTrees.scala"
+public interface rpg.patmat.Node
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Utf8               rpg/patmat/Node
+   #2 = Class              #1             // rpg/patmat/Node
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               PatMatSkillTrees.scala
+   #6 = Utf8               Lscala/reflect/ScalaSignature;
+   #7 = Utf8               bytes
+   #8 = Utf8               y2q!GrAO_,'BA\r^7bi*\tQ!AsaaAD)\t1\"AtGd-\t1I\=SKL#A'U9dG \t\"AEKb6.7m\t\"AAEKbF/9\nQ!a#fqRX-Z-\tb;s'.LG\1\tqa;s'R,/\t91:Ue,B!9n]*lS2dB9n]*uKBL!\t]K7:fK)!EEG!aj3f!\t!S%D\r\t!#''\t)C)K&=S:LGOG!)1&\nCYQAo;bYN[754\n]%qF:$\"B+8pI\"\n\tQRA\rQ-;t!\t1t'D\tADAQYLXM+sC&$8C;K1(tY><Hk;bYN[75bTC2s!C5sQ
+   #9 = Utf8               slowTotalSkill
+  #10 = Utf8               (Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #11 = Utf8               rpg/patmat/Node$
+  #12 = Class              #11            // rpg/patmat/Node$
+  #13 = Utf8               MODULE$
+  #14 = Utf8               Lrpg/patmat/Node$;
+  #15 = NameAndType        #13:#14        // MODULE$:Lrpg/patmat/Node$;
+  #16 = Fieldref           #12.#15        // rpg/patmat/Node$.MODULE$:Lrpg/patmat/Node$;
+  #17 = NameAndType        #9:#10         // slowTotalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #18 = Methodref          #12.#17        // rpg/patmat/Node$.slowTotalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #19 = Utf8               totalSkill
+  #20 = NameAndType        #19:#10        // totalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #21 = Methodref          #12.#20        // rpg/patmat/Node$.totalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+  #22 = Utf8               Code
+  #23 = Utf8               SourceFile
+  #24 = Utf8               RuntimeVisibleAnnotations
+  #25 = Utf8               ScalaInlineInfo
+  #26 = Utf8               ScalaSig
+{
+  public static int slowTotalSkill(rpg.patmat.Node, rpg.PlayerTraits);
+    descriptor: (Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #16                 // Field rpg/patmat/Node$.MODULE$:Lrpg/patmat/Node$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #18                 // Method rpg/patmat/Node$.slowTotalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+         8: ireturn
+
+  public static int totalSkill(rpg.patmat.Node, rpg.PlayerTraits);
+    descriptor: (Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #16                 // Field rpg/patmat/Node$.MODULE$:Lrpg/patmat/Node$;
+         3: aload_0
+         4: aload_1
+         5: invokevirtual #21                 // Method rpg/patmat/Node$.totalSkill:(Lrpg/patmat/Node;Lrpg/PlayerTraits;)I
+         8: ireturn
+}
+SourceFile: "PatMatSkillTrees.scala"
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x4
+   01 00 00 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00

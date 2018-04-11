@@ -1,0 +1,6 @@
+Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.Node$$anon$3 implements rpg.typeclass.naive.Node$Summer<rpg.typeclass.naive.DexSkill> {
+  public int sumExp(rpg.typeclass.naive.DexSkill, rpg.PlayerTraits);
+  public int sumExp(java.lang.Object, rpg.PlayerTraits);
+  public rpg.typeclass.naive.Node$$anon$3();
+}

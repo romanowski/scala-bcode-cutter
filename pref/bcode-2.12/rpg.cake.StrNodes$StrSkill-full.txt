@@ -1,0 +1,467 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake/StrNodes$StrSkill.class
+  Last modified Apr 8, 2018; size 2888 bytes
+  MD5 checksum c377b75b57e35c8a7c6aefc99fbb76f5
+  Compiled from "CakeSkillTrees.scala"
+public class rpg.cake.StrNodes$StrSkill implements rpg.cake.Nodes$Node,scala.Product,scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/cake/StrNodes$StrSkill
+    #2 = Class              #1            // rpg/cake/StrNodes$StrSkill
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               rpg/cake/Nodes$Node
+    #6 = Class              #5            // rpg/cake/Nodes$Node
+    #7 = Utf8               scala/Product
+    #8 = Class              #7            // scala/Product
+    #9 = Utf8               scala/Serializable
+   #10 = Class              #9            // scala/Serializable
+   #11 = Utf8               CakeSkillTrees.scala
+   #12 = Utf8               rpg/cake/Nodes
+   #13 = Class              #12           // rpg/cake/Nodes
+   #14 = Utf8               Node
+   #15 = Utf8               rpg/cake/StrNodes
+   #16 = Class              #15           // rpg/cake/StrNodes
+   #17 = Utf8               StrSkill
+   #18 = Utf8               name
+   #19 = Utf8               Ljava/lang/String;
+   #20 = Utf8               $outer
+   #21 = Utf8               Lrpg/cake/Nodes;
+   #22 = Utf8               ()Ljava/lang/String;
+   #23 = NameAndType        #18:#19       // name:Ljava/lang/String;
+   #24 = Fieldref           #2.#23        // rpg/cake/StrNodes$StrSkill.name:Ljava/lang/String;
+   #25 = Utf8               this
+   #26 = Utf8               Lrpg/cake/StrNodes$StrSkill;
+   #27 = Utf8               copy
+   #28 = Utf8               (Ljava/lang/String;)Lrpg/cake/StrNodes$StrSkill;
+   #29 = Utf8               rpg$cake$StrNodes$StrSkill$$$outer
+   #30 = Utf8               ()Lrpg/cake/Nodes;
+   #31 = NameAndType        #29:#30       // rpg$cake$StrNodes$StrSkill$$$outer:()Lrpg/cake/Nodes;
+   #32 = Methodref          #2.#31        // rpg/cake/StrNodes$StrSkill.rpg$cake$StrNodes$StrSkill$$$outer:()Lrpg/cake/Nodes;
+   #33 = Utf8               <init>
+   #34 = Utf8               (Lrpg/cake/Nodes;Ljava/lang/String;)V
+   #35 = NameAndType        #33:#34       // "<init>":(Lrpg/cake/Nodes;Ljava/lang/String;)V
+   #36 = Methodref          #2.#35        // rpg/cake/StrNodes$StrSkill."<init>":(Lrpg/cake/Nodes;Ljava/lang/String;)V
+   #37 = Utf8               copy$default$1
+   #38 = NameAndType        #18:#22       // name:()Ljava/lang/String;
+   #39 = Methodref          #2.#38        // rpg/cake/StrNodes$StrSkill.name:()Ljava/lang/String;
+   #40 = Utf8               productPrefix
+   #41 = String             #17           // StrSkill
+   #42 = Utf8               productArity
+   #43 = Utf8               ()I
+   #44 = Utf8               productElement
+   #45 = Utf8               (I)Ljava/lang/Object;
+   #46 = Utf8               x$1
+   #47 = Utf8               java/lang/IndexOutOfBoundsException
+   #48 = Class              #47           // java/lang/IndexOutOfBoundsException
+   #49 = Utf8               scala/runtime/BoxesRunTime
+   #50 = Class              #49           // scala/runtime/BoxesRunTime
+   #51 = Utf8               boxToInteger
+   #52 = Utf8               (I)Ljava/lang/Integer;
+   #53 = NameAndType        #51:#52       // boxToInteger:(I)Ljava/lang/Integer;
+   #54 = Methodref          #50.#53       // scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+   #55 = Utf8               toString
+   #56 = NameAndType        #55:#22       // toString:()Ljava/lang/String;
+   #57 = Methodref          #4.#56        // java/lang/Object.toString:()Ljava/lang/String;
+   #58 = Utf8               (Ljava/lang/String;)V
+   #59 = NameAndType        #33:#58       // "<init>":(Ljava/lang/String;)V
+   #60 = Methodref          #48.#59       // java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+   #61 = Utf8               I
+   #62 = Utf8               java/lang/String
+   #63 = Class              #62           // java/lang/String
+   #64 = Utf8               productIterator
+   #65 = Utf8               ()Lscala/collection/Iterator;
+   #66 = Utf8               scala/runtime/ScalaRunTime$
+   #67 = Class              #66           // scala/runtime/ScalaRunTime$
+   #68 = Utf8               MODULE$
+   #69 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #70 = NameAndType        #68:#69       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #71 = Fieldref           #67.#70       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #72 = Utf8               typedProductIterator
+   #73 = Utf8               (Lscala/Product;)Lscala/collection/Iterator;
+   #74 = NameAndType        #72:#73       // typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #75 = Methodref          #67.#74       // scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+   #76 = Utf8               canEqual
+   #77 = Utf8               (Ljava/lang/Object;)Z
+   #78 = Utf8               Ljava/lang/Object;
+   #79 = Utf8               hashCode
+   #80 = Utf8               _hashCode
+   #81 = Utf8               (Lscala/Product;)I
+   #82 = NameAndType        #80:#81       // _hashCode:(Lscala/Product;)I
+   #83 = Methodref          #67.#82       // scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+   #84 = Utf8               _toString
+   #85 = Utf8               (Lscala/Product;)Ljava/lang/String;
+   #86 = NameAndType        #84:#85       // _toString:(Lscala/Product;)Ljava/lang/String;
+   #87 = Methodref          #67.#86       // scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+   #88 = Utf8               equals
+   #89 = NameAndType        #88:#77       // equals:(Ljava/lang/Object;)Z
+   #90 = Methodref          #4.#89        // java/lang/Object.equals:(Ljava/lang/Object;)Z
+   #91 = NameAndType        #76:#77       // canEqual:(Ljava/lang/Object;)Z
+   #92 = Methodref          #2.#91        // rpg/cake/StrNodes$StrSkill.canEqual:(Ljava/lang/Object;)Z
+   #93 = NameAndType        #20:#21       // $outer:Lrpg/cake/Nodes;
+   #94 = Fieldref           #2.#93        // rpg/cake/StrNodes$StrSkill.$outer:Lrpg/cake/Nodes;
+   #95 = Utf8               ()V
+   #96 = NameAndType        #33:#95       // "<init>":()V
+   #97 = Methodref          #4.#96        // java/lang/Object."<init>":()V
+   #98 = Utf8               $init$
+   #99 = Utf8               (Lscala/Product;)V
+  #100 = NameAndType        #98:#99       // $init$:(Lscala/Product;)V
+  #101 = InterfaceMethodref #8.#100       // scala/Product.$init$:(Lscala/Product;)V
+  #102 = Utf8               Code
+  #103 = Utf8               LocalVariableTable
+  #104 = Utf8               LineNumberTable
+  #105 = Utf8               MethodParameters
+  #106 = Utf8               StackMapTable
+  #107 = Utf8               Signature
+  #108 = Utf8               ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+  #109 = Utf8               SourceFile
+  #110 = Utf8               InnerClasses
+  #111 = Utf8               ScalaInlineInfo
+  #112 = Utf8               Scala
+{
+  private final java.lang.String name;
+    descriptor: Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public final rpg.cake.Nodes $outer;
+    descriptor: Lrpg/cake/Nodes;
+    flags: ACC_PUBLIC, ACC_FINAL, ACC_SYNTHETIC
+
+  public java.lang.String name();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #24                 // Field name:Ljava/lang/String;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+
+  public rpg.cake.StrNodes$StrSkill copy(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lrpg/cake/StrNodes$StrSkill;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=2, args_size=2
+         0: new           #2                  // class rpg/cake/StrNodes$StrSkill
+         3: dup
+         4: aload_0
+         5: invokevirtual #32                 // Method rpg$cake$StrNodes$StrSkill$$$outer:()Lrpg/cake/Nodes;
+         8: aload_1
+         9: invokespecial #36                 // Method "<init>":(Lrpg/cake/Nodes;Ljava/lang/String;)V
+        12: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      13     0  this   Lrpg/cake/StrNodes$StrSkill;
+            0      13     1  name   Ljava/lang/String;
+      LineNumberTable:
+        line 22: 0
+    MethodParameters:
+      Name                           Flags
+      name                           final
+
+  public java.lang.String copy$default$1();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #39                 // Method name:()Ljava/lang/String;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+
+  public java.lang.String productPrefix();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #41                 // String StrSkill
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+
+  public int productArity();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_1
+         1: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+
+  public java.lang.Object productElement(int);
+    descriptor: (I)Ljava/lang/Object;
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: iload_1
+         1: istore_2
+         2: iload_2
+         3: tableswitch   { // 0 to 0
+                       0: 20
+                 default: 27
+            }
+        20: aload_0
+        21: invokevirtual #39                 // Method name:()Ljava/lang/String;
+        24: goto          42
+        27: new           #48                 // class java/lang/IndexOutOfBoundsException
+        30: dup
+        31: iload_1
+        32: invokestatic  #54                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+        35: invokevirtual #57                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        38: invokespecial #60                 // Method java/lang/IndexOutOfBoundsException."<init>":(Ljava/lang/String;)V
+        41: athrow
+        42: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      43     0  this   Lrpg/cake/StrNodes$StrSkill;
+            0      43     1   x$1   I
+      LineNumberTable:
+        line 22: 0
+      StackMapTable: number_of_entries = 3
+        frame_type = 252 /* append */
+          offset_delta = 20
+          locals = [ int ]
+        frame_type = 6 /* same */
+        frame_type = 78 /* same_locals_1_stack_item */
+          stack = [ class java/lang/String ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+    descriptor: ()Lscala/collection/Iterator;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #71                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #75                 // Method scala/runtime/ScalaRunTime$.typedProductIterator:(Lscala/Product;)Lscala/collection/Iterator;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+    Signature: #108                         // ()Lscala/collection/Iterator<Ljava/lang/Object;>;
+
+  public boolean canEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: instanceof    #2                  // class rpg/cake/StrNodes$StrSkill
+         4: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake/StrNodes$StrSkill;
+            0       5     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 22: 0
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public int hashCode();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #71                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #83                 // Method scala/runtime/ScalaRunTime$._hashCode:(Lscala/Product;)I
+         7: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #71                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+         3: aload_0
+         4: invokevirtual #87                 // Method scala/runtime/ScalaRunTime$._toString:(Lscala/Product;)Ljava/lang/String;
+         7: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+
+  public boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=6, args_size=2
+         0: aload_0
+         1: aload_1
+         2: if_acmpeq     100
+         5: aload_1
+         6: astore_3
+         7: aload_3
+         8: instanceof    #2                  // class rpg/cake/StrNodes$StrSkill
+        11: ifeq          33
+        14: aload_3
+        15: checkcast     #2                  // class rpg/cake/StrNodes$StrSkill
+        18: invokevirtual #32                 // Method rpg$cake$StrNodes$StrSkill$$$outer:()Lrpg/cake/Nodes;
+        21: aload_0
+        22: invokevirtual #32                 // Method rpg$cake$StrNodes$StrSkill$$$outer:()Lrpg/cake/Nodes;
+        25: if_acmpne     33
+        28: iconst_1
+        29: istore_2
+        30: goto          41
+        33: goto          36
+        36: iconst_0
+        37: istore_2
+        38: goto          41
+        41: iload_2
+        42: ifeq          104
+        45: aload_1
+        46: checkcast     #2                  // class rpg/cake/StrNodes$StrSkill
+        49: astore        4
+        51: aload_0
+        52: invokevirtual #39                 // Method name:()Ljava/lang/String;
+        55: aload         4
+        57: invokevirtual #39                 // Method name:()Ljava/lang/String;
+        60: astore        5
+        62: dup
+        63: ifnonnull     75
+        66: pop
+        67: aload         5
+        69: ifnull        83
+        72: goto          96
+        75: aload         5
+        77: invokevirtual #90                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        80: ifeq          96
+        83: aload         4
+        85: aload_0
+        86: invokevirtual #92                 // Method canEqual:(Ljava/lang/Object;)Z
+        89: ifeq          96
+        92: iconst_1
+        93: goto          97
+        96: iconst_0
+        97: ifeq          104
+       100: iconst_1
+       101: goto          105
+       104: iconst_0
+       105: ireturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     106     0  this   Lrpg/cake/StrNodes$StrSkill;
+            0     106     1   x$1   Ljava/lang/Object;
+      LineNumberTable:
+        line 22: 0
+      StackMapTable: number_of_entries = 10
+        frame_type = 253 /* append */
+          offset_delta = 33
+          locals = [ top, class java/lang/Object ]
+        frame_type = 2 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 4
+          locals = [ class rpg/cake/StrNodes$StrSkill, class java/lang/Object, int, class java/lang/Object ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 33
+          locals = [ class rpg/cake/StrNodes$StrSkill, class java/lang/Object, int, class java/lang/Object, class rpg/cake/StrNodes$StrSkill, class java/lang/String ]
+          stack = [ class java/lang/String ]
+        frame_type = 7 /* same */
+        frame_type = 12 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class rpg/cake/StrNodes$StrSkill, class java/lang/Object ]
+          stack = []
+        frame_type = 253 /* append */
+          offset_delta = 3
+          locals = [ int, class java/lang/Object ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class rpg/cake/StrNodes$StrSkill, class java/lang/Object ]
+          stack = [ int ]
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public rpg.cake.Nodes rpg$cake$StrNodes$StrSkill$$$outer();
+    descriptor: ()Lrpg/cake/Nodes;
+    flags: ACC_PUBLIC, ACC_SYNTHETIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #94                 // Field $outer:Lrpg/cake/Nodes;
+         4: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake/StrNodes$StrSkill;
+      LineNumberTable:
+        line 22: 0
+
+  public rpg.cake.StrNodes$StrSkill(rpg.cake.Nodes, java.lang.String);
+    descriptor: (Lrpg/cake/Nodes;Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: aload_0
+         1: aload_2
+         2: putfield      #24                 // Field name:Ljava/lang/String;
+         5: aload_1
+         6: ifnonnull     11
+         9: aconst_null
+        10: athrow
+        11: aload_0
+        12: aload_1
+        13: putfield      #94                 // Field $outer:Lrpg/cake/Nodes;
+        16: aload_0
+        17: invokespecial #97                 // Method java/lang/Object."<init>":()V
+        20: aload_0
+        21: invokestatic  #101                // InterfaceMethod scala/Product.$init$:(Lscala/Product;)V
+        24: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      25     0  this   Lrpg/cake/StrNodes$StrSkill;
+            0      25     1 $outer   Lrpg/cake/Nodes;
+            0      25     2  name   Ljava/lang/String;
+      LineNumberTable:
+        line 22: 0
+      StackMapTable: number_of_entries = 1
+        frame_type = 11 /* same */
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+      name                           final
+}
+SourceFile: "CakeSkillTrees.scala"
+InnerClasses:
+     public #14= #6 of #13; //Node=class rpg/cake/Nodes$Node of class rpg/cake/Nodes
+     public #17= #2 of #16; //StrSkill=class rpg/cake/StrNodes$StrSkill of class rpg/cake/StrNodes
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x45
+   01 00 00 0D 00 21 00 22 00 00 4C 00 4D 00 00 25
+   00 16 00 00 1B 00 1C 00 00 58 00 4D 00 00 4F 00
+   2B 00 00 12 00 16 00 00 2A 00 2B 00 00 2C 00 2D
+   00 00 40 00 41 00 00 28 00 16 00 00 1D 00 1E 00
+   00 37 00 16 00
+Error: unknown attribute
+  Scala: length = 0x0
+

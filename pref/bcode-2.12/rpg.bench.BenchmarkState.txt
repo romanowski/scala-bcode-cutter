@@ -1,0 +1,230 @@
+Compiled from "Benchmarks.scala"
+public class rpg.bench.BenchmarkState {
+  private final rpg.SkillTreeRepr<?> patMat;
+
+  private final rpg.SkillTreeRepr<?> slowPatMat;
+
+  private final rpg.SkillTreeRepr<?> classesPatMat;
+
+  private final rpg.SkillTreeRepr<?> steppedPatMat;
+
+  private final rpg.SkillTreeRepr<?> steppedClassPatMat;
+
+  private final rpg.SkillTreeRepr<?> typeclass;
+
+  private final rpg.SkillTreeRepr<?> cake;
+
+  private final rpg.SkillTreeRepr<?> cake2;
+
+  private final rpg.SkillTreeRepr<?> oooTree;
+
+  private final rpg.SkillTreeRepr<?> oooSubcalls;
+
+  private final rpg.SkillTreeRepr<?> oooLambdas;
+
+  private final rpg.SkillTreeRepr<?> oooNested;
+
+  private final rpg.SkillTreeRepr<?> javaOOO;
+
+  private final rpg.SkillTreeRepr<?> javafast;
+
+  public rpg.SkillTreeRepr<?> patMat();
+    Code:
+       0: aload_0
+       1: getfield      #31                 // Field patMat:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> slowPatMat();
+    Code:
+       0: aload_0
+       1: getfield      #35                 // Field slowPatMat:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> classesPatMat();
+    Code:
+       0: aload_0
+       1: getfield      #37                 // Field classesPatMat:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> steppedPatMat();
+    Code:
+       0: aload_0
+       1: getfield      #39                 // Field steppedPatMat:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> steppedClassPatMat();
+    Code:
+       0: aload_0
+       1: getfield      #41                 // Field steppedClassPatMat:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> typeclass();
+    Code:
+       0: aload_0
+       1: getfield      #43                 // Field typeclass:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> cake();
+    Code:
+       0: aload_0
+       1: getfield      #45                 // Field cake:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> cake2();
+    Code:
+       0: aload_0
+       1: getfield      #47                 // Field cake2:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> oooTree();
+    Code:
+       0: aload_0
+       1: getfield      #49                 // Field oooTree:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> oooSubcalls();
+    Code:
+       0: aload_0
+       1: getfield      #51                 // Field oooSubcalls:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> oooLambdas();
+    Code:
+       0: aload_0
+       1: getfield      #53                 // Field oooLambdas:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> oooNested();
+    Code:
+       0: aload_0
+       1: getfield      #55                 // Field oooNested:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> javaOOO();
+    Code:
+       0: aload_0
+       1: getfield      #57                 // Field javaOOO:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.SkillTreeRepr<?> javafast();
+    Code:
+       0: aload_0
+       1: getfield      #59                 // Field javafast:Lrpg/SkillTreeRepr;
+       4: areturn
+
+  public rpg.bench.BenchmarkState(rpg.PlayerTraits);
+    Code:
+       0: aload_0
+       1: invokespecial #65                 // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: new           #67                 // class rpg/patmat/PatMatSkillTrees
+       8: dup
+       9: invokespecial #68                 // Method rpg/patmat/PatMatSkillTrees."<init>":()V
+      12: aload_1
+      13: invokevirtual #72                 // Method rpg/patmat/PatMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+      16: putfield      #31                 // Field patMat:Lrpg/SkillTreeRepr;
+      19: aload_0
+      20: new           #74                 // class rpg/patmat/SlowPathMatSkillTrees
+      23: dup
+      24: invokespecial #75                 // Method rpg/patmat/SlowPathMatSkillTrees."<init>":()V
+      27: aload_1
+      28: invokevirtual #76                 // Method rpg/patmat/SlowPathMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+      31: putfield      #35                 // Field slowPatMat:Lrpg/SkillTreeRepr;
+      34: aload_0
+      35: new           #78                 // class rpg/patmat/classes/PathMatSkillTrees
+      38: dup
+      39: invokespecial #79                 // Method rpg/patmat/classes/PathMatSkillTrees."<init>":()V
+      42: aload_1
+      43: invokevirtual #80                 // Method rpg/patmat/classes/PathMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+      46: putfield      #37                 // Field classesPatMat:Lrpg/SkillTreeRepr;
+      49: aload_0
+      50: new           #82                 // class rpg/patmat/stepped/SteppedPatMatSkillTrees
+      53: dup
+      54: invokespecial #83                 // Method rpg/patmat/stepped/SteppedPatMatSkillTrees."<init>":()V
+      57: aload_1
+      58: invokevirtual #84                 // Method rpg/patmat/stepped/SteppedPatMatSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+      61: putfield      #39                 // Field steppedPatMat:Lrpg/SkillTreeRepr;
+      64: aload_0
+      65: new           #86                 // class rpg/patmat/steppedClass/ImplSkillTrees
+      68: dup
+      69: invokespecial #87                 // Method rpg/patmat/steppedClass/ImplSkillTrees."<init>":()V
+      72: aload_1
+      73: invokevirtual #88                 // Method rpg/patmat/steppedClass/ImplSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+      76: putfield      #41                 // Field steppedClassPatMat:Lrpg/SkillTreeRepr;
+      79: aload_0
+      80: new           #90                 // class rpg/typeclass/naive/TypeclassSkillTrees
+      83: dup
+      84: invokespecial #91                 // Method rpg/typeclass/naive/TypeclassSkillTrees."<init>":()V
+      87: aload_1
+      88: invokevirtual #92                 // Method rpg/typeclass/naive/TypeclassSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+      91: putfield      #43                 // Field typeclass:Lrpg/SkillTreeRepr;
+      94: aload_0
+      95: new           #94                 // class rpg/cake/CakeSkillTrees
+      98: dup
+      99: invokespecial #95                 // Method rpg/cake/CakeSkillTrees."<init>":()V
+     102: aload_1
+     103: invokevirtual #96                 // Method rpg/cake/CakeSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     106: putfield      #45                 // Field cake:Lrpg/SkillTreeRepr;
+     109: aload_0
+     110: new           #98                 // class rpg/cake2/Cake2SkillTrees
+     113: dup
+     114: invokespecial #99                 // Method rpg/cake2/Cake2SkillTrees."<init>":()V
+     117: aload_1
+     118: invokevirtual #100                // Method rpg/cake2/Cake2SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     121: putfield      #47                 // Field cake2:Lrpg/SkillTreeRepr;
+     124: aload_0
+     125: new           #102                // class rpg/ooo/OOOSkillTrees
+     128: dup
+     129: invokespecial #103                // Method rpg/ooo/OOOSkillTrees."<init>":()V
+     132: aload_1
+     133: invokevirtual #104                // Method rpg/ooo/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     136: putfield      #49                 // Field oooTree:Lrpg/SkillTreeRepr;
+     139: aload_0
+     140: new           #106                // class rpg/ooo/subcalls/OOOSkillTrees
+     143: dup
+     144: invokespecial #107                // Method rpg/ooo/subcalls/OOOSkillTrees."<init>":()V
+     147: aload_1
+     148: invokevirtual #108                // Method rpg/ooo/subcalls/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     151: putfield      #51                 // Field oooSubcalls:Lrpg/SkillTreeRepr;
+     154: aload_0
+     155: new           #110                // class rpg/ooo/lambdas/LambdasSkillTrees
+     158: dup
+     159: invokespecial #111                // Method rpg/ooo/lambdas/LambdasSkillTrees."<init>":()V
+     162: aload_1
+     163: invokevirtual #112                // Method rpg/ooo/lambdas/LambdasSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     166: putfield      #53                 // Field oooLambdas:Lrpg/SkillTreeRepr;
+     169: aload_0
+     170: new           #114                // class rpg/ooo/nested/OOOSkillTrees
+     173: dup
+     174: invokespecial #115                // Method rpg/ooo/nested/OOOSkillTrees."<init>":()V
+     177: aload_1
+     178: invokevirtual #116                // Method rpg/ooo/nested/OOOSkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     181: putfield      #55                 // Field oooNested:Lrpg/SkillTreeRepr;
+     184: aload_0
+     185: new           #118                // class rpg/java/ooo/SkillTrees
+     188: dup
+     189: invokespecial #119                // Method rpg/java/ooo/SkillTrees."<init>":()V
+     192: aload_1
+     193: invokevirtual #120                // Method rpg/java/ooo/SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     196: putfield      #57                 // Field javaOOO:Lrpg/SkillTreeRepr;
+     199: aload_0
+     200: new           #122                // class rpg/java/fast/SkillTrees
+     203: dup
+     204: invokespecial #123                // Method rpg/java/fast/SkillTrees."<init>":()V
+     207: aload_1
+     208: invokevirtual #124                // Method rpg/java/fast/SkillTrees.archeryTree:(Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+     211: putfield      #59                 // Field javafast:Lrpg/SkillTreeRepr;
+     214: return
+
+  public rpg.bench.BenchmarkState();
+    Code:
+       0: aload_0
+       1: new           #127                // class rpg/PlayerTraits
+       4: dup
+       5: bipush        100
+       7: bipush        100
+       9: bipush        100
+      11: invokespecial #130                // Method rpg/PlayerTraits."<init>":(III)V
+      14: invokespecial #132                // Method "<init>":(Lrpg/PlayerTraits;)V
+      17: return
+}

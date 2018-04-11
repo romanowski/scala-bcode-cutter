@@ -1,0 +1,70 @@
+Compiled from "LambdasSkillTrees.scala"
+public final class rpg.ooo.lambdas.Tree$ extends scala.runtime.AbstractFunction3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Tree> implements scala.Serializable {
+  public static rpg.ooo.lambdas.Tree$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class rpg/ooo/lambdas/Tree$
+       3: invokespecial #15                 // Method "<init>":()V
+       6: return
+
+  public final java.lang.String toString();
+    Code:
+       0: ldc           #19                 // String Tree
+       2: areturn
+
+  public rpg.ooo.lambdas.Tree apply(scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node);
+    Code:
+       0: new           #27                 // class rpg/ooo/lambdas/Tree
+       3: dup
+       4: aload_1
+       5: aload_2
+       6: aload_3
+       7: invokespecial #30                 // Method rpg/ooo/lambdas/Tree."<init>":(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)V
+      10: areturn
+
+  public scala.Option<scala.Tuple3<scala.Function1<rpg.PlayerTraits, java.lang.Object>, rpg.ooo.lambdas.Node, rpg.ooo.lambdas.Node>> unapply(rpg.ooo.lambdas.Tree);
+    Code:
+       0: aload_1
+       1: ifnonnull     10
+       4: getstatic     #40                 // Field scala/None$.MODULE$:Lscala/None$;
+       7: goto          36
+      10: new           #42                 // class scala/Some
+      13: dup
+      14: new           #44                 // class scala/Tuple3
+      17: dup
+      18: aload_1
+      19: invokevirtual #47                 // Method rpg/ooo/lambdas/Tree.feat:()Lscala/Function1;
+      22: aload_1
+      23: invokevirtual #50                 // Method rpg/ooo/lambdas/Tree.left:()Lrpg/ooo/lambdas/Node;
+      26: aload_1
+      27: invokevirtual #52                 // Method rpg/ooo/lambdas/Tree.right:()Lrpg/ooo/lambdas/Node;
+      30: invokespecial #55                 // Method scala/Tuple3."<init>":(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+      33: invokespecial #58                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+      36: areturn
+
+  private java.lang.Object readResolve();
+    Code:
+       0: getstatic     #65                 // Field MODULE$:Lrpg/ooo/lambdas/Tree$;
+       3: areturn
+
+  public java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #71                 // class scala/Function1
+       5: aload_2
+       6: checkcast     #73                 // class rpg/ooo/lambdas/Node
+       9: aload_3
+      10: checkcast     #73                 // class rpg/ooo/lambdas/Node
+      13: invokevirtual #75                 // Method apply:(Lscala/Function1;Lrpg/ooo/lambdas/Node;Lrpg/ooo/lambdas/Node;)Lrpg/ooo/lambdas/Tree;
+      16: areturn
+
+  private rpg.ooo.lambdas.Tree$();
+    Code:
+       0: aload_0
+       1: invokespecial #77                 // Method scala/runtime/AbstractFunction3."<init>":()V
+       4: aload_0
+       5: putstatic     #65                 // Field MODULE$:Lrpg/ooo/lambdas/Tree$;
+       8: return
+}

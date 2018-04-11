@@ -1,0 +1,200 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/typeclass/naive/StrTree$.class
+  Last modified Apr 8, 2018; size 1626 bytes
+  MD5 checksum 7cd648f292f91892e40cde674845117d
+  Compiled from "TypeclassSkillTrees.scala"
+public final class rpg.typeclass.naive.StrTree$ implements scala.Serializable
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               rpg/typeclass/naive/StrTree$
+   #2 = Class              #1             // rpg/typeclass/naive/StrTree$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               scala/Serializable
+   #6 = Class              #5             // scala/Serializable
+   #7 = Utf8               TypeclassSkillTrees.scala
+   #8 = Utf8               MODULE$
+   #9 = Utf8               Lrpg/typeclass/naive/StrTree$;
+  #10 = Utf8               <clinit>
+  #11 = Utf8               ()V
+  #12 = Utf8               <init>
+  #13 = NameAndType        #12:#11        // "<init>":()V
+  #14 = Methodref          #2.#13         // rpg/typeclass/naive/StrTree$."<init>":()V
+  #15 = Utf8               toString
+  #16 = Utf8               ()Ljava/lang/String;
+  #17 = Utf8               StrTree
+  #18 = String             #17            // StrTree
+  #19 = Utf8               this
+  #20 = Utf8               apply
+  #21 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+  #22 = Utf8               left
+  #23 = Utf8               right
+  #24 = Utf8               rpg/typeclass/naive/StrTree
+  #25 = Class              #24            // rpg/typeclass/naive/StrTree
+  #26 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)V
+  #27 = NameAndType        #12:#26        // "<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+  #28 = Methodref          #25.#27        // rpg/typeclass/naive/StrTree."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+  #29 = Utf8               Ljava/lang/Object;
+  #30 = Utf8               unapply
+  #31 = Utf8               (Lrpg/typeclass/naive/StrTree;)Lscala/Option;
+  #32 = Utf8               x$0
+  #33 = Utf8               scala/None$
+  #34 = Class              #33            // scala/None$
+  #35 = Utf8               Lscala/None$;
+  #36 = NameAndType        #8:#35         // MODULE$:Lscala/None$;
+  #37 = Fieldref           #34.#36        // scala/None$.MODULE$:Lscala/None$;
+  #38 = Utf8               scala/Some
+  #39 = Class              #38            // scala/Some
+  #40 = Utf8               scala/Tuple2
+  #41 = Class              #40            // scala/Tuple2
+  #42 = Utf8               ()Ljava/lang/Object;
+  #43 = NameAndType        #22:#42        // left:()Ljava/lang/Object;
+  #44 = Methodref          #25.#43        // rpg/typeclass/naive/StrTree.left:()Ljava/lang/Object;
+  #45 = NameAndType        #23:#42        // right:()Ljava/lang/Object;
+  #46 = Methodref          #25.#45        // rpg/typeclass/naive/StrTree.right:()Ljava/lang/Object;
+  #47 = Methodref          #41.#27        // scala/Tuple2."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+  #48 = Utf8               (Ljava/lang/Object;)V
+  #49 = NameAndType        #12:#48        // "<init>":(Ljava/lang/Object;)V
+  #50 = Methodref          #39.#49        // scala/Some."<init>":(Ljava/lang/Object;)V
+  #51 = Utf8               Lrpg/typeclass/naive/StrTree;
+  #52 = Utf8               scala/Option
+  #53 = Class              #52            // scala/Option
+  #54 = Utf8               readResolve
+  #55 = NameAndType        #8:#9          // MODULE$:Lrpg/typeclass/naive/StrTree$;
+  #56 = Fieldref           #2.#55         // rpg/typeclass/naive/StrTree$.MODULE$:Lrpg/typeclass/naive/StrTree$;
+  #57 = Methodref          #4.#13         // java/lang/Object."<init>":()V
+  #58 = Utf8               Code
+  #59 = Utf8               LocalVariableTable
+  #60 = Utf8               LineNumberTable
+  #61 = Utf8               Signature
+  #62 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>(TL;TR;)Lrpg/typeclass/naive/StrTree<TL;TR;>;
+  #63 = Utf8               MethodParameters
+  #64 = Utf8               StackMapTable
+  #65 = Utf8               <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/StrTree<TL;TR;>;)Lscala/Option<Lscala/Tuple2<TL;TR;>;>;
+  #66 = Utf8               SourceFile
+  #67 = Utf8               ScalaInlineInfo
+  #68 = Utf8               Scala
+{
+  public static rpg.typeclass.naive.StrTree$ MODULE$;
+    descriptor: Lrpg/typeclass/naive/StrTree$;
+    flags: ACC_PUBLIC, ACC_STATIC
+
+  public static {};
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: new           #2                  // class rpg/typeclass/naive/StrTree$
+         3: invokespecial #14                 // Method "<init>":()V
+         6: return
+
+  public final java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #18                 // String StrTree
+         2: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Lrpg/typeclass/naive/StrTree$;
+      LineNumberTable:
+        line 11: 0
+
+  public <L extends java.lang.Object, R extends java.lang.Object> rpg.typeclass.naive.StrTree<L, R> apply(L, R);
+    descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Lrpg/typeclass/naive/StrTree;
+    flags: ACC_PUBLIC
+    Code:
+      stack=4, locals=3, args_size=3
+         0: new           #25                 // class rpg/typeclass/naive/StrTree
+         3: dup
+         4: aload_1
+         5: aload_2
+         6: invokespecial #28                 // Method rpg/typeclass/naive/StrTree."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+         9: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   Lrpg/typeclass/naive/StrTree$;
+            0      10     1  left   Ljava/lang/Object;
+            0      10     2 right   Ljava/lang/Object;
+      LineNumberTable:
+        line 11: 0
+    Signature: #62                          // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(TL;TR;)Lrpg/typeclass/naive/StrTree<TL;TR;>;
+    MethodParameters:
+      Name                           Flags
+      left                           final
+      right                          final
+
+  public <L extends java.lang.Object, R extends java.lang.Object> scala.Option<scala.Tuple2<L, R>> unapply(rpg.typeclass.naive.StrTree<L, R>);
+    descriptor: (Lrpg/typeclass/naive/StrTree;)Lscala/Option;
+    flags: ACC_PUBLIC
+    Code:
+      stack=6, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     10
+         4: getstatic     #37                 // Field scala/None$.MODULE$:Lscala/None$;
+         7: goto          32
+        10: new           #39                 // class scala/Some
+        13: dup
+        14: new           #41                 // class scala/Tuple2
+        17: dup
+        18: aload_1
+        19: invokevirtual #44                 // Method rpg/typeclass/naive/StrTree.left:()Ljava/lang/Object;
+        22: aload_1
+        23: invokevirtual #46                 // Method rpg/typeclass/naive/StrTree.right:()Ljava/lang/Object;
+        26: invokespecial #47                 // Method scala/Tuple2."<init>":(Ljava/lang/Object;Ljava/lang/Object;)V
+        29: invokespecial #50                 // Method scala/Some."<init>":(Ljava/lang/Object;)V
+        32: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      33     0  this   Lrpg/typeclass/naive/StrTree$;
+            0      33     1   x$0   Lrpg/typeclass/naive/StrTree;
+      LineNumberTable:
+        line 11: 0
+      StackMapTable: number_of_entries = 2
+        frame_type = 10 /* same */
+        frame_type = 85 /* same_locals_1_stack_item */
+          stack = [ class scala/Option ]
+    Signature: #65                          // <L:Ljava/lang/Object;R:Ljava/lang/Object;>(Lrpg/typeclass/naive/StrTree<TL;TR;>;)Lscala/Option<Lscala/Tuple2<TL;TR;>;>;
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  private java.lang.Object readResolve();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #56                 // Field MODULE$:Lrpg/typeclass/naive/StrTree$;
+         3: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Lrpg/typeclass/naive/StrTree$;
+      LineNumberTable:
+        line 11: 0
+
+  private rpg.typeclass.naive.StrTree$();
+    descriptor: ()V
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #57                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: putstatic     #56                 // Field MODULE$:Lrpg/typeclass/naive/StrTree$;
+         8: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lrpg/typeclass/naive/StrTree$;
+      LineNumberTable:
+        line 11: 0
+}
+SourceFile: "TypeclassSkillTrees.scala"
+Error: unknown attribute
+  ScalaInlineInfo: length = 0x1D
+   01 01 00 05 00 0C 00 0B 01 00 14 00 15 01 00 36
+   00 2A 01 00 0F 00 10 01 00 1E 00 1F 01
+Error: unknown attribute
+  Scala: length = 0x0
+

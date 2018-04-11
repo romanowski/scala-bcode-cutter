@@ -1,0 +1,6 @@
+Compiled from "LambdasSkillTrees.scala"
+public final class rpg.ooo.lambdas.LambdasSkillTrees$$anon$1 extends rpg.SkillTreeRepr<rpg.ooo.lambdas.Tree> {
+  private final rpg.PlayerTraits traits$1;
+  public int totalCost();
+  public rpg.ooo.lambdas.LambdasSkillTrees$$anon$1(rpg.ooo.lambdas.LambdasSkillTrees, rpg.PlayerTraits, rpg.ooo.lambdas.Tree);
+}

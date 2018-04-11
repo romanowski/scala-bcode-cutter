@@ -1,0 +1,234 @@
+Classfile /home/krzysiek/workspace/scala-bcode-cutter/pref/target/scala-2.12/classes/rpg/cake2/Cake2SkillTrees.class
+  Last modified Apr 8, 2018; size 2391 bytes
+  MD5 checksum fe8fbc2f57d49b7f672bedd98c1f6eaa
+  Compiled from "CakeSkillTrees.scala"
+public class rpg.cake2.Cake2SkillTrees extends rpg.SkillTrees
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               rpg/cake2/Cake2SkillTrees
+    #2 = Class              #1            // rpg/cake2/Cake2SkillTrees
+    #3 = Utf8               rpg/SkillTrees
+    #4 = Class              #3            // rpg/SkillTrees
+    #5 = Utf8               CakeSkillTrees.scala
+    #6 = Utf8               Lscala/reflect/ScalaSignature;
+    #7 = Utf8               bytes
+    #8 = Utf8               -2A!\ty1)Y6feM[7Ue,7O\t)1-Y6fe)\tQ!AsaaABC\t%1'.LG+sK\"B\tqAj]&$hF!\t!D\"-\t'o5fef$&/Z3Q1GA!\rIaG/QbU6jY2$&/Z3SKBCA\r!bG\t)}#'GAa$I?)\t%AtGd-#?\t9aj;iS:<C%\t)sDAB]fDQaJ\tA!\nA7bsHK]1jiN\"!C\n)\"!)mCf,':bSR
+    #9 = Utf8               rpg/cake2/Cake2SkillTrees$$anon$1
+   #10 = Class              #9            // rpg/cake2/Cake2SkillTrees$$anon$1
+   #11 = Utf8               rpg/cake2/Cake2SkillTrees$$anon$2
+   #12 = Class              #11           // rpg/cake2/Cake2SkillTrees$$anon$2
+   #13 = Utf8               rpg/cake2/DexNodes$DexSkill
+   #14 = Class              #13           // rpg/cake2/DexNodes$DexSkill
+   #15 = Utf8               rpg/cake2/DexNodes
+   #16 = Class              #15           // rpg/cake2/DexNodes
+   #17 = Utf8               DexSkill
+   #18 = Utf8               rpg/cake2/DexNodes$DexStep
+   #19 = Class              #18           // rpg/cake2/DexNodes$DexStep
+   #20 = Utf8               DexStep
+   #21 = Utf8               rpg/cake2/DexNodes$DexTree
+   #22 = Class              #21           // rpg/cake2/DexNodes$DexTree
+   #23 = Utf8               DexTree
+   #24 = Utf8               rpg/cake2/NodesTraits$Node
+   #25 = Class              #24           // rpg/cake2/NodesTraits$Node
+   #26 = Utf8               rpg/cake2/NodesTraits
+   #27 = Class              #26           // rpg/cake2/NodesTraits
+   #28 = Utf8               Node
+   #29 = Utf8               rpg/cake2/StrNodes$StrSkill
+   #30 = Class              #29           // rpg/cake2/StrNodes$StrSkill
+   #31 = Utf8               rpg/cake2/StrNodes
+   #32 = Class              #31           // rpg/cake2/StrNodes
+   #33 = Utf8               StrSkill
+   #34 = Utf8               rpg/cake2/StrNodes$StrStep
+   #35 = Class              #34           // rpg/cake2/StrNodes$StrStep
+   #36 = Utf8               StrStep
+   #37 = Utf8               rpg/cake2/StrNodes$StrTree
+   #38 = Class              #37           // rpg/cake2/StrNodes$StrTree
+   #39 = Utf8               StrTree
+   #40 = Utf8               rpg/cake2/WisNodes$WisSkill
+   #41 = Class              #40           // rpg/cake2/WisNodes$WisSkill
+   #42 = Utf8               rpg/cake2/WisNodes
+   #43 = Class              #42           // rpg/cake2/WisNodes
+   #44 = Utf8               WisSkill
+   #45 = Utf8               rpg/cake2/WisNodes$WisStep
+   #46 = Class              #45           // rpg/cake2/WisNodes$WisStep
+   #47 = Utf8               WisStep
+   #48 = Utf8               rpg/cake2/WisNodes$WisTree
+   #49 = Class              #48           // rpg/cake2/WisNodes$WisTree
+   #50 = Utf8               WisTree
+   #51 = Utf8               archeryTree
+   #52 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+   #53 = Utf8               playerTraits
+   #54 = Utf8               <init>
+   #55 = Utf8               (Lrpg/cake2/Cake2SkillTrees;Lrpg/PlayerTraits;)V
+   #56 = NameAndType        #54:#55       // "<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/PlayerTraits;)V
+   #57 = Methodref          #10.#56       // rpg/cake2/Cake2SkillTrees$$anon$1."<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/PlayerTraits;)V
+   #58 = Utf8               aimed
+   #59 = String             #58           // aimed
+   #60 = Utf8               (Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+   #61 = NameAndType        #54:#60       // "<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+   #62 = Methodref          #41.#61       // rpg/cake2/WisNodes$WisSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+   #63 = Utf8               rapid
+   #64 = String             #63           // rapid
+   #65 = Methodref          #14.#61       // rpg/cake2/DexNodes$DexSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+   #66 = Utf8               (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #67 = NameAndType        #54:#66       // "<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #68 = Methodref          #46.#67       // rpg/cake2/WisNodes$WisStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #69 = Utf8               (Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+   #70 = NameAndType        #54:#69       // "<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+   #71 = Methodref          #49.#70       // rpg/cake2/WisNodes$WisTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+   #72 = Methodref          #19.#67       // rpg/cake2/DexNodes$DexStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #73 = Utf8               power
+   #74 = String             #73           // power
+   #75 = Methodref          #30.#61       // rpg/cake2/StrNodes$StrSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+   #76 = Utf8               double
+   #77 = String             #76           // double
+   #78 = Methodref          #35.#67       // rpg/cake2/StrNodes$StrStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+   #79 = Methodref          #38.#70       // rpg/cake2/StrNodes$StrTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+   #80 = Methodref          #22.#70       // rpg/cake2/DexNodes$DexTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+   #81 = Utf8               (Lrpg/cake2/Cake2SkillTrees;Lrpg/cake2/NodesTraits;Lrpg/cake2/DexNodes$DexTree;)V
+   #82 = NameAndType        #54:#81       // "<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/cake2/NodesTraits;Lrpg/cake2/DexNodes$DexTree;)V
+   #83 = Methodref          #12.#82       // rpg/cake2/Cake2SkillTrees$$anon$2."<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/cake2/NodesTraits;Lrpg/cake2/DexNodes$DexTree;)V
+   #84 = Utf8               nodes
+   #85 = Utf8               Lrpg/cake2/NodesTraits;
+   #86 = Utf8               tree
+   #87 = Utf8               Lrpg/cake2/DexNodes$DexTree;
+   #88 = Utf8               this
+   #89 = Utf8               Lrpg/cake2/Cake2SkillTrees;
+   #90 = Utf8               Lrpg/PlayerTraits;
+   #91 = Utf8               ()V
+   #92 = NameAndType        #54:#91       // "<init>":()V
+   #93 = Methodref          #4.#92        // rpg/SkillTrees."<init>":()V
+   #94 = Utf8               Code
+   #95 = Utf8               LocalVariableTable
+   #96 = Utf8               LineNumberTable
+   #97 = Utf8               Signature
+   #98 = Utf8               (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr<*>;
+   #99 = Utf8               MethodParameters
+  #100 = Utf8               SourceFile
+  #101 = Utf8               InnerClasses
+  #102 = Utf8               RuntimeVisibleAnnotations
+  #103 = Utf8               ScalaInlineInfo
+  #104 = Utf8               ScalaSig
+{
+  public rpg.SkillTreeRepr<?> archeryTree(rpg.PlayerTraits);
+    descriptor: (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr;
+    flags: ACC_PUBLIC
+    Code:
+      stack=17, locals=4, args_size=2
+         0: new           #10                 // class rpg/cake2/Cake2SkillTrees$$anon$1
+         3: dup
+         4: aconst_null
+         5: aload_1
+         6: invokespecial #57                 // Method rpg/cake2/Cake2SkillTrees$$anon$1."<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/PlayerTraits;)V
+         9: astore_2
+        10: new           #22                 // class rpg/cake2/DexNodes$DexTree
+        13: dup
+        14: aload_2
+        15: new           #19                 // class rpg/cake2/DexNodes$DexStep
+        18: dup
+        19: aload_2
+        20: new           #49                 // class rpg/cake2/WisNodes$WisTree
+        23: dup
+        24: aload_2
+        25: new           #41                 // class rpg/cake2/WisNodes$WisSkill
+        28: dup
+        29: aload_2
+        30: ldc           #59                 // String aimed
+        32: invokespecial #62                 // Method rpg/cake2/WisNodes$WisSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+        35: new           #46                 // class rpg/cake2/WisNodes$WisStep
+        38: dup
+        39: aload_2
+        40: new           #14                 // class rpg/cake2/DexNodes$DexSkill
+        43: dup
+        44: aload_2
+        45: ldc           #64                 // String rapid
+        47: invokespecial #65                 // Method rpg/cake2/DexNodes$DexSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+        50: invokespecial #68                 // Method rpg/cake2/WisNodes$WisStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+        53: invokespecial #71                 // Method rpg/cake2/WisNodes$WisTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+        56: invokespecial #72                 // Method rpg/cake2/DexNodes$DexStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+        59: new           #38                 // class rpg/cake2/StrNodes$StrTree
+        62: dup
+        63: aload_2
+        64: new           #30                 // class rpg/cake2/StrNodes$StrSkill
+        67: dup
+        68: aload_2
+        69: ldc           #74                 // String power
+        71: invokespecial #75                 // Method rpg/cake2/StrNodes$StrSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+        74: new           #35                 // class rpg/cake2/StrNodes$StrStep
+        77: dup
+        78: aload_2
+        79: new           #14                 // class rpg/cake2/DexNodes$DexSkill
+        82: dup
+        83: aload_2
+        84: ldc           #77                 // String double
+        86: invokespecial #65                 // Method rpg/cake2/DexNodes$DexSkill."<init>":(Lrpg/cake2/NodesTraits;Ljava/lang/String;)V
+        89: invokespecial #78                 // Method rpg/cake2/StrNodes$StrStep."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;)V
+        92: invokespecial #79                 // Method rpg/cake2/StrNodes$StrTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+        95: invokespecial #80                 // Method rpg/cake2/DexNodes$DexTree."<init>":(Lrpg/cake2/NodesTraits;Lrpg/cake2/NodesTraits$Node;Lrpg/cake2/NodesTraits$Node;)V
+        98: astore_3
+        99: new           #12                 // class rpg/cake2/Cake2SkillTrees$$anon$2
+       102: dup
+       103: aconst_null
+       104: aload_2
+       105: aload_3
+       106: invokespecial #83                 // Method rpg/cake2/Cake2SkillTrees$$anon$2."<init>":(Lrpg/cake2/Cake2SkillTrees;Lrpg/cake2/NodesTraits;Lrpg/cake2/DexNodes$DexTree;)V
+       109: areturn
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            9     100     2 nodes   Lrpg/cake2/NodesTraits;
+           98      11     3  tree   Lrpg/cake2/DexNodes$DexTree;
+            0     110     0  this   Lrpg/cake2/Cake2SkillTrees;
+            0     110     1 playerTraits   Lrpg/PlayerTraits;
+      LineNumberTable:
+        line 64: 0
+        line 68: 10
+        line 69: 15
+        line 70: 25
+        line 71: 35
+        line 73: 59
+        line 74: 64
+        line 75: 74
+        line 78: 99
+    Signature: #98                          // (Lrpg/PlayerTraits;)Lrpg/SkillTreeRepr<*>;
+    MethodParameters:
+      Name                           Flags
+      playerTraits                   final
+
+  public rpg.cake2.Cake2SkillTrees();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #93                 // Method rpg/SkillTrees."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lrpg/cake2/Cake2SkillTrees;
+      LineNumberTable:
+        line 56: 0
+}
+SourceFile: "CakeSkillTrees.scala"
+InnerClasses:
+     public final #10; //class rpg/cake2/Cake2SkillTrees$$anon$1
+     public final #12; //class rpg/cake2/Cake2SkillTrees$$anon$2
+     public #17= #14 of #16; //DexSkill=class rpg/cake2/DexNodes$DexSkill of class rpg/cake2/DexNodes
+     public #20= #19 of #16; //DexStep=class rpg/cake2/DexNodes$DexStep of class rpg/cake2/DexNodes
+     public #23= #22 of #16; //DexTree=class rpg/cake2/DexNodes$DexTree of class rpg/cake2/DexNodes
+     public #28= #25 of #27; //Node=class rpg/cake2/NodesTraits$Node of class rpg/cake2/NodesTraits
+     public #33= #30 of #32; //StrSkill=class rpg/cake2/StrNodes$StrSkill of class rpg/cake2/StrNodes
+     public #36= #35 of #32; //StrStep=class rpg/cake2/StrNodes$StrStep of class rpg/cake2/StrNodes
+     public #39= #38 of #32; //StrTree=class rpg/cake2/StrNodes$StrTree of class rpg/cake2/StrNodes
+     public #44= #41 of #43; //WisSkill=class rpg/cake2/WisNodes$WisSkill of class rpg/cake2/WisNodes
+     public #47= #46 of #43; //WisStep=class rpg/cake2/WisNodes$WisStep of class rpg/cake2/WisNodes
+     public #50= #49 of #43; //WisTree=class rpg/cake2/WisNodes$WisTree of class rpg/cake2/WisNodes
+RuntimeVisibleAnnotations:
+  0: #6(#7=s#8)
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 00 00 02 00 36 00 5B 00 00 33 00 34 00
+Error: unknown attribute
+  ScalaSig: length = 0x3
+   05 00 00
