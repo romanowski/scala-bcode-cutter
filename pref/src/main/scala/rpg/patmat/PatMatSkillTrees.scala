@@ -67,9 +67,6 @@ object Node {
       traits.wisCost + totalSkill(left, traits) + totalSkill(right, traits)
     case DexTree(left, right) =>
       traits.dexCost + totalSkill(left, traits) + totalSkill(right, traits)
-
-
-
   }
 }
 
@@ -80,7 +77,7 @@ trait TreeProvider {
     * \-> Str --> Str("power")
     * \-> Str -> Dex("double")
     */
-  def mkTree = DexTree(
+  def mkAcheryTree = DexTree(
     DexStep(WisTree(
       WisSkill("aimed"),
       WisStep(DexSkill("rapid"))
@@ -90,19 +87,48 @@ trait TreeProvider {
       StrStep(DexSkill("double"))
     )
   )
+
+  /**
+    * Dex --> Dex -> Wis --> Wis("aimed")
+    * \                   \-> Dex("rapid")
+    * \-> Str --> Str("power")
+    * \-> Str -> Dex("double")
+    */
+  def mkCharismaTree = WisStep(WisTree(
+    WisSkill("1"),
+    DexStep(DexTree(
+      DexSkill("2"),
+      StrStep(
+        StrTree(
+          StrSkill("3"),
+          WisSkill("4")
+        )
+      )
+    ))
+  ))
 }
 
 class PatMatSkillTrees extends SkillTrees with TreeProvider {
   override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
-    new SkillTreeRepr(mkTree) {
+    new SkillTreeRepr(mkAcheryTree) {
       override def totalCost(): Int = Node.totalSkill(tree, traits)
+    }
+  }
+  override def charismaTree(playerTraits: PlayerTraits): SkillTreeRepr[_] = {
+    new SkillTreeRepr(mkCharismaTree) {
+      override def totalCost(): Int = Node.totalSkill(tree, playerTraits)
     }
   }
 }
 
 class SlowPathMatSkillTrees extends SkillTrees with TreeProvider {
   override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
-    new SkillTreeRepr(mkTree) {
+    new SkillTreeRepr(mkAcheryTree) {
+      override def totalCost(): Int = Node.slowTotalSkill(tree, traits)
+    }
+  }
+  override def charismaTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    new SkillTreeRepr(mkCharismaTree) {
       override def totalCost(): Int = Node.slowTotalSkill(tree, traits)
     }
   }

@@ -2,7 +2,7 @@ package rpg.patmat.classes
 
 import rpg._
 
-sealed class Node
+sealed abstract class Node
 
 case class DexTree(left: Node, right: Node) extends Node
 
@@ -70,7 +70,6 @@ object Node {
       traits.dexCost + totalSkill(left, traits) + totalSkill(right, traits)
 
 
-
   }
 }
 
@@ -91,6 +90,20 @@ trait TreeProvider {
       StrStep(DexSkill("double"))
     )
   )
+
+  def mkCharismaTree =
+    WisStep(WisTree(
+      WisSkill("1"),
+      DexStep(DexTree(
+        DexSkill("2"),
+        StrStep(
+          StrTree(
+            StrSkill("3"),
+            WisSkill("4")
+          )
+        )
+      ))
+    ))
 }
 
 class PatMatSkillTrees extends SkillTrees with TreeProvider {
@@ -99,12 +112,23 @@ class PatMatSkillTrees extends SkillTrees with TreeProvider {
       override def totalCost(): Int = Node.totalSkill(tree, traits)
     }
   }
+  override def charismaTree(playerTraits: PlayerTraits): SkillTreeRepr[_] = {
+    new SkillTreeRepr(mkCharismaTree) {
+      override def totalCost(): Int = Node.totalSkill(tree, playerTraits)
+    }
+  }
 }
 
 class PathMatSkillTrees extends SkillTrees with TreeProvider {
   override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
     new SkillTreeRepr(mkTree) {
       override def totalCost(): Int = Node.slowTotalSkill(tree, traits)
+    }
+  }
+
+  override def charismaTree(playerTraits: PlayerTraits): SkillTreeRepr[_] = {
+    new SkillTreeRepr(mkCharismaTree) {
+      override def totalCost(): Int = Node.slowTotalSkill(tree, playerTraits)
     }
   }
 }

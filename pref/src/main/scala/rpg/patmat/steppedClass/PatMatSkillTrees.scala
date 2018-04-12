@@ -2,7 +2,7 @@ package rpg.patmat.steppedClass
 
 import rpg._
 
-sealed class Node
+abstract sealed class Node
 
 sealed class Tree extends Node
 case class DexTree(left: Node, right: Node) extends Tree
@@ -80,6 +80,28 @@ class ImplSkillTrees extends SkillTrees {
     new SkillTreeRepr(tree) {
       override def totalCost(): Int = Node.totalSkill(tree, traits)
     }
+  }
 
+  /** Wis -> Wis --> Wis("1")
+    * \-> Dex -> Dex --> Dex("2")
+    * \-> Str -> Str --> Str("3")
+    * \-> Wis("4")
+    */
+  override def charismaTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    val tree = WisStep(WisTree(
+      WisSkill("1"),
+      DexStep(DexTree(
+        DexSkill("2"),
+        StrStep(
+          StrTree(
+            StrSkill("3"),
+            WisSkill("4")
+          )
+        )
+      ))
+    ))
+    new SkillTreeRepr(tree) {
+      override def totalCost(): Int = Node.totalSkill(tree, traits)
+    }
   }
 }

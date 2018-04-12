@@ -44,4 +44,26 @@ class LambdasSkillTrees extends SkillTrees {
       override def totalCost(): Int = tree.cost(traits)
     }
   }
+
+  override def charismaTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    val tree = Step(_.wisCost,
+      Tree(_.wisCost,
+      Skill(_.wisCost,"1"),
+      Step(_.dexCost,
+        Tree(_.dexCost,
+        Skill(_.dexCost, "2"),
+        Step(_.strCost,
+          Tree(_.strCost,
+            Skill(_.strCost,"3"),
+            Skill(_.wisCost, "4")
+          )
+        )
+      ))
+    ))
+
+    new SkillTreeRepr(tree) {
+      override def totalCost(): Int = tree.cost(traits)
+    }
+  }
+
 }

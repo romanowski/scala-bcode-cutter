@@ -105,4 +105,24 @@ class TypeclassSkillTrees extends SkillTrees {
 
   }
 
+  override def charismaTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    val tree = WisStep(WisTree(
+      WisSkill("1"),
+      DexStep(DexTree(
+        DexSkill("2"),
+        StrStep(
+          StrTree(
+            StrSkill("3"),
+            WisSkill("4")
+          )
+        )
+      ))
+    ))
+
+    import Node._
+    new SkillTreeRepr(tree) {
+      override def totalCost(): Int = Node.totalSkill(tree, traits)
+    }
+
+  }
 }

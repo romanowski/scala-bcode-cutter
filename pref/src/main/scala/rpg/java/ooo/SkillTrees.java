@@ -156,4 +156,27 @@ public class SkillTrees extends rpg.SkillTrees {
             }
         };
     }
+
+    @Override
+    public SkillTreeRepr<?> charismaTree(PlayerTraits playerTraits) {
+        Node tree = new WisStep(new WisTree(
+          new WisSkill("1"),
+          new DexStep(new DexTree(
+            new DexSkill("2"),
+            new StrStep(
+              new StrTree(
+                new StrSkill("3"),
+                new WisSkill("4")
+              )
+            )
+          ))
+        ));
+
+        return new SkillTreeRepr<Node>(tree) {
+            @Override
+            public int totalCost() {
+                return tree.cost(playerTraits);
+            }
+        };
+    }
 }

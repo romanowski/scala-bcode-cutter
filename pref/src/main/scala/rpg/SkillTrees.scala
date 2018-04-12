@@ -25,4 +25,11 @@ abstract class SkillTrees {
     * \-> Str -> Dex("double")
     */
   def archeryTree(playerTraits: PlayerTraits): SkillTreeRepr[_]
+
+  /** Wis -> Wis --> Wis("1")
+    *            \-> Dex -> Dex --> Dex("2")
+    *                           \-> Str -> Str --> Str("3")
+    *                                          \-> Wis("4")
+    */
+  def charismaTree(traits: PlayerTraits): SkillTreeRepr[_]
 }

@@ -76,4 +76,37 @@ public class SkillTrees extends rpg.SkillTrees {
             }
         };
     }
+
+    @Override
+    public SkillTreeRepr<?> charismaTree(PlayerTraits traits) {
+        Node tree = new Node(
+          true, false,
+          new Node(
+            false, false,
+            new Node(
+              true, false,
+              new Node(false, false, null, null, "aimed"),
+              new Node(false, false,
+                new Node(true, false, null, null, "rapid"),
+                null, null)
+              , null
+            ),
+            null, null),
+          new Node(false, true,
+            new Node(false, true, null, null,"power"),
+            new Node(false, true,
+              new Node(false, false, null, null,"double"), null, null),
+            null
+          ),
+          null
+        );
+
+
+        return new SkillTreeRepr<Node>(tree) {
+            @Override
+            public int totalCost() {
+                return tree.cost(traits);
+            }
+        };
+    }
 }

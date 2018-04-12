@@ -40,12 +40,6 @@ object Wis extends FeatTree {
 
 
 class OOOSkillTrees extends SkillTrees {
-  /**
-    * Dex --> Dex -> Wis --> Wis("aimed")
-    * \                   \-> Dex("rapid")
-    * \-> Str --> Str("power")
-    * \-> Str -> Dex("double")
-    */
   override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
     val tree: Node = Dex.Tree(
       Dex.Step(Wis.Tree(
@@ -57,6 +51,24 @@ class OOOSkillTrees extends SkillTrees {
         Str.Step(Dex.Skill("double"))
       )
     )
+    new SkillTreeRepr(tree) {
+      override def totalCost(): Int = tree.cost(traits)
+    }
+  }
+
+  override def charismaTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    val tree: Node = Wis.Step(Wis.Tree(
+      Wis.Skill("1"),
+      Dex.Step(Dex.Tree(
+        Dex.Skill("2"),
+        Str.Step(
+          Str.Tree(
+            Str.Skill("3"),
+            Wis.Skill("4")
+          )
+        )
+      ))
+    ))
     new SkillTreeRepr(tree) {
       override def totalCost(): Int = tree.cost(traits)
     }

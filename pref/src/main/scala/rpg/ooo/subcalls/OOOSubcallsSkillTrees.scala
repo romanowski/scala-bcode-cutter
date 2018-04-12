@@ -82,4 +82,22 @@ class OOOSkillTrees extends SkillTrees {
       override def totalCost(): Int = tree.cost(traits)
     }
   }
+
+  override def charismaTree(traits: PlayerTraits): SkillTreeRepr[_] = {
+    val tree = WisStep(WisTree(
+      WisSkill("1"),
+      DexStep(DexTree(
+        DexSkill("2"),
+        StrStep(
+          StrTree(
+            StrSkill("3"),
+            WisSkill("4")
+          )
+        )
+      ))
+    ))
+    new SkillTreeRepr(tree) {
+      override def totalCost(): Int = tree.cost(traits)
+    }
+  }
 }

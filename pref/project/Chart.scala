@@ -1,5 +1,6 @@
 import java.nio.file.Path
 
+import pl.project13.scala.sbt.JmhPlugin.JmhKeys
 import sbt.Keys._
 import sbt._
 import spray.json.DefaultJsonProtocol._
@@ -117,7 +118,8 @@ object Charts {
   def settings = Seq(
     runBenchmark := {
       val f = file("all.json").toPath.toAbsolutePath
-      //run.in(JmhKeys.Jmh).toTask(s" WarmingBenchmark.* -rff ${file("out.json").toPath.toAbsolutePath} -rf json -v silent").value
+      val keepThis = JmhKeys.Jmh
+      run.in(JmhKeys.Jmh).toTask(s" WarmingBenchmark.* -rff ${file("out.json").toPath.toAbsolutePath} -rf json").value
       f
     },
     implementWarmupChart
