@@ -52,29 +52,15 @@ object InTry {
   }
 }
 
-
 class WrappedTrySkillTrees extends SkillTrees with TreeProvider {
   override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
     new SkillTreeRepr(mkAcheryTree) {
-      override def totalCost(): Int = Node.totalSkill(tree, traits)
+      override def totalCost(): Int = InTry.totalSkill(tree, traits).get
     }
   }
   override def charismaTree(playerTraits: PlayerTraits): SkillTreeRepr[_] = {
     new SkillTreeRepr(mkCharismaTree) {
-      override def totalCost(): Int = Node.totalSkill(tree, playerTraits)
-    }
-  }
-}
-
-class SlowPathMatSkillTrees extends SkillTrees with TreeProvider {
-  override def archeryTree(traits: PlayerTraits): SkillTreeRepr[_] = {
-    new SkillTreeRepr(mkAcheryTree) {
-      override def totalCost(): Int = Node.slowTotalSkill(tree, traits)
-    }
-  }
-  override def charismaTree(traits: PlayerTraits): SkillTreeRepr[_] = {
-    new SkillTreeRepr(mkCharismaTree) {
-      override def totalCost(): Int = Node.slowTotalSkill(tree, traits)
+      override def totalCost(): Int = InTry.totalSkill(tree, playerTraits).get
     }
   }
 }

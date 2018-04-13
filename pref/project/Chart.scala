@@ -101,7 +101,6 @@ object Charts {
 
   def implementWarmupChart = warmupChart := {
     val base = streams.value.cacheDirectory
-    val chart = base.toPath.resolve("data.csv")
     val json = IO.read(runBenchmark.value.toFile).parseJson
     val data = json.convertTo[Array[Benchmark]]
     streams.value.log.success(s"Saving to $base using: ${data.toSeq.mkString("\n")}")
@@ -115,12 +114,16 @@ object Charts {
   }
 
 
+  def jsonLocation = file("out.json").toPath.toAbsolutePath
+  def txtLocation = file("out.txt").toPath.toAbsolutePath
+
+
   def settings = Seq(
     runBenchmark := {
-      val f = file("all.json").toPath.toAbsolutePath
       val keepThis = JmhKeys.Jmh
-      run.in(JmhKeys.Jmh).toTask(s" WarmingBenchmark.* -rff ${file("out.json").toPath.toAbsolutePath} -rf json").value
-      f
+      run.in(JmhKeys.Jmh).toTask(
+        s" .*Benchmark.* -rff $jsonLocation -rf json -o $txtLocation").value
+      jsonLocation
     },
     implementWarmupChart
   )

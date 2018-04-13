@@ -19,6 +19,7 @@ import rpg.cake.CakeSkillTrees
 import rpg.ooo.OOOSkillTrees
 import rpg.patmat._
 import rpg.patmat.stepped.SteppedPatMatSkillTrees
+import rpg.patmat.wrapped.WrappedTrySkillTrees
 import rpg.typeclass.naive.TypeclassSkillTrees
 
 class BaselineSimple(traits: PlayerTraits) extends SkillTreeRepr {
@@ -58,11 +59,14 @@ class BenchmarkState(val playerTraits: PlayerTraits) {
 	val javaOOO = trees(new java.ooo.SkillTrees)
 	val javafast = trees(new java.fast.SkillTrees)
 
+	val wrappedInTry = trees(new WrappedTrySkillTrees)
+
 	val baseline = new BaselineSimple(playerTraits)
 }
 
 
-class Benchmarks {
+class BBase {
+
 	@Benchmark def patMat(bs: BenchmarkState): Int =  bs.patMat(bs.state).totalCost()
 	@Benchmark def slowPatMat(bs: BenchmarkState): Int =  bs.slowPatMat(bs.state).totalCost()
 	@Benchmark def classesPatMat(bs: BenchmarkState): Int =  bs.classesPatMat(bs.state).totalCost()
@@ -81,6 +85,8 @@ class Benchmarks {
 	@Benchmark def javaOOO(bs: BenchmarkState): Int =  bs.javaOOO(bs.state).totalCost()
 	@Benchmark def javaFast(bs: BenchmarkState): Int =  bs.javafast(bs.state).totalCost()
 
+	@Benchmark def wrappedInTry(bs: BenchmarkState): Int =  bs.wrappedInTry(bs.state).totalCost()
+
 	@Benchmark def baseline(bs: BenchmarkState): Int =  {
 		val traits = bs.playerTraits
 		traits.dexCost + traits.strCost + traits.wisCost +
@@ -95,9 +101,9 @@ class Benchmarks {
 @BenchmarkMode(Array(SampleTime))
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 @Warmup(iterations = 10, time = 100, timeUnit = TimeUnit.MILLISECONDS)
-@Measurement(iterations = 10, time = 1000, timeUnit = TimeUnit.MILLISECONDS)
+@Measurement(iterations = 10, time = 200, timeUnit = TimeUnit.MILLISECONDS)
 @Fork(value = 1, jvmArgs = Array("-Xms2G", "-Xmx2G"))
-class HotBenchmark extends Benchmarks
+class HotBenchmark extends BBase
 
 @BenchmarkMode(Array(SingleShotTime))
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
@@ -105,7 +111,7 @@ class HotBenchmark extends Benchmarks
 @Measurement(iterations = 5000, batchSize = 50)
 @Fork(value = 1, jvmArgs = Array("-Xms2G", "-Xmx2G"))
 @State(Scope.Benchmark)
-class WarmingBenchmark extends Benchmarks
+class WarmingBenchmark extends BBase
 //
 //@BenchmarkMode(Array(SampleTime))
 //@OutputTimeUnit(TimeUnit.MICROSECONDS)

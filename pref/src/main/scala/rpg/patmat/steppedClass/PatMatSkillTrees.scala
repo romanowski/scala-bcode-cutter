@@ -11,7 +11,7 @@ case class StrTree(left: Node, right: Node) extends Tree
 
 case class WisTree(left: Node, right: Node) extends Tree
 
-sealed class Step extends Node
+abstract sealed class Step extends Node
 
 case class DexStep(to: Node) extends Step
 
@@ -19,7 +19,7 @@ case class StrStep(to: Node) extends Step
 
 case class WisStep(to: Node) extends Step
 
-sealed class Skill extends Node
+abstract sealed class Skill extends Node
 
 case class DexSkill(name: String) extends Skill
 
