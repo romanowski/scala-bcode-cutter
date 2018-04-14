@@ -102,6 +102,15 @@ object Charts {
       """.stripMargin
 
     val scriptFile = (base / s"plot-$filename.sh").getAbsoluteFile
+
+    def niceValues(b: Benchmark) = values(b).map {
+      case d: Double =>
+        "%.4f".format(d)
+      case other =>
+        other.toString
+    }
+
+    IO.write(chartBase / "data" / s"$filename-$charKind.csv", data.map(niceValues).map(_.mkString("\t")).mkString("\n"))
     IO.write(scriptFile, command)
     import scala.sys.process._
     s"gnuplot $scriptFile".!
@@ -111,8 +120,16 @@ object Charts {
     "All" -> (_ => true),
     "Baselines" -> (_.contains("baseline")),
     "Java vs. Scalac" -> Set("baseline", "javaOOO", "scalacCake"),
-    "Java, OOO in Scala and Cake" -> Set("baseline", "javaOOO", "scalaOOO", "scalacCake"),
-    ""
+    "Java, OOO in Scala and Cake" ->
+      Set("baseline", "javaOOO", "scalaOOO", "scalacCake"),
+    "Scala code styles #1" ->
+      Set("baseline", "scalaOOO", "scalacCake", "oooLambdas", "typeclass", "patMat", "wrappedInTry"),
+    "Scala code styles #2" ->
+      Set("baseline", "scalaOOO", "scalacCake", "oooLambdas", "typeclass", "patMat", "wrappedInTry"),
+    "Scala code styles #3" ->
+      Set("baseline", "scalaOOO", "scalacCake", "oooLambdas", "typeclass", "patMat", "wrappedInTry"),
+    "Scala code styles #4" ->
+      Set("baseline", "scalaOOO", "scalacCake", "oooLambdas", "typeclass", "patMat", "wrappedInTry")
   )
 
   def implementWarmupChart = warmupChart := {

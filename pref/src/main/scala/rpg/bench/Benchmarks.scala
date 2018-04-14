@@ -109,7 +109,7 @@ class BenchDefinitions {
   @Benchmark def baselineProof2(bs: BenchmarkState) = runBaselineProof2(bs.baseline, bs)
 
 
-  @Benchmark def patMat(bs: BenchmarkState) = run(bs.patMat, bs)
+  @Benchmark def patMat(bs: BenchmarkState) = run(bs.patMat, bs) // in Chart.scala
 
   @Benchmark def slowPatMat(bs: BenchmarkState) = run(bs.slowPatMat, bs)
 
@@ -121,7 +121,7 @@ class BenchDefinitions {
 
   @Benchmark def steppedOptClassPatMat(bs: BenchmarkState) = run(bs.steppedOptPatMat, bs)
 
-  @Benchmark def typeclass(bs: BenchmarkState) = run(bs.typeclass, bs)
+  @Benchmark def typeclass(bs: BenchmarkState) = run(bs.typeclass, bs) // in Chart.scala
 
   @Benchmark def simpleCake(bs: BenchmarkState) = run(bs.simpleCake, bs)
 
@@ -131,7 +131,7 @@ class BenchDefinitions {
 
   @Benchmark def oooSubcalls(bs: BenchmarkState) = run(bs.oooSubcalls, bs)
 
-  @Benchmark def oooLambdas(bs: BenchmarkState) = run(bs.oooLambdas, bs)
+  @Benchmark def oooLambdas(bs: BenchmarkState) = run(bs.oooLambdas, bs) // in Chart.scala
 
   @Benchmark def oooNested(bs: BenchmarkState) = run(bs.oooNested, bs)
 
@@ -139,7 +139,7 @@ class BenchDefinitions {
 
   @Benchmark def javaFast(bs: BenchmarkState) = run(bs.javafast, bs)
 
-  @Benchmark def wrappedInTry(bs: BenchmarkState) = run(bs.wrappedInTry, bs)
+  @Benchmark def wrappedInTry(bs: BenchmarkState) = run(bs.wrappedInTry, bs) // in Chart.scala
 }
 
 
