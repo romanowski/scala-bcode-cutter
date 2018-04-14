@@ -110,8 +110,9 @@ object Charts {
   val charts = Map[String, String => Boolean](
     "All" -> (_ => true),
     "Baselines" -> (_.contains("baseline")),
-    "Java vs. Scalac" -> Set("baseline", "javaOOO", "cake"),
-    "Java, OOO in Scala and Cake" -> Set("baseline", "javaOOO", "cake", "oooTree")
+    "Java vs. Scalac" -> Set("baseline", "javaOOO", "scalacCake"),
+    "Java, OOO in Scala and Cake" -> Set("baseline", "javaOOO", "scalaOOO", "scalacCake"),
+    ""
   )
 
   def implementWarmupChart = warmupChart := {

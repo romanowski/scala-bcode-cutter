@@ -16,8 +16,8 @@ import org.openjdk.jmh.annotations.Scope
 import org.openjdk.jmh.annotations.State
 import org.openjdk.jmh.annotations.Warmup
 import rpg._
-import rpg.cake.CakeSkillTrees
-import rpg.cake2.Cake2SkillTrees
+import rpg.cake.scalac.Cake2SkillTrees
+import rpg.cake.simple.CakeSkillTrees
 import rpg.ooo.OOOSkillTrees
 import rpg.patmat._
 import rpg.patmat.opt.SteppedOptPatMatSkillTrees
@@ -68,8 +68,8 @@ class BenchmarkState(val playerTraits: PlayerTraits) {
 
 
   val typeclass = trees(new TypeclassSkillTrees)
-  val cake = trees(new CakeSkillTrees)
-  val cake2 = trees(new Cake2SkillTrees)
+  val simpleCake = trees(new CakeSkillTrees)
+  val scalacCake = trees(new Cake2SkillTrees)
 
   val scalaOOO = trees(new OOOSkillTrees)
   val oooSubcalls = trees(new ooo.subcalls.OOOSkillTrees)
@@ -102,7 +102,7 @@ class BenchDefinitions {
           bench(bs.archeryIndex).totalCost(),
           bench(bs.charismaIndex).totalCost(), bs.archeryIndex, bs.charismaIndex)
 
-  @Benchmark def baseline(bs: BenchmarkState) = run(bs.baseline, bs)
+  @Benchmark def baseline(bs: BenchmarkState) = run(bs.baseline, bs)  // in Chart.scala
 
   @Benchmark def baselineProof1(bs: BenchmarkState) = runBaselineProof1(bs.baseline, bs)
 
@@ -123,11 +123,11 @@ class BenchDefinitions {
 
   @Benchmark def typeclass(bs: BenchmarkState) = run(bs.typeclass, bs)
 
-  @Benchmark def cake(bs: BenchmarkState) = run(bs.cake, bs)
+  @Benchmark def simpleCake(bs: BenchmarkState) = run(bs.simpleCake, bs)
 
-  @Benchmark def cake2(bs: BenchmarkState) = run(bs.cake2, bs)
+  @Benchmark def scalacCake(bs: BenchmarkState) = run(bs.scalacCake, bs) // in Chart.scala
 
-  @Benchmark def scalaOOO(bs: BenchmarkState) = run(bs.scalaOOO, bs)
+  @Benchmark def scalaOOO(bs: BenchmarkState) = run(bs.scalaOOO, bs)  // in Chart.scala
 
   @Benchmark def oooSubcalls(bs: BenchmarkState) = run(bs.oooSubcalls, bs)
 
@@ -135,7 +135,7 @@ class BenchDefinitions {
 
   @Benchmark def oooNested(bs: BenchmarkState) = run(bs.oooNested, bs)
 
-  @Benchmark def javaOOO(bs: BenchmarkState) = run(bs.javaOOO, bs)
+  @Benchmark def javaOOO(bs: BenchmarkState) = run(bs.javaOOO, bs)  // in Chart.scala
 
   @Benchmark def javaFast(bs: BenchmarkState) = run(bs.javafast, bs)
 
